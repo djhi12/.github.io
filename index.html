@@ -23,7 +23,12 @@
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
         <p id="Date">Last updated:</p>
     </footer>
+<script>
+let update = "Last Updated:";
+let t = document.lastModified;
+let fulldate = update + " " + t ;
 
-
+document.getElementById("Date").innerHTML = fulldate;
+</script>
 </body>
 </html>
