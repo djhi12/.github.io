@@ -1,0 +1,25 @@
+h1 {
+    font-family: arial, sans serif; 
+    color: white; 
+    border: blue;
+    background-color: blue;
+    width: 1350px;
+}
+
+h2 {
+    color: red;
+    font-family: arial, sans serif;
+}
+
+footer {
+    color: blue;
+    font-family: candara light, sans serif;  
+    color: white; 
+    border: blue;
+    background-color: blue;
+    width: 1350px;
+}
+
+.link {
+    color:white;
+}
