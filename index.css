@@ -1,8 +1,34 @@
+
+body {
+    margin: 100px;
+
+}
+
 img {
-    float: left;
+    float: right;
 }
 
 h1 {
-    color: red;
-    font-size: 120px;
+    color: white;
+    width: 1066px;
+    background-color: blue;
+    padding: 50px;
+    font-family: arial, sans serif;
+
+}
+
+footer {
+    color: white;
+    width: 1106px;
+    background-color: blue;
+    padding: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+    font-family: arial, sans serif;
+}
+
+ul {
+    font-family: "Lucida Console", "Courier New", monospace; 
 }
