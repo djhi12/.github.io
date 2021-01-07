@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Course Assignment Portal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script language="javascript" type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+  
+}
+
+h1 {
+    font-family: arial, sans serif; 
+    color: white; 
+    border: blue;
+    background-color: blue;
+    width: 1050px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+h2 {
+    color: red;
+    font-family: arial, sans serif;
+    padding: 50px;
+}
+
+footer {
+    color: blue;
+    font-family: candara light, sans serif;  
+    color: white; 
+    border: blue;
+    background-color: blue;
+    width: 1070px;
+    padding: 40px;
+    margin: 50px;
+}
+
+img {
+    float: right;
+}
+
+a {
+    color:white;
+    padding: 1px;
+}
+
+.navigation {
+    color: black;
+    margin: 50px;
+}
+    </style>
+
+
+    <h1>Daniel John Idorot</h1>
+    <img src="djhi12.github.io/daniel.jpg" alt="Daniel" width="100"
+        height="200">
+    <h2>WDD 230: Assignment portal</h2>
+    <hr>
+
+    <div class="navigation">
+    <ul>
+       <li>Lesson 1:<a href="lesson1.html">Course Assignment Portal</a></li>
+       <li>Lesson 2:<a href="lesson2.html">Design Principle Document</a></li>
+    </ul>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2021 | Daniel John Idorot |
+            <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p id="Date"></p>
+    </footer>
+
+    <script>
+let daynames = [
+    "Sunday", "Monday", "Tuesday",  "Wednesday",  "Thursday", "Friday", "Saturday", "Sunday"
+]
+
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+     "December"
+]
+
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[dgetMonth()];
+let year = d.getFullYear();
+let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+
+document.getElementById("Date").textContent = fulldate;
+    </script>
+
+</body>
+
+</html>
