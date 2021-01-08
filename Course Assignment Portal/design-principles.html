@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Course Assignment Portal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Course Assignment Portal for Daniel John Idorot">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href=""> <!--design-principles.css-->
+    <link rel="stylesheet" href=""> <!--medium.css-->
+</head>
+
+
+<body>
+
+    <h1 class="title">Design Principles</h1>
+
+    <ul>
+        <li>Lesson 1:<a href="index.html">Course Assignment Portal</a></li>
+        <li>Lesson 2:<a href="design-principles.html">Design Principle Document</a></li>
+     </ul>
+
+     <h1>Design Topics</h1>
+
+     <!--Design Principles-->
+     <!--Three Principles-->
+     <!--Alignment-->
+     <!--Repetition-->
+     <!--Contrast-->
+     <!--Principles Title-->
+     <!--Company Name-->
+     <!--Website address-->
+     <!--Site address-->
+     <!--Mobile Screenshot-->
+     <!--Design Principles-->
+
+
+     <main>
+         <section>
+             <h2>Alignment</h2> <!--Amazon-->
+             <h3>Amazon</h3>
+             <img src="">
+
+             <h2>Repetition</h2> <!--At&T-->
+             <h3>AT&T</h3>
+             <img src="">
+
+             <h2>Contrast</h2> <!--Apple-->
+             <h3>Apple</h3>
+             <img src="">
+
+         </section>
+
+     </main>
+
+    <footer>
+        <p>&copy; 2021 | Daniel John Idorot | 
+            <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <div id="Date"></div>
+    </footer>
+    <script>
+        let daynames = [
+        "Sunday", "Monday", "Tuesday",  "Wednesday",  "Thursday", "Friday", "Saturday", "Sunday"
+    ]
+    
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+         "December"
+    ]
+    
+    let d = new Date();
+    let dayName = daynames[d.getDay()];
+    let monthName = months[d.getMonth()];
+    let year = d.getFullYear();
+    let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+    
+    document.getElementById("Date").innerHTML = fulldate;
+    
+    </script>
+</body>
+</html>

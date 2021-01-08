@@ -18,10 +18,18 @@
     }
 
     footer {
-        color: white;
+        color: white; 
         width: 1100px;
         background-color: blue;
         padding: 33px;
         font-family: "Lucida Console", "Courier New", monospace;
     }
+    
+/* -----------------------GRID------------------------*/
+
+
 }
+
+
+
+
