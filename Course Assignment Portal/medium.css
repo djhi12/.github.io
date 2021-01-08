@@ -1,7 +1,6 @@
 @media (min-width: 32.5em) {
     img {
         float: right;
-        margin-top: 100px;
     } 
 
     h1 {
@@ -75,8 +74,9 @@ footer {
     color: white;
 }
 
-
-}
+.image1 {
+    float: none;
+} 
 
 
 
