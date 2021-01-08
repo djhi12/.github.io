@@ -24,7 +24,7 @@ h3 {
 }
 
 p {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: calibri, sans serif;
 }
 
 .heading1 {
@@ -39,7 +39,7 @@ footer {
     color: white;
     background-color: blue;
     padding: 23px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: calibri, sans serif;
 }
 
 .link {
