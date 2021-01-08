@@ -1,0 +1,47 @@
+body {
+    margin: 100px;
+
+}
+
+img {
+    box-shadow: 3px 3px 3px gray;
+}
+
+h1 {
+    color: white;
+    background-color: blue;
+    padding: 40px;
+    font-family: arial, sans serif;
+
+}
+
+h2 {
+    font-family: arial, sans serif;
+}
+
+h3 {
+    font-family: arial, sans serif;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.heading1 {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-family: arial, sans serif;
+
+}
+
+footer {
+    color: white;
+    background-color: blue;
+    padding: 23px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.link {
+    color: white;
+}
