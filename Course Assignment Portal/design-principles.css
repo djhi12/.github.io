@@ -1,122 +1,156 @@
-
-body {
-    margin: 100px;
-}
-
-img {
-    box-shadow: 3px 3px 3px gray;
-    max-width: 100%;
-}
-
-h1.title {
-    color: white;
-    background-color: blue;
-    padding: 40px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-}
-
-h2.heading1 {
-    color: white;
-    background-color: blue;
-    padding: 30px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: blue;
-    padding: 10px;
-}
-
-h3 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-p {
-    font-family: 'Monserrat', sans-serif;
-}
-
-ul {
-    font-family: 'Roboto', sans-serif;
-}
-
-.heading1 {
-    color: white;
-    background-color: blue;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-
-}
-
-footer {
-    color: white;
-    background-color: blue;
-    padding: 23px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-    margin-top: 100px;
-}
-
-.link {
-    color: white;
-}
-
-/*-------Section----------*/
-
-section {
-    width: 300px;
-    box-shadow: 1px 1px 4px 1px #888;
-    border-radius: 3px;
-    background-color: white; 
-}
-
-main {
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
-    margin-left: 15px;
-
-}
-/*------Alignment---------*/
-.section1 {
-    grid-column: 1;
-    padding:10px;
-    transition: 0.3s;
+/*-----32.5em----*/
+ 
+    body {
+        margin: 100px;
+    }
     
-} 
+    .image {
+        box-shadow: 3px 3px 3px gray;
+        max-width: 100%;
+    }
 
-.section1:hover {
-    box-shadow: 3px 3px 3px 3px gray;
-}
-/*-------Repetition--------*/
-.section2 {
-    grid-column: 2;
-    padding:10px;
-    transition: 0.3s;
-    margin-left: 250px;
-} 
+    /*------Design Principles---------*/
+    .title0 {
+        color: white;
+        background-color: blue;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        width: 1125px;
+        font-size: 50px;
+        text-align: left;
+    }
+    
+    .heading1 {
+        color: white;
+        background-color: blue;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        width: 230px;
+        height: 20px;
+    
+    }
 
-.section2:hover {
-    box-shadow: 3px 3px 3px 3px gray;
-}
-/*-----Contrast----------*/
-.section3 {
-    grid-column: 3;
-    padding:10px;
-    transition: 0.3s;
-    margin-left: 500px;
-} 
+/*-----Design topics/3 principles------*/
+    .heading2 {
+        color: white;
+        background-color: blue;
+        padding-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        text-align: center;
 
-.section3:hover {
-    box-shadow: 3px 3px 3px 3px gray;
-}
+    }
 
+/*-----Design Topics-------*/
+    .heading4 {
+        color: white;
+        background-color: blue;
+        padding: 30px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        font-size: 35px;
+        width: 1100px;
+        height: 30px;
+    }
+    
 
- #image1 {
-     margin-left: 23px;
- }
+    
+    .heading3 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Monserrat', sans-serif;
+        font-size: 13px;
+    }
+    
+    ul {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    footer {
+        color: white;
+        background-color: blue;
+        padding: 23px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        width: 1110px;
+        height: 60px;
+        margin-top: 50px;
+    }
+    
+    .link {
+        color: white;
+    }
+    
+    /*-------Section----------*/
+    
+    section {
+        width: 300px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        background-color: white; 
+    
+    }
+    
+    .sections {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+    }
+    /*------Alignment---------*/
+    .section1 {
+        padding:10px;
+        transition: 0.3s;
+        margin-left: 30px;
+        
+    } 
+    
+    .section1:hover {
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+    /*-------Repetition--------*/
+    .section2 {
+        padding:10px;
+        transition: 0.3s;
+        margin-left: 265px;
+   
+    } 
+
+    .section2:hover {
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+    
+    /*-----Contrast----------*/
+    .section3 {
+        padding:10px;
+        transition: 0.3s;
+        margin-left: 500px;
+  
+    } 
+    
+    .section3:hover {
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+    
+
+/*-----Images-----*/
+     #image1 {
+         margin-left: 23px;
+     }
+    
+     #image2 {
+        margin-left: 23px;
+    }
+    
+    #image3 {
+        margin-left: 23px;
+    }
+    
+    
