@@ -1,0 +1,485 @@
+/*-----32.5em----*/
+@media (min-width: 520px) {
+
+/*--------------Design Principles------------*/
+/*-----32.5em----*/
+ 
+body {
+    margin: 100px;
+}
+
+.image {
+    box-shadow: 3px 3px 3px gray;
+    max-width: 100%;
+}
+
+/*------Design Principles---------*/
+.title0 {
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    width: 1125px;
+    font-size: 50px;
+    text-align: left;
+}
+
+.heading1 {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    width: 230px;
+    height: 20px;
+
+}
+
+/*-----Design topics/3 principles------*/
+.heading2 {
+    color: white;
+    background-color: blue;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+
+}
+
+/*-----Design Topics-------*/
+.heading4 {
+    color: white;
+    background-color: blue;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 35px;
+    width: 1100px;
+    height: 30px;
+}
+
+
+
+.heading3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 13px;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+footer {
+    color: white;
+    background-color: blue;
+    padding: 23px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    width: 1110px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.link {
+    color: white;
+}
+
+/*-------Section----------*/
+
+section {
+    width: 300px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px;
+    background-color: white; 
+
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+/*------Alignment---------*/
+.section1 {
+    padding:10px;
+    transition: 0.3s;
+    margin-left: 30px;
+    margin-top: 50px;
+
+    
+} 
+
+.section1:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+/*-------Repetition--------*/
+.section2 {
+    padding:10px;
+    transition: 0.3s;
+    margin-left: 265px;
+    grid-column: 2;
+    grid-row: 1;
+
+} 
+
+.section2:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+/*-----Contrast----------*/
+.section3 {
+    padding:10px;
+    transition: 0.3s;
+    margin-left: 500px;
+    grid-column: 3;
+    grid-row: 1;
+
+} 
+
+.section3:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+
+/*-----Images-----*/
+ #image1 {
+     margin-left: 23px;
+ }
+
+ #image2 {
+    margin-left: 23px;
+}
+
+#image3 {
+    margin-left: 23px;
+}
+
+
+
+
+/*------------------------Course Assignment Portal--------------*/
+
+body {
+    margin: 100px;
+
+}
+
+.image0 {
+    box-shadow: -3px 3px 3px gray;
+    float: right;
+    margin-right: 50px;
+    margin-top: 70px;
+    width: 250px;
+}
+
+/*------Me----*/
+.heading5 {
+    color: white;
+    background-color: blue;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 1100px;
+    height: 40px; 
+    text-align: left;
+    margin-left: 0px;
+
+
+}
+
+
+
+.footer1 {
+    color: white;
+    background-color: blue;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 1100px;
+    height: 50px; 
+    margin-right: 150px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.link {
+    color: white;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    width: 1000px;
+    margin-right: 700px;
+    text-align: left;
+}
+
+}
+
+
+/*-----Medium-------------------------------------------------------------------------------------*/
+/*-----0120----*/
+@media (min-width: 900px) {
+
+    /*--------------Design Principles------------*/
+    /*-----32.5em----*/
+     
+    body {
+        margin: 100px;
+    }
+    
+    .image {
+        box-shadow: 3px 3px 3px gray;
+        max-width: 100%;
+    }
+    
+    /*------Design Principles---------*/
+    .title0 {
+        color: white;
+        background-color: blue;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        width: 1125px;
+        font-size: 50px;
+        text-align: left;
+    }
+    
+    .heading1 {
+        color: white;
+        background-color: blue;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        width: 230px;
+        height: 20px;
+    
+    }
+    
+    /*-----Design topics/3 principles------*/
+    .heading2 {
+        color: white;
+        background-color: blue;
+        padding-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+    
+    }
+    
+    /*-----Design Topics-------*/
+    .heading4 {
+        color: white;
+        background-color: blue;
+        padding: 30px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        font-size: 35px;
+        width: 1100px;
+        height: 30px;
+    }
+    
+    
+    
+    .heading3 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Monserrat', sans-serif;
+        font-size: 13px;
+    }
+    
+    ul {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    footer {
+        color: white;
+        background-color: blue;
+        padding: 23px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        width: 1110px;
+        height: 60px;
+        margin-top: 50px;
+    }
+    
+    .link {
+        color: white;
+    }
+    
+    /*-------Section----------*/
+    
+    section {
+        width: 300px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        background-color: white; 
+    
+    }
+    
+    .sections {
+        display: grid;
+        grid-template-columns: 150px 150px;
+    }
+    /*------Alignment---------*/
+    .section1 {
+        padding:10px;
+        transition: 0.3s;
+        margin-left: 30px;
+        margin-top: 50px;
+    
+        
+    } 
+    
+    .section1:hover {
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+    /*-------Repetition--------*/
+    .section2 {
+        padding:10px;
+        transition: 0.3s;
+        margin-left: 265px;
+        grid-column: 2;
+        grid-row: 1;
+    
+    } 
+    
+    .section2:hover {
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+    
+    /*-----Contrast----------*/
+    .section3 {
+        padding:10px;
+        transition: 0.3s;
+        margin-left: 500px;
+        grid-column: 3;
+        grid-row: 1;
+    
+    } 
+    
+    .section3:hover {
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+    
+    
+    /*-----Images-----*/
+     #image1 {
+         margin-left: 23px;
+     }
+    
+     #image2 {
+        margin-left: 23px;
+    }
+    
+    #image3 {
+        margin-left: 23px;
+    }
+    
+    
+    
+    
+    /*------------------------Course Assignment Portal--------------*/
+    
+    body {
+        margin: 100px;
+    
+    }
+    
+    .image0 {
+        box-shadow: -3px 3px 3px gray;
+        float: right;
+        margin-right: 50px;
+        margin-top: 70px;
+        width: 250px;
+    }
+    
+    /*------Me----*/
+    .heading5 {
+        color: white;
+        background-color: blue;
+        padding: 30px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        font-size: 30px;
+        width: 1100px;
+        height: 40px; 
+        text-align: left;
+        margin-left: 0px;
+    
+    
+    }
+    
+    
+    
+    .footer1 {
+        color: white;
+        background-color: blue;
+        padding: 30px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        font-size: 10px;
+        width: 1100px;
+        height: 50px; 
+        margin-right: 150px;
+    }
+    
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+    }
+    
+    ul {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    .link {
+        color: white;
+    }
+    
+    p {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    hr {
+        width: 1000px;
+        margin-right: 700px;
+        text-align: left;
+    }
+    
+    }
+    
+    
+    
+    
+
+
