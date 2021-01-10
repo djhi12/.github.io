@@ -5,35 +5,38 @@ body {
 
 .image0 {
     box-shadow: -3px 3px 3px gray;
-    float: right;
-    margin-right: 50px;
-    margin-top: 70px;
+    float: center;
+    margin-right: 60px;
+    margin-top: 10px;
     width: 250px;
+    margin-left: 30px;
 }
 
-
-.heading1 {
+/*------Me----*/
+.heading5 {
     color: white;
     background-color: blue;
-    padding: 30px;
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     font-size: 30px;
-    width: 1100px;
-    height: 40px; 
+    width: 250px;
+    height: 30px; 
+    margin-left: 9px;
+    text-align: center;
 
 }
 
 
 
-footer {
+.footer1 {
     color: white;
     background-color: blue;
-    padding: 30px;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     font-size: 10px;
-    width: 1100px;
+    width: 290px;
     height: 50px; 
 }
 
@@ -56,7 +59,7 @@ p {
 }
 
 hr {
-    width: 1000px;
+    width: 300px;
     margin-right: 700px;
     text-align: left;
 }
