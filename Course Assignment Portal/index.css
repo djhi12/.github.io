@@ -3,13 +3,21 @@ body {
 
 }
 
+img {
+    box-shadow: -3px 3px 3px gray;
+    float: right;
+    margin-top: 90px;
+    margin-right: 20px;
+}
 
 
 h1 {
+    border: blue;
     color: white;
     background-color: blue;
     padding: 40px;
-    font-family: arial, sans serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 
 }
 
@@ -19,25 +27,33 @@ footer {
     color: white;
     background-color: blue;
     padding: 23px;
-    font-family: calibri, sans serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 }
 
 h2 {
-    font-family: arial, sans serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
-    font-family: calibri, sans serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .link {
     color: white;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    width: 1000px;
+    margin-right: 700px;
+    text-align: left;
+}
+
 /*---------------Design Principles--------------*/
 
-section {
-    font-family: arial, sans serif;
-}
 
 

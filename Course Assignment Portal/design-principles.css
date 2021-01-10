@@ -1,37 +1,53 @@
+
 body {
     margin: 100px;
-
 }
 
 img {
     box-shadow: 3px 3px 3px gray;
+    max-width: 100%;
 }
 
-h1 {
+h1.title {
     color: white;
     background-color: blue;
     padding: 40px;
-    font-family: arial, sans serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+h2.heading1 {
+    color: white;
+    background-color: blue;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 
 }
 
 h2 {
-    font-family: arial, sans serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3 {
-    font-family: arial, sans serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 p {
-    font-family: calibri, sans serif;
+    font-family: 'Monserrat', sans-serif;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
 }
 
 .heading1 {
     color: white;
     background-color: blue;
     padding: 10px;
-    font-family: arial, sans serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 
 }
 
@@ -39,7 +55,9 @@ footer {
     color: white;
     background-color: blue;
     padding: 23px;
-    font-family: calibri, sans serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin-top: 100px;
 }
 
 .link {
@@ -49,5 +67,53 @@ footer {
 /*-------Section----------*/
 
 section {
-    
+    width: 300px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px;
+    background-color: white; 
 }
+
+main {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    margin-left: 15px;
+
+}
+/*------Alignment---------*/
+.section1 {
+    grid-column: 1;
+    padding:10px;
+    transition: 0.3s;
+    
+} 
+
+.section1:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+/*-------Repetition--------*/
+.section2 {
+    grid-column: 2;
+    padding:10px;
+    transition: 0.3s;
+    margin-left: 250px;
+} 
+
+.section2:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+/*-----Contrast----------*/
+.section3 {
+    grid-column: 3;
+    padding:10px;
+    transition: 0.3s;
+    margin-left: 500px;
+} 
+
+.section3:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+
+ #image1 {
+     margin-left: 23px;
+ }

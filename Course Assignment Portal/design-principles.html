@@ -7,21 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Course Assignment Portal for Daniel John Idorot">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="design-principles.css"> <!--design-principles.css-->
-    <link rel="stylesheet" href="medium.css"> <!--medium.css-->
+    <link rel="stylesheet" href="design-principles.css">
+    <link rel="stylesheet" href="medium.css">
+     <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Monserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    
 </head>
 
 
 <body>
 
     <h1 class="title">Design Principles</h1>
+    
 
     <ul>
         <li>Lesson 1:<a href="index.html">Course Assignment Portal</a></li>
         <li>Lesson 2:<a href="design-principles.html">Design Principle Document</a></li>
      </ul>
 
-     <h1 class="heading1">Design Topics</h1>
+     <h2 class="heading1">Design Topics</h2>
 
      <!--Design Principles-->
      <!--Three Principles-->
@@ -37,22 +43,26 @@
 
 
      <main>
-         <section>
-             <h2>Alignment</h2> <!--Amazon-->
-             <h3>Amazon</h3>
-             <p>Brief description</p>
-            <p><a href="https://www.amazon.com/" target="_blank"><img class="image1" src="amazon.jpg" alt="amazon" width="250"  height="250"></a><br>Amazon.com, Inc. ia an American multinational technology company based in 
+         <section class="section1">
+            <h2>Alignment</h2> <!--Amazon-->
+            <p>Through the alignment, the elements on the page appear to be unified, connected and 
+            interrelated there is a visual tie between separated elements on the page. </p>
+            <h3>Amazon</h3>
+            <p><a href="https://www.amazon.com/" target="_blank"><img id="image1" src="amazon.jpg" alt="amazon" width="250"  height="250"></a><br>Amazon.com, Inc. ia an American multinational technology company based in 
             Seattle, Washinton, wich focuses on e-commerse, cloed computing, digital streaming, 
             and artificial intelligence. It is considered one of the big five companies in the
             U.S. information technology industry, along with Google, Apple, Microsoft, and Facebook.
             The company has been referred to as "one of the most influential economic and cultural
-            forces in the world", as well as the world's most valuable brand.
-            </p>
+            forces in the world", as well as the world's most valuable brand.</p>
+       
+        </section>
 
-             <h2>Repetition</h2> <!--At&T-->
-             <h3>AT&T</h3>
-             <p>Brief description</p>
-             <p><a href="https://www.att.com/" target="_blank"><img class="image1" src="at&t.jpg" alt="amazon" width="250"  height="250" ></a><br>AT&T Inc. is an American
+        <section class="section2">
+            <h2>Repetition</h2> <!--At&T-->
+            <p>"Repetition provides a sense of professionalism and authority." 
+            The developer repeatedly uses the color blue on its background. </p>
+            <h3>AT&T</h3>
+             <p><a href="https://www.att.com/" target="_blank"><img id="image1" src="at&t.jpg" alt="amazon" width="250"  height="250" ></a><br>AT&T Inc. is an American
              multinational conglomerate holding company, Delaware-registered but headquartered at
              Whitacre Tower in Downtown Dallas, Texas. It is the world's largest telecommunications
             company, the largest provider of mobile telephone services, and the largest provider
@@ -61,17 +71,19 @@
             conglomerate WarnerMedia, making it the world's largest media and entertainment company in
              terms of revenue. As of 2018, AT&T was ranked #9 on the Fortune 500 rankings of the
             largest United States corporations by total revenue.</p>
-
-             <h2>Contrast</h2> <!--Apple-->
-             <h3>Apple</h3>
-             <p>Brief description</p>
+          
+        </section>
+        <section class="section3">
+            <h2>Contrast</h2> <!--Apple-->
+            <p>The items on the page look organized, create visual interest, and became unique because of
+            the contrasting color of black and white.</p>
+            <h3>Apple</h3>
              <p><a href="https://www.apple.com/ph/?afid=p238%7Cs7yabjj45-dc_mtid_18707vxu38484_pcrid_485662947993_pgrid_16280229612_&cid=aos-ph-kwgo-brand--slid---product--" target="_blank">
-            <img class="image1" src="apple.jpg" alt="amazon" width="250"  height="250"></a><br>Apple Inc. is an American
+            <img id="image1" src="apple.jpg" alt="amazon" width="250"  height="250"></a><br>Apple Inc. is an American
             multinational technology company headquartered in Cupertino, California, that designs,
             develops and sells consumer electronics, computer software, and online services. 
             It is considered one of the Big Five companies in the U.S. information technology industry,
             along with Amazon, Google, Microsoft, and Facebook.</p>
-
          </section>
 
      </main>
@@ -81,6 +93,7 @@
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
             <div id="Date"></div>
     </footer>
+
     <script>
         let daynames = [
         "Sunday", "Monday", "Tuesday",  "Wednesday",  "Thursday", "Friday", "Saturday", "Sunday"
@@ -108,6 +121,7 @@
     let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
     
     document.getElementById("Date").innerHTML = fulldate;
+    
     
     </script>
 </body>
