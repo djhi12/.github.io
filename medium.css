@@ -78,6 +78,10 @@
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
+
+    a:link {
+        text-decoration: none; 
+    }
     
     footer {
         color: white;
@@ -219,6 +223,10 @@
     ul {
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
+    }
+
+    a:link {
+        text-decoration: none; 
     }
     
     .link {
