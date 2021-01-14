@@ -1,0 +1,31 @@
+/*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+
+body {
+    margin: 0;
+}
+
+/*---Logo and Links-----*/
+
+
+/*-----Logo----*/
+.image1 {
+    float: left;
+
+}
+
+/*-- --*/
+ul  {
+    margin-left: 200px;
+    padding: 40px ;
+    background-color: #1d7ec3; 
+}
+
+
+li {
+    display: inline; 
+    color:#fffbfa; 
+}
