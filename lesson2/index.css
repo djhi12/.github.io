@@ -13,19 +13,10 @@ body {
 
 /*-----Logo----*/
 .image1 {
-    float: left;
+    float: 0px;
 
 }
 
 /*-- --*/
-ul  {
-    margin-left: 200px;
-    padding: 40px ;
-    background-color: #1d7ec3; 
-}
 
 
-li {
-    display: inline; 
-    color:#fffbfa; 
-}
