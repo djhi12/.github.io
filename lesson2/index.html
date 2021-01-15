@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>The Weather Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Weather Site for Daniel John Idorot">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="index.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
     <!--font-family: 'Roboto', sans-serif;
         font-family: 'Montserrat', sans-serif;-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
+
+<style>
+        /*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1d7ec3;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #64ce8d;
+  color: black;
+}
+
+h1 {
+	background-color: #1d7ec3;
+    color: #fffbfa;
+}
+
+.body1 {
+    margin-left:150px ;
+    margin-right: 150px;
+}
+
+
+</style>
 </head>
-
 <body>
-    <header>
-<!--
- Logo
- Site title
- Site motto
--->
-       <!-- <img class="image1" src="logo1.1 .png" alt="Logo" width="350px" height="100px"> -->
-     <ul>
-        <nav>
-<!--
- Home
- Preston
- Soda Springs
- Fish Haven
- Storm Center
- Gallery
--->
-            <li><a class="link" href="index.html">Home</a></li>
-            <li><a class="link" href="target-audience.html">Target Audience</a></li>
-            <li><a class="link" href="color-scheme.html">Color Scheme</a></li>
-            <li><a class="link" href="typography.html">Typography</a></li>
-         </nav>
-     </ul>
-    </header>
 
-    <!--
-     Site name = "The Surface"
-     Site purpose = 
-     Available domain name = thesurface.space
-     Simple logo = 
-    -->
+<div class="topnav">
+    <a class="link" href="index.html">Home</a>
+    <a class="link" href="target-audience.html">Target Audience</a>
+    <a class="link" href="color-scheme.html">Color Scheme</a>
+    <a class="link" href="typography.html">Typography</a>
+</div>
 
+
+    <div class="body1">
     <h1>Site Purpose:</h1>
     <p>The purpose of this site is to give a warning to all people across the globe to help them become 
     prepared for future weather calamities. Because of this many lives, properties, agriculture and more
     will be saved.</p>
-    <h1>Available Domain Name: thesurface.space</h1>
+    <h1>Available Domain Name:</h1>
+    <p>thesurface.space</p>
+    <h1>Logo</h1>
+    <img class="image1" src="mylogo.png" alt="Logo" width="150px" height="100px">
     
 
     <footer class="footer1">
@@ -66,9 +88,37 @@
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
         <div id="Date"></div>
     </footer>
+</div>
 
-    <script>
-    </script>
+<script>
+    let daynames = [
+    "Sunday", "Monday", "Tuesday",  "Wednesday",  "Thursday", "Friday", "Saturday", "Sunday"
+]
+
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+     "December"
+]
+
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
+let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+
+document.getElementById("Date").innerHTML = fulldate;
+
+</script>
+
 </body>
-
 </html>
