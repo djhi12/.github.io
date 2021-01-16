@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>The Weather Site</title>
     <meta charset="utf-8">
@@ -13,151 +14,120 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
 
-<style>
+    <style>
         /*--
 Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
 font-family: 'Roboto', sans-serif; (Header)
 font-family: 'Montserrat', sans-serif; (Paragraph)
 --*/
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-.topnav {
-  overflow: hidden;
-  background-color: #1d7ec3;
+        .topnav {
+            overflow: hidden;
+            background-color: #1d7ec3;
 
-}
+        }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
 
-.topnav a:hover {
-  background-color: #64ce8d;
-  color: black;
-}
+        .topnav a:hover {
+            background-color: #64ce8d;
+            color: black;
+        }
 
-h1 {
-	background-color: #1d7ec3;
-    color: #fffbfa;
-}
+        h1 {
+            background-color: #1d7ec3;
+            color: #fffbfa;
+        }
 
-.body1 {
-    margin-left:150px ;
-    margin-right: 150px;
-}
+        .body1 {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
 
-footer {
-    margin-top: 50px;
-    margin-left: 370px;
-}
+        footer {
+            margin-top: 50px;
+            margin-left: 370px;
+        }
 
-#Date {
-    padding-left: 60px;
-    font-size: 13px;
-}
-@media only screen and (max-width: 600px) {
-
-.topnav {
-  overflow: hidden;
-  background-color: #1d7ec3;
-  display: block;
-
-}
-
-.topnav a {
-    display: block;
-}
-
-
-.body1 {
-    margin-left:10px ;
-    margin-right: 10px;
-}
-
-h1 {
-    font-size: 20px;;
-}
-
-img {
-    width: 100%;
-    height: 200px;;
-}
-
-footer {
-    margin-top: 20px;
-    font-size: 12px;
-   padding-left: 100px;
-}
-}
-
-</style>
+        #Date {
+            padding-left: 60px;
+            font-size: 13px;
+        }
+    </style>
 </head>
+
 <body>
-<div class="topnav">
-    <a class="link" href="index.html">Home</a>
-    <a class="link" href="target-audience.html">Target Audience</a>
-    <a class="link" href="color-scheme.html">Color Scheme</a>
-    <a class="link" href="typography.html">Typography</a>
-</div>
+    <div class="logo">
+        <img src="Logo3.png" alt="Logo" width="300px" height="300px">
+    </div>
+    <div class="topnav">
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="target-audience.html">Target Audience</a>
+        <a class="link" href="color-scheme.html">Color Scheme</a>
+        <a class="link" href="typography.html">Typography</a>
+    </div>
 
 
     <div class="body1">
-    <h1>Color Scheme</h1>
-    <img class="image1" src="color.png" alt="Logo" width="100%" height="500px">
+        <h1>Color Scheme</h1>
+        <img class="image1" src="color.png" alt="Logo" width="100%" height="500px">
 
 
-    
 
-    <footer class="footer1">
-    <!--
+
+        <footer class="footer1">
+            <!--
      Contact information
      Map
      Copy right information
      Author's name
     -->
-        <p>&copy; 2021 | Daniel John Idorot |
-            <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-        <div id="Date"></div>
-    </footer>
-</div>
+            <p>&copy; 2021 | Daniel John Idorot |
+                <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <div id="Date"></div>
+        </footer>
+    </div>
 
-<script>
-    let daynames = [
-    "Sunday", "Monday", "Tuesday",  "Wednesday",  "Thursday", "Friday", "Saturday", "Sunday"
-]
+    <script>
+        let daynames = [
+            "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ]
 
-let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-     "December"
-]
+        let months = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ]
 
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let year = d.getFullYear();
-let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+        let d = new Date();
+        let dayName = daynames[d.getDay()];
+        let monthName = months[d.getMonth()];
+        let year = d.getFullYear();
+        let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
 
-document.getElementById("Date").innerHTML = fulldate;
-
-</script>
+        document.getElementById("Date").innerHTML = fulldate;
+    </script>
 
 </body>
+
 </html>
