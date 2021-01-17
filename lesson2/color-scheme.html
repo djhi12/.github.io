@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Weather Site for Daniel John Idorot">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
     <!--<link rel="stylesheet" href="index.css"> -->
     <!--font-family: 'Roboto', sans-serif;
         font-family: 'Montserrat', sans-serif;-->
@@ -21,83 +22,235 @@ font-family: 'Roboto', sans-serif; (Header)
 font-family: 'Montserrat', sans-serif; (Paragraph)
 --*/
         body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
         }
 
-        .topnav {
+        h1,
+        h2,
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1d7ec3;
+            color: white;
+
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
             overflow: hidden;
             background-color: #1d7ec3;
-
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 20px;
         }
 
-        .topnav a {
+        li {
             float: left;
-            color: #f2f2f2;
+        }
+
+        li a {
+            display: block;
+            color: white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
         }
 
-        .topnav a:hover {
+        li a:hover {
             background-color: #64ce8d;
-            color: black;
-        }
-
-        h1 {
-            background-color: #1d7ec3;
-            color: #fffbfa;
         }
 
         .body1 {
             margin-left: 150px;
-            margin-right: 150px;
+            margin-right: 150px;;
         }
 
         footer {
-            margin-top: 50px;
-            margin-left: 370px;
+           margin-left: 450px;
+           margin-top: 10px;
         }
 
         #Date {
-            padding-left: 60px;
-            font-size: 13px;
+            margin-left: 140px;
+            font-family: 'Montserrat', sans-serif; 
         }
+
+        @media only screen and (max-width: 1000px) {
+            .logo {
+                width: 250px;
+            }
+       
+       img {
+            width: 450px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 340px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+        @media only screen and (max-width: 800px) {
+        img {
+            width: 250px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 240px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+        @media only screen and (max-width: 600px) {
+        img {
+            width: 250px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 140px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+    @media only screen and (max-width: 500px) {
+        img {
+            width: 250px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 90px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
     </style>
 </head>
 
 <body>
-    <div class="logo">
-        <img src="Logo3.png" alt="Logo" width="300px" height="300px">
-    </div>
-    <div class="topnav">
-        <a class="link" href="index.html">Home</a>
-        <a class="link" href="target-audience.html">Target Audience</a>
-        <a class="link" href="color-scheme.html">Color Scheme</a>
-        <a class="link" href="typography.html">Typography</a>
-    </div>
+    <!--Logo and Site name-->
+    <img class="logo" src="Logo3.png" alt="Logo">
 
+    <ul>
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="target-audience.html">Target Audience</a></li>
+        <li><a class="link" href="color-scheme.html">Color Scheme</a></li>
+        <li><a class="link" href="typography.html">Typography</a></li>
+    </ul>
 
     <div class="body1">
-        <h1>Color Scheme</h1>
-        <img class="image1" src="color.png" alt="Logo" width="100%" height="500px">
-
-
-
-
-        <footer class="footer1">
-            <!--
+        <h1>Color Scheme:</h1>
+        <img class="image1" src="color.png" alt="Logo">
+    </div>
+    <footer>
+        <!--
      Contact information
      Map
      Copy right information
      Author's name
     -->
-            <p>&copy; 2021 | Daniel John Idorot |
-                <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-            <div id="Date"></div>
-        </footer>
-    </div>
+        <p>&copy; 2021 | Daniel John Idorot |
+            <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <div id="Date"></div>
+    </footer>
 
     <script>
         let daynames = [

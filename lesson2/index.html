@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Weather Site for Daniel John Idorot">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
     <!--<link rel="stylesheet" href="index.css"> -->
     <!--font-family: 'Roboto', sans-serif;
         font-family: 'Montserrat', sans-serif;-->
@@ -21,80 +22,213 @@ font-family: 'Roboto', sans-serif; (Header)
 font-family: 'Montserrat', sans-serif; (Paragraph)
 --*/
         body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
         }
 
-        .topnav {
+        h1,
+        h2,
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1d7ec3;
+            color: white;
+
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
             overflow: hidden;
             background-color: #1d7ec3;
-            margin-top: 70px;
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 20px;
         }
 
-        .topnav a {
+        li {
             float: left;
-            color: #f2f2f2;
+        }
+
+        li a {
+            display: block;
+            color: white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
         }
 
-        .topnav a:hover {
+        li a:hover {
             background-color: #64ce8d;
-            color: black;
-        }
-
-        h1 {
-            background-color: #1d7ec3;
-            color: #fffbfa;
         }
 
         .body1 {
             margin-left: 150px;
-            margin-right: 150px;
+            margin-right: 150px;;
         }
 
         footer {
-            margin-top: 150px;
-            margin-left: 370px;
+           margin-left: 450px;
+           margin-top: 10px;
         }
 
         #Date {
-            padding-left: 60px;
-            font-size: 13px;
+            margin-left: 140px;
+            font-family: 'Montserrat', sans-serif; 
         }
 
-
-        .logo {
-            padding-left: 140px;
+        @media only screen and (max-width: 1000px) {
+        img {
+            width: 150px;
         }
 
-        .body1 {
-            margin-top: 0px;
-        }
-        /*----Logo and Site name----*/
-        .logo {
-            margin-left: 380px;
+        li {
+            float: none;
         }
 
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
 
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 340px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+        @media only screen and (max-width: 800px) {
+        img {
+            width: 150px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 240px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+        @media only screen and (max-width: 600px) {
+        img {
+            width: 150px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 140px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+    @media only screen and (max-width: 500px) {
+        img {
+            width: 150px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 50px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
     </style>
 </head>
 
 <body>
     <!--Logo and Site name-->
-    <div class="logo">
-        <img src="icon.png" alt="Logo" width="200px" height="200px">
-    </div>
+    <img class="logo" src="Logo3.png" alt="Logo">
 
-    <div class="topnav">
-        <a class="link" href="index.html">Home</a>
-        <a class="link" href="target-audience.html">Target Audience</a>
-        <a class="link" href="color-scheme.html">Color Scheme</a>
-        <a class="link" href="typography.html">Typography</a>
-    </div>
-
+    <ul>
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="target-audience.html">Target Audience</a></li>
+        <li><a class="link" href="color-scheme.html">Color Scheme</a></li>
+        <li><a class="link" href="typography.html">Typography</a></li>
+    </ul>
 
     <div class="body1">
         <h1>Site Purpose:</h1>
@@ -104,10 +238,8 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
         <h1>Available Domain Name:</h1>
         <p>thesurface.space</p>
         <h1>Logo</h1>
-        <img class="image1" src="icon.png" alt="Logo" width="150px" height="100px">
+        <img class="image1" src="Logo3.png" alt="Logo">
     </div>
-
-    <div class="footer">
     <footer>
         <!--
      Contact information
@@ -119,7 +251,6 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
         <div id="Date"></div>
     </footer>
-    </div>
 
     <script>
         let daynames = [

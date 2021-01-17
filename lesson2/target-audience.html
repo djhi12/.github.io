@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>The Weather Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Weather Site for Daniel John Idorot">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
     <!--<link rel="stylesheet" href="index.css"> -->
     <!--font-family: 'Roboto', sans-serif;
         font-family: 'Montserrat', sans-serif;-->
@@ -13,116 +15,229 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
 
-<style>
+    <style>
         /*--
 Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
 font-family: 'Roboto', sans-serif; (Header)
 font-family: 'Montserrat', sans-serif; (Paragraph)
 --*/
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+        body {
+            margin: auto;
+        }
 
-.topnav {
-  overflow: hidden;
-  background-color: #1d7ec3;
-}
+        h1,
+        h2,
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1d7ec3;
+            color: white;
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+        }
 
-.topnav a:hover {
-  background-color: #64ce8d;
-  color: black;
-}
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
 
-h1 {
-	background-color: #1d7ec3;
-    color: #fffbfa;
-}
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-.body1 {
-    margin-left:150px ;
-    margin-right: 150px;
-}
-footer {
-    margin-top: 150px;
-    margin-left: 370px;
-}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1d7ec3;
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 20px;
+        }
 
-#Date {
-    padding-left: 60px;
-    font-size: 13px;
-}
-@media only screen and (max-width: 600px) {
+        li {
+            float: left;
+        }
 
-.topnav {
-  overflow: hidden;
-  background-color: #1d7ec3;
-  display: block;
-  text-align: center;
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
 
-}
+        li a:hover {
+            background-color: #64ce8d;
+        }
 
-.topnav a {
-    display: block;
-}
+        .body1 {
+            margin-left: 150px;
+            margin-right: 150px;;
+        }
 
+        footer {
+           margin-left: 350px;
+           margin-top: 10px;
+        }
 
-.body1 {
-    margin-left:10px ;
-    margin-right: 10px;
-}
+        #Date {
+            margin-left: 120px;
+            font-family: 'Montserrat', sans-serif; 
+        }
 
-h1 {
-    font-size: 20px;;
-}
+        @media only screen and (max-width: 1000px) {
+        img {
+            width: 150px;
+        }
 
-img {
-    width: 100%;
-    height: 300px;;
-}
+        li {
+            float: none;
+        }
 
-footer {    
-    font-size: 12px;
-    padding-left: 0px;
-}
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
 
-#Date {
-    padding-right: 150px;
-}
-}
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
 
+        }
 
-</style>
+    footer {
+           margin-left: 340px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+        @media only screen and (max-width: 800px) {
+        img {
+            width: 150px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 240px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+        @media only screen and (max-width: 600px) {
+        img {
+            width: 150px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 140px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+
+    @media only screen and (max-width: 500px) {
+        img {
+            width: 150px;
+        }
+
+        li {
+            float: none;
+        }
+
+    .body1 {
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+
+    h1,
+        h2,
+        h3 {
+            font-size: 20px;
+
+        }
+
+    footer {
+           margin-left: 90px;
+           margin-top: 10px;
+           font-size: 12px;
+        }
+
+        #Date {
+            margin-left: 80px;
+
+        }
+     }
+    </style>
 </head>
+
 <body>
+    <!--Logo and Site name-->
+    <img class="logo" src="Logo3.png" alt="Logo">
 
-<div class="topnav">
-    <a class="link" href="index.html">Home</a>
-    <a class="link" href="target-audience.html">Target Audience</a>
-    <a class="link" href="color-scheme.html">Color Scheme</a>
-    <a class="link" href="typography.html">Typography</a>
-</div>
-
+    <ul>
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="target-audience.html">Target Audience</a></li>
+        <li><a class="link" href="color-scheme.html">Color Scheme</a></li>
+        <li><a class="link" href="typography.html">Typography</a></li>
+    </ul>
 
     <div class="body1">
-    <h1>Target Audience:</h1>
-    <p>The target audiences on this site are those working in national government and local government units. 
-        Through them, they can easily relay the weather condition by television, internet, and radio.</p>
-    <h1>Two Personas</h1>
-    <h1>Five Scenarios</h1>
-    
+        <h1>Target Audience:</h1>
+        <p>The target audiences on this site are those working in national government units.
+            Through them, they can easily relay the weather condition by television, internet, and radio.</p>
 
-    <footer class="footer1">
-    <!--
+    </div>
+    <footer>
+        <!--
      Contact information
      Map
      Copy right information
@@ -132,37 +247,36 @@ footer {
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
         <div id="Date"></div>
     </footer>
-</div>
 
-<script>
-    let daynames = [
-    "Sunday", "Monday", "Tuesday",  "Wednesday",  "Thursday", "Friday", "Saturday", "Sunday"
-]
+    <script>
+        let daynames = [
+            "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ]
 
-let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-     "December"
-]
+        let months = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ]
 
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let year = d.getFullYear();
-let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+        let d = new Date();
+        let dayName = daynames[d.getDay()];
+        let monthName = months[d.getMonth()];
+        let year = d.getFullYear();
+        let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
 
-document.getElementById("Date").innerHTML = fulldate;
-
-</script>
+        document.getElementById("Date").innerHTML = fulldate;
+    </script>
 
 </body>
+
 </html>
