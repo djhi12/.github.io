@@ -50,7 +50,7 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
             padding: 0;
             overflow: hidden;
             background-color: #1d7ec3;
-            font-family: 'Montserrat', sans-serif; 
+            font-family: 'Montserrat', sans-serif;
             font-size: 20px;
         }
 
@@ -70,176 +70,45 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
             background-color: #64ce8d;
         }
 
-        .body1 {
-            margin-left: 150px;
-            margin-right: 150px;;
-        }
 
         footer {
-           margin-left: 450px;
-           margin-top: 10px;
+            margin-left: 450px;
+            margin-top: 10px;
         }
 
         #Date {
             margin-left: 140px;
-            font-family: 'Montserrat', sans-serif; 
+            font-family: 'Montserrat', sans-serif;
         }
-
-        @media only screen and (max-width: 1000px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 340px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
-
-        @media only screen and (max-width: 800px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 240px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
-
-        @media only screen and (max-width: 600px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 140px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
-
-    @media only screen and (max-width: 500px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 50px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
     </style>
 </head>
 
 <body>
-    <!--Logo and Site name-->
-    <img class="logo" src="Logo3.png" alt="Logo">
+    <header>
+        <picture>
+            <img class="logo" src="Logo3.png" alt="Logo">
+        </picture>
+        <section class="headings">
+                
+        </section>
+    </header>
 
-    <ul>
-        <li><a class="link" href="index.html">Home</a></li>
-        <li><a class="link" href="target-audience.html">Target Audience</a></li>
-        <li><a class="link" href="color-scheme.html">Color Scheme</a></li>
-        <li><a class="link" href="typography.html">Typography</a></li>
-    </ul>
 
-    <div class="body1">
-        <h1>Site Purpose:</h1>
-        <p>The purpose of this site is to give a warning to all people across the globe to help them become
-            prepared for future weather calamities. Because of this many lives, properties, agriculture and more
-            will be saved.</p>
-        <h1>Available Domain Name:</h1>
-        <p>thesurface.space</p>
-        <h1>Logo</h1>
-        <img class="image1" src="Logo3.png" alt="Logo">
-    </div>
+    <nav>
+        <ul>
+            <li><a class="link" href="weather.html">Home</a></li>
+            <li><a class="link" href="preston.html">Prestone</a></li>
+            <li><a class="link" href="soda-springs.html">Soda Springs</a></li>
+            <li><a class="link" href="fish-haven.html">Fish Haven</a></li>
+            <li><a class="link" href="storm-center.html">Storm Center</a></li>
+            <li><a class="link" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    </main>>
+
     <footer>
         <!--
      Contact information
@@ -276,8 +145,9 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
         let dayName = daynames[d.getDay()];
         let monthName = months[d.getMonth()];
         let year = d.getFullYear();
-        let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+        let fulldate = dayName + ", " + d.getDate() + " " + monthName + ", " + year;
 
+        /*--monthName---*/
         document.getElementById("Date").innerHTML = fulldate;
     </script>
 
