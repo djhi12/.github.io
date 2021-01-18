@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Weather Site for Daniel John Idorot">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="weather.css">
     <!--<link rel="stylesheet" href="index.css"> -->
     <!--font-family: 'Roboto', sans-serif;
         font-family: 'Montserrat', sans-serif;-->
@@ -16,86 +16,22 @@
         rel="stylesheet">
 
     <style>
-        /*--
-Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
-font-family: 'Roboto', sans-serif; (Header)
-font-family: 'Montserrat', sans-serif; (Paragraph)
---*/
-        body {
-            margin: auto;
-        }
 
-        h1,
-        h2,
-        h3 {
-            font-family: 'Roboto', sans-serif;
-            background-color: #1d7ec3;
-            color: white;
-
-        }
-
-        p {
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #1d7ec3;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 20px;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #64ce8d;
-        }
-
-
-        footer {
-            margin-left: 450px;
-            margin-top: 10px;
-        }
-
-        #Date {
-            margin-left: 140px;
-            font-family: 'Montserrat', sans-serif;
-        }
     </style>
 </head>
 
 <body>
     <header>
         <picture>
-            <img class="logo" src="Logo3.png" alt="Logo">
+            <img class="logo" src="icon.png" alt="Logo">
         </picture>
         <section class="headings">
-                
+            <h1 class="sitename">The Surface <br><small>Your Trusted Weather Forecaster</small></h1>
         </section>
     </header>
-
-
-    <nav>
-        <ul>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="primaryNav" class="hide">
             <li><a class="link" href="weather.html">Home</a></li>
             <li><a class="link" href="preston.html">Prestone</a></li>
             <li><a class="link" href="soda-springs.html">Soda Springs</a></li>
@@ -104,10 +40,14 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
             <li><a class="link" href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
-
+    <h1 class="preston">Preston Idaho</h1>
     <main>
+        <div class="contentbox1">Hero w/ weather summary</div>
+        <div class="contentbox2">5 Day Forecast</div>
+        <div class="contentbox3">Article</div>
+        <div class="contentbox4">Contact Information</div>
 
-    </main>>
+    </main>
 
     <footer>
         <!--
@@ -149,6 +89,10 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
 
         /*--monthName---*/
         document.getElementById("Date").innerHTML = fulldate;
+
+        function toggleMenu() {
+            document.getElementById("primaryNav").classList.toggle("hide");
+        }
     </script>
 
 </body>
