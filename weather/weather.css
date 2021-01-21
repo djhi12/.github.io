@@ -83,6 +83,17 @@ footer {
 
 
 /*-----header----*/
+
+
+#Greetings {
+    background-color: yellowgreen;
+    padding: 15px 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 300px;
+    
+}
+
 header {
     background-color: gray;
     padding: 5px 8px;
@@ -128,11 +139,38 @@ main {
 
 }
 
+/*-----------Content Box 1--------*/
 .contentbox1 {
-    background-color: gray;
+    background-color: #1d7ec3;
     padding: 15px;
     margin: 10px;
+    padding-bottom: 150px;
+
 }
+
+.weathersummary {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 870px;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color: gray;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 8px lightgray;
+
+}
+
+.weathersummary1 {
+    background-color: gray;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.weathersummarypar{
+    font-size: 15px;
+}
+
+/*-----------Content Box 2--------*/
 
 .contentbox2 {
     background-color: gray;
@@ -140,17 +178,23 @@ main {
     margin: 10px;
 }
 
+/*-----------Content Box 3--------*/
+
 .contentbox3 {
     background-color: gray;
     padding: 15px;
     margin: 10px;
 }
 
+/*-----------Content Box 4--------*/
+
 .contentbox4 {
     background-color: gray;
     padding: 15px;
     margin: 10px;
 }
+
+
 
 /*-----------------@media------------*/
 
@@ -183,9 +227,7 @@ main {
     
     
     li a {
-        display: inline;
         color: white;
-        text-align: center;
         text-decoration: none;
     }
     
@@ -199,6 +241,44 @@ main {
     
     button {
         display:contents;
+        margin-left: 150px;
+        color: white;
+    }
+
+    #Greetings {
+        padding: 15px 15px;
+        font-size: 12px;
+    }
+
+    /*-------content box 1----*/
+    .contentbox1 {
+        background-color: #1d7ec3;
+        padding: 15px;
+        margin: 10px;
+        padding-bottom: 15px;
+    
+    }
+    
+    .weathersummary {
+        margin-top: 4px;
+        margin-left: 5px;
+        margin-right: 7px;
+        padding-left: 50px;
+        padding-right: 30px;
+        background-color: gray;
+        border: 1px solid gray;
+        box-shadow: 5px 5px 8px lightgray;
+    
+    }
+    
+    .weathersummary1 {
+        background-color: gray;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .weathersummarypar{
+        font-size: 15px;
     }
 
 }
