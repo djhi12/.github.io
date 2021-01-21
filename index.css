@@ -1,44 +1,22 @@
 
 body {
-    margin: 100px;
+    margin: auto;
 
 }
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
 
 .image0 {
     box-shadow: -3px 3px 3px gray;
     margin-right: 60px;
     margin-top: 10px;
-    width: 250px;
     margin-left: 30px;
     float: right;
-}
-
-/*------Me----*/
-.heading5 {
-    color: white;
-    background-color: blue;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-    font-size: 30px;
-    width: 1080px;
-    height: 30px; 
-    margin: 0px;
-    text-align: left;
-
-}
-
-
-/*-----------Footer----------*/
-.footer1 {
-    color: white;
-    background-color: blue;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-    font-size: 12px;
-    width: 1100px;
-    height: 50px; 
 }
 
 h2 {
@@ -46,11 +24,6 @@ h2 {
     font-size: 22px;
 }
 
-ul {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    padding: 10px;
-}
 
 a:hover {
     background-color: lightgreen;
@@ -71,9 +44,57 @@ p {
 }
 
 hr {
-    width: 1000px;
     text-align: left;
-    margin: 0px;
 }
 
+/*------Me----*/
+.heading5 {
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 30px; 
+    text-align: left;
+
+}
+
+
+/*-----------Footer----------*/
+.footer1 {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+
+
 /*---------------@Media--------------*/
+
+@media only screen and (max-width: 500px) {
+    .heading5 {
+        color: white;
+        background-color: blue;
+        padding: 10px;
+        font-size: 20px; 
+        text-align: center;
+    
+    } 
+
+    .footer1 {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .footer2 {
+        margin-left: 95px;
+    }
+
+    #Date {
+        margin-left: 170px;
+    }
+
+}
