@@ -1,4 +1,5 @@
-      /*--
+
+     /*--
 Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
 font-family: 'Roboto', sans-serif; (Header)
 font-family: 'Montserrat', sans-serif; (Paragraph)
@@ -140,6 +141,7 @@ main {
 }
 
 /*-----------Content Box 1--------*/
+
 .contentbox1 {
     background-color: #1d7ec3;
     padding: 15px;
@@ -169,6 +171,8 @@ main {
 .weathersummarypar{
     font-size: 15px;
 }
+
+
 
 /*-----------Content Box 2--------*/
 
@@ -282,3 +286,5 @@ main {
     }
 
 }
+
+
