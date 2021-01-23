@@ -73,12 +73,11 @@ button {
 /*-----Footer-----*/
 
 footer {
-    margin-left: 450px;
-    margin-top: 10px;
+    text-align: center;
 }
 
 #Date {
-    margin-left: 140px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -139,6 +138,7 @@ main {
   
 
 }
+
 
 /*-----------Content Box 1--------*/
 
@@ -245,8 +245,13 @@ main {
     
     button {
         display:contents;
-        margin-left: 150px;
         color: white;
+    }
+
+    .menu {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        
     }
 
     #Greetings {
