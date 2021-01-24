@@ -264,12 +264,33 @@ h2.forecast {
     margin: 10px;
 }
 
+.PrestonArt400 {
+    float: right;
+}
+
+.lorempar {
+    font-size: 22px;
+}
+
 /*-----------Content Box 4--------*/
 
 .contentbox4 {
     background-color: #1d7ec3;
     padding: 15px;
     margin: 10px;
+}
+
+.box4grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map {
+    grid-column: 1;
+}
+
+.icons {
+    grid-column: 2;
 }
 
 
