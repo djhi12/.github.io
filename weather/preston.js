@@ -56,6 +56,40 @@ document.getElementById("Greetings").innerHTML = "Preston Pancakes in the Park! 
  *Get the two input values of temperature and wind speed.
  *Either calculate and display the windchill factor value or display "N/A"
   (not applicable) if the input values did not meet the requirements.
- * /
+ */
 
- //Formula = f = 35.74 + 0.6215 * (t) - 
+ // Formula = f = 35.74 + 0.6215 * (t) - 35.75 * s**0.16 + 0.4275 * t * s**0.16
+ // f = wind chill factor in Fahrenheit
+ // t = air average temperature in Fahrenheit
+ // s = wind speed in miles per hour.
+
+ // Input requirements: Windchill temperature is officially defined for temperatures 
+ // at or below 10 °C (50 °F) and wind speeds above 4.8 kilometers per hour (3.0 mph).
+
+ // #weatherSummary
+ // #Currently
+ // #High
+ // #windChill
+ // #Humidity
+ // #windSpeed
+
+ // 
+
+
+
+
+ let t = ParseInt(document.getElementById("Currently").value);
+ let s = ParseInt(document.getElementById("windSpeed").value);
+
+ if (f ) {
+ }
+
+ let f = 35.74 + 0.6215 * (t) - 35.75 * s**0.16 + 0.4275 * t * s**0.16;
+
+ 
+
+
+
+document.getElementById("output").innerHTML = f;
+
+ 

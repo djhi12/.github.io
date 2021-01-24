@@ -124,10 +124,12 @@ header img {
 
 /*--------Main-------*/
 
-.preston {
+h1.preston {
     text-align: center;
     background-color: white;
-    color: black;
+    color:  #1d7ec3;
+    font-size: 40px;
+    
 }
 
 main {
@@ -177,11 +179,98 @@ main {
 }
 
 
+/*-----------Content Box 2--------*/
+
+.contentbox2 {
+    background-color: #1d7ec3;
+    padding: 15px;
+    margin: 10px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: .7fr .7 .7 .7 .7fr ;
+    
+}
+
+.box1 {
+    grid-column: 1;
+    background-color: gray;
+    border: 1px;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.box2 {
+    grid-column: 2;
+    background-color:  gray;
+    border: 1px;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.box3 {
+    grid-column: 3;
+    background-color:  gray;
+    border: 1px;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.box4 {
+    grid-column: 4;
+    background-color:  gray;
+    border: 1px;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.box5 {
+    grid-column: 5;
+    background-color: gray;
+    border: 1px;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.box6 {
+    grid-column: 6;
+    background-color: gray;
+    border: 1px;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+h2.forecast {
+    background-color: #1d7ec3;
+    text-align: center;
+}
 
 
 
 
 
+/*-----------Content Box 3--------*/
+
+.contentbox3 {
+    background-color:#1d7ec3;
+    padding: 15px;
+    margin: 10px;
+}
+
+/*-----------Content Box 4--------*/
+
+.contentbox4 {
+    background-color: #1d7ec3;
+    padding: 15px;
+    margin: 10px;
+}
 
 
 
