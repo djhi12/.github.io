@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Preston</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Weather Site for Daniel John Idorot">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="weather.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="icon.png" alt="Logo">
+        </picture>
+        <section class="headings">
+            <h2 class="sitename">The Surface <br><small>Your Trusted Weather Forecaster</small></h2>
+        </section>
+    </header>
+    <section id="Greetings">
+        <h2>Greetings!</h2>
+    </section>
+    <nav class="clearfix">
+        <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a class="link" href="weather.html">Home</a></li>
+            <li><a class="link" href="preston.html">Prestone</a></li>
+            <li><a class="link" href="soda-springs.html">Soda Springs</a></li>
+            <li><a class="link" href="fish-haven.html">Fish Haven</a></li>
+            <li><a class="link" href="storm-center.html">Storm Center</a></li>
+            <li><a class="link" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <h1 class="preston">Preston Idaho</h1>
+    <main>
+        <div class="contentbox1">
+            <img src="">
+            <div class="weathersummary">
+                <h1 class="weathersummary1">Weather Summary</h1><hr>
+                <p class="weathersummarypar">Currently:</p>
+                <p class="weathersummarypar">High:</p>
+                <p class="weathersummarypar">Wind Chill:</p>
+                <p class="weathersummarypar">Humidity:</p>
+                <p class="weathersummarypar">Wind Speed:</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <!--
+     Contact information
+     Map
+     Copy right information
+     Author's name
+    -->
+        <p>&copy; 2021 | Daniel John Idorot |
+            <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <div id="Date"></div>
+    </footer>
+
+   
+<script src="weather.js"></script>
+</body>
+
+</html>
