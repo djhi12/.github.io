@@ -47,3 +47,15 @@ document.getElementById("Greetings").innerHTML = "Preston Pancakes in the Park! 
 " " + "at the city park pavillion."
 + " ";
 // get the name of the week as string and not number
+
+
+
+/*---------WIND CHILL-----------*/
+/*
+ *Add a computed wind chill value to the weather summary on the town page.
+ *Get the two input values of temperature and wind speed.
+ *Either calculate and display the windchill factor value or display "N/A"
+  (not applicable) if the input values did not meet the requirements.
+ * /
+
+ //Formula = f = 35.74 + 0.6215 * (t) - 

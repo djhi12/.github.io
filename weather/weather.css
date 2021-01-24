@@ -143,35 +143,38 @@ main {
 /*-----------Content Box 1--------*/
 
 .contentbox1 {
-    background-color: #1d7ec3;
-    padding: 15px;
-    margin: 10px;
-    padding-bottom: 150px;
-
+    position: relative;
 }
 
 .weathersummary {
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 870px;
-    padding-left: 50px;
-    padding-right: 30px;
-    background-color: gray;
-    border: 1px solid gray;
-    box-shadow: 5px 5px 8px lightgray;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 140px;
+    margin-left: 10px;
+    margin-right: 850px;
+    margin-bottom: 300px;
+    
+
 
 }
 
 .weathersummary1 {
-    background-color: gray;
-    margin-bottom: 10px;
     font-size: 20px;
+    background: none;
 }
 
 .weathersummarypar{
     font-size: 15px;
 }
 
+.preston {
+    margin-left: 58px;
+}
 
 
 /*-----------Content Box 2--------*/
