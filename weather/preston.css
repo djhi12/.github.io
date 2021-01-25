@@ -286,17 +286,42 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*-----------------@media 800------------*/
+                                        /*-----------------@media 800------------*/
 
 @media only screen and (max-width: 800px) {
-    footer {
-        margin-left: 200px;
-        font-size: 15px;
-    }
 
-    #Date {
-        margin-left: 100px;
-    }
+/*-----CONTENT BOX 1 / @Media 800-----*/
+.contentbox1 {
+    position: relative;
+}
+
+.weathersummary {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 140px;
+    margin-left: 10px;
+    margin-right: 190px;
+    margin-bottom: 65px;
+    
+}
+
+.weathersummary1 {
+    font-size: 20px;
+    background: none;
+}
+
+.weathersummarypar{
+    font-size: 15px;
+}
+
+.preston {
+    margin-left: 23px;
+    width: 750px;
+}
+
+
 
 /*-----NAVIGATION----*/
 
@@ -358,6 +383,23 @@ ul {
 
 }
 
+
+/*-----CONTENT BOX 3 / @Media 800-----*/
+
+.contentbox3 {
+    padding: 15px;
+    margin: 10px;
+}
+
+.PrestonArt400 {
+    float: right;
+    width: 350px;
+}
+
+.lorempar {
+    font-size: 18px;
+}
+
 /*-----CONTENT BOX 4 / CONTACT-----*/
 
 
@@ -386,16 +428,14 @@ ul {
 
 footer {
     text-align: center;
-    margin-right: 150px;
+    margin-right: 0px;
     
 }
 
 #Date {
     text-align: center;
-    margin-right: 100px;
+    margin-right: 0px;
 }
-
-
 
   }
 
@@ -403,22 +443,57 @@ footer {
 
 
 
+                                        /*------------@Media 500-----*/
 
-
-
-
-/*------------@Media 500-----*/
 @media only screen and (max-width: 500px) {
-   
-                                                /*-----FOOTER-----*/
+
+
+/*-----CONTENT BOX 1 / @Media 500-----*/
+
+.contentbox1 {
+    position: relative;
+    margin: auto;
+}
+
+.weathersummary {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 140px;
+    margin-left: 10px;
+    margin-right: 190px;
+    margin-bottom: 65px;
+    
+}
+
+.weathersummary1 {
+    font-size: 20px;
+    background: none;
+}
+
+.weathersummarypar{
+    font-size: 15px;
+}
+
+.preston {
+    margin-left: 23px;
+    width: 750px;
+}
+
+
+
+/*-----FOOTER-----*/
     footer {
         text-align: center;
-        margin-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
         font-size: 12px;
     }
 
     #Date {
         margin-left: 10px;
+        margin-right: 0px;
     }
 
     .contentbox4 {
@@ -444,9 +519,10 @@ footer {
 
     .preston780 {
         width: 20px;
+        margin-right: 0px;
     }
 
-                                            /*-----NAVIGATION-----*/
+/*-----NAVIGATION-----*/
     nav {
         background-color: #1d7ec3;
     }
@@ -485,45 +561,15 @@ footer {
         text-align: left;
     }
 
-                                             /*-----PARAGRAPH-----*/
+/*-----PARAGRAPH-----*/
 
     .lorempar {
         font-size: 18px;
     }
 
-                                            /*-----CONTENT BOX 1-----*/
-    .contentbox1 {
-        position: static;
-    }
-    
-    .weathersummary {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        padding-left: 20px;
-        padding-right: 140px;
-        margin-left: 10px;
-        margin-right: 850px;
-        margin-bottom: 300px;
-        
-    
-    
-    }
-    
-    .weathersummary1 {
-        font-size: 20px;
-        background: none;
-    }
-    
-    .weathersummarypar{
-        font-size: 15px;
-    }
-    
-    .preston {
-        margin-left: 58px;
-    }
 
-                                            /*-----CONTENT BOX 2-----*/
+
+/*-----CONTENT BOX 2-----*/
 
 .contentbox2 {
     background-color: #1d7ec3;
@@ -619,7 +665,7 @@ h2.forecast {
     font-size: 15px;
 }
 
-                                        /*-----------CONTENT BOX 4/CONTACT--------*/
+/*-----------CONTENT BOX 4/CONTACT--------*/
 
 .contentbox4 {
     background-color: #1d7ec3;
