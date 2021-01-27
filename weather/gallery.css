@@ -136,6 +136,10 @@ h1.h1-gallery {
     font-size: 50px;
 }
 
+picture.picgallery {
+    margin: 10px;
+}
+
 
 /*-----------Box 4 Grid / Map & Icons--------*/
 
