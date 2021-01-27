@@ -1,0 +1,188 @@
+
+     /*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+body {
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d7ec3;
+    color: white;
+    font-style: normal;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----logo---
+picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+*/
+
+
+/*------Navigation-----*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d7ec3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+nav {
+    background-color: #1d7ec3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #64ce8d;
+}
+
+button {
+    display: none;
+}
+
+
+/*-----header----*/
+
+
+#Greetings {
+    background-color: yellowgreen;
+    padding: 15px 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 400px;
+    
+}
+
+header {
+    background-color: gray;
+    padding: 5px 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: 88px;
+    height: auto;
+}
+
+.sitename {
+    background-color:gray;
+    color: white;
+}
+
+ small {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.headings {
+    flex-direction: column;
+}
+
+/*--------Main-------*/
+
+h1.preston {
+    text-align: center;
+    background-color: white;
+    color:  #1d7ec3;
+    font-size: 40px;
+    
+}
+
+main {
+  padding: 15px;  
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+  
+
+}
+
+h1.h1-gallery {
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+}
+
+
+/*-----------Box 4 Grid / Map & Icons--------*/
+
+
+.box4grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map {
+    grid-column: 1;
+}
+
+.icons {
+    grid-column: 2;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+    text-align: center;
+
+}
+
+#Date {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+                                        /*-----------------@media 800------------*/
+
+@media only screen and (max-width: 700px) {
+
+
+  }
+
+
+
+
+
+                                        /*------------@Media 500-----*/
+
+@media only screen and (max-width: 400px) {
+
+
+
+
+}
+
+
