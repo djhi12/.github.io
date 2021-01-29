@@ -36,8 +36,7 @@ picture img {
 /*------Navigation-----*/
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
     overflow: hidden;
     background-color: #1d7ec3;
     font-family: 'Montserrat', sans-serif;
@@ -79,8 +78,7 @@ button {
     padding: 15px 15px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 400px;
-    
+    text-align: center;  
 }
 
 header {
@@ -130,14 +128,65 @@ main {
 
 }
 
+/*----------GALLERY----------*/
+
 h1.h1-gallery {
     text-align: center;
     padding: 15px;
     font-size: 50px;
 }
 
-picture.picgallery {
-    margin: 10px;
+div.picgallery {
+    margin: auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img1-snow1300 {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img2-snow {
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.img3-snow {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img4-rainy {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img5-rainy {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img6-rainy {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img7-sunny {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img8-sunny {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img9-sunny {
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 
@@ -147,6 +196,7 @@ picture.picgallery {
 .box4grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 40px;
 }
 
 .map {
@@ -169,9 +219,146 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
-                                        /*-----------------@media 800------------*/
+
+
+                                        /*-----------------@media 700------------*/
 
 @media only screen and (max-width: 700px) {
+
+    body {
+        margin: auto;
+    }
+
+/*-------------------NAVIGATION / @Media700-------------------*/
+ul {
+    list-style-type: none;
+    margin: auto;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+
+li {
+    float: none;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/*-------------------GALLERY / @Media700--------------------*/
+
+    h1.h1-gallery {
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+    }
+    
+    div.picgallery {
+        margin: auto;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .img1-snow1300 {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .img2-snow {
+        margin-bottom: 5px;
+        width: 100%;
+    
+    }
+    
+    .img3-snow {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .img4-rainy {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .img5-rainy {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .img6-rainy {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .img7-sunny {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .img8-sunny {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .img9-sunny {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+/*-----------------GREETINGS / @Media700-------------------*/
+    #Greetings {
+        padding: 15px 15px;
+        text-align: center;  
+}
+
+
+/*-----------Box 4 Grid / Map & Icons / @Media700--------*/
+
+
+.box4grid {
+    grid-template-columns: .5fr .5fr;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.map {
+    grid-column: 1;
+
+}
+
+.icons p {
+    grid-column: 2;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.preston780 {
+    width: 100%;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.1s;
+}
+
+/*-------------------FOOTER / @Media700--------------------*/
+.footer1 {
+    text-align: center;
+    font-size: 12px;
+
+}
+
+#Date {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
 
 
   }
@@ -187,6 +374,115 @@ footer {
 
 
 
+
+/*-------------------GALLERY / @Media400--------------------*/
+body {
+    max-width: 100%;
+}
+
+/*---------NAVIGATION---------*/
+ul {
+    margin: auto;
+    font-size: 18px;
+}
+
+
+li {
+    float: right;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    float: none;
+}
+
+
+
+/*--------GALLERY / @Media400-----------*/
+h1.h1-gallery {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+div.picgallery {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.1s;
+}
+
+.img1-snow1300 {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.img2-snow {
+    margin-bottom: 5px;
+    width: 100%;
+
+}
+
+.img3-snow {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.img4-rainy {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.img5-rainy {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.img6-rainy {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.img7-sunny {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.img8-sunny {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.img9-sunny {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+/*-----------Box 4 Grid / Map & Icons / @Media400--------*/
+
+
+.box4grid {
+    display: block;
+    margin-left: 0px;
+}
+
+.map {
+    grid-column: 1;
+}
+
+.icons {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
 }
 
 

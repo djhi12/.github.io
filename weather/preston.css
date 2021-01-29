@@ -448,7 +448,7 @@ footer {
 @media only screen and (max-width: 500px) {
 
 
-/*-----CONTENT BOX 1 / @Media 500-----*/
+/*-----CONTENT BOX 1 / @Media500-----*/
 
 .contentbox1 {
     position: relative;
@@ -483,7 +483,7 @@ footer {
 
 
 
-/*-----FOOTER-----*/
+/*-----FOOTER / @Media500-----*/
     footer {
         text-align: center;
         margin-left: 0px;
@@ -522,7 +522,7 @@ footer {
         margin-right: 0px;
     }
 
-/*-----NAVIGATION-----*/
+/*-----NAVIGATION / @Media500-----*/
     nav {
         background-color: #1d7ec3;
     }
@@ -561,7 +561,7 @@ footer {
         text-align: left;
     }
 
-/*-----PARAGRAPH-----*/
+/*-----PARAGRAPH / @Media500-----*/
 
     .lorempar {
         font-size: 18px;
@@ -569,7 +569,7 @@ footer {
 
 
 
-/*-----CONTENT BOX 2-----*/
+/*-----CONTENT BOX 2 / @Media500-----*/
 
 .contentbox2 {
     background-color: #1d7ec3;
@@ -665,7 +665,7 @@ h2.forecast {
     font-size: 15px;
 }
 
-/*-----------CONTENT BOX 4/CONTACT--------*/
+/*-----------CONTENT BOX 4/CONTACT / @Media500--------*/
 
 .contentbox4 {
     background-color: #1d7ec3;
