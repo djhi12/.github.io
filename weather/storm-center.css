@@ -6,7 +6,6 @@ font-family: 'Montserrat', sans-serif; (Paragraph)
 --*/
 body {
     margin: auto;
-    width: 100%;
 }
 
 h1,
@@ -106,7 +105,12 @@ header img {
 
 #Forms {
     border: 5px solid red;
+    align-items: center;
     
+}
+
+.form1 {
+    align-items: center;
 }
 
 
