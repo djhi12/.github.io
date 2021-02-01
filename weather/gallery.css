@@ -43,6 +43,7 @@ ul {
     font-size: 20px;
     font-style: normal;
     font-weight: bolder;
+    padding: 0px;
 }
 
 nav {
@@ -398,7 +399,7 @@ li a:hover {
     background-color: #64ce8d;
 }
 
-button.menu {
+.menu {
     display:contents;
     color: white;
     padding: 15px 15px;

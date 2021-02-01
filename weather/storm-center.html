@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Storm Center</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Weather Site for Daniel John Idorot">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="storm-center.css">
+    <link rel="stylesheet" href="storm-centermedia.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="icon.png" alt="Logo">
+        </picture>
+        <section class="headings">
+            <h2 class="sitename">The Surface <br><small>Your Trusted Weather Forecaster</small></h2>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a class="link" href="weather.html">Home</a></li>
+            <li><a class="link" href="preston.html">Prestone</a></li>
+            <li><a class="link" href="soda-springs.html">Soda Springs</a></li>
+            <li><a class="link" href="fish-haven.html">Fish Haven</a></li>
+            <li><a class="link" href="storm-center.html">Storm Center</a></li>
+            <li><a class="link" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div id="Forms">
+    <form>
+        <!--Full name using input of type text and is required and only accepts alpha characters with a minimum of 
+            five characters using a regular expression pattern-->
+        <label for="fullname">Full name:</label><br>
+        <input type="text" id="fullname" name="fullname"  required 
+               pattern="[a-z].{5,}" title="Sample: daniel john idorot"><br>
+       
+        <!--Email using input of type email and use a placeholder to provide a demo email-->
+        <label for="Email">Email:</label><br>
+        <input type="email" id="Email" name="Email" placeholder="djhi_lds@yahoo.com" ><br>
+       
+        <!--Phone number using input of type tel and is required-->
+        <label for="Phone">Phone number:</label><br>
+        <input type="tel" id="Phone" name="Phone" placeholder=""  required><br>
+        
+        <!--Zip code using input of type number and is required and uses a regular expression pattern-->
+        <label for="Code">Zip Code:</label><br>
+        <input type="number" id="Code" name="Code" placeholder="8000" required><br>
+
+        <!--Storm date using input of type date (note that this may cause validation errors which can be ignored)-->
+        <label for="Storm">Storm Date:</label><br>
+        <input type="date" id="Storm" name="Storm"><br>
+
+        <!--Storm type using input with a list attribute referencing a datalist of suggestions that include 
+            "Flash Flood," "Hail," "Hurricane," "Thunderstorm," and "Tornado"-->
+        <label for="storm-Type">Storm Type:</label><br>
+        <input list="browsers" name="storm-Type" id="storm-Type">
+            <datalist id="browsers">
+              <option value="Flash Flood">
+              <option value="Hail">
+              <option value="Hurricane">
+              <option value="Thunderstorm">
+              <option value="Tornado">
+            </datalist><br>
+
+        <!--Storm severity using type range (1 to 10) with a corresponding label that indicates the current range 
+            value from 1 to 10
+            Hint: See the Pen👨‍💻 HTML Form example objects-->
+        <label for="storm-severity">Storm Severity (Range 1 - 10):</label><br>
+        <input type="range" id="storm-severity" name="storm-severity" min="1" max="10"><br>
+        
+
+        <!--Storm region using select with drop-down options of "Preston," "Soda Springs," and "Fish Haven"
+            Add a first option with the text "Select Region ..." that is shown by default but not selectable 
+            (disabled)
+            The rest of the options should have relevant value attributes-->
+            <label for="storm-region">Storm Region:</label><br>
+            <select name="storm-region" id="storm-region">
+              <option value="select" disabled>Select Region . . .</option>
+              <option value="preston">Preston</option>
+              <option value="soda-springs">Soda Springs</option>
+              <option value="fish-haven">Fish Haven</option>
+            </select><br>
+
+        <!--User in-danger level using input of type radio with options and values of "yes," "maybe," and "no"-->
+        <p>User in-danger level:</p>
+        <input type="radio" id="options" name="options" value="options">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="maybe" name="options" value="options">
+        <label for="maybe">Maybe</label><br>
+        <input type="radio" id="no" name="no" value="no">
+        <label for="no">No</label><br>
+
+        <!--Additional information or comments using a textarea-->
+        <label for="comments">Additional Information or comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50">
+        </textarea>
+        <br><br>
+
+        <!--Form submission button using input of type submit-->
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="contentbox4">
+        <h2 class="forecast">Contact</h2>
+
+        <div class="box4grid">
+        <div class="map">
+            <img class="preston780" src="prestonmap780.png" alt="prestonmap" width="400" height="300">
+        </div>
+
+        <div class="icons">
+            <p>Cellphone number: 09163120212</p>
+            <p>Email Address: djhi_lds@yahoo.com</p>
+        </div>
+        </div>
+        </div>
+
+
+    <footer>
+        <!--
+     Contact information
+     Map
+     Copy right information
+     Author's name
+    -->
+        <p class="footer1">&copy; 2021 | Daniel John Idorot |
+            <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <div id="Date"></div>
+    </footer>
+
+   
+<script src="storm-center.js"></script>
+</body>
+
+</html>

@@ -37,7 +37,7 @@ picture img {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
     background-color: #1d7ec3;
     font-family: 'Montserrat', sans-serif;
@@ -523,7 +523,12 @@ footer {
     }
 
 /*-----NAVIGATION / @Media500-----*/
-    nav {
+   
+ul {
+    padding: 0px;
+}
+
+nav {
         background-color: #1d7ec3;
     }
     
