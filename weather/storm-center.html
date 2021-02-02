@@ -37,18 +37,18 @@
             <li><a class="link" href="preston.html">Prestone</a></li>
             <li><a class="link" href="soda-springs.html">Soda Springs</a></li>
             <li><a class="link" href="fish-haven.html">Fish Haven</a></li>
-            <li><a class="link" href="storm-center.html">Storm Center</a></li>
+            <li><a class="link" id="Active" href="storm-center.html">Storm Center</a></li>
             <li><a class="link" href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
-
+    <main>
     <div id="Forms">
-    <form class="form1">
+    <form class="form1" action="thanks.html">
         <!--Full name using input of type text and is required and only accepts alpha characters with a minimum of 
             five characters using a regular expression pattern-->
         <label for="fullname">Full name:</label><br>
         <input type="text" id="fullname" name="fullname"  required 
-               pattern="[a-z].{5,}" title="Sample: daniel john idorot"><br>
+               pattern="[a-zA-Z ].{5,}" title="Sample: daniel john idorot"><br>
        
         <!--Email using input of type email and use a placeholder to provide a demo email-->
         <label for="Email">Email:</label><br>
@@ -100,7 +100,7 @@
         <!--User in-danger level using input of type radio with options and values of "yes," "maybe," and "no"-->
         <p>User in-danger level:</p>
         <input type="radio" id="options" name="options" value="options">
-        <label for="yes">Yes</label><br>
+        <label for="options">Yes</label><br>
         <input type="radio" id="maybe" name="options" value="options">
         <label for="maybe">Maybe</label><br>
         <input type="radio" id="no" name="no" value="no">
@@ -113,13 +113,11 @@
         <br><br>
 
         <!--Form submission button using input of type submit-->
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="Submit">
       </form>
     </div>
 
     <div class="contentbox4">
-        <h2 class="forecast">Contact</h2>
-
         <div class="box4grid">
         <div class="map">
             <img class="preston780" src="prestonmap780.png" alt="prestonmap" width="400" height="300">
@@ -144,6 +142,7 @@
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
         <div id="Date"></div>
     </footer>
+    </main>
 
    
 <script src="storm-center.js"></script>
