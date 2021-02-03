@@ -1,5 +1,140 @@
 @media only screen and (max-width: 700px) {
 
+      /*------NAVIGATION-----*/
+ul {
+      font-size: 17px;
+  }
+  
+  
+  li {
+      float: none;
+  }
+  
+  
+  li a:hover {
+      background-color: #64ce8d;
+  }
+  
+  button {
+      display: none;
+  }
+
+  /*-----------FORMS----------*/
+#Forms {
+      border: 1px solid gray;
+      border-radius: 10px;
+      align-items: center;
+      box-shadow: 1px 2px 10px #888888;
+      margin-bottom: 30px;
+      margin: 50px;
+      font-size: 10px;
+      
+  }
+  
+  .form1 {
+      align-items: center;
+      margin: 15px;
+  }
+  
+  #fullname {
+      margin-bottom: 15px;
+  }
+  
+  #Email {
+      margin-bottom: 15px;
+  }
+  
+  #Phone {
+      margin-bottom: 15px;
+  }
+  
+  #Code {
+      margin-bottom: 15px;
+  }
+  
+  #Storm {
+      margin-bottom: 15px;
+  }
+  
+  #storm-Type {
+      margin-bottom: 15px;
+  }
+  
+  #storm-severity {
+      margin-bottom: 15px;
+  }
+  
+  #storm-region {
+      margin-bottom: 15px;
+  }
+  
+  select {
+      font-family: 'Montserrat', sans-serif;
+      padding: 5px;
+  }
+  
+  #no {
+      margin-bottom: 20px;
+  }
+  
+  #comments {
+      margin: 0px;
+  }
+  
+  #Submit {
+      border: 1px solid white;
+      padding: 10px;
+      
+  }
+  
+  #Submit:hover {
+      background-color: #1d7ec3;
+      color: white;
+  }
+  
+  
+  label {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+  }
+  
+  input {
+      padding: 5px;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 5px;
+      border-color: lightgrey;
+  }
+
+  /*-----------CONTENT BOX 4 / CONTACT--------*/
+
+.contentbox4 {
+      padding: 15px;
+      margin: auto;
+      width: 100%;
+  }
+  
+  .box4grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+  }
+  
+  .map {
+      grid-column: 1;
+  }
+  
+  .icons {
+      grid-column: 2;
+      margin-left: 20px;
+  }
+  
+  .preston780 {
+      width: 70%;
+      height: auto;
+      margin-left: 40px;
+    
+  }
+  
     
       }
     
@@ -11,6 +146,48 @@
     @media only screen and (max-width: 400px) {
     
     
+
+      ul {
+            padding: 0px;
+        }
+        
+        nav {
+                background-color: #1d7ec3;
+            }
+            
+            
+            li a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            nav ul.hide {
+                display: none;
+            }
+            
+            li a:hover {
+                background-color: #64ce8d;
+            }
+            
+            button {
+                display:contents;
+                color: white;
+            }
+        
+            .menu {
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                
+            }
+        
+            #Greetings {
+                padding: 15px 15px;
+                font-size: 12px;
+            }
+        
+            #primaryNav {
+                text-align: left;
+            }
    
     }
     
