@@ -1,0 +1,104 @@
+
+     /*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+body {
+    margin: auto;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d7ec3;
+    color: white;
+    font-style: normal;
+
+}
+
+.thanks {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 250px;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+/*-----logo---
+picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+*/
+
+
+
+/*-----header----*/
+
+
+
+
+header {
+    background-color: gray;
+    padding: 5px 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+header img {
+    width: 88px;
+    height: auto;
+}
+
+.sitename {
+    background-color:gray;
+    color: white;
+}
+
+ small {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.headings {
+    flex-direction: column;
+}
+
+/*--------Main-------*/
+
+
+main {
+  padding: 15px;  
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+  
+}
+/*-----FOOTER-----*/
+
+footer {
+    text-align: center;
+
+}
+
+#Date {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
