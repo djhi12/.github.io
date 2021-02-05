@@ -13,10 +13,7 @@ h1,
 h2,
 h3 {
     font-family: 'Roboto', sans-serif;
-    background-color: #1d7ec3;
-    color: white;
     font-style: normal;
-
 }
 
 .thanks {
@@ -28,7 +25,6 @@ h3 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
 }
 
 
@@ -55,7 +51,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -78,7 +74,7 @@ header img {
     flex-direction: column;
 }
 
-/*--------Main-------*/
+/*--------MAIN-------*/
 
 
 main {
@@ -99,6 +95,40 @@ footer {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
+/*---------CARDS--------*/
+h1.prophets-name {
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 30px;
+}
+
+img.prophets-image {
+    width: 100%;
+    height: auto;
+}
+
+.latter-day-prophets {
+    background-color: #1d7ec3;
+    transition: 0.3s;
+}
+
+.latter-day-prophets:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.details {
+    margin: 15px;
+    color: white;
+}
+
+
 
 
 
