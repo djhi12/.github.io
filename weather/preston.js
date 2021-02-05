@@ -27,6 +27,9 @@ let fulldate = dayName + ", " + d.getDate() + " " + monthName + ", " + year;
 /*--monthName---*/
 document.getElementById("Date").innerHTML = fulldate;
 
+
+
+
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
