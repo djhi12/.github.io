@@ -12,9 +12,6 @@ h1,
 h2,
 h3 {
     font-family: 'Roboto', sans-serif;
-    background-color: #1d7ec3;
-    color: white;
-    font-style: normal;
 
 }
 
@@ -86,7 +83,7 @@ footer {
 }
 
 
-/*-----header----*/
+/*-----HEADER----*/
 
 
 #Greetings {
@@ -126,238 +123,59 @@ header img {
     flex-direction: column;
 }
 
-/*--------Main-------*/
-
-h1.preston {
-    text-align: center;
-    background-color: white;
-    color:  #1d7ec3;
-    margin-left: 0px;
-    
-}
+/*--------MAIN-------*/
 
 main {
-  padding: 15px;  
-  font-family: 'Roboto', sans-serif;
-  font-size: 25px;
-  color: white;
+    padding: 15px;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    
+  }
+  /*-----FOOTER-----*/
+  
+  footer {
+      text-align: center;
+  
+  }
+  
+  #Date {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+  /*---------CARDS--------*/
+  h1.prophets-name {
+      text-align: center;
+  }
+  
+  
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      margin: 30px;
+  }
+  
+  img.prophets-image {
+      width: 100%;
+      height: auto;
+  }
+  
+  .latter-day-prophets {
+      background-color: #1d7ec3;
+      transition: 0.3s;
+  }
+  
+  .latter-day-prophets:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
+  
+  .details {
+      margin: 15px;
+      color: white;
+  }
   
 
-}
-
-
-/*-----------Content Box 1--------*/
-
-.contentbox1 {
-    background-color: #1d7ec3;
-    padding: 15px;
-    margin: 10px;
-}
-
-
-.weathersummary1 {
-    font-size: 20px;
-    background: none;
-}
-
-.weathersummarypar{
-    font-size: 15px;
-}
-
-.preston {
-    margin-left: 58px;
-}
-
-
-/*-----------Content Box 2--------*/
-
-.contentbox2 {
-    background-color: #1d7ec3;
-    padding: 15px;
-    margin: 10px;
-}
-
-.box {
-    display: grid;
-    grid-template-columns: .7fr .7 .7 .7 .7fr ;
-    
-}
-
-.box1 {
-    grid-column: 1;
-    background-color: gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-}
-
-.box2 {
-    grid-column: 2;
-    background-color:  gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-}
-
-.box3 {
-    grid-column: 3;
-    background-color:  gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-}
-
-.box4 {
-    grid-column: 4;
-    background-color:  gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-}
-
-.box5 {
-    grid-column: 5;
-    background-color: gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-}
-
-.box6 {
-    grid-column: 6;
-    background-color: gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-}
-
-h2.forecast {
-    background-color: #1d7ec3;
-    text-align: center;
-}
-
-
-
-
-
-/*-----------Content Box 3--------*/
-
-.contentbox3 {
-    background-color:#1d7ec3;
-    padding: 15px;
-    margin: 10px;
-}
-
-/*-----------Content Box 4--------*/
-
-.contentbox4 {
-    background-color: #1d7ec3;
-    padding: 15px;
-    margin: 10px;
-}
-
-
-
-/*-----------------@media------------*/
-
-@media only screen and (max-width: 800px) {
-    footer {
-        margin-left: 200px;
-        font-size: 15px;
-    }
-
-    #Date {
-        margin-left: 100px;
-    }
-
-  }
-
-@media only screen and (max-width: 500px) {
-    footer {
-        margin-left: 90px;
-        font-size: 12px;
-    }
-
-    #Date {
-        margin-left: 80px;
-    }
-
-
-    nav {
-        background-color: #1d7ec3;
-    }
-    
-    
-    li a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    nav ul.hide {
-        display: none;
-    }
-    
-    li a:hover {
-        background-color: #64ce8d;
-    }
-    
-    button {
-        display:contents;
-        color: white;
-    }
-
-    .menu {
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        
-    }
-
-    #Greetings {
-        padding: 15px 15px;
-        font-size: 12px;
-    }
-
-    #primaryNav {
-        text-align: left;
-    }
-
-    /*-------content box 1----*/
-    .contentbox1 {
-        background-color: #1d7ec3;
-        padding: 15px;
-        margin: 10px;
-        padding-bottom: 15px;
-    
-    }
-    
-    .weathersummary {
-        margin-top: 4px;
-        margin-left: 5px;
-        margin-right: 7px;
-        padding-left: 50px;
-        padding-right: 30px;
-        background-color: gray;
-        border: 1px solid gray;
-        box-shadow: 5px 5px 8px lightgray;
-    
-    }
-    
-    .weathersummary1 {
-        background-color: gray;
-        margin-bottom: 10px;
-        font-size: 20px;
-    }
-    
-    .weathersummarypar{
-        font-size: 15px;
-    }
-
-}
 
 

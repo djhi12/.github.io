@@ -70,6 +70,11 @@ button {
     display: none;
 }
 
+#active {
+    background-color: #64ce8d;
+    color: white;
+}
+
 
 /*-----header----*/
 
@@ -565,6 +570,7 @@ nav {
     #primaryNav {
         text-align: left;
     }
+
 
 /*-----PARAGRAPH / @Media500-----*/
 
