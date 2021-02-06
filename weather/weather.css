@@ -30,7 +30,7 @@ picture img {
 */
 
 
-/*------Navigation-----*/
+/*------NAVIGATION-----*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -71,7 +71,11 @@ button {
     background-color: #64ce8d;
     color: white;
 }
-/*-----Footer-----*/
+
+button {
+    display: none;
+}
+/*-----FOOTER-----*/
 
 footer {
     text-align: center;
@@ -125,6 +129,10 @@ header img {
 
 /*--------MAIN-------*/
 
+.preston {
+    text-align: center;
+}
+
 main {
     padding: 15px;  
     font-family: 'Roboto', sans-serif;
@@ -152,22 +160,22 @@ main {
   
   .cards {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 10px;
       margin: 30px;
   }
   
-  img.prophets-image {
+  img.idaho-images {
       width: 100%;
       height: auto;
   }
   
-  .latter-day-prophets {
+  .idaho-places {
       background-color: #1d7ec3;
       transition: 0.3s;
   }
   
-  .latter-day-prophets:hover {
+  .idaho-places:hover {
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   }
   
