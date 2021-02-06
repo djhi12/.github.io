@@ -1,11 +1,119 @@
-/*--------@MEDIA 700--------*/
 @media only screen and (max-width: 700px) {
 
- 
+/*-----HEADER----*/
+
+
+#Greetings {
+    padding: 12px 13px;
+    padding-left: 80px;
+    font-size: 12px; 
 }
 
-  /*--------@MEDIA 400--------*/
+    ul {
+        font-size: 18px;
+    }
+    
+    li {
+        float: none;
+    }
+    
+    li a {
+        padding: 12px 14px;
+    }
+    
+    li a:hover {
+        background-color: #64ce8d;
+    }
+    
+
+    /*---------CARDS--------*/
+h1.prophets-name {
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+img.idaho-images {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.details {
+    margin: 10px;
+    color: white;
+}
+
+/*-----FOOTER-----*/
+  
+footer {
+    text-align: center;
+    font-size: 12px;
+
+}
+
+#Date {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  }
+
+
+/*---------@Media 400--------*/
 @media only screen and (max-width: 400px) {
 
- 
-     }
+    #Greetings {
+        padding: 12px 13px;
+        padding-left: 50px;
+        font-size: 12px; 
+    }
+
+/*--------BURGER BUTTON-------*/
+    button {
+        display:contents;
+        color: white;
+    }
+
+    .menu {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    nav ul.hide {
+        display: none;
+    }
+    /*---------CARDS--------*/
+h1.prophets-name {
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin: 20px;
+    font-size: 10px;
+}
+
+img.idaho-images {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.details {
+    margin: 10px;
+    color: white;
+}
+  }
