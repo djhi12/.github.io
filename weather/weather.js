@@ -52,7 +52,7 @@ document.getElementById("Greetings").innerHTML = "Preston Pancakes in the Park! 
 
 /*---------WEATHER-------*/
 
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'weather.json';
 fetch(requestURL)
 .then(function(response) {
     return response.json();

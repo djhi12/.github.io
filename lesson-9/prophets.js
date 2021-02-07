@@ -29,7 +29,7 @@ document.getElementById("Date").innerHTML = fulldate;
 
 
 
-    const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+    const requestURL = 'prophets.json';
     fetch(requestURL)
     .then(function(response) {
         return response.json();
