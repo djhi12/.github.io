@@ -1,0 +1,57 @@
+@media only screen and (max-width: 700px) {
+    /*---------CARDS--------*/
+h1.prophets-name {
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+img.prophets-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.details {
+    margin: 10px;
+    color: white;
+}
+  }
+
+
+/*---------@Media 400--------*/
+@media only screen and (max-width: 400px) {
+    /*---------CARDS--------*/
+h1.prophets-name {
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin: 20px;
+    font-size: 10px;
+}
+
+img.prophets-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.details {
+    margin: 10px;
+    color: white;
+}
+  }

@@ -1,0 +1,134 @@
+
+     /*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+body {
+    margin: auto;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.thanks {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 250px;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*-----logo---
+picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+*/
+
+
+
+/*-----header----*/
+
+
+
+
+header {
+    background-color: gray;
+    padding: 5px 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 88px;
+    height: auto;
+}
+
+.sitename {
+    background-color:gray;
+    color: white;
+}
+
+ small {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.headings {
+    flex-direction: column;
+}
+
+/*--------MAIN-------*/
+
+
+main {
+  padding: 15px;  
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+  
+}
+/*-----FOOTER-----*/
+
+footer {
+    text-align: center;
+
+}
+
+#Date {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*---------CARDS--------*/
+h1.prophets-name {
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 30px;
+}
+
+img.prophets-image {
+    width: 100%;
+    height: auto;
+}
+
+.latter-day-prophets {
+    background-color: #1d7ec3;
+    transition: 0.3s;
+}
+
+.latter-day-prophets:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.details {
+    margin: 15px;
+    color: white;
+}
+
+
+
+
+
