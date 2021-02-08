@@ -30,7 +30,7 @@ document.getElementById("Date").innerHTML = fulldate;
 
 
 /*-------WEATHER------*/
-    const apiURL = 'api.openweathermap.org/data/2.5/weather?id={5604473}&appid={9c01ce8bb70138120ae5d70bfa11d2c6}';
+    const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id={5604473}&appid={9c01ce8bb70138120ae5d70bfa11d2c6}';
     fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
