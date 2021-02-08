@@ -35,7 +35,7 @@ document.getElementById("Date").innerHTML = fulldate;
     .then((response) => response.json())
     .then((jsObject) => {
       console.log(jsObject);
-    });
+
 
     document.getElementById('current-temp').textContent = jsObject.main.temp;
 
@@ -45,7 +45,7 @@ document.getElementById('imagesrc').textContent = imagesrc;  // informational sp
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 document.getElementById('icon').setAttribute('alt', desc);
 
-
+});
 
 
     
