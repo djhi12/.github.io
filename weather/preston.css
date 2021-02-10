@@ -279,14 +279,21 @@ h3.forecast-day {
 .box4grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 .map {
     grid-column: 1;
+    
 }
 
 .icons {
     grid-column: 2;
+}
+
+.preston780 {
+    width: 50%;
+
 }
 
 /*-----FOOTER-----*/
