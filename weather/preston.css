@@ -33,7 +33,7 @@ picture img {
 */
 
 
-/*------Navigation-----*/
+/*------NAVIGATION-----*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -76,7 +76,7 @@ button {
 }
 
 
-/*-----header----*/
+/*-----HEADER----*/
 
 
 #Greetings {
@@ -84,8 +84,7 @@ button {
     padding: 15px 15px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 400px;
-    
+    width: 100%; 
 }
 
 header {
@@ -116,7 +115,7 @@ header img {
     flex-direction: column;
 }
 
-/*--------Main-------*/
+/*--------MAIN-------*/
 
 h1.preston {
     text-align: center;
@@ -131,12 +130,27 @@ main {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   color: white;
-  
+  width: 100%;
+  margin: auto;
+}
 
+.weathersummary {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 140px;
+    margin-left: 10px;
+    margin-right: 850px;
+    margin-bottom: 300px;
+    
 }
 
 
-/*-----------Content Box 1--------*/
+/*-----------CONTENT BOX 1--------*/
 
 .contentbox1 {
     position: relative;
@@ -155,8 +169,6 @@ main {
     margin-right: 850px;
     margin-bottom: 300px;
     
-
-
 }
 
 .weathersummary1 {
@@ -169,11 +181,12 @@ main {
 }
 
 .preston {
-    margin-left: 58px;
+    margin-left: 0px;
+    width: 100%;
 }
 
 
-/*-----------Content Box 2/5 DAY FORECAST--------*/
+/*-----------CONTENT BOX 2/5 DAY FORECAST--------*/
 
 .contentbox2 {
     background-color: #1d7ec3;
@@ -184,11 +197,9 @@ main {
 .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
 }
 
-.box1 {
-    grid-column: 1;
+.monday {
     background-color: gray;
     border: 1px;
     margin: 10px;
@@ -196,8 +207,7 @@ main {
     text-align: center;
 }
 
-.box2 {
-    grid-column: 2;
+.tuesday {
     background-color:  gray;
     border: 1px;
     margin: 10px;
@@ -205,8 +215,7 @@ main {
     text-align: center;
 }
 
-.box3 {
-    grid-column: 3;
+.wednesday {
     background-color:  gray;
     border: 1px;
     margin: 10px;
@@ -214,8 +223,7 @@ main {
     text-align: center;
 }
 
-.box4 {
-    grid-column: 4;
+.thursday {
     background-color:  gray;
     border: 1px;
     margin: 10px;
@@ -223,8 +231,7 @@ main {
     text-align: center;
 }
 
-.box5 {
-    grid-column: 5;
+.friday {
     background-color: gray;
     border: 1px;
     margin: 10px;
@@ -238,11 +245,14 @@ h2.forecast {
     text-align: center;
 }
 
+h3.forecast-day {
+    background-color: gray;
+}
 
 
 
 
-/*-----------Content Box 3--------*/
+/*-----------CONTENT BOX 3--------*/
 
 .contentbox3 {
     background-color:#1d7ec3;
@@ -258,7 +268,7 @@ h2.forecast {
     font-size: 22px;
 }
 
-/*-----------Content Box 4--------*/
+/*-----------CONTENT BOX 4--------*/
 
 .contentbox4 {
     background-color: #1d7ec3;
@@ -290,420 +300,4 @@ footer {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-
-                                        /*-----------------@media 800------------*/
-
-@media only screen and (max-width: 800px) {
-
-/*-----CONTENT BOX 1 / @Media 800-----*/
-.contentbox1 {
-    position: relative;
-}
-
-.weathersummary {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding-left: 20px;
-    padding-right: 140px;
-    margin-left: 10px;
-    margin-right: 190px;
-    margin-bottom: 65px;
-    
-}
-
-.weathersummary1 {
-    font-size: 20px;
-    background: none;
-}
-
-.weathersummarypar{
-    font-size: 15px;
-}
-
-.preston {
-    margin-left: 23px;
-    width: 750px;
-}
-
-
-
-/*-----NAVIGATION----*/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bolder;
-    margin-left: 25px;
-}
-
-
-/*-----CONTENT BOX 2/ 5 DAY FORECAST/ @Media 800-----*/
-.contentbox2 {
-    background-color: #1d7ec3;
-    padding: 15px;
-    margin: 10px;
-}
-
-.box {
-    display: grid;
-    grid-template-columns: .2fr .2fr .2fr .2fr .2fr;
-    
-}
-
-.box1 {
-    border: 1px;
-    margin: 7px;
-    padding: 12px;
-
-}
-
-.box2 {
-    border: 1px;
-    margin: 7px;
-    padding: 12px;
-
-}
-
-.box3 {
-    border: 1px;
-    margin: 7px;
-    padding: 12px;
-}
-
-.box4 {
-    border: 1px;
-    margin: 7px;
-    padding: 12px;
-}
-
-.box5 {
-    border: 1px;
-    margin: 7px;
-    padding: 12px;
-
-}
-
-
-/*-----CONTENT BOX 3 / @Media 800-----*/
-
-.contentbox3 {
-    padding: 15px;
-    margin: 10px;
-}
-
-.PrestonArt400 {
-    float: right;
-    width: 350px;
-}
-
-.lorempar {
-    font-size: 18px;
-}
-
-/*-----CONTENT BOX 4 / CONTACT-----*/
-
-
-.box4grid {
-    display: grid;
-    grid-template-columns: .5fr .5fr;
-}
-
-.map {
-    grid-column: 1;
-    margin: 5px;
-    margin-left: 25px;
-
-}
-
-.icons {
-    grid-column: 2;
-    margin: 30px;
-}
-
-.preston780 {
-    width: 350px;
-}
-
-/*-----FOOTER-----*/
-
-footer {
-    text-align: center;
-    margin-right: 0px;
-    
-}
-
-#Date {
-    text-align: center;
-    margin-right: 0px;
-}
-
-  }
-
-
-
-
-
-                                        /*------------@Media 500-----*/
-
-@media only screen and (max-width: 500px) {
-
-
-/*-----CONTENT BOX 1 / @Media500-----*/
-
-.contentbox1 {
-    position: relative;
-    margin: auto;
-}
-
-.weathersummary {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding-left: 20px;
-    padding-right: 140px;
-    margin-left: 10px;
-    margin-right: 190px;
-    margin-bottom: 65px;
-    
-}
-
-.weathersummary1 {
-    font-size: 20px;
-    background: none;
-}
-
-.weathersummarypar{
-    font-size: 15px;
-}
-
-.preston {
-    margin-left: 23px;
-    width: 750px;
-}
-
-
-
-/*-----FOOTER / @Media500-----*/
-    footer {
-        text-align: center;
-        margin-left: 0px;
-        margin-right: 0px;
-        font-size: 12px;
-    }
-
-    #Date {
-        margin-left: 10px;
-        margin-right: 0px;
-    }
-
-    .contentbox4 {
-        background-color: #1d7ec3;
-        padding: 15px;
-        margin: 10px;
-    }
-    
-    .box4grid {
-        display: grid;
-        grid-template-rows: .5fr;
-    }
-    
-    .map {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    .icons {
-        grid-column: 1;
-        font-size: 18px;
-    }
-
-    .preston780 {
-        width: 20px;
-        margin-right: 0px;
-    }
-
-/*-----NAVIGATION / @Media500-----*/
-   
-ul {
-    padding: 0px;
-}
-
-nav {
-        background-color: #1d7ec3;
-    }
-    
-    
-    li a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    nav ul.hide {
-        display: none;
-    }
-    
-    li a:hover {
-        background-color: #64ce8d;
-    }
-    
-    button {
-        display:contents;
-        color: white;
-    }
-
-    .menu {
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        
-    }
-
-    #Greetings {
-        padding: 15px 15px;
-        font-size: 12px;
-    }
-
-    #primaryNav {
-        text-align: left;
-    }
-
-
-/*-----PARAGRAPH / @Media500-----*/
-
-    .lorempar {
-        font-size: 18px;
-    }
-
-
-
-/*-----CONTENT BOX 2 / @Media500-----*/
-
-.contentbox2 {
-    background-color: #1d7ec3;
-    padding: 10px;
-    margin: 5px;
-}
-
-.box {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    
-}
-
-.box1 {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.box2 {
-    grid-row: 2;
-    grid-column: 1;
-    background-color:  gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.box3 {
-    grid-row: 3;
-    grid-column: 1;
-    background-color:  gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.box4 {
-    grid-row: 4;
-    grid-column: 1;
-    background-color:  gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.box5 {
-    grid-row: 5;
-    grid-column: 1;
-    background-color: gray;
-    border: 1px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-    font-size: 20px;
-}
-
-
-
-h2.forecast {
-    background-color: #1d7ec3;
-    text-align: center;
-    font-size: 25px;
-}
-
-/*-----CONTENT BOX 3-----*/
-
-.contentbox3 {
-    background-color:#1d7ec3;
-    padding: 15px;
-    margin: 10px;
-}
-
-.PrestonArt400 {
-    float: none;
-    width: 350px;
-    margin-left: 25px;
-}
-
-.lorempar {
-    font-size: 15px;
-}
-
-/*-----------CONTENT BOX 4/CONTACT / @Media500--------*/
-
-.contentbox4 {
-    background-color: #1d7ec3;
-    padding: 15px;
-    margin: 10px;
-}
-
-.box4grid {
-    display: grid;
-    grid-template-rows: 1fr;
-}
-
-.map {
-    grid-column: 1;
-    width: 500px;
-}
-
-.icons {
-    grid-row: 2;
-    grid-column: 1;
-}
-
-.preston780 {
-    width: 350px;
-    margin: 25px;
-}
-
-}
-
 
