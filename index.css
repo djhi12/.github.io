@@ -1,7 +1,46 @@
+/*
+    font-family: 'Roboto', sans-serif; (Heading)
+    font-family: 'Montserrat', sans-serif; (Paragraph)
+*/
 
 body {
     margin: auto;
+    width: 100%;
 
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----------IMAGE------------*/
+
+.image-my-image {
+    box-shadow: -3px 3px 3px gray;
+    max-width: 800px;
+    width: 20%;
+    height: 250px;
+    float: right;
+    margin-right: 150px;
+}
+
+
+/*----------NAVIGATION------------*/
+
+.navigation {
+    margin-bottom: 50px;
+}
+
+
+
+.navigation-links {
+    margin-bottom: 10px;
+    text-decoration: none; 
 }
 
 ul {
@@ -10,57 +49,23 @@ ul {
 }
 
 
-
-.image0 {
-    box-shadow: -3px 3px 3px gray;
-    margin-right: 60px;
-    margin-top: 10px;
-    margin-left: 30px;
-    float: right;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-}
-
-
-a:hover {
-    background-color: lightgreen;
-    transition: 1s;
-}
-
-
-a:link {
-    text-decoration: none; 
-}
-
-.link {
-    color: white;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-}
-
 hr {
     text-align: left;
 }
 
-/*------Me----*/
-.heading5 {
+/*------ME----*/
+.h2-my-name {
     color: white;
     background-color: blue;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    font-size: 30px; 
     text-align: left;
 
 }
 
 
-/*-----------Footer----------*/
+/*-----------FOOTER----------*/
 .footer1 {
     color: white;
     background-color: blue;
@@ -71,31 +76,18 @@ hr {
     text-align: center;
 }
 
-
-
-/*---------------@Media--------------*/
-
-@media only screen and (max-width: 500px) {
-    .heading5 {
-        color: white;
-        background-color: blue;
-        padding: 10px;
-        font-size: 20px; 
-        text-align: center;
-    
-    } 
-
-    .footer1 {
-        padding: 10px;
-        font-size: 12px;
-    }
-
-    .footer2 {
-        margin-left: 95px;
-    }
-
-    #Date {
-        margin-left: 170px;
-    }
-
+.link {
+    color: white;
 }
+
+a:hover {
+    background-color: lightgreen;
+    transition: 1s;
+}
+
+a:link {
+    text-decoration: none; 
+}
+
+
+

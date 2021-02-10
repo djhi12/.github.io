@@ -1,7 +1,7 @@
 /*-----32.5em----*/
  
 body {
-    margin: 100px;
+    width: 100%;
 }
 
 .image {
@@ -16,7 +16,6 @@ body {
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    width: 300px;
     font-size: 30px;
     text-align: left;
 }
@@ -54,7 +53,6 @@ body {
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     font-size: 20px;
-    width: 300px;
     height: 15px;
 }
 
@@ -79,16 +77,6 @@ a:link {
     text-decoration: none; 
 }
 
-footer {
-    color: white;
-    background-color: blue;
-    padding: 23px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-    width: 300px;
-    height: 60px;
-    margin-top: 50px;
-}
 
 .link {
     color: white;
@@ -106,7 +94,8 @@ section {
 
 .sections {
     display: grid;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
 }
 /*------Alignment---------*/
 .section1 {
@@ -123,10 +112,7 @@ section {
 .section2 {
     padding:10px;
     transition: 0.3s;
-    grid-column: 1;
-    grid-row: 2;
     margin-left: 10px;
-    margin-top: 50px;
 
 } 
 
@@ -138,11 +124,7 @@ section {
 .section3 {
     padding:10px;
     transition: 0.3s;
-    grid-column: 1;
-    grid-row: 3;
     margin-left: 10px;
-    margin-top: 50px;
-
 } 
 
 .section3:hover {
@@ -161,4 +143,16 @@ section {
 
 #image3 {
     margin-left: 23px;
+}
+
+/*---------FOOTER---------*/
+
+footer {
+    color: white;
+    background-color: blue;
+    padding: 23px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    height: 60px;
+    margin-top: 50px;
 }
