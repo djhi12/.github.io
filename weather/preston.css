@@ -4,8 +4,11 @@ Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
 font-family: 'Roboto', sans-serif; (Header)
 font-family: 'Montserrat', sans-serif; (Paragraph)
 --*/
+
+
 body {
     margin: auto;
+    width: 100%;
 }
 
 h1,
@@ -81,10 +84,9 @@ button {
 
 #Greetings {
     background-color: yellowgreen;
-    padding: 15px 15px;
+    padding: 15px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    width: 100%; 
 }
 
 header {
@@ -130,8 +132,8 @@ main {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   color: white;
-  width: 100%;
-  margin: auto;
+  width: 96%;
+  margin-left: 15px;
 }
 
 .weathersummary {

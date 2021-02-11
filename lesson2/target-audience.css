@@ -1,14 +1,3 @@
-/*--
-Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
-font-family: 'Roboto', sans-serif; (Header)
-font-family: 'Montserrat', sans-serif; (Paragraph)
---*/
-
-body {
-    margin: 0;
-}
-
-
 /*-----HEADER----*/
 
 
@@ -30,7 +19,7 @@ header img {
     color: white;
 }
 
-/*-------------------------------------------------------------------------------------------*/
+
 
 /*--
 Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
@@ -92,15 +81,14 @@ li a:hover {
 }
 
 footer {
-   margin-left: 450px;
+   margin-left: 350px;
    margin-top: 10px;
 }
 
 #Date {
-    margin-left: 140px;
+    margin-left: 120px;
     font-family: 'Montserrat', sans-serif; 
 }
-
 
 
 

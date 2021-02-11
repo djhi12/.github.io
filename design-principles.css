@@ -9,9 +9,6 @@ body {
     max-width: 100%;
 }
 
-main.sections {
-    width: 100%;
-}
 
 /*------Design Principles---------*/
 .title0 {
@@ -93,15 +90,13 @@ section {
     box-shadow: 1px 1px 4px 1px #888;
     border-radius: 3px;
     background-color: white; 
-    
-
 }
 
 .sections {
     display: grid;
     grid-template-columns: .3fr .3fr .3fr;
     margin: auto;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 /*------Alignment---------*/
 .section1 {
@@ -156,10 +151,9 @@ section {
 footer {
     color: white;
     background-color: blue;
-    padding: 23px;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    height: 60px;
     margin-top: 50px;
     text-align: center;
 }

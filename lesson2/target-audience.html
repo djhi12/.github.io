@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Weather Site for Daniel John Idorot">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="target-audience.css">
+    <link rel="stylesheet" href="target-audience-media.css">
     <!--<link rel="stylesheet" href="index.css"> -->
     <!--font-family: 'Roboto', sans-serif;
         font-family: 'Montserrat', sans-serif;-->
@@ -15,213 +16,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
 
-    <style>
-        /*--
-Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
-font-family: 'Roboto', sans-serif; (Header)
-font-family: 'Montserrat', sans-serif; (Paragraph)
---*/
-        body {
-            margin: auto;
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: 'Roboto', sans-serif;
-            background-color: #1d7ec3;
-            color: white;
-
-        }
-
-        p {
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #1d7ec3;
-            font-family: 'Montserrat', sans-serif; 
-            font-size: 20px;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #64ce8d;
-        }
-
-        .body1 {
-            margin-left: 150px;
-            margin-right: 150px;;
-        }
-
-        footer {
-           margin-left: 350px;
-           margin-top: 10px;
-        }
-
-        #Date {
-            margin-left: 120px;
-            font-family: 'Montserrat', sans-serif; 
-        }
-
-        @media only screen and (max-width: 1000px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 340px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
-
-        @media only screen and (max-width: 800px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 240px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
-
-        @media only screen and (max-width: 600px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 140px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
-
-    @media only screen and (max-width: 500px) {
-        img {
-            width: 150px;
-        }
-
-        li {
-            float: none;
-        }
-
-    .body1 {
-        margin-left: 10px;
-        margin-right: 10px;;
-    }
-
-    h1,
-        h2,
-        h3 {
-            font-size: 20px;
-
-        }
-
-    footer {
-           margin-left: 90px;
-           margin-top: 10px;
-           font-size: 12px;
-        }
-
-        #Date {
-            margin-left: 80px;
-
-        }
-     }
-    </style>
+  
 </head>
 
 <body>
-    <!--Logo and Site name-->
-    <img class="logo" src="Logo3.png" alt="Logo">
+    <header>
+        <picture>
+            <img class="logo" src="icon.png" alt="Logo">
+        </picture>
+        <section class="headings">
+            <h2 class="sitename">The Surface <br><small>Your Trusted Weather Forecaster</small></h2>
+        </section>
+    </header>
 
     <ul>
         <li><a class="link" href="index.html">Home</a></li>
