@@ -17,7 +17,7 @@ body {
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -37,9 +37,9 @@ body {
     padding-top: 20px;
     border-radius: 10px;
     font-size: 15px;
-    width: 150px;
-    height: 40px;
+    width: 100px;
     text-align: center;
+    margin-left: 90px;
 
 }
 
@@ -92,19 +92,22 @@ footer {
 /*-------Section----------*/
 
 section {
-    width: 300px;
     box-shadow: 1px 1px 4px 1px #888;
     border-radius: 3px;
     background-color: white; 
-
+    
 }
 
 .sections {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .3fr .3fr;
+    margin: auto;
+    margin-left: 0px;
 }
 /*------Alignment---------*/
 .section1 {
+    grid-column: 1;
+    grid-row: 1;
     padding:10px;
     transition: 0.3s;
     margin-left: 10px;
@@ -116,10 +119,10 @@ section {
 }
 /*-------Repetition--------*/
 .section2 {
+    grid-column: 2;
+    grid-row: 1;
     padding:10px;
     transition: 0.3s;
-    grid-column: 1;
-    grid-row: 1;
     margin-left: 10px;
 
 } 
@@ -130,13 +133,12 @@ section {
 
 /*-----Contrast----------*/
 .section3 {
-    padding:10px;
-    transition: 0.3s;
     grid-column: 1;
     grid-row: 2;
+    padding:10px;
+    transition: 0.3s;
     margin-left: 10px;
     margin-top: 10px;
-
 } 
 
 .section3:hover {
@@ -157,6 +159,17 @@ section {
     margin-left: 23px;
 }
 
+/*---------FOOTER---------*/
+
+footer {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
   }
 
 
@@ -165,7 +178,9 @@ section {
   @media only screen and (max-width: 400px) {
    /*-----32.5em----*/
  
-body {
+   /*-----32.5em----*/
+ 
+   body {
     width: 100%;
 }
 
@@ -176,20 +191,14 @@ body {
 
 /*------Design Principles---------*/
 .title0 {
-    color: white;
-    background-color: blue;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
 .heading1 {
-    color: white;
-    background-color: blue;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     width: 230px;
     height: 20px;
@@ -198,25 +207,18 @@ body {
 
 /*-----Design topics/3 principles------*/
 .heading2 {
-    color: white;
-    background-color: blue;
     padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     font-size: 15px;
-    width: 150px;
-    height: 40px;
+    width: 100px;
     text-align: center;
+    margin-left: 80px;
 
 }
 
 /*-----Design Topics-------*/
 .heading4 {
-    color: white;
-    background-color: blue;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
     font-size: 20px;
     height: 15px;
 }
@@ -224,17 +226,14 @@ body {
 
 
 .heading3 {
-    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
 p {
-    font-family: 'Monserrat', sans-serif;
     font-size: 13px;
 }
 
 ul {
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -243,10 +242,7 @@ a:link {
 }
 
 footer {
-    color: white;
-    background-color: blue;
     padding: 23px;
-    font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     height: 60px;
     margin-top: 50px;
@@ -259,19 +255,23 @@ footer {
 /*-------Section----------*/
 
 section {
-    width: 300px;
     box-shadow: 1px 1px 4px 1px #888;
     border-radius: 3px;
     background-color: white; 
+    
 
 }
 
 .sections {
     display: grid;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: .3fr;
+    margin: auto;
+    margin-left: 0px;
 }
 /*------Alignment---------*/
 .section1 {
+    grid-column: 1;
+    grid-row: 1;
     padding:10px;
     transition: 0.3s;
     margin-left: 10px;
@@ -283,12 +283,12 @@ section {
 }
 /*-------Repetition--------*/
 .section2 {
-    padding:10px;
-    transition: 0.3s;
     grid-column: 1;
     grid-row: 2;
+    padding:10px;
+    transition: 0.3s;
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
 
 } 
 
@@ -298,13 +298,12 @@ section {
 
 /*-----Contrast----------*/
 .section3 {
-    padding:10px;
-    transition: 0.3s;
     grid-column: 1;
     grid-row: 3;
+    padding:10px;
+    transition: 0.3s;
     margin-left: 10px;
-    margin-top: 50px;
-
+    margin-top: 10px;
 } 
 
 .section3:hover {
@@ -323,6 +322,16 @@ section {
 
 #image3 {
     margin-left: 23px;
+}
+
+/*---------FOOTER---------*/
+
+footer {
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
 }
 
   }

@@ -19,19 +19,19 @@
 /*---------------------------------------@Media 400-------------------------------------------*/
 
 @media only screen and (max-width: 400px) {
-    .image-my-image {
-        width: 50%;
-        height: 150px;
-        float: none;
-        margin-left: 35px;
-        margin-bottom: 30px;
+.image-my-image {
+    width: 50%;
+    height: 150px;
+    float: none;
+    margin-left: 35px;
+    margin-bottom: 30px;
     }
 
 /*------ME----*/
 .h2-my-name {
     color: white;
     background-color: blue;
-    padding: 20px;
+    padding: 7px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     text-align: center;
