@@ -2,12 +2,13 @@
 
       /*------NAVIGATION-----*/
 ul {
-      font-size: 17px;
+      font-size: 15px;
   }
   
   
   li {
-      float: none;
+      float: center;
+      font-size: 15px;
   }
   
   
@@ -141,7 +142,7 @@ ul {
     
 
     
-/*------------@Media 500----------*/
+/*-----------------------------------------@Media 400------------------------------------------------*/
     
     @media only screen and (max-width: 400px) {
     

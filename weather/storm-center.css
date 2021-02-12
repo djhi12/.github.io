@@ -71,6 +71,11 @@ button {
     display: none;
 }
 
+#active {
+    background-color: #64ce8d;
+    color: white;
+}
+
 
 /*-----HEADER----*/
 
