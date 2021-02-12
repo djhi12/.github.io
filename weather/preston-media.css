@@ -33,17 +33,15 @@ h1.preston {
 
 .weathersummary {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 55%;
+    right: 50%;
+    left: 10%;
+    top: 40px;
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.5);
     color: white;
-    padding-left: 20px;
-    padding-right: 140px;
-    margin-left: 10px;
-    margin-right: 150px;
-    margin-bottom: 300px;
-    
+    padding-left: 1%;
+ 
 }
 
 /*-----------CONTENT BOX 1--------*/
@@ -162,13 +160,13 @@ h3.forecast-day {
 }
 
 .PrestonArt400 {
-    float: right;
+    float: none;
     width: 100%;
     margin: auto;
 }
 
 .lorempar {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 h2.h2-article {
@@ -238,17 +236,15 @@ footer {
 
 .weathersummary {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 55%;
+    right: 70%;
+    left: 10%;
+    top: 40px;
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.5);
     color: white;
-    padding-left: 20px;
-    padding-right: 140px;
-    margin-left: 10px;
-    margin-right: 150px;
-    margin-bottom: 300px;
-    
+    padding-left: 1%;
+ 
 }
 
 
