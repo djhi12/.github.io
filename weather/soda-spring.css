@@ -177,7 +177,7 @@ main {
     font-size: 15px;
 }
 
-.preston {
+.img-soda-spring {
     width: 100%;
     margin: auto;
 }
@@ -248,7 +248,7 @@ h3.forecast-day {
     margin: 10px;
 }
 
-.PrestonArt400 {
+.img-soda-spring-500 {
     float: right;
 }
 
@@ -279,7 +279,7 @@ h3.forecast-day {
     grid-column: 2;
 }
 
-.preston780 {
+.img-soda-spring-map-500 {
     width: 50%;
 
 }
