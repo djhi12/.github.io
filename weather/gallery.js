@@ -33,24 +33,7 @@ function toggleMenu() {
 
 
 
-
-
-/*-----Get Day-----*/
-// if statement
-// greetings "Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."
-
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
-var date = new Date();
-var n = d.getDay()
-
-document.getElementById("Greetings").innerHTML = "Preston Pancakes in the Park! 9:00 am" + " " + days[n] + 
-" " + "at the city park pavillion."
-+ " ";
-// get the name of the week as string and not number
-
-
-
-/*---------WIND CHILL-----------*/
+/*---------------------------------------WIND CHILL--------------------------------------------------------*/
 /*
  *Add a computed wind chill value to the weather summary on the town page.
  *Get the two input values of temperature and wind speed.
@@ -85,10 +68,6 @@ document.getElementById("Greetings").innerHTML = "Preston Pancakes in the Park! 
  }
 
  let f = 35.74 + 0.6215 * (t) - 35.75 * s**0.16 + 0.4275 * t * s**0.16;
-
- 
-
-
 
 document.getElementById("output").innerHTML = f;
 
