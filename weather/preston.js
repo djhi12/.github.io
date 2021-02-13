@@ -44,10 +44,20 @@ function toggleMenu() {
 
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
 var date = new Date();
-var n = d.getDay()
-
-document.getElementById("Greetings").innerHTML = "Preston Pancakes in the Park! 9:00 am" + " " + days[n] + 
+var n = d.getDay();
+console.log(n);
+if (n == 6) {
+  document.getElementById("Greetings").innerHTML = "Preston Pancakes in the Park! 9:00 am" + " " + "Saturday" + 
 " " + "at the city park pavillion."
+
+document.getElementById("Greetings").classList.toggle("display-greetings");
+}
+
+
+
+
+
+
 + " ";
 // get the name of the week as string and not number
 

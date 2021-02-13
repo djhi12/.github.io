@@ -91,7 +91,13 @@ button {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    display: none;
 }
+
+.display-greetings {
+    display: block;
+}
+
 
 header {
     background-color: gray;
@@ -150,10 +156,10 @@ main {
 
 .weathersummary {
     position: absolute;
-    bottom: 55%;
+    bottom: 20%;
     right: 70%;
     left: 10%;
-    top: 40px;
+    top: 30px;
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.5);
     color: white;
@@ -188,45 +194,36 @@ main {
 .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 
 .monday {
     background-color: gray;
     border: 1px;
-    margin: 10px;
-    padding: 12px;
     text-align: center;
 }
 
 .tuesday {
     background-color:  gray;
     border: 1px;
-    margin: 10px;
-    padding: 12px;
     text-align: center;
 }
 
 .wednesday {
     background-color:  gray;
     border: 1px;
-    margin: 10px;
-    padding: 12px;
     text-align: center;
 }
 
 .thursday {
     background-color:  gray;
     border: 1px;
-    margin: 10px;
-    padding: 12px;
     text-align: center;
 }
 
 .friday {
     background-color: gray;
     border: 1px;
-    margin: 10px;
-    padding: 12px;
     text-align: center;
 }
 
