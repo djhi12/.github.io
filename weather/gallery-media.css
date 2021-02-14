@@ -97,12 +97,12 @@ div.picgallery {
 
 .box4grid {
 grid-template-columns: .5fr .5fr;
-width: 100%;
+width: 90%;
 }
 
 .map {
 grid-column: 1;
-width: 100%;
+width: 90%;
 
 }
 
@@ -114,7 +114,7 @@ margin-left: 10px;
 }
 
 .preston780 {
-width: 100%;
+width: 90%;
 }
 
 img {
@@ -140,8 +140,7 @@ font-size: 12px;
 
 
 
-
-                                    /*------------@Media400-----*/
+/*----------------------------------------@Media400------------------------------------------------------*/
 
 @media only screen and (max-width: 400px) {
 
