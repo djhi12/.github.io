@@ -5,12 +5,17 @@ body {
 /*-----HEADER--------*/
 
 
+
+
+/*
+SECTION-1
+*/
 /*-------WEATHER SUMMARY-------*/
 .weather-summary {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    background-image: url("img-cozumel-cover-500.jpg");
+    background-image: url("img-cozumel-cover-750.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
