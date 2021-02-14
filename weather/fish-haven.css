@@ -156,7 +156,7 @@ main {
 
 .weathersummary {
     position: absolute;
-    bottom: 40%;
+    bottom: 30%;
     right: 70%;
     left: 10%;
     top: 10%;
@@ -177,7 +177,7 @@ main {
     font-size: 15px;
 }
 
-.img-soda-spring {
+.img-fish-haven-500 {
     width: 100%;
     margin: auto;
 }
@@ -248,7 +248,7 @@ h3.forecast-day {
     margin: 10px;
 }
 
-.img-soda-spring-500 {
+.img-box-3-fish-haven-500 {
     float: right;
 }
 
