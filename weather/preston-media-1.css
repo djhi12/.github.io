@@ -376,6 +376,10 @@ h3.forecast-day {
     font-size: 15px;
 }
 
+.temp {
+    font-size: 15px;
+}
+
 
 
 
@@ -419,12 +423,13 @@ h3.forecast-day {
 }
 
 .icons {
-    grid-column: 2;
+    grid-column: 1;
+    grid-row: 2;
     font-size: 15px;
 }
 
 .preston780 {
-    width: 50%;
+    width: 60%;
 }
 
 .h2-forecast {

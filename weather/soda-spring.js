@@ -103,7 +103,7 @@ document.getElementById("output").innerHTML = f.toFixed(2);
 }
 
 /*---------CURRENT WEATHER-----------*/
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=9c01ce8bb70138120ae5d70bfa11d2c6&units=imperial';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=2f53e9006ab9f1d12dfcb58c0b2f7d4f&units=imperial';
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {

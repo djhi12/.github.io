@@ -129,7 +129,7 @@ header img {
 
 /*--------MAIN-------*/
 
-h1.preston {
+h1.h1-soda-spring {
     text-align: center;
     background-color: white;
     color:  #1d7ec3;
@@ -156,10 +156,10 @@ main {
 
 .weathersummary {
     position: absolute;
-    bottom: 20%;
+    bottom: 40%;
     right: 70%;
     left: 10%;
-    top: 30px;
+    top: 10%;
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.5);
     color: white;
@@ -256,6 +256,10 @@ h3.forecast-day {
     font-size: 22px;
 }
 
+.h2-article {
+    text-align: center;
+}
+
 /*-----------CONTENT BOX 4--------*/
 
 .contentbox4 {
@@ -280,9 +284,34 @@ h3.forecast-day {
 }
 
 .img-soda-spring-map-500 {
-    width: 50%;
-
+    width: 100%;
 }
+
+.h2-forecast {
+    text-align: center;
+}
+
+/*-----SECTION-EVENTS-----*/
+
+#sec-events {
+    background-color: #1d7ec3;
+    max-width: 780px;
+    margin: auto;
+}
+
+.h2-events {
+    text-align: center;
+}
+
+hr {
+    max-width: 600px;
+}
+
+.sec-events-par {
+    padding: 5px;
+}
+
+
 
 /*-----FOOTER-----*/
 

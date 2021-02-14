@@ -1,0 +1,507 @@
+@media only screen and (max-width: 700px) {
+
+
+    /*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+
+
+body {
+   margin: auto;
+   width: 100%;
+}
+
+
+/*-----logo---
+picture img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   height: 150px;
+}
+*/
+
+
+/*------NAVIGATION-----*/
+ul {
+   font-size: 15px;
+   max-width: 700px;
+   margin: auto;
+   
+}
+
+
+li {
+   float: left;
+   max-width: 700px;
+   margin: auto;
+}
+
+
+
+/*-----HEADER----*/
+
+
+.headings {
+   flex-direction: column;
+}
+
+/*--------MAIN-------*/
+
+h1.h1-fish-haven {
+   text-align: center;
+   font-size: 30px;
+   
+}
+
+main {
+ padding: 15px;  
+ font-size: 25px;
+ width: 80%;
+ margin-left: 15px;
+ max-width: 700px;
+ margin: auto;
+}
+
+/*-----------CONTENT BOX 1--------*/
+
+.contentbox1 {
+   position: relative;
+}
+
+.weathersummary {
+   position: absolute;
+   bottom: 30%;
+   right: 50%;
+   left: 10%;
+   top: 10%;
+   padding-left: 1%;
+   width: 60%;
+
+}
+
+.weathersummary1 {
+   font-size: 20px;
+   background: none;
+}
+
+.weathersummarypar{
+   font-size: 15px;
+}
+
+.img-soda-spring {
+   width: 100%;
+   margin: auto;
+}
+
+
+/*-----------CONTENT BOX 2/5 DAY FORECAST--------*/
+
+.contentbox2 {
+   padding: 10px;
+   margin: 5px;
+}
+
+.box {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 5px;
+}
+
+.monday {
+   border: 1px;
+   text-align: center;
+}
+
+.tuesday {
+   border: 1px;
+   text-align: center;
+}
+
+.wednesday {
+   border: 1px;
+   text-align: center;
+}
+
+.thursday {
+   border: 1px;
+   text-align: center;
+}
+
+.friday {
+   border: 1px;
+   text-align: center;
+}
+
+
+h2.forecast {
+   text-align: center;
+   font-size: 25px;
+}
+
+h3.forecast-day {
+   font-size: 20px;
+}
+
+
+
+
+/*-----------CONTENT BOX 3--------*/
+
+.contentbox3 {
+   padding: 15px;
+   margin: 10px;
+}
+
+.img-soda-spring-500 {
+   float: right;
+   width: 50%;
+}
+
+.lorempar {
+   font-size: 15px;
+}
+
+.h2-article {
+   font-size: 25px;
+   text-align: center;
+}
+
+/*-----------CONTENT BOX 4--------*/
+
+.contentbox4 {
+   padding: 15px;
+   margin: 10px;
+}
+
+.box4grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+}
+
+.map {
+   grid-column: 1;
+   
+}
+
+.icons {
+   grid-column: 2;
+   font-size: 15px;
+}
+
+.img-soda-spring-map-500 {
+   width: 60%;
+   margin: auto;
+}
+
+.h2-forecast {
+   font-size: 25px;
+   text-align: center;
+}
+
+/*-----SECTION-EVENTS-----*/
+
+#sec-events {
+   max-width: 505px;
+   margin: auto;
+}
+
+.h2-events {
+   text-align: center;
+   font-size: 25px;
+}
+
+hr {
+   max-width: 400px;
+}
+
+.sec-events-par {
+   padding: 5px;
+   font-size: 15px;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+   text-align: center;
+   max-width: 800px;
+   margin: auto;
+   font-size: 15px;
+
+}
+
+#Date {
+   text-align: center;
+}
+
+
+}
+
+
+
+
+/*------------------------------------------------------@Media 400--------------------------------*/
+@media only screen and (max-width: 400px) {
+
+    /*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+
+
+body {
+   margin: auto;
+   width: 100%;
+}
+
+
+/*-----logo---
+picture img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   height: 150px;
+}
+*/
+
+
+/*------NAVIGATION-----*/
+ul {
+   font-size: 15px;
+   max-width: 700px;
+   margin: auto;
+   
+}
+
+
+li {
+   float: left;
+   max-width: 700px;
+   margin: auto;
+}
+
+button {
+   display:contents;
+   color: white;
+}
+
+.menu {
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+nav ul.hide {
+   display: none;
+}
+
+
+/*-----HEADER----*/
+
+
+.headings {
+   flex-direction: column;
+}
+
+/*--------MAIN-------*/
+
+h1.h1-fish-haven {
+   text-align: center;
+   font-size: 30px;
+   
+}
+
+main {
+ padding: 15px;  
+ font-size: 25px;
+ width: 80%;
+ margin-left: 15px;
+ max-width: 700px;
+ margin: auto;
+}
+
+/*-----------CONTENT BOX 1--------*/
+
+.contentbox1 {
+   position: relative;
+}
+
+.weathersummary {
+   position: absolute;
+   bottom: 3%;
+   right: 0%;
+   left: 0%;
+   top: 0%;
+   padding-left: 1%;
+   width: 99%;
+
+}
+
+.weathersummary1 {
+   font-size: 15px;
+   background: none;
+}
+
+.weathersummarypar{
+   font-size: 12px;
+}
+
+.img-soda-spring {
+   width: 100%;
+   margin: auto;
+}
+
+
+/*-----------CONTENT BOX 2/5 DAY FORECAST--------*/
+
+.contentbox2 {
+   padding: 10px;
+   margin: 5px;
+}
+
+.box {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 5px;
+}
+
+.monday {
+   border: 1px;
+   text-align: center;
+}
+
+.tuesday {
+   border: 1px;
+   text-align: center;
+}
+
+.wednesday {
+   border: 1px;
+   text-align: center;
+}
+
+.thursday {
+   border: 1px;
+   text-align: center;
+}
+
+.friday {
+   border: 1px;
+   text-align: center;
+}
+
+
+h2.forecast {
+   text-align: center;
+   font-size: 25px;
+}
+
+h3.forecast-day {
+   font-size: 20px;
+}
+
+.temp {
+   font-size: 15px;
+}
+
+
+
+
+/*-----------CONTENT BOX 3--------*/
+
+.contentbox3 {
+   padding: 15px;
+   margin: 10px;
+}
+
+.img-soda-spring-500 {
+   float: right;
+   width: 50%;
+}
+
+.lorempar {
+   font-size: 15px;
+}
+
+.h2-article {
+   font-size: 25px;
+   text-align: center;
+}
+
+/*-----------CONTENT BOX 4--------*/
+
+.contentbox4 {
+   padding: 15px;
+   margin: 10px;
+}
+
+.box4grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+}
+
+.map {
+   grid-column: 1;
+   
+}
+
+.icons {
+   grid-column: 1;
+   grid-row: 2;
+   font-size: 15px;
+}
+
+.img-soda-spring-map-500 {
+   width: 70%;
+   margin: auto;
+}
+
+.h2-forecast {
+   font-size: 20px;
+   text-align: center;
+}
+
+/*-----SECTION-EVENTS-----*/
+
+#sec-events {
+   max-width: 285px;
+   margin: auto;
+}
+
+.h2-events {
+   text-align: center;
+   font-size: 20px;
+}
+
+hr {
+   max-width: 400px;
+}
+
+.sec-events-par {
+   padding: 5px;
+   font-size: 15px;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+   text-align: center;
+   max-width: 800px;
+   margin: auto;
+   font-size: 10px;
+
+}
+
+#Date {
+   text-align: center;
+}
+
+
+}
