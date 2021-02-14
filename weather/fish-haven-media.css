@@ -74,7 +74,7 @@ main {
 
 .weathersummary {
    position: absolute;
-   bottom: 30%;
+   bottom: 5%;
    right: 50%;
    left: 10%;
    top: 10%;
@@ -193,7 +193,7 @@ h3.forecast-day {
    font-size: 15px;
 }
 
-.img-soda-spring-map-500 {
+.img-fish-haven-map-500 {
    width: 60%;
    margin: auto;
 }
@@ -458,7 +458,7 @@ h3.forecast-day {
    font-size: 15px;
 }
 
-.img-soda-spring-map-500 {
+.img-fish-haven-map-500 {
    width: 70%;
    margin: auto;
 }

@@ -11,10 +11,13 @@
 
     ul {
         font-size: 18px;
+        max-width: 700px;
+        margin: auto;
     }
     
     li {
-        float: none;
+        float: center;
+        font-size: 15px;
     }
     
     li a {
@@ -68,7 +71,7 @@ footer {
   }
 
 
-/*---------@Media 400--------*/
+/*------------------------------------------@Media 400----------------------------------------------------*/
 @media only screen and (max-width: 400px) {
 
     #Greetings {
