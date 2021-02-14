@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Preston Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Weather Site for Daniel John Idorot">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="preston.css">
+    <link rel="stylesheet" href="preston-media-1.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="icon.png" alt="Logo">
+        </picture>
+        <section class="headings">
+            <h2 class="sitename">The Surface <br><small>Your Trusted Weather Forecaster</small></h2>
+        </section>
+    </header>
+    <section id="Greetings">
+    </section>
+    <nav class="clearfix">
+        <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a class="link" href="weather.html">Home</a></li>
+            <li><a class="link" id="active" href="preston.html">Preston</a></li>
+            <li><a class="link" href="soda-spring.html">Soda Springs</a></li>
+            <li><a class="link" href="fish-haven.html">Fish Haven</a></li>
+            <li><a class="link" href="storm-center.html">Storm Center</a></li>
+            <li><a class="link" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <h1 class="preston">Preston Idaho</h1>
+    <main>
+        <div class="contentbox1">
+            <img class="preston" alt="preston-img" src="preston-1300.jpg">
+
+            <!--- width="2100" sizes="10vw
+            srcset="preston800.png 800w, preston500.png 500w,">-->
+
+            <div class="weathersummary">
+                <h1 class="weathersummary1">Weather Summary</h1><hr>
+                <p class="weathersummarypar"><b>Currently: </b>Overcast clouds. Gentle Breeze</p>
+                <p class="weathersummarypar"><b>High: <span id='current-temp'></span>&deg; C</b></p>
+                <p class="weathersummarypar"><b>Wind Chill: <span id='output'></span></b></p>
+                <p class="weathersummarypar"><b>Humidity:</b> 52%</p>
+                <p class="weathersummarypar"><b>Wind Speed: <span id='windSpeed'></span></b> m/h</p>
+            </div>
+
+        </div>
+        <div class="contentbox2">
+            <h2 class="forecast">5 Day Forecast</h2>
+            <div class="box">
+                <div class="monday">
+                    <h3 class="forecast-day">Monday</h3>
+                    <img src="http://openweathermap.org/img/wn/13d@2x.png" alt="snow">
+                    <p class="temp">-9&deg;C</p>
+                </div>
+
+                <div class="tuesday">
+                    <h3 class="forecast-day">Tuesday</h3>
+                    <img src="http://openweathermap.org/img/wn/13d@2x.png" alt="snow">
+                    <p class="temp">-12&deg;C</p>
+                </div>
+
+                <div class="wednesday">
+                    <h3 class="forecast-day">Wednesday</h3>
+                    <img src="http://openweathermap.org/img/wn/13d@2x.png" alt="snow">
+                    <p class="temp">-8&deg;C</p>
+                </div>
+
+                <div class="thursday">
+                    <h3 class="forecast-day">Thursday</h3>
+                    <img src="http://openweathermap.org/img/wn/13d@2x.png" alt="snow">
+                    <p class="temp">-3&deg;C</p>
+                </div>
+
+                <div class="friday">
+                    <h3 class="forecast-day">Friday</h3>
+                    <img src="http://openweathermap.org/img/wn/13d@2x.png" alt="snow">
+                    <p class="temp">-2&deg;C</p>
+                </div>
+            </div>
+        </div>
+        <div class="contentbox3">
+            <h2 class="h2-article">Article</h2>
+            <img class="PrestonArt400" src="PrestonArt400.jpg" alt="Preston">
+            <p class="lorempar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut varius tellus, nec iaculis ante. 
+            Quisque suscipit at nulla at ornare. Sed ullamcorper vehicula risus ac iaculis. Sed pellentesque,
+            mauris quis feugiat faucibus, lectus nunc molestie sem, ac dapibus sem est imperdiet dui. Vivamus
+            posuere tempus justo nec volutpat. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Nullam dignissim arcu id lorem venenatis tristique.</p>
+            <p class="lorempar">Morbi at commodo ex. Aenean fermentum, nulla id pretium scelerisque, nisl dui aliquam orci, non
+            sollicitudin nisl velit ac nunc. In dictum gravida elit nec posuere. Donec vel felis nibh. Fusce 
+            fermentum placerat scelerisque. Nam condimentum posuere dictum. Fusce egestas libero id leo
+            maximus, eu aliquam augue tempor. Cras dignissim metus id metus feugiat, eget bibendum lacus 
+            hendrerit. Mauris luctus dui a tortor tincidunt, eget aliquet elit egestas. Ut ullamcorper neque 
+            ultrices felis posuere dignissim.</p>
+
+        </div>
+        <div class="contentbox4">
+            <h2 class="h2-forecast">Contact</h2>
+
+            <div class="box4grid">
+            <div class="map">
+                <img class="preston780" src="prestonmap780.png" alt="prestonmap">
+            </div>
+
+            <div class="icons">
+                <p>Cellphone number: 09163120212</p>
+                <p>Email Address: djhi_lds@yahoo.com</p>
+            </div>
+            </div>
+            </div>
+
+    </main>
+
+    <footer>
+        <!--
+     Contact information
+     Map
+     Copy right information
+     Author's name
+    -->
+        <p>&copy; 2021 | Daniel John Idorot |
+            <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <div id="Date"></div>
+    </footer>
+
+   
+<script src="preston.js"></script>
+</body>
+
+</html>
