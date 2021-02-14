@@ -1,1 +1,32 @@
+body {
+    margin: 0;
+}
+
 /*-----HEADER--------*/
+
+
+/*-------WEATHER SUMMARY-------*/
+.weather-summary {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    background-image: url("img-cozumel-cover-500.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather-summary-1 {
+    position: absolute;
+    bottom: 30%;
+    right: 70%;
+    left: 10%;
+    top: 10%;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding-left: 1%;
+    width: 30%;
+}

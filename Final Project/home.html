@@ -21,7 +21,6 @@
     <header>
         <nav class="clearfix">
             <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
-            <img src="">
             <ul id="primaryNav" class="hide">
                 <li><a class="link" id="active" href="home.html">Home</a></li>
                 <li><a class="link" href="rental.html">Rentals</a></li>
@@ -31,7 +30,19 @@
             </ul>
         </nav>
     </header>
+    <hr>
     <main>
+        <section class="weather-summary">
+            <div class="weather-summary-1">
+            <h1 class="h1-weather-summary">Weather Summary</h1><hr>
+                <p class="weathersummarypar"><b>Currently: </b>Overcast clouds. Gentle Breeze</p>
+                <p class="weathersummarypar"><b>High: <span id='current-temp'></span>&deg; C</b></p>
+                <p class="weathersummarypar"><b>Wind Chill: <span id='output'></span></b></p>
+                <p class="weathersummarypar"><b>Humidity:</b> 52%</p>
+                <p class="weathersummarypar"><b>Wind Speed: <span id='windSpeed'></span></b> m/h</p>
+            </div>
+    </section>
+
     </main>
 
     <footer>
