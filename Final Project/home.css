@@ -3,7 +3,10 @@ body {
 }
 
 /*-----HEADER--------*/
-
+/*------NAVIGATION-------*/
+button.burger-menu {
+    display: hide;
+}
 
 
 
@@ -11,7 +14,7 @@ body {
 SECTION-1
 */
 /*-------WEATHER SUMMARY-------*/
-.weather-summary {
+.section-weather-summary {
     position: relative;
     width: 100%;
     margin: auto;
@@ -21,6 +24,7 @@ SECTION-1
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 15px;
 }
 
 .weather-summary-1 {
@@ -35,3 +39,49 @@ SECTION-1
     padding-left: 1%;
     width: 30%;
 }
+
+/*
+Section-2
+*/
+/*-------SECTION-IMAGES----------*/
+.section-images {
+    width: 70%;
+    margin: auto;
+}
+
+.island-1-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
+}
+
+
+.picture-1 {
+    margin-bottom: 150px;
+}
+
+.island-2-500 {
+    width: 40%;
+    transition: width 2s;
+    margin-right: 10px;
+    float: right;
+    
+}
+
+.island-2-500:hover {
+    width: 450px;
+}
+
+.paragaph-2 {
+    margin-right: 15px;
+}
+
+/*
+FOOTER-2
+*/
+/*---------FOOTER------*/
+.copy-right {
+    margin-top: 500px;
+}
+
+
