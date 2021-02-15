@@ -112,6 +112,30 @@ Section-2
     margin-bottom: 150px;
 }
 
+/*--PICTURE-6--*/
+.scoot-2-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: right;
+}
+
+.picture-6 {
+    margin-bottom: 150px;
+
+}
+
+/*--PICTURE-7--*/
+.scoot-3-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-7 {
+    margin-bottom: 150px;
+
+}
+
 .paragaph-2 {
     margin-right: 15px;
 }
