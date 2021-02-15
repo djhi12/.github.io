@@ -62,19 +62,25 @@ Section-2
 
 .island-2-500 {
     width: 40%;
-    transition: width 2s;
     margin-right: 10px;
     float: right;
-    
 }
 
-.island-2-500:hover {
-    width: 450px;
+.picture-2 {
+    margin-bottom: 150px;
+}
+
+.island-3-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
 }
 
 .paragaph-2 {
     margin-right: 15px;
 }
+
+
 
 /*
 FOOTER-2
