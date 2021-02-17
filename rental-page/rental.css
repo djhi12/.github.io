@@ -2,6 +2,13 @@ body {
     margin: 0;
 }
 
+/*
+SECTION-1
+*/
+.information-services {
+    max-width: 500px;
+    margin: auto;
+}
 
 /*
 SECTION-2
@@ -152,6 +159,16 @@ SECTION-2
     font-size: 15px;
 }
 
+
+/*
+FOOTER-1
+*/
+.sources-contacts {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+/*
+SECTION-1
+*/
+.section-images {
+    max-width: 700px;
+    margin: auto;
+}
+
+/*--PICTURE-1--*/
+.island-1-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-1 {
+    margin-bottom: 150px;
+}
+
+/*
+FOOTER-1
+*/
+.sources-contacts {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
