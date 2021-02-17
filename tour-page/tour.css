@@ -25,15 +25,16 @@ SECTION-1
     margin-bottom: 250px;
 }
 
+
 /*--PICTURE-2--*/
 .island-2-500 {
     width: 50%;
-    margin-right: 10px;
+    margin-left: 10px;
     float: right;
 }
 
 .picture-2 {
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
 
 /*--PICTURE-3--*/
@@ -44,19 +45,100 @@ SECTION-1
 }
 
 .picture-3 {
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
 
 /*--PICTURE-4--*/
 .island-4-500 {
     width: 50%;
-    margin-right: 10px;
+    margin-left: 10px;
     float: right;
 }
 
 .picture-4 {
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
+
+
+/*--PICTURE-5--*/
+.island-5-500 {
+    width: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-5 {
+    margin-bottom: 100px;
+}
+
+/*--PICTURE-6--*/
+.island-6-500 {
+    width: 50%;
+    margin-left: 10px;
+    float: right;
+}
+
+.picture-6 {
+    margin-bottom: 100px;
+}
+
+/*--PICTURE-7--*/
+.island-7-500 {
+    width: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-7 {
+    margin-bottom: 150px;
+}
+
+/*--PICTURE-8--*/
+.island-8-500 {
+    width: 50%;
+    margin-left: 10px;
+    float: right;
+}
+
+.picture-8 {
+    margin-bottom: 100px;
+}
+
+/*--PICTURE-9--*/
+.island-9-500 {
+    width: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-9 {
+    margin-bottom: 100px;
+}
+
+/*--PICTURE-10--*/
+.island-10-500 {
+    width: 50%;
+    margin-left: 10px;
+    float: right;
+}
+
+.picture-10 {
+    margin-bottom: 100px;
+}
+
+/*--PICTURE-11--*/
+.island-11-500 {
+    width: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-11 {
+    margin-bottom: 100px;
+}
+
+
+
 
 /*
 FOOTER-1
