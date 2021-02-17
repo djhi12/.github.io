@@ -11,9 +11,7 @@ body {
 
 /*-----HEADER--------*/
 /*------NAVIGATION-------*/
-button.burger-menu {
-    display: hide;
-}
+
 
 
 
@@ -141,13 +139,38 @@ Section-2
 }
 
 
+/*
+Section-3
+*/
+/*--SECTION-3-TYPES-OF-RENTALS--*/
+.types-of-rentals {
+    width: 70%;
+    margin: auto;
+}
+
+.grid-types-of-rentals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.h1-types-of-rental {
+    text-align: center;
+}
+
+.h2-honda-motor-scooter {
+    text-align: center;
+}
+
+
+
+
 
 /*
 FOOTER-2
 */
 /*---------FOOTER------*/
 .copy-right {
-    margin-top: 500px;
+    margin-top: 200px;
 }
 
 
