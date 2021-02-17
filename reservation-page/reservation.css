@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+/*
+RENTAL-AGREEMENT
+*/
+.rental-agreement {
+    max-width: 700px;
+    margin: auto;
+}
+
+/*
+FORM
+*/
+.reservation {
+    max-width: 700px;
+    margin: auto;
+}
