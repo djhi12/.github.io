@@ -27,7 +27,7 @@
                 <li><a class="link" id="active" href="index.html">Home</a></li>
                 <li><a class="link" href="rental-page/rental.html">Rentals</a></li>
                 <li><a class="link" href="reservation-page/reservation.html">Reservations</a></li>
-                <li><a class="link" href="tour.html">Tours</a></li>
+                <li><a class="link" href="tour-page/tour.html">Tours</a></li>
                 <li><a class="link" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
@@ -54,54 +54,37 @@
                    pattern="[a-zA-Z ].{5,}" title="Sample: daniel john idorot"><br>
            
             <!---->
-            <label for="Email">Email:</label><br>
-            <input type="email" id="Email" name="Email" placeholder="djhi_lds@yahoo.com" ><br>
+            <label for="emmail">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="djhi_lds@yahoo.com" ><br>
            
             <!---->
-            <label for="Phone">Phone number:</label><br>
-            <input type="tel" id="Phone" name="Phone" placeholder=""  required><br>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder=""  required><br>
             
             <!---->
-            <label for="Code">Zip Code:</label><br>
-            <input type="number" id="Code" name="Code" placeholder="8000" required><br>
+            <label for="zip-code">Zip Code:</label><br>
+            <input type="number" id="zip-code" name="zip-code" placeholder="8000" required><br>
+
+            <!---->
+            <label for="country">Country:</label><br>
+            <input type="text" id="conutry" name="country"><br>
     
             <!---->
-            <label for="Storm">Storm Date:</label><br>
-            <input type="date" id="Storm" name="Storm"><br>
-    
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date"><br>
+           
             <!---->
-            <label for="storm-Type">Storm Type:</label><br>
-            <input list="browsers" name="storm-Type" id="storm-Type">
-                <datalist id="browsers">
-                  <option value="Flash Flood">
-                  <option value="Hail">
-                  <option value="Hurricane">
-                  <option value="Thunderstorm">
-                  <option value="Tornado">
-                </datalist><br>
+            <label for="rental-type">Rental Type:</label><br>
+            <select name="rental-type" id="rental-type">
+                <option value="select" disabled>Select Scooter . . .</option>
+                <option value="honda-metro-scooter">Honda Metro Scooter</option>
+                <option value="honda-dio-scooter">Honda Dio Scooter</option>
+                <option value="honda-pcx150-scooter">Honda -PCX150 Scooter</option>
+                <option value="honda-pioneer-atv">Honda Pioneer ATV</option>
+                <option value="jeep-wrangler-4-door-with-a/c">Jeep Wrangler - 4 Door w/ a/c</option>
+                <option value="jeep-wrangler-2-door">Jeep Wrangler - 2 Door</option>
+            </select><br>
     
-            <!---->
-            <label for="storm-severity">Storm Severity (Range 1 - 10):</label><br>
-            <input type="range" id="storm-severity" name="storm-severity" min="1" max="10"><br>
-            
-    
-            <!---->
-                <label for="storm-region">Storm Region:</label><br>
-                <select name="storm-region" id="storm-region">
-                  <option value="select" disabled>Select Region . . .</option>
-                  <option value="preston">Preston</option>
-                  <option value="soda-springs">Soda Springs</option>
-                  <option value="fish-haven">Fish Haven</option>
-                </select><br>
-    
-         
-            <p>User in-danger level:</p>
-            <input type="radio" id="options" name="options" value="options">
-            <label for="options">Yes</label><br>
-            <input type="radio" id="maybe" name="options" value="options">
-            <label for="maybe">Maybe</label><br>
-            <input type="radio" id="no" name="no" value="no">
-            <label for="no">No</label><br>
     
             <!---->
             <label for="comments">Additional Information or comments:</label><br>
@@ -115,9 +98,34 @@
        
     </main>
     
-    <footer class="icons">
-        <hr>
-        
+    <!--FOOTER-1-->
+    <footer class="sources-contacts">
+        <div class="sources">
+            <h1>Sources</h1>
+            <a href="https://www.planetware.com/tourist-attractions-/cozumel-mex-qr-coz.htm" 
+            target="_blank">www.planetware.com</a><br>
+            <a href="https://en.wikipedia.org/wiki/Palancar_Reef" 
+            target="_blank">www.en.wikipedia.org</a>
+        </div>
+
+        <div class="contact">
+            <h1>Contact</h1>
+            <h2>Email:</h2>
+            <p>djhi_lds@yahoo.com</p>
+            <h2>Phone Number:</h2>
+            <p>09163120212</p>
+            <p>06396327136</p>
+
+        </div>
+
+        <div class="social-media">
+            <h1>Social Media</h1>
+            <img src="img_girl.jpg" alt="Facebook" width="" height="">
+            <img src="img_girl.jpg" alt="Twitter" width="" height="">
+            <img src="img_girl.jpg" alt="Instagram" width="" height="">
+            <img src="img_girl.jpg" alt="LinkedIn" width="" height="">
+            <img src="img_girl.jpg" alt="Youtube" width="" height="">
+        </div>
     </footer>
 
     <!--FOOTER-2-->
