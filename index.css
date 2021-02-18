@@ -8,6 +8,13 @@ LOGO COLOR: #66FFCC (light green),
 
 font-family: 'Roboto', sans-serif; (Heading)
 font-family: 'Montserrat', sans-serif; (Paragraph)
+
+logo-background-color: #1a1a1a;
+hover: #999999; (gray);
+
+footer background-color: #e6e6e6 (light-gray);
+
+
 */
 
 
@@ -34,64 +41,50 @@ img.logo-300-new {
 
 /*------NAVIGATION-------*/
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-  }
-
-nav a:hover {
-    background-color: purple;
-    transition: 0.5s;
-    text-transform: uppercase;
-}
-
-
-/*
 ul#primaryNav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
-    background-color: #333;
+    background-color:#1a1a1a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    max-width: 800px;
+
+    
 }
 
-  li {
-    float: left;
-    
-  }
+nav {
+    background-color: #1a1a1a;
+}
 
-  li a {
+li {
+    float: left;
+}
+
+li a.link {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
-  }
+}
 
-  li a:hover {
-    background-color: #111;
-  }
+li a:hover {
+    background-color: #999999;
+}
 
-*/
+button {
+    display: none;
+}
+
+#active {
+    background-color: #1f7a1f;
+    color: white;
+}
+
 
 
 /*
@@ -240,15 +233,27 @@ Section-3
     text-align: center;
 }
 
+ul.list-honda-motor-scooter {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 /*
 FOOTER-1
 */
 .sources-contacts {
-    max-width: 900px;
+    width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: .5fr .5fr .5fr;
+    background-color: #e6e6e6;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: 150px;
 }
+
+
 
 
 /*
@@ -256,7 +261,7 @@ FOOTER-2
 */
 /*---------FOOTER------*/
 .copy-right {
-    margin-top: 200px;
+    margin-top: 10px;
     text-align: center;
 }
 

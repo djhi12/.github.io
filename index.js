@@ -23,4 +23,9 @@ function windSpeed() {
    document.getElementById('windSpeed').textContent = jsObject.wind.speed;
    windSpeed();
    });
-   
+
+
+   /*------------------------------------------BURGER-BUTTON-------------------------------------------*/
+   function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+}

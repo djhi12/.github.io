@@ -1,0 +1,58 @@
+/*------------------------------------------------------@Media 400--------------------------------*/
+@media only screen and (max-width: 400px) {
+
+    /*--
+Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+font-family: 'Roboto', sans-serif; (Header)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+--*/
+
+
+body {
+margin: auto;
+width: 100%;
+}
+
+
+
+/*-----logo---
+picture img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 150px;
+height: 150px;
+}
+*/
+
+
+/*------NAVIGATION-----*/
+ul {
+padding: 0px;
+font-size: 20px;
+max-width: 700px;
+margin: auto;
+margin-bottom: 10px;
+}
+
+
+li a {
+font-size: 15px;
+}
+  
+button {
+display:contents;
+color: white;
+}
+
+.menu {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul.hide {
+display: none;
+}
+
+}
