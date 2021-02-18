@@ -1,5 +1,10 @@
 /*
-LOGO COLOR: #66FFCC (light green), #0099FF (blue)
+LOGO COLOR: #66FFCC (light green), 
+#0099FF (blue), 
+#1f7a1f (dark green), 
+#66ff66 (light-green),
+#4dffff (sky-blue)
+
 
 
 */
@@ -10,7 +15,37 @@ body {
 }
 
 /*-----HEADER--------*/
+
+
+
 /*------NAVIGATION-------*/
+
+
+ul#primaryNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+  li {
+    float: left;
+    
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
 
 
 
