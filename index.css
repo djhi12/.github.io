@@ -6,21 +6,65 @@ LOGO COLOR: #66FFCC (light green),
 #4dffff (sky-blue)
 
 
-
+font-family: 'Roboto', sans-serif; (Heading)
+font-family: 'Montserrat', sans-serif; (Paragraph)
 */
 
 
 body {
     margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif; 
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*-----HEADER--------*/
 
 
+img.logo-300-new {
+    width: 30%;
+}
+
 
 /*------NAVIGATION-------*/
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
 
+nav a:hover {
+    background-color: purple;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+
+/*
 ul#primaryNav {
     list-style-type: none;
     margin: 0;
@@ -47,7 +91,7 @@ ul#primaryNav {
     background-color: #111;
   }
 
-
+*/
 
 
 /*
