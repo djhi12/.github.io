@@ -1,3 +1,23 @@
+/*
+LOGO COLOR: #66FFCC (light green), 
+#0099FF (blue), 
+#1f7a1f (dark green), 
+#66ff66 (light-green),
+#4dffff (sky-blue)
+
+
+font-family: 'Roboto', sans-serif; (Heading)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+
+logo-background-color: #1a1a1a;
+hover: #999999; (gray);
+
+footer background-color: #e6e6e6 (light-gray);
+
+
+*/
+
+
 body {
     margin: 0;
     padding: 0;
@@ -10,3 +30,239 @@ h1, h2, h3, h4 {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+
+/*-----HEADER--------*/
+
+
+img.logo-300-new {
+    width: 30%;
+}
+
+
+/*------NAVIGATION-------*/
+
+ul#primaryNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color:#1a1a1a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    max-width: 800px;
+
+    
+}
+
+nav {
+    background-color: #1a1a1a;
+}
+
+li {
+    float: left;
+}
+
+li a.link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #999999;
+}
+
+button {
+    display: none;
+}
+
+#active {
+    background-color: #1f7a1f;
+    color: white;
+}
+
+
+
+/*
+SECTION-1
+*/
+/*-------WEATHER SUMMARY-------*/
+.section-weather-summary {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    background-image: url("img-cozumel-cover-750.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.weather-summary-1 {
+    position: absolute;
+    bottom: 30%;
+    right: 70%;
+    left: 10%;
+    top: 10%;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding-left: 1%;
+    width: 30%;
+}
+
+/*
+Section-2
+*/
+/*-------SECTION-IMAGES----------*/
+.section-images {
+    width: 70%;
+    margin: auto;
+}
+
+/*--PICTURE-1--*/
+.island-1-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-1 {
+    margin-bottom: 150px;
+}
+
+/*--PICTURE-2--*/
+.island-2-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: right;
+}
+
+.picture-2 {
+    margin-bottom: 150px;
+}
+
+/*--PICTURE-3--*/
+.island-3-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-3 {
+    margin-bottom: 150px;
+}
+
+
+/*--PICTURE-4--*/
+.island-4-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: right;
+}
+
+.picture-4 {
+    margin-bottom: 150px;
+}
+
+/*--PICTURE-5--*/
+.scoot-1-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-5 {
+    margin-bottom: 150px;
+}
+
+/*--PICTURE-6--*/
+.scoot-2-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: right;
+}
+
+.picture-6 {
+    margin-bottom: 150px;
+
+}
+
+/*--PICTURE-7--*/
+.scoot-3-500 {
+    width: 40%;
+    margin-right: 10px;
+    float: left;
+}
+
+.picture-7 {
+    margin-bottom: 150px;
+
+}
+
+.paragaph-2 {
+    margin-right: 15px;
+}
+
+
+/*
+Section-3
+*/
+/*--SECTION-3-TYPES-OF-RENTALS--*/
+.types-of-rentals {
+    width: 70%;
+    margin: auto;
+}
+
+.grid-types-of-rentals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.h1-types-of-rental {
+    text-align: center;
+}
+
+.h2-honda-motor-scooter {
+    text-align: center;
+}
+
+ul.list-honda-motor-scooter {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*
+FOOTER-1
+*/
+.sources-contacts {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    background-color: #e6e6e6;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: 150px;
+}
+
+
+
+
+/*
+FOOTER-2
+*/
+/*---------FOOTER------*/
+.copy-right {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
