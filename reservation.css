@@ -1,3 +1,22 @@
+/*
+LOGO COLOR: #66FFCC (light green), 
+#0099FF (blue), 
+#1f7a1f (dark green), 
+#66ff66 (light-green),
+#4dffff (sky-blue)
+
+
+font-family: 'Roboto', sans-serif; (Heading)
+font-family: 'Montserrat', sans-serif; (Paragraph)
+
+logo-background-color: #1a1a1a;
+hover: #999999; (gray);
+
+footer background-color: #e6e6e6 (light-gray);
+
+*/
+
+
 body {
     margin: 0;
     padding: 0;
@@ -81,23 +100,167 @@ FORM
 .reservation {
     max-width: 700px;
     margin: auto;
+    border-style: ridge;
+    border-width: 1px;
+    box-shadow: 3px 5px 10px lightgray;
 }
+
+
+.div-reservation {
+    margin: 15px;
+}
+
+/*
+<!--FULLNAME-->
+*/
+.fullname {
+    font-family: 'Roboto', sans-serif;
+}
+
+#fullname {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--email-->
+*/
+.email {
+    font-family: 'Roboto', sans-serif;
+}
+
+#email {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--phone-->
+*/
+.phone {
+    font-family: 'Roboto', sans-serif;
+}
+
+#phone {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--zip-code-->
+*/
+.zip-code {
+    font-family: 'Roboto', sans-serif;
+}
+
+#zip-code {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--country-->
+*/
+.country {
+    font-family: 'Roboto', sans-serif;
+}
+
+#country {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--date-->
+*/
+.date {
+    font-family: 'Roboto', sans-serif;
+}
+
+#date {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--rental-type-->
+*/
+.rental-type {
+    font-family: 'Roboto', sans-serif;
+}
+
+#rental-type {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--comments-->
+*/
+.comments {
+    font-family: 'Roboto', sans-serif;
+}
+
+#comments {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--submit-->
+*/
+
+
+#submit {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+#submit:hover {
+    background-color: #1f7a1f;
+    color: white;
+}
+
 
 /*
 FOOTER-1
 */
 .sources-contacts {
-    width: 100%;
+    -ms-text-align-last: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: .5fr .5fr .5fr;
     background-color: #e6e6e6;
-    padding-left: 50px;
-    padding-right: 10px;
+    padding-left: 15%;
     margin-top: 150px;
 }
 
+.sources a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.sources a:hover {
+    color: #1f7a1f;
+}
 
 
 /*

@@ -243,13 +243,12 @@ ul.list-honda-motor-scooter {
 FOOTER-1
 */
 .sources-contacts {
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: .5fr .5fr .5fr;
     background-color: #e6e6e6;
-    padding-left: 50px;
-    padding-right: 10px;
+    padding-left: 15%;
     margin-top: 150px;
 }
 

@@ -1,0 +1,46 @@
+@media only screen and (max-width: 700px) {
+    
+
+
+/*
+FOOTER-1
+*/
+.sources-contacts {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    background-color: #e6e6e6;
+    padding-left: 0%;
+    margin-top: 1%;
+}
+
+.sources {
+
+}
+
+.contact {
+
+}
+
+
+/*
+FOOTER-2
+*/
+/*---------FOOTER------*/
+.copy-right {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+  }
+
+
+/*-----------------------------------------------------@Media-400-------------------------------------------------*/
+
+
+  @media only screen and (max-width: 400px) {
+    
+
+}

@@ -19,22 +19,22 @@
 
 <body>
     <header>
-        <a href="index.html"><img class="logo-300-new" src="logo-300-new.png"></a>
+        <a href="index.html"><img class="logo-300-new" src="logo-300-new.png" alt="logo"></a>
         <nav class="clearfix">
             <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="primaryNav" class="hide">
                 <li><a class="link" href="index.html">Home</a></li>
-                <li><a class="link" href="rental-page/rental.html">Rentals</a></li>
+                <li><a class="link" href="rental.html">Rentals</a></li>
                 <li><a class="link" id="active" href="reservation.html">Reservations</a></li>
-                <li><a class="link" href="tour-page/tour.html">Tours</a></li>
-                <li><a class="link" href="contact-page/contact.html">Contact Us</a></li>
+                <li><a class="link" href="tour.html">Tours</a></li>
+                <li><a class="link" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!--SECTION-1-RENTAL-AGREEMENT-->
         <section class="rental-agreement">
-            <h1>Rental Agreement Information</h1>
+            <h2>Rental Agreement Information</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book. It has survived not only five centuries, but also
@@ -45,33 +45,33 @@
 
         <!--FORM-->
         <form class="reservation" action="thanks.html">
-
-            <!---->
-            <label for="fullname">Full name:</label><br>
+            <div class="div-reservation">
+            <!--fullname-->
+            <label class="fullname" for="fullname">Full name:</label><br>
             <input type="text" id="fullname" name="fullname"  required 
                    pattern="[a-zA-Z ].{5,}" title="Sample: daniel john idorot"><br>
            
-            <!---->
-            <label for="emmail">Email:</label><br>
+            <!--email-->
+            <label class="email" for="email">Email:</label><br>
             <input type="email" id="email" name="email" placeholder="djhi_lds@yahoo.com" ><br>
            
-            <!---->
-            <label for="phone">Phone number:</label><br>
+            <!--phone-->
+            <label class="phone" for="phone">Phone number:</label><br>
             <input type="tel" id="phone" name="phone" placeholder=""  required><br>
             
-            <!---->
-            <label for="zip-code">Zip Code:</label><br>
+            <!--zip-code-->
+            <label class="zip-code" for="zip-code">Zip Code:</label><br>
             <input type="number" id="zip-code" name="zip-code" placeholder="8000" required><br>
 
-            <!---->
+            <!--country-->
             <label for="country">Country:</label><br>
-            <input type="text" id="conutry" name="country"><br>
+            <input type="text" id="country" name="country"><br>
     
-            <!---->
+            <!--date-->
             <label for="date">Date:</label><br>
             <input type="date" id="date" name="date"><br>
            
-            <!---->
+            <!--rental-type-->
             <label for="rental-type">Rental Type:</label><br>
             <select name="rental-type" id="rental-type">
                 <option value="select" disabled>Select Scooter . . .</option>
@@ -84,14 +84,14 @@
             </select><br>
     
     
-            <!---->
-            <label for="comments">Additional Information or comments:</label><br>
-            <textarea id="comments" name="comments" rows="4" cols="50">
-            </textarea>
+            <!--comments-->
+            <label class="comments" for="comments">Additional Information or comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
             <br><br>
     
-            <!---->
-            <input type="submit" value="Submit" id="Submit">
+            <!--submit-->
+            <input type="submit" value="Submit" id="submit">
+            </div>
           </form>
        
     </main>
@@ -128,7 +128,7 @@
 
     <!--FOOTER-2-->
     <footer class="copy-right">
-        <p>&copy; 2021 | Daniel John Idorot |
+        <p>&copy; 2021 | Daniel John Idorot | Web Front-end Development |
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
         <div id="Date"></div>
     </footer>

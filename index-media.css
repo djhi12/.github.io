@@ -1,4 +1,142 @@
-/*------------------------------------------------------@Media 400--------------------------------*/
+@media only screen and (max-width: 700px) { 
+
+/*------NAVIGATION-------*/
+
+ul#primaryNav {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    max-width: 800px;
+    font-size: 100%;
+}
+
+li a.link {
+    padding: 12px 14px;
+}
+
+/*
+SECTION-1
+*/
+/*-------WEATHER SUMMARY-------*/
+.section-weather-summary {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.weather-summary-1 {
+    position: absolute;
+    bottom: 30%;
+    right: 70%;
+    left: 10%;
+    top: 20%;
+    color: white;
+    padding-left: 1%;
+    width: 30%;
+}
+
+.h1-weather-summary {
+    font-size: 20px;
+}
+
+.weathersummarypar {
+    font-size: 15px;
+}
+
+/*
+Section-3
+*/
+/*--SECTION-3-TYPES-OF-RENTALS--*/
+.types-of-rentals {
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.h1-types-of-rental {
+    font-size: 25px;
+}
+
+.h2-honda-motor-scooter {
+    font-size: 20px;
+}
+
+ul.list-honda-motor-scooter {
+    font-size: 15px;
+}
+
+
+/*
+FOOTER-1
+*/
+.sources-contacts {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    background-color: #e6e6e6;
+    padding-left: 5%;
+    margin-top: 10px;
+}
+
+.sources h1 {
+    font-size: 20px;
+}
+
+.sources a {
+    font-size: 10px;
+
+}
+
+
+.contact h1 {
+    font-size: 20px;
+}
+
+.contact h2 {
+    font-size: 15px;
+}
+
+.contact p {
+    font-size: 10px;
+}
+
+.social-media h1 {
+    font-size: 20px;
+}
+
+.img-social-media-icon {
+    width: 10%;
+}
+
+
+/*
+FOOTER-2
+*/
+/*---------FOOTER------*/
+.copy-right {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.copy-right p {
+    font-size: 10px;
+}
+
+
+}
+
+
+
+
+
+/*------------------------------------------------------@Media-400------------------------------------------*/
 @media only screen and (max-width: 400px) {
 
     /*--
@@ -26,7 +164,38 @@ height: 150px;
 */
 
 
+/*
+SECTION-1
+*/
+/*-------WEATHER SUMMARY-------*/
+.section-weather-summary {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.weather-summary-1 {
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    color: white;
+    padding-left: 1%;
+    width: 99%;
+}
+
+.h1-weather-summary {
+    font-size: 15px;
+}
+
+.weathersummarypar {
+    font-size: 12px;
+}
+
+
 /*------NAVIGATION-----*/
+
+
 ul {
 padding: 0px;
 font-size: 20px;
@@ -37,7 +206,7 @@ margin-bottom: 10px;
 
 
 li a {
-font-size: 15px;
+font-size: 12px;
 }
   
 button {
@@ -45,14 +214,203 @@ display:contents;
 color: white;
 }
 
-.menu {
-text-align: center;
-font-family: 'Roboto', sans-serif;
-
-}
 
 nav ul.hide {
 display: none;
 }
+
+/*
+Section-2
+*/
+/*-------SECTION-IMAGES----------*/
+.section-images {
+    max-width: 80%;
+    margin: auto;
+}
+
+picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .1%;
+}
+
+.h2-cozumel {
+    font-size: 15px;
+}
+
+/*--PICTURE-1--*/
+
+
+.island-1-500 {
+    width: 100%;
+}
+
+.picture-1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+
+/*--PICTURE-2--*/
+.island-2-500 {
+    width: 100%;
+}
+
+.picture-2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+/*--PICTURE-3--*/
+.island-3-500 {
+    width: 100%;
+}
+
+.picture-3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+
+/*--PICTURE-4--*/
+.island-4-500 {
+    width: 100%;
+}
+
+.picture-4 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+/*--PICTURE-5--*/
+.scoot-1-500 {
+    width: 100%;
+}
+
+.picture-5 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+/*--PICTURE-6--*/
+.scoot-2-500 {
+    width: 100%;
+}
+
+.picture-6 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+/*--PICTURE-7--*/
+.scoot-3-500 {
+    width: 100%;
+}
+
+.picture-7 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
+}
+
+.paragaph-2 {
+    margin-right: 5px;
+}
+
+
+/*
+Section-3
+*/
+/*--SECTION-3-TYPES-OF-RENTALS--*/
+.types-of-rentals {
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.grid-types-of-rentals {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.h1-types-of-rental {
+    font-size: 18px;
+}
+
+.h2-honda-motor-scooter {
+    font-size: 13px;
+}
+
+ul.list-honda-motor-scooter {
+    font-size: 10px;
+}
+
+
+/*
+FOOTER-1
+*/
+.sources-contacts {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .5fr;
+    background-color: #e6e6e6;
+    padding-left: 5%;
+    margin-top: 10px;
+}
+
+.sources h1 {
+    font-size: 18px;
+}
+
+.sources a {
+    font-size: 10px;
+
+}
+
+
+.contact h1 {
+    font-size: 18px;
+}
+
+.contact h2 {
+    font-size: 15px;
+}
+
+.contact p {
+    font-size: 10px;
+}
+
+.social-media h1 {
+    font-size: 15px;
+}
+
+.img-social-media-icon {
+    width: 0%;
+}
+
+
+/*
+FOOTER-2
+*/
+/*---------FOOTER------*/
+.copy-right {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.copy-right p {
+    font-size: 10px;
+}
+
+
 
 }

@@ -20,7 +20,6 @@ footer background-color: #e6e6e6 (light-gray);
 
 body {
     margin: 0;
-    padding: 0;
 }
 
 h1, h2, h3, h4 {
@@ -121,93 +120,107 @@ SECTION-1
 Section-2
 */
 /*-------SECTION-IMAGES----------*/
+
 .section-images {
-    width: 70%;
+    max-width: 100%;
     margin: auto;
 }
 
+div.picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .1%;
+    
+}
+
+.h2-cozumel {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 /*--PICTURE-1--*/
+
+
 .island-1-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
+    width: 100%;
 }
 
 .picture-1 {
-    margin-bottom: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
 }
+
 
 /*--PICTURE-2--*/
 .island-2-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: right;
+    width: 100%;
 }
 
 .picture-2 {
-    margin-bottom: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
 }
 
 /*--PICTURE-3--*/
 .island-3-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
+    width: 100%;
 }
 
 .picture-3 {
-    margin-bottom: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
 }
 
 
 /*--PICTURE-4--*/
 .island-4-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: right;
+    width: 100%;
 }
 
 .picture-4 {
-    margin-bottom: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
 }
 
 /*--PICTURE-5--*/
 .scoot-1-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
+    width: 100%;
 }
 
 .picture-5 {
-    margin-bottom: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
 }
 
 /*--PICTURE-6--*/
 .scoot-2-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: right;
+    width: 100%;
 }
 
 .picture-6 {
-    margin-bottom: 150px;
-
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
 }
 
 /*--PICTURE-7--*/
 .scoot-3-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
+    width: 100%;
 }
 
 .picture-7 {
-    margin-bottom: 150px;
-
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: auto;
 }
 
 .paragaph-2 {
-    margin-right: 15px;
+    margin-right: 5px;
 }
 
 
@@ -218,6 +231,8 @@ Section-3
 .types-of-rentals {
     width: 70%;
     margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .grid-types-of-rentals {
@@ -243,17 +258,23 @@ ul.list-honda-motor-scooter {
 FOOTER-1
 */
 .sources-contacts {
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: .5fr .5fr .5fr;
     background-color: #e6e6e6;
-    padding-left: 50px;
-    padding-right: 10px;
-    margin-top: 150px;
+    padding-left: 15%;
+    margin-top: 10px;
 }
 
+.sources a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.sources a:hover {
+    color: #1f7a1f;
+}
 
 
 /*
