@@ -1,0 +1,464 @@
+@media only screen and (max-width: 700px) { 
+
+    /*------NAVIGATION-------*/
+    
+    ul#primaryNav {
+        list-style-type: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bolder;
+        max-width: 800px;
+        font-size: 100%;
+    }
+    
+    li a.link {
+        padding: 12px 14px;
+    }
+    
+    
+    /*
+RENTAL-AGREEMENT
+*/
+.rental-agreement {
+    max-width: 500px;
+    margin: auto;
+}
+
+.h2-rental-agreement {
+    font-size: 18px;
+}
+
+.par-rental-agreement {
+    font-size: 13;
+}
+
+
+/*
+FORM
+*/
+.reservation {
+    max-width: 500px;
+}
+
+
+.div-reservation {
+    margin: 10px;
+}
+
+/*
+<!--FULLNAME-->
+*/
+.fullname {
+    font-size: 15px;
+}
+
+#fullname {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/*
+<!--email-->
+*/
+.email {
+    font-size: 15px;
+}
+
+#email {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/*
+<!--phone-->
+*/
+.phone {
+    font-size: 15px;
+}
+
+#phone {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/*
+<!--zip-code-->
+*/
+.zip-code {
+    font-size: 15px;
+}
+
+#zip-code {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/*
+<!--country-->
+*/
+.country {
+    font-size: 15px;
+}
+
+#country {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/*
+<!--date-->
+*/
+.date {
+    font-size: 15px;
+}
+
+#date {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/*
+<!--rental-type-->
+*/
+.rental-type {
+    font-size: 15px;
+}
+
+#rental-type {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/*
+<!--comments-->
+*/
+.comments {
+    font-size: 15px;
+}
+
+#comments {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/*
+<!--submit-->
+*/
+
+
+#submit {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+    /*
+    FOOTER-1
+    */
+    .sources-contacts {
+        max-width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: .5fr .5fr .5fr;
+        background-color: #e6e6e6;
+        padding-left: 5%;
+        margin-top: 10px;
+    }
+    
+    .sources h1 {
+        font-size: 20px;
+    }
+    
+    .sources a {
+        font-size: 10px;
+    
+    }
+    
+    
+    .contact h1 {
+        font-size: 20px;
+    }
+    
+    .contact h2 {
+        font-size: 15px;
+    }
+    
+    .contact p {
+        font-size: 10px;
+    }
+    
+    .social-media h1 {
+        font-size: 20px;
+    }
+    
+    .img-social-media-icon {
+        width: 10%;
+    }
+    
+    
+    /*
+    FOOTER-2
+    */
+    /*---------FOOTER------*/
+    .copy-right {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .copy-right p {
+        font-size: 10px;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    
+    /*------------------------------------------------------@Media-400------------------------------------------*/
+    @media only screen and (max-width: 400px) {
+    
+        /*--
+    Color scheme = #1d7ec3 (blue), #64ce8d (lightgreen), #fffbfa (white)
+    font-family: 'Roboto', sans-serif; (Header)
+    font-family: 'Montserrat', sans-serif; (Paragraph)
+    --*/
+    
+    
+    body {
+    margin: auto;
+    width: 100%;
+    }
+    
+    
+    
+    /*-----logo---
+    picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    }
+    */
+    
+
+    /*--------------------------------------------------------*/
+    /*------NAVIGATION-----*/
+    
+    
+    ul {
+    padding: 0px;
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+    }
+    
+    
+    li a {
+    font-size: 12px;
+    }
+      
+    button {
+    display:contents;
+    color: white;
+    }
+    
+    
+    nav ul.hide {
+    display: none;
+    }
+    
+
+/*-------------------------------------------------------------*/
+   
+        /*
+RENTAL-AGREEMENT
+*/
+.rental-agreement {
+    max-width: 300px;
+    margin: auto;
+}
+
+.h2-rental-agreement {
+    font-size: 15px;
+}
+
+.par-rental-agreement {
+    font-size: 10;
+}
+
+
+/*
+FORM
+*/
+.reservation {
+    max-width: 300px;
+}
+
+
+.div-reservation {
+    margin: 8px;
+}
+
+/*
+<!--FULLNAME-->
+*/
+.fullname {
+    font-size: 10px;
+}
+
+#fullname {
+    padding: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+/*
+<!--email-->
+*/
+.email {
+    font-size: 10px;
+}
+
+#email {
+    padding: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+/*
+<!--phone-->
+*/
+.phone {
+    font-size: 10px;
+}
+
+#phone {
+    padding: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+/*
+<!--zip-code-->
+*/
+.zip-code {
+    font-size: 10px;
+}
+
+#zip-code {
+    padding: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+/*
+<!--country-->
+*/
+.country {
+    font-size: 10px;
+}
+
+#country {
+    padding: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+
+
+
+/*
+<!--comments-->
+*/
+.comments {
+    font-size: 10px;
+}
+
+#comments {
+    padding: 5px;
+    margin-bottom: 8px;
+    width: 90%;
+    font-size: 10px;
+}
+
+/*
+<!--submit-->
+*/
+
+
+#submit {
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+    /*--------------------------------------------------------------*/
+
+
+    /*
+    FOOTER-1
+    */
+    .sources-contacts {
+        max-width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: .5fr;
+        background-color: #e6e6e6;
+        padding-left: 5%;
+        margin-top: 10px;
+    }
+    
+    .sources h1 {
+        font-size: 18px;
+    }
+    
+    .sources a {
+        font-size: 10px;
+    
+    }
+    
+    
+    .contact h1 {
+        font-size: 18px;
+    }
+    
+    .contact h2 {
+        font-size: 15px;
+    }
+    
+    .contact p {
+        font-size: 10px;
+    }
+    
+    .social-media h1 {
+        font-size: 15px;
+    }
+    
+    .img-social-media-icon {
+        width: 0%;
+    }
+    
+    
+    /*
+    FOOTER-2
+    */
+    /*---------FOOTER------*/
+    .copy-right {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .copy-right p {
+        font-size: 10px;
+    }
+    
+    
+    
+    }

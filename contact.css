@@ -85,160 +85,130 @@ button {
     color: white;
 }
 
-
+/*------------------------------------------------------------------------------*/
 
 /*
-SECTION-1
+FORM
 */
-/*-------WEATHER SUMMARY-------*/
-.section-weather-summary {
-    position: relative;
-    width: 100%;
+.reservation {
+    max-width: 700px;
     margin: auto;
-    background-image: url("img-cozumel-cover-750.jpg");
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15px;
+    border-style: ridge;
+    border-width: 1px;
+    box-shadow: 3px 5px 10px lightgray;
+    margin-top: 15px;
 }
 
-.weather-summary-1 {
-    position: absolute;
-    bottom: 30%;
-    right: 70%;
-    left: 10%;
-    top: 10%;
-    background: rgb(0,0,0);
-    background: rgba(0,0,0,0.5);
-    color: white;
-    padding-left: 1%;
-    width: 30%;
+
+.div-reservation {
+    margin: 15px;
 }
 
 /*
-Section-2
+<!--FULLNAME-->
 */
-/*-------SECTION-IMAGES----------*/
-.section-images {
-    width: 70%;
-    margin: auto;
+.fullname {
+    font-family: 'Roboto', sans-serif;
 }
 
-/*--PICTURE-1--*/
-.island-1-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
-}
-
-.picture-1 {
-    margin-bottom: 150px;
-}
-
-/*--PICTURE-2--*/
-.island-2-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: right;
-}
-
-.picture-2 {
-    margin-bottom: 150px;
-}
-
-/*--PICTURE-3--*/
-.island-3-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
-}
-
-.picture-3 {
-    margin-bottom: 150px;
-}
-
-
-/*--PICTURE-4--*/
-.island-4-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: right;
-}
-
-.picture-4 {
-    margin-bottom: 150px;
-}
-
-/*--PICTURE-5--*/
-.scoot-1-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
-}
-
-.picture-5 {
-    margin-bottom: 150px;
-}
-
-/*--PICTURE-6--*/
-.scoot-2-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: right;
-}
-
-.picture-6 {
-    margin-bottom: 150px;
-
-}
-
-/*--PICTURE-7--*/
-.scoot-3-500 {
-    width: 40%;
-    margin-right: 10px;
-    float: left;
-}
-
-.picture-7 {
-    margin-bottom: 150px;
-
-}
-
-.paragaph-2 {
-    margin-right: 15px;
-}
-
-
-/*
-Section-3
-*/
-/*--SECTION-3-TYPES-OF-RENTALS--*/
-.types-of-rentals {
-    width: 70%;
-    margin: auto;
-}
-
-.grid-types-of-rentals {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.h1-types-of-rental {
-    text-align: center;
-}
-
-.h2-honda-motor-scooter {
-    text-align: center;
-}
-
-ul.list-honda-motor-scooter {
+#fullname {
     font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--email-->
+*/
+.email {
+    font-family: 'Roboto', sans-serif;
+}
+
+#email {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--phone-->
+*/
+.phone {
+    font-family: 'Roboto', sans-serif;
+}
+
+#phone {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--zip-code-->
+*/
+.zip-code {
+    font-family: 'Roboto', sans-serif;
+}
+
+#zip-code {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--country-->
+*/
+.country {
+    font-family: 'Roboto', sans-serif;
+}
+
+#country {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
 }
 
 
 
+/*
+<!--comments-->
+*/
+.comments {
+    font-family: 'Roboto', sans-serif;
+}
+
+#comments {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+/*
+<!--submit-->
+*/
+
+
+#submit {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
+#submit:hover {
+    background-color: #1f7a1f;
+    color: white;
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*
 FOOTER-1
 */
@@ -252,7 +222,14 @@ FOOTER-1
     margin-top: 150px;
 }
 
+.sources a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.sources a:hover {
+    color: #1f7a1f;
+}
 
 
 /*

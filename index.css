@@ -129,7 +129,7 @@ Section-2
 div.picture {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: .1%;
+    grid-gap: 1%;
     
 }
 
@@ -143,6 +143,7 @@ div.picture {
 
 .island-1-500 {
     width: 100%;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .picture-1 {
@@ -155,6 +156,7 @@ div.picture {
 /*--PICTURE-2--*/
 .island-2-500 {
     width: 100%;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .picture-2 {
@@ -166,6 +168,7 @@ div.picture {
 /*--PICTURE-3--*/
 .island-3-500 {
     width: 100%;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .picture-3 {
@@ -178,6 +181,7 @@ div.picture {
 /*--PICTURE-4--*/
 .island-4-500 {
     width: 100%;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .picture-4 {
@@ -189,6 +193,7 @@ div.picture {
 /*--PICTURE-5--*/
 .scoot-1-500 {
     width: 100%;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .picture-5 {
@@ -200,6 +205,7 @@ div.picture {
 /*--PICTURE-6--*/
 .scoot-2-500 {
     width: 100%;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .picture-6 {
@@ -211,11 +217,12 @@ div.picture {
 /*--PICTURE-7--*/
 .scoot-3-500 {
     width: 100%;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .picture-7 {
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 100%;
     margin: auto;
 }
 
@@ -231,7 +238,7 @@ Section-3
 .types-of-rentals {
     width: 70%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-bottom: 5%;
 }
 

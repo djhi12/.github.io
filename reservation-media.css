@@ -18,6 +18,152 @@
     
     
     /*
+RENTAL-AGREEMENT
+*/
+.rental-agreement {
+    max-width: 500px;
+    margin: auto;
+}
+
+.h2-rental-agreement {
+    font-size: 18px;
+}
+
+.par-rental-agreement {
+    font-size: 13;
+}
+
+
+/*
+FORM
+*/
+.reservation {
+    max-width: 500px;
+}
+
+
+.div-reservation {
+    margin: 10px;
+}
+
+/*
+<!--FULLNAME-->
+*/
+.fullname {
+    font-size: 15px;
+}
+
+#fullname {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+/*
+<!--email-->
+*/
+.email {
+    font-size: 15px;
+}
+
+#email {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+/*
+<!--phone-->
+*/
+.phone {
+    font-size: 15px;
+}
+
+#phone {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+/*
+<!--zip-code-->
+*/
+.zip-code {
+    font-size: 15px;
+}
+
+#zip-code {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+/*
+<!--country-->
+*/
+.country {
+    font-size: 15px;
+}
+
+#country {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+/*
+<!--date-->
+*/
+.date {
+    font-size: 15px;
+}
+
+#date {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+/*
+<!--rental-type-->
+*/
+.rental-type {
+    font-size: 15px;
+}
+
+#rental-type {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/*
+<!--comments-->
+*/
+.comments {
+    font-size: 15px;
+}
+
+#comments {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 90%;
+    font-size: 9px;
+}
+
+/*
+<!--submit-->
+*/
+
+
+#submit {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+    /*
     FOOTER-1
     */
     .sources-contacts {
@@ -109,7 +255,7 @@
     */
     
 
-    
+    /*--------------------------------------------------------*/
     /*------NAVIGATION-----*/
     
     
@@ -136,8 +282,149 @@
     display: none;
     }
     
+
+/*-------------------------------------------------------------*/
    
-    
+        /*
+RENTAL-AGREEMENT
+*/
+.rental-agreement {
+    max-width: 300px;
+    margin: auto;
+}
+
+.h2-rental-agreement {
+    font-size: 15px;
+}
+
+.par-rental-agreement {
+    font-size: 10px;
+}
+
+
+/*
+FORM
+*/
+.reservation {
+    max-width: 300px;
+}
+
+
+.div-reservation {
+    margin: 8px;
+}
+
+/*
+<!--FULLNAME-->
+*/
+.fullname {
+    font-size: 10px;
+}
+
+#fullname {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+/*
+<!--email-->
+*/
+.email {
+    font-size: 10px;
+}
+
+#email {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+/*
+<!--phone-->
+*/
+.phone {
+    font-size: 10px;
+}
+
+#phone {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+/*
+<!--zip-code-->
+*/
+.zip-code {
+    font-size: 10px;
+}
+
+#zip-code {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+/*
+<!--country-->
+*/
+.country {
+    font-size: 10px;
+}
+
+#country {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+/*
+<!--date-->
+*/
+.date {
+    font-size: 10px;
+}
+
+#date {
+    padding:5px;
+    margin-bottom: 8px;
+}
+
+/*
+<!--rental-type-->
+*/
+.rental-type {
+    font-size: 10px;
+}
+
+#rental-type {
+    padding: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+/*
+<!--comments-->
+*/
+.comments {
+    font-size: 10px;
+}
+
+#comments {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+/*
+<!--submit-->
+*/
+
+
+#submit {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+
+    /*--------------------------------------------------------------*/
+
+
     /*
     FOOTER-1
     */
@@ -195,6 +482,5 @@
         font-size: 10px;
     }
     
-    
-    
+
     }

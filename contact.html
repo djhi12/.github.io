@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <a href="index.html"><img class="logo-300-new" src="logo-300-new.png"></a>
+        <a href="index.html"><img class="logo-300-new" src="logo-300-new.png" alt="logo-300-new"></a>
         <nav class="clearfix">
             <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="primaryNav" class="hide">
@@ -34,7 +34,41 @@
     </header>
 
     <main>
-      
+       <!--FORM-->
+       <form class="reservation" action="thanks.html">
+        <div class="div-reservation">
+        <!--fullname-->
+        <label class="fullname" for="fullname">Full name:</label><br>
+        <input type="text" id="fullname" name="fullname"  required 
+               pattern="[a-zA-Z ].{5,}" title="Sample: daniel john idorot"><br>
+       
+        <!--email-->
+        <label class="email" for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="djhi_lds@yahoo.com" ><br>
+       
+        <!--phone-->
+        <label class="phone" for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder=""  required><br>
+        
+        <!--zip-code-->
+        <label class="zip-code" for="zip-code">Zip Code:</label><br>
+        <input type="number" id="zip-code" name="zip-code" placeholder="8000" required><br>
+
+        <!--country-->
+        <label class="country" for="country">Country:</label><br>
+        <input type="text" id="country" name="country"><br>
+
+        <!--comments-->
+        <label class="comments" for="comments">Additional Information or comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <!--submit-->
+        <input type="submit" value="Submit" id="submit">
+        </div>
+      </form>
+
+      <div id="map"></div>
 
       
     </main>
@@ -47,6 +81,8 @@
             target="_blank">www.planetware.com</a><br>
             <a href="https://en.wikipedia.org/wiki/Palancar_Reef" 
             target="_blank">www.en.wikipedia.org</a>
+            <a href="https://beachtobayscooters.com/scooters/rental-agreement/" 
+            target="_blank">www.beachtobayscooters.com</a>
         </div>
 
         <div class="contact">
@@ -75,7 +111,8 @@
             <a class="link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
         <div id="Date"></div>
     </footer>
-<script src="index.js"></script>
+<script src="contact.js"></script>
+<script src="https://goo.gl/maps/dH8HC5URr724rR5y8"></script>
 </body>
 
 </html>

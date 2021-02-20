@@ -73,7 +73,9 @@ SECTION-1
 .island-1-500 {
     width: 50%;
     margin-right: 10px;
+    margin-bottom: 12px;
     float: left;
+    box-shadow: 7px 7px 15px gray;
 }
 
 .picture-1 {
@@ -84,8 +86,10 @@ SECTION-1
 /*--PICTURE-2--*/
 .island-2-500 {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
     float: right;
+    box-shadow: -5px 7px 15px gray;
 }
 
 .picture-2 {
@@ -95,8 +99,10 @@ SECTION-1
 /*--PICTURE-3--*/
 .island-3-500 {
     width: 50%;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
     float: left;
+    box-shadow: 7px 7px 15px gray;
 }
 
 .picture-3 {
@@ -106,8 +112,10 @@ SECTION-1
 /*--PICTURE-4--*/
 .island-4-500 {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
     float: right;
+    box-shadow: -5px 7px 15px gray;
 }
 
 .picture-4 {
@@ -118,8 +126,10 @@ SECTION-1
 /*--PICTURE-5--*/
 .island-5-500 {
     width: 50%;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
     float: left;
+    box-shadow: 7px 7px 15px gray;
 }
 
 .picture-5 {
@@ -129,8 +139,10 @@ SECTION-1
 /*--PICTURE-6--*/
 .island-6-500 {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
     float: right;
+    box-shadow: -5px 7px 15px gray;
 }
 
 .picture-6 {
@@ -140,8 +152,10 @@ SECTION-1
 /*--PICTURE-7--*/
 .island-7-500 {
     width: 50%;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
     float: left;
+    box-shadow: 7px 7px 15px gray;
 }
 
 .picture-7 {
@@ -151,8 +165,10 @@ SECTION-1
 /*--PICTURE-8--*/
 .island-8-500 {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
     float: right;
+    box-shadow: -5px 7px 15px gray;
 }
 
 .picture-8 {
@@ -162,8 +178,10 @@ SECTION-1
 /*--PICTURE-9--*/
 .island-9-500 {
     width: 50%;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
     float: left;
+    box-shadow: 7px 7px 15px gray;
 }
 
 .picture-9 {
@@ -173,8 +191,10 @@ SECTION-1
 /*--PICTURE-10--*/
 .island-10-500 {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
     float: right;
+    box-shadow: -5px 7px 15px gray;
 }
 
 .picture-10 {
@@ -184,8 +204,10 @@ SECTION-1
 /*--PICTURE-11--*/
 .island-11-500 {
     width: 50%;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
     float: left;
+    box-shadow: 7px 7px 15px gray;
 }
 
 .picture-11 {
@@ -205,6 +227,14 @@ FOOTER-1
     margin-top: 150px;
 }
 
+.sources a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sources a:hover {
+    color: #1f7a1f;
+}
 
 /*
 FOOTER-2

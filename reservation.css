@@ -95,6 +95,16 @@ RENTAL-AGREEMENT
 }
 
 /*
+.h2-rental-agreement {
+    
+}
+
+.par-rental-agreement {
+
+}
+*/
+
+/*
 FORM
 */
 .reservation {
@@ -244,7 +254,6 @@ FORM
 FOOTER-1
 */
 .sources-contacts {
-    -ms-text-align-last: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: .5fr .5fr .5fr;
