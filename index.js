@@ -6,3 +6,4 @@ const links = [
   ]
 
   document.getElementById("Links").innerHTML = links;
+  console.log("Links");
