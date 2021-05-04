@@ -8,3 +8,10 @@ $headlines-color : white;
 body {
     background-color: $body-background-color;          
 }
+
+#contactform {
+    background-color: $form-background-color;
+}
+#contactform input, #contactform textarea {
+    background-color: $input-color;
+} 
