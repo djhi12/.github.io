@@ -1,8 +1,9 @@
 //colors
-$body-background-color: darkred;
+$body-background-color: blue;
 $form-background-color: white;
 $input-color: white;
 $headlines-color : white;
+$header_color: white;
 
 
 body {
@@ -15,3 +16,7 @@ body {
 #contactform input, #contactform textarea {
     background-color: $input-color;
 } 
+
+h1 {
+    color: $header_color;
+}
