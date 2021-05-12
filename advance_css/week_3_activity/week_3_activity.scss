@@ -1,3 +1,13 @@
+// FONT-SIZE
+
+// FONT-COLOR-HEADER
+
+
+// FONT-FAMILY
+$font_family_header: 'Lora', serif;
+$font_family_paragraph: Arial, Helvetica, sans-serif;
+
+
 body {
     margin: 0;
     background-color: #faebd7;
@@ -19,7 +29,7 @@ body {
   }
   
   .h1_header_kids a {
-    font-family: 'Lora', serif;
+    font-family: $font_family_header;
     text-decoration: none;
     color: #faebd7;
     display: block;
@@ -42,7 +52,7 @@ body {
   }
   
   .li_header_links a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font_family_paragraph;
     text-decoration: none;
     color: #faebd7;
     display: block;
@@ -73,18 +83,18 @@ body {
   }
   
   p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font_family_paragraph;
   }
   
   .post-date {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font_family_paragraph;
   }
   
   
   /* Article title links_septimus */
   
   .h1_main_septimus a {
-    font-family: 'Lora', serif;
+    font-family: $font_family_header;
     text-decoration: none;
     color: black;
   }
