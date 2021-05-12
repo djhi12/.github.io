@@ -1,11 +1,15 @@
 // FONT-SIZE
 
-// FONT-COLOR-HEADER
+// COLOR
+$header_links: #faebd7;
 
 
 // FONT-FAMILY
 $font_family_header: 'Lora', serif;
 $font_family_paragraph: Arial, Helvetica, sans-serif;
+
+// SCREEN-SIZE
+$small_Screen: 500px;
 
 
 body {
@@ -26,18 +30,21 @@ body {
     left: 0;
     overflow-x: hidden;
     padding: 10px;
+
+    .h1_header_kids a {
+      font-family: $font_family_header;
+      text-decoration: none;
+      color: $header_links;
+      display: block;
+    }
+    
+    h1 {
+      text-align: right;
+    }
+
   }
   
-  .h1_header_kids a {
-    font-family: $font_family_header;
-    text-decoration: none;
-    color: #faebd7;
-    display: block;
-  }
   
-  h1 {
-    text-align: right;
-  }
   
   
   
@@ -45,46 +52,50 @@ body {
   
   nav {
     text-align: right;
+
+    ul.ul_header_links {
+      list-style-type: none;
+    }
+
+    .li_header_links a {
+      font-family: $font_family_paragraph;
+      text-decoration: none;
+      color: $header_links;
+      display: block;
+    }
+
+    .li_header_links a:link {
+      color: $header_links;
+    }
+
+    .li_header_links a:visited {
+      color: $header_links;
+    }
+
+    .li_header_links a:hover {
+      border-bottom: 1px solid white;
+    }
+    
+    .li_header_links a:active {
+      color: #deb887;
+    }
+
   }
   
-  ul.ul_header_links {
-    list-style-type: none;
-  }
-  
-  .li_header_links a {
-    font-family: $font_family_paragraph;
-    text-decoration: none;
-    color: #faebd7;
-    display: block;
-  }
-  
-  
-  .li_header_links a:link {
-    color: #faebd7;
-  }
-  
-  .li_header_links a:visited {
-    color: #faedb7;
-  }
-  
-  .li_header_links a:hover {
-    border-bottom: 1px solid white;
-  }
-  
-  .li_header_links a:active {
-    color: #deb887;
-  }
+ 
+
   
   
   /*--------------MAIN---------------------------*/
   main {
     margin-left: 160px;
+
+    p {
+      font-family: $font_family_paragraph;
+    }
     
   }
   
-  p {
-    font-family: $font_family_paragraph;
-  }
   
   .post-date {
     font-family: $font_family_paragraph;
@@ -93,48 +104,60 @@ body {
   
   /* Article title links_septimus */
   
-  .h1_main_septimus a {
-    font-family: $font_family_header;
-    text-decoration: none;
-    color: black;
+  .article_1 {
+
+    .h1_main_septimus a {
+      font-family: $font_family_header;
+      text-decoration: none;
+      color: black;
+    }
+    
+    
+    .h1_main_septimus a:visited {
+      color: $header_links;
+    }
+    
+    .h1_main_septimus a:hover {
+      color: #6495ed;
+      border-bottom: 1px solid #6495ed;
+    }
+    
+    .h1_main_septimus a:active {
+      color: #deb887;
+    }
+
   }
-  
-  
-  .h1_main_septimus a:visited {
-    color: #faebd7;
-  }
-  
-  .h1_main_septimus a:hover {
-    color: #6495ed;
-    border-bottom: 1px solid #6495ed;
-  }
-  
-  .h1_main_septimus a:active {
-    color: #deb887;
-  }
+
+
   
   
   /* Article title links_magnus */
   
-  .h1_main_magnus a {
-    font-family: 'Lora', serif;
-    text-decoration: none;
-    color: black;
+  .article_2 {
+
+    .h1_main_magnus a {
+      font-family: $font_family_header;
+      text-decoration: none;
+      color: black;
+    }
+    
+    
+    .h1_main_magnusa:visited {
+      color: $header_links;
+    }
+    
+    .h1_main_magnus a:hover {
+      color: #6495ed;
+      border-bottom: 1px solid #6495ed;
+    }
+    
+    .h1_main_magnus a:active {
+      color: #deb887;
+    }
+
   }
-  
-  
-  .h1_main_magnusa:visited {
-    color: #faebd7;
-  }
-  
-  .h1_main_magnus a:hover {
-    color: #6495ed;
-    border-bottom: 1px solid #6495ed;
-  }
-  
-  .h1_main_magnus a:active {
-    color: #deb887;
-  }
+
+
   
   
   /* Article title links_other_links */
@@ -215,17 +238,18 @@ body {
     left: 0;
     overflow-x: hidden;
     padding: 10px;
+
+    .h1_header_kids a {
+      display: block;
+    }
+    
+    h1 {
+      text-align: right;
+    }
+
   }
   
-  .h1_header_kids a {
-    font-family: 'Lora', serif;
-    text-decoration: none;
-    display: block;
-  }
-  
-  h1 {
-    text-align: right;
-  }
+
   
   
   
