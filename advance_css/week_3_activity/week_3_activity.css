@@ -20,10 +20,20 @@ header .h1_header_kids a {
   font-family: "Lora", serif;
   text-decoration: none;
   color: #faebd7;
-  display: block;
+  display: -webkit-block;
+}
+@media (min-width: 500px) {
+  header .h1_header_kids a {
+    display: block;
+  }
 }
 header h1 {
   text-align: right;
+}
+@media (min-width: 500px) {
+  header h1 {
+    text-align: right;
+  }
 }
 
 /*------------NAVIGATION----------------------*/
@@ -37,7 +47,12 @@ nav .li_header_links a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #faebd7;
-  display: block;
+  display: -webki-block;
+}
+@media (min-width: 500px) {
+  nav .li_header_links a {
+    display: -webkit-block;
+  }
 }
 nav .li_header_links a:link {
   color: #faebd7;
@@ -122,6 +137,12 @@ article {
   max-width: 700px;
   margin: auto;
 }
+@media (min-width: 500px) {
+  article {
+    max-width: 800px;
+    margin: auto;
+  }
+}
 
 img {
   display: block;
@@ -137,6 +158,14 @@ img {
   transition: 0.3s;
   width: 70%;
 }
+@media (min-width: 500px) {
+  .article_1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 60%;
+  }
+}
 
 .article_1:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -149,6 +178,14 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 70%;
+}
+@media (min-width: 500px) {
+  .article_2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 60%;
+  }
 }
 
 .article_2:hover {
@@ -169,17 +206,6 @@ img {
     overflow-x: hidden;
     padding: 10px;
   }
-  header .h1_header_kids a {
-    display: block;
-  }
-  header h1 {
-    text-align: right;
-  }
-
-  /*------------NAVIGATION----------------------*/
-  .li_header_links a {
-    display: block;
-  }
 
   /*--------------MAIN---------------------------*/
   main {
@@ -187,30 +213,11 @@ img {
   }
 
   /*---------------------CARD---------------------*/
-  article {
-    max-width: 800px;
-    margin: auto;
-  }
-
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
-  }
-
-  .article_1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px;
-    width: 60%;
-  }
-
-  .article_2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px;
-    width: 60%;
   }
 }
 
