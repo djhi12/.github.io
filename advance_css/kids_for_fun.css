@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    background-color: #faebd7;
+  }
+  
+  
+  /*------------------HEADER--------------------*/
+  header {
+    background-color: #6495Ed;
+    overflow: hidden;
+    height: 100%;
+    max-width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 10px;
+  }
+  
+  .h1_header_kids a {
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: #faebd7;
+    display: block;
+  }
+  
+  h1 {
+    text-align: right;
+  }
+  
+  
+  
+  /*------------NAVIGATION----------------------*/
+  
+  nav {
+    text-align: right;
+  }
+  
+  ul.ul_header_links {
+    list-style-type: none;
+  }
+  
+  .li_header_links a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #faebd7;
+    display: block;
+  }
+  
+  
+  .li_header_links a:link {
+    color: #faebd7;
+  }
+  
+  .li_header_links a:visited {
+    color: #faedb7;
+  }
+  
+  .li_header_links a:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  .li_header_links a:active {
+    color: #deb887;
+  }
+  
+  
+  /*--------------MAIN---------------------------*/
+  main {
+    margin-left: 160px;
+    
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .post-date {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /* Article title links_septimus */
+  
+  .h1_main_septimus a {
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .h1_main_septimus a:visited {
+    color: #faebd7;
+  }
+  
+  .h1_main_septimus a:hover {
+    color: #6495ed;
+    border-bottom: 1px solid #6495ed;
+  }
+  
+  .h1_main_septimus a:active {
+    color: #deb887;
+  }
+  
+  
+  /* Article title links_magnus */
+  
+  .h1_main_magnus a {
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .h1_main_magnusa:visited {
+    color: #faebd7;
+  }
+  
+  .h1_main_magnus a:hover {
+    color: #6495ed;
+    border-bottom: 1px solid #6495ed;
+  }
+  
+  .h1_main_magnus a:active {
+    color: #deb887;
+  }
+  
+  
+  /* Article title links_other_links */
+  
+  a.other_links {
+    text-decoration: none;
+  }
+  
+  
+  a.other_links:visited {
+    color: #6495ed;
+  }
+  
+  a.other_links:hover {
+    color: #6495ed;
+    border-bottom: 1px solid #6495ed;
+  }
+  
+  a.other_links:active {
+    color: #deb998;
+  }
+    
+  
+  /*---------------------CARD---------------------*/
+  
+  
+  article {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .article_1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+  }
+  
+  .article_1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .article_2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+  }
+  
+  .article_2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  @media only screen and (max-width: 500px) {
+  
+  
+  /*------------------HEADER--------------------*/
+  header {
+    background-color: #6495Ed;
+    overflow: hidden;
+    height: 100%;
+    max-width: 960px;
+    position: static;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 10px;
+  }
+  
+  .h1_header_kids a {
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    display: block;
+  }
+  
+  h1 {
+    text-align: right;
+  }
+  
+  
+  
+  /*------------NAVIGATION----------------------*/
+  
+  
+  .li_header_links a {
+    display: block;
+  }
+  
+  
+  /*--------------MAIN---------------------------*/
+  main {
+    margin-left: 5px;
+    
+  }
+  
+  
+  /*---------------------CARD---------------------*/
+  
+  
+  article {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+  
+  .article_1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 60%;
+  }
+  
+  
+  .article_2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 60%;
+  }
+  
+  }
