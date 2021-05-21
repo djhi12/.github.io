@@ -1,0 +1,263 @@
+
+kids_for_fun.css
+   2:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+   3:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+   4:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+   5:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+   6:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+   7:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+   7:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+   7:48  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+   8:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+   9:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+   9:23  ×  Expected "#6495Ed" to be "#6495ed"                                                             color-hex-case                       
+  10:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  11:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  12:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  13:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  14:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  15:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  16:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  17:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  18:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  19:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  20:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  21:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  22:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  23:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  24:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  25:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  26:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  27:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  28:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  29:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  30:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  31:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  32:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  33:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  34:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  34:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+  34:48  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+  35:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  36:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  37:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  38:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  39:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  40:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  41:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  42:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  43:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  44:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  45:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  46:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  47:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  48:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  49:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  50:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  51:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  52:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  53:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  54:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  55:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  56:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  57:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  58:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  59:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  60:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  61:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  62:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  63:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  64:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  65:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  66:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  67:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  68:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  69:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  69:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+  69:49  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+  70:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  71:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  72:4   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  73:3   ×  Unexpected empty line before closing brace                                                     block-closing-brace-empty-line-before
+  73:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  74:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  75:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  76:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  77:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  78:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  79:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  80:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  81:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  82:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  83:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  84:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  85:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  86:3   ×  Expected selector ".h1_main_septimus a" to come before selector ".li_header_links a:link"      no-descending-specificity            
+  86:3   ×  Expected selector ".h1_main_septimus a" to come before selector ".li_header_links a:visited"   no-descending-specificity            
+  86:3   ×  Expected selector ".h1_main_septimus a" to come before selector ".li_header_links a:hover"     no-descending-specificity            
+  86:3   ×  Expected selector ".h1_main_septimus a" to come before selector ".li_header_links a:active"    no-descending-specificity            
+  86:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  87:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  88:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  89:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  90:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  91:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  92:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  93:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  94:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  95:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  96:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+  97:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+  98:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+  99:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 100:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 101:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 102:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 103:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 104:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 105:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 106:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 107:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 108:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 109:3   ×  Expected selector ".h1_main_magnus a" to come before selector ".li_header_links a:link"        no-descending-specificity            
+ 109:3   ×  Expected selector ".h1_main_magnus a" to come before selector ".li_header_links a:visited"     no-descending-specificity            
+ 109:3   ×  Expected selector ".h1_main_magnus a" to come before selector ".li_header_links a:hover"       no-descending-specificity            
+ 109:3   ×  Expected selector ".h1_main_magnus a" to come before selector ".li_header_links a:active"      no-descending-specificity            
+ 109:3   ×  Expected selector ".h1_main_magnus a" to come before selector ".h1_main_septimus a:visited"    no-descending-specificity            
+ 109:3   ×  Expected selector ".h1_main_magnus a" to come before selector ".h1_main_septimus a:hover"      no-descending-specificity            
+ 109:3   ×  Expected selector ".h1_main_magnus a" to come before selector ".h1_main_septimus a:active"     no-descending-specificity            
+ 109:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 110:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 111:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 112:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 113:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 114:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 115:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 116:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 117:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 118:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 119:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 120:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 121:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 122:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 123:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 124:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 125:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 126:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 127:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 128:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 129:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 130:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 131:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 132:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 133:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 134:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 135:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 136:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 137:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 138:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 139:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 140:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 141:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 142:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 143:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 144:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 145:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 146:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 147:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 148:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 149:4   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 150:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 151:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 151:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+ 151:50  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+ 152:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 153:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 154:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 155:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 156:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 157:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 158:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 159:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 160:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 161:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 162:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 163:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 164:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 165:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 166:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 167:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 168:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 169:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 170:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 170:35  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 170:37  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 170:39  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 171:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 172:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 173:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 174:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 175:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 176:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 176:36  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 176:38  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 176:40  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 177:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 178:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 179:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 180:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 181:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 182:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 183:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 184:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 184:35  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 184:37  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 184:39  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 185:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 186:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 187:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 188:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 189:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 190:5   ×  Expected indentation of 2 spaces                                                               indentation                          
+ 190:36  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 190:38  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 190:40  ×  Expected single space after "," in a single-line function                                      function-comma-space-after           
+ 191:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 192:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 193:3   ×  Expected indentation of 0 spaces                                                               indentation                          
+ 194:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 195:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 196:3   ×  Unexpected empty line before comment                                                           comment-empty-line-before            
+ 196:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+ 196:48  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+ 198:23  ×  Expected "#6495Ed" to be "#6495ed"                                                             color-hex-case                       
+ 209:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 215:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 219:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 220:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 221:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 222:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+ 222:48  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+ 223:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 224:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 228:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 229:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 230:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+ 230:49  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+ 233:4   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 234:3   ×  Unexpected empty line before closing brace                                                     block-closing-brace-empty-line-before
+ 235:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 236:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 237:5   ×  Expected whitespace after "/*"                                                                 comment-whitespace-inside            
+ 237:50  ×  Expected whitespace before "*/"                                                                comment-whitespace-inside            
+ 238:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 239:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 244:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 251:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 258:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 259:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 266:2   ×  Unexpected whitespace at end of line                                                           no-eol-whitespace                    
+ 267:3   ×  Unexpected empty line before closing brace                                                     block-closing-brace-empty-line-before
+ 267:3   ×  Unexpected missing end-of-source newline                                                       no-missing-end-of-source-newline     
+ 267:3   ×  Expected indentation of 0 spaces                                                               indentation
+
