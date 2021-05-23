@@ -19,130 +19,121 @@
     <main>
         <section class="reading">
             <h2>Readings</h2>
-            <h3>The Document Object Model | Chapter 6</h3>
-            <h4>What is the DOM?</h4>
+            <h3>Testing and Debugging | Chapter 10</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li>JavaScript can add new HTML elements and attributes</li>
-                <li>JavaScript can react to all existing HTML events in the page</li>
-                <li>JavaScript can create new HTML events in the page</li>
+                <li>Errors and bugs are a fact of life in programming ― they will always be there.</li>
+                <li>A ninja programmer will try to do everything to minimize errors occurring, and find ways to 
+                  identify and deal with them quickly.</li>
             </ul>
-            <p><b>Resources / Reference:</b><br><a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">
-                JavaScript HTML DOM</a></p>
+            <p><b>Resources / Reference:</b><br><a href="https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition/read/10" target="_blank">
+                  Testing and Debugging</a></p>
             
-            <h4>HTML DOM nodeName Property</h4>
+            <h4>Errors, Exceptions, and Warnings</h4>
             <ul>
-                <li>The nodeName property returns the name of the specified node.</li>
-                <li>If the node is an element node, the nodeName property will return the tag name.</li>
-                <li>If the node is an attribute node, the nodeName property will return the name of the attribute.</li>
-                <li>For other node types, the nodeName property will return different names for different node types.</li>
-                <li>Tip: You can also use the tagName property to return the tag name of an element. 
-                    The difference is that tagName only return tag names, while nodeName returns the name of 
-                    all nodes (tags, attributes, text, comments).</li>
-                <li>This property is read-only.</li>
+                <li><b>System error</b> ― there’s a problem with the system or external devices with which the program is interacting.</li>
+                <li><b>Programmer error</b> ― the program contains incorrect syntax or faulty logic; it could even be as simple as a typo.
+                </li>
+                <li><b>User error</b> ― the user has entered data incorrectly, which the program is unable to handle.
+                </li>
+                <li>Programmer errors are our responsibility, so we must ensure they are minimized as much as 
+                  possible and fixed promptly.</li>
+                <li>It might even be argued that user errors are in fact also programmer errors, because the
+                   program should be designed in a way that prevents the user from making the error.</li>
             </ul>
-            <p><b>Resources / Reference:</b><br><a href="https://www.w3schools.com/jsref/prop_node_nodename.asp"
-                target="_blank">HTML DOM nodeName Property</a></p>
+            <p><b>Resources / Reference:</b><br><a href="https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition/read/10"
+                target="_blank">Errors, Exceptions, and Warnings</a></p>
 
-            <h4>HTML DOM body Property</h4>
+            <h4>Exceptions</h4>
             <ul>
-                <li>The body property sets or returns the document's body.</li>
-                <li>On return, this property returns the <body> element of the current document.</li>
-                <li>On set, this property overwrites all child elements inside the existing <body> element, and
-                     replaces it with the new, specified content.</li>
-                <li>Tip: The difference between this property and the document.documentElement property, is that 
-                    the document.body element returns the <body> element, while the document.documentElement returns
-                         the <html> element.</li>
+                <li>An exception is an error that produces a return value that can then be used by the program to
+                    deal with the error.</li>
+                <li>The try statement lets you test a block of code for errors.</li>
+                <li>The catch statement lets you handle the error.</li>
+                <li>The throw statement lets you create custom errors.</li>
+                <li>The finally statement lets you execute code, after try and catch, regardless of the result.</li>
             </ul>
-            <p><b>Resources / Reference:</b><br><a href="https://www.w3schools.com/jsref/prop_doc_body.asp" 
-                target="_blank">HTML DOM body Property</a></p>
+            <p><b>Resources / Reference:</b><br><a href="https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition/read/10" 
+                target="_blank">Exceptions</a><br><a href="https://www.w3schools.com/js/js_errors.asp">
+                JavaScript Errors - Throw and Try to Catch</a></p>
 
-            <h4>HTML DOM images Collection</h4>
+            <h4>Stack Traces</h4>
             <ul>
-                <li>The images collection returns a collection of all <img> elements in the document.</li>
-                <li>Note: The elements in the collection are sorted as they appear in the source code.</li>
-                <li>Note: The images collection does not return a collection of <input> elements with type="image".</li>
-                <li>Tip: Also look at the Image Object.</li>
+                <li> This is a sequence of functions or method calls that lead to the point where the error 
+                  occurred. It’s often not just a single function or method call that causes an error.</li>
+                <li> A stack trace will work backwards from the point at which the error occurred to identify 
+                  the original function or method that started the sequence. </li>
             </ul>
-            <p><b>Resources / Reference:</b><br><a href="https://www.w3schools.com/Jsref/coll_doc_images.asp" 
-                target="_blank">HTML DOM images Collection</a></p>
+            <p><b>Resources / Reference:</b><br><a href="https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition/read/10" 
+                target="_blank">Stack Traces</a></p>
 
-            <h4>HTML DOM links Collection</h4>
+            <h4>Warnings</h4>
             <ul>
-                <li>The links collection returns a collection of all links in the document.</li>
-                <li>The links in the collection represents <a> elements and/or <area> elements with a href attribute.</li>
-                <li>Note: If the element is missing the href attribute, nothing is returned.</li>
-                <li>Note: The elements in the collection are sorted as they appear in the source code.</li>
-                <li>Tip: Also look at the Anchor Object and the Area Object.</li>
+                <li>A warning can occur if there’s an error in the code that isn't enough to cause the program to 
+                  crash. This means the program will continue to run after a warning. This might sound good, but it
+                  can be problematic, since the issue that produced the warning may cause the program to continue
+                  running incorrectly.</li>
+                <li>Warnings and exceptions are presented differently in various environments. Some browsers will 
+                  show a small icon in the corner of the browser window to indicate that an exception or warning has
+                   occurred. Others require the console to be open to see any warnings or exceptions.</li>
+                <li>When a runtime error occurs in the browser, the HTML will still appear, but the JavaScript code
+                   will stop working in the background, which isn’t always obvious at first. If a warning occurs, 
+                   the JavaScript will continue to run (although possibly incorrectly).</li>
             </ul>
-            <p><b>Resources / Refernce:</b><br><a href="https://www.w3schools.com/jsref/coll_doc_links.asp" 
-                target="_blank">HTML DOM links Collection</a></p>
+            <p><b>Resources / Refernce:</b><br><a href="https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition/read/10" 
+                target="_blank">Warnings</a></p>
 
-            <h4>HTML DOM anchors Collection</h4>
+            <h4>The Importance of Testing and Debugging</h4>
             <ul>
-                <li>The anchors collection returns a collection of all <a> elements in the document that have a name attribute.</li>
-                <li>Note: The name attribute of the <a> element is not supported in HTML5.</li>
-                <li>The elements in the collection are sorted as they appear in the source code.</li>
-                <li>Tip: Also look at the Anchor Object and document.links.</li>
+                <li>Failing silently makes errors difficult to spot and longer to track down.</li>
+                <li>For this reason, a ninja programmer should ensure that the code they write fails loudly in 
+                  development so any errors can be identified and fixed quickly.</li>
+                <li>In production, a ninja programmer should try to make the code fail gracefully (although not 
+                  completely silently ― we still need to know there’s an error), so the user experience is not 
+                  affected, if possible. This is achieved by making sure exceptions are caught and dealt with, 
+                  and code is tested rigorously.</li>
             </ul>
             <p><b>Resources / Refernce:</b><br><a href="https://www.w3schools.com/jsref/coll_doc_anchors.asp" 
                 target="_blank">HTML DOM anchors Collection</a></p>
 
             <h4>HTML DOM forms Collection</h4>
             <ul>
-                <li>The forms collection returns a collection of all <form> elements in the document.</li>
-                <li>Note: The elements in the collection are sorted as they appear in the source code.</li>
-                <li>Tip: Use the elements collection of the Form Object to return a collection of all elements in a 
-                    form.</li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
             <p><b>Resources / Refernce:</b><br><a href="https://www.w3schools.com/jsref/coll_doc_forms.asp" 
                 target="_blank">HTML DOM forms Collection</a></p>
             
             <h4>Array.from()</h4>
             <ul>
-                <li>The Array.from() static method creates a new, shallow-copied Array instance from an 
-                    array-like or iterable object.</li>
+                <li></li>
             </ul>
             <p><b>Resources / Refernce:</b><br><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from" 
                 target="_blank">Array.from()</a></p>
             
             <h4>Spread syntax (...)</h4>
             <ul>
-                <li>Spread syntax (...) allows an iterable such as an array expression or string to be expanded
-                    in places where zero or more arguments (for function calls) or elements (for array literals)
-                    are expected, or an object expression to be expanded in places where zero or more key-value
-                    pairs (for object literals) are expected.</li>
+                <li></li>
             </ul>
             <p><b>Resources / Refernce:</b><br><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax" 
                 target="_blank">Spread syntax (...)</a></p>
             
             <h4>HTML DOM getElementById() Method</h4>
             <ul>
-                <li>The getElementById() method returns the element that has the ID attribute with the specified value.</li>
-                <li>This method is one of the most common methods in the HTML DOM, and is used almost every time
-                    you want to manipulate, or get info from, an element on your document.</li>
-                <li>Returns null if no elements with the specified ID exists.</li>
-                <li>An ID should be unique within a page. However, if more than one element with the specified ID
-                     exists, the getElementById() method returns the first element in the source code.</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
             <p><b>Resources / Refernce:</b><br><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp" 
                     target="_blank">HTML DOM getElementById() Method</a></p>
 
             <h4>HTML DOM getElementsByTagName() Method</h4>
             <ul>
-                <li>The getElementsByTagName() method returns a collection of all elements in the document with 
-                    the specified tag name, as an HTMLCollection object.</li>
-                <li>The HTMLCollection object represents a collection of nodes. The nodes can be accessed by
-                     index numbers. The index starts at 0.</li>
-                <li>Tip: The parametervalue "*" returns all elements in the document.</li>
-                <li>Tip: You can use the length property of the HTMLCollection object to determine the number of 
-                    elements with the specified tag name, then you can loop through all elements and extract the
-                     info you want.</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
             <p><b>Resources / Refernce:</b><br><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp" 
                             target="_blank">HTML DOM getElementsByTagName() Method</a></p>
@@ -152,155 +143,25 @@
         <section class="team_activity">
             <h2>Team Activity</h2>
         
-    <style>
-      /* styles for the table based board */
-      .board {
-        width: 320px;
-        height: 320px;
-      }
-      .board td,
-      .board tr {
-        width: 33.3%;
-        height: 33.3%;
-      }
-      .board td {
-        border-right: 1px solid;
-        border-bottom: 1px solid;
-        font-size: 5em;
-        text-align: center;
-      }
-
-      .board td:last-child {
-        border-right: 0;
-      }
-
-      .board tr:last-child td {
-        border-bottom: 0;
-      }
-
-      /* Styles for the div based board */
-      .divBoard {
-        display: grid;
-        grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 100px 100px 100px;
-        justify-content: center;
-      }
-      .divBoard > div {
-        /* border-right: 1px solid;
-        border-bottom: 1px solid; */
-        border: 1px solid;
-        font-size: 5em;
-        text-align: center;
-      }
-      /* .divBoard > div:nth-child(3n) {
-        border-right: 0;
-      }
-      .divBoard > div:nth-child(n + 7) {
-        border-bottom: 0;
-      } */
-    </style>
- 
-    <!-- Here is a board built with a table element. It goes together quickly, and need minimal styling...but it
-         will be a bit more work to get at it's children-->
-    <table class="board">
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-
-    <!-- Here is a board built with simple div elements. The markup is simpler, but it will require more styling to get it to look like a tic tac toe board. All of the cells are direct children of the board, so they will be easy to get a hold of.-->
-    <div class="divBoard">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <button id="reset">Reset</button>
-
-    <script>
-      const board = document.querySelector('.board');
-      const divBoard = document.querySelector('.divBoard');
-      const resetButton = document.getElementById('reset');
-      const player1 = 'X';
-      const player2 = 'O';
-      let player = player1;
-      function addPiece(e) {
-        console.log(e.target);
-        e.target.innerHTML = player;
-        if (player === player1) player = player2;
-        else player = player1;
-      }
-      // table version
-      function resetBoard() {
-        console.dir(board);
-        for (let i = 0; i < board.rows.length; i++) {
-          let row = board.rows[i];
-          for (let j = 0; j < row.cells.length; j++) {
-            row.cells[j].innerHTML = '';
-          }
-        }
-      }
-      // div version
-      function resetBoardDiv() {
-        const divBoard = document.querySelector('.divBoard');
-        for (let i = 0; i < divBoard.children.length; i++) {
-          divBoard.children[i].innerText = '';
-        }
-        const children = Array.from(divBoard.children);
-        const empty = children.filter(function(child) {
-          return child.innerText == 'X' || child.innerText == 'O';
-        });
-        console.log(empty);
-      }
-      board.addEventListener('click', addPiece);
-      divBoard.addEventListener('click', addPiece);
-      reset.addEventListener('click', resetBoardDiv);
-    </script>
-        </section>
-
         <hr>
         <section class="report">
             <h2>Report</h2>
             <h3>What did I do since the last meeting?</h3>
             <ul>
-                <li>I did only listened to what my other peers shared regarding the projects and also discussed
-                    who will be the next "main driver"
-                </li>
-                <li>I explained to them that I'm not done yet reading the assigned chapters. And also,
-                    I'm having a hard time analyzing some of the methods how they work.
-                </li>
+                <li>I listened to their explainations about the assignment coding.</li>
+                <li>I accepted being the "main driver" in week 9</li>
             </ul>
 
             <h3>What am I going to do next?</h3>
             <ul>
-                <li>For next meeting, I will ask them for help, especially those codes that I don't know the exact function.
-                    Since I'm behind some of the readings.
-                </li>
+                <li>During the week assignment, I'm going to post a bnunch of questions that related to the
+                  assignment for me to understand more the concept.</li>
             </ul>
 
             <h3>What are my blockers?</h3>
             <ul>
-                <li>I had my second subject which is the Advance CSS, I got a problem in installing the Bootstrap
-                    and it consume most of my time, and this subject the Web Frontend 2 was affected, instead of 
-                    reading the assigned chapters, I spent it in figuring out how this Boostrap works.
-                </li>
+                <li>There are codes that I'm still figuring out, on how to combine them in a mini program
+                  within the function.</li>
             </ul>
 
         </section>
