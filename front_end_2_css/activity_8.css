@@ -1,0 +1,318 @@
+/*
+Translation
+1. Translation functions allow you to move elements left, right, up, or down. These functions are similar to the 
+behavior of position: relative; when declaring top and left , moving elements up and down or left and right along 
+the x and y axes. 
+*/
+div.sample_1 {
+    transform: translate(450px, -45px);
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+
+/*
+Note: Transforms and Older Browsers
+1. Transforms require vendor prefixing for IE9, Android up to 4.4.3, iOS8, and Blackberry 10. To make the 
+aforementioned code work in IE9 and older mobile WebKit browsers, you would include the following:
+*/
+.sample_2 {
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    -webkit-transform: translate(45px,-45px); /* iOS8, Android ↵4.4.3, BB10 */
+    -ms-transform: translate(45px,-45px); /* IE9 only */
+    transform: translate(45px,-45px);
+}
+
+
+/*
+If you only want to move an element vertically or horizontally, you can use the translatex or translatey functions 
+respectively. To move 45px to the right along the x axis, include:
+*/
+
+.sample_3 {
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    transform: translateX(445px);
+}
+
+.sample_4 {
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    transform: translateY(-30px);  
+}
+
+.sample_5 {
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    /*
+    skew
+    1. The skew(x,y) function specifies a skew along the x and y axes. As you’d expect, the x specifies the skew on 
+    the x axis, and the y specifies the skew on the y axis.
+    */
+    transform: translateX(445px) skew(15deg, 4deg);
+}
+
+
+/*
+*/
+
+
+h2:hover.ad-ad2 span {
+    color: #484848;  
+    /*
+    To declare multiple transformations, provide a space-separated list of transform functions. We simply add our 
+    scale to the end of that space-separated list.
+    */
+
+    /*
+    Rotation
+    1. The rotate() function rotates an element around the point of origin by a specified angle value.
+    */
+    transform: rotate(10deg) translateX(100px) scale(4.5);
+}
+
+h2.ad-ad2 span {
+    font-size: 30px;
+    color: #999999;
+    display: inline-block;
+    transition-property: transform;
+}
+
+
+/*
+Changing the Origin of the Transform
+1. As we hinted at earlier, you can control the origin from which your transforms are applied. This is done 
+using the transform-origin property.
+*/
+.sample_6 {
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    transform-origin: 0 0;
+}
+
+
+/*
+Support for Internet Explorer 8 and Earlier
+1. While CSS3 transforms are unsupported in IE before version 9, you can mimic these effects with other 
+CSS properties, including filters. To mimic translation use position: relative; , and top and left values:
+*/
+.sample_7 {
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    position: top;
+    top: 200px;
+    left: 200px;
+} 
+
+
+/*
+Transitions
+1. 
+*/
+.sample_8 {
+    border-style: solid;
+    border-color: blue;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1ms;
+    color:white;
+} 
+
+.sample_8:hover {
+    width: 300px;
+} 
+
+
+/*
+transition-property
+1. The transition-property property defines the CSS properties of the element that should be transitioned, 
+with all for all properties being the default.
+*/
+.sample_9 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width, height;
+    transition-duration: 0.2s;
+    color: white;
+  }
+  
+  .sample_9:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  /*
+  The transition-duration Property
+  1. The transition-duration property sets how long the transition will take: the duration of time it takes to go 
+  from the default state to the transitioned state.
+  2. You can specify this either in seconds ( s ) or milliseconds ( ms ).
+  3. 200ms is generally considered the optimum time for a transition: anything slower will make the website seem 
+  slow, drawing generally unwanted attention to what was supposed to be a subtle effect. Anything faster may be 
+  too subtle.
+  4. 
+  */
+  .sample_10 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width, height;
+    transition-duration: 0.2s;
+    color: white;
+  }
+  
+  .sample_10:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  /*
+  The transition-timing-function Property
+  1. The transition-timing-function lets you control the pace of the transition in even more granular detail.
+  2. The default EASE has a slow start, then it speeds up, and ends slowly. 
+  3. EASE-IN-OUT is similar to ease , but accelerates more sharply at the beginning.
+  4. LINEAR creates a transition that animates at a constant speed.
+  5. EASE-IN creates a transition that is slow to start but gains speed, then stops abruptly.
+  6. The opposite, EASE-OUT , starts at full speed, then slows progressively as it reaches the conclusion of the 
+  transition.
+  */
+  .sample_11 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width, height;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out; 
+    color: white;
+  }
+  
+  .sample_11:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  /*
+  CSS transition-delay Property
+  1. transition-delay property, it’s possible to introduce a delay before the transition begins.
+  2. Normally a transition begins immediately, so the default is 0 . Include the number of milliseconds ( ms ) or 
+  seconds ( s ) to delay the transition.
+  3. We don’t want our transition to start immediately, because that might be a bad user experience if the user 
+  accidentally mouses through our ad on the way from one part of the document to the next.
+  4. A 50ms delay is enough time to wait to be sure they are intentionally hovering over our advertisement:
+  */
+  .sample_12 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width, height;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out; 
+    color: white;
+    -webkit-transition-delay: 50ms;
+    transition-delay: 50ms;
+  }
+  
+  .sample_12:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  /*
+  Multiple Transitions
+  1. The transition properties allow for multiple transitions in one call. For example, if we want to change the 
+  color at the same time as changing the rotation and size, we can.
+  */
+  .sample_13 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: transform, color, font-size;
+    transition-duration: 0.2s, 0.1s;
+    transition-timing-function: ease-out, linear; 
+    color: white;
+    -webkit-transition-delay: 50ms;
+    transition-delay: 50ms;
+    /*transition: transform 0.2s ease-out 50ms, color 0.1s linear 50ms;*/
+  }
+  
+  .sample_13:hover {
+    width: 300px;
+    height: 300px;
+    color: green;
+    font-size: 150px;
+  }
+
+
+  /*
+  Keyframes
+  1. 
+  */
+  .sample_14 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: moveRight 5s infinite;
+  }
+
+  .sample_15 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: appearDisappear 5s infinite;
+  }
+  
+
+  @keyframes moveRight { 
+    from {
+    transform: translateX(-50%);
+    }
+    to {
+    transform: translateX(50%);
+    }
+}
+@keyframes appearDisappear { 
+    0%, 100% {
+    opacity: 0;
+    }
+    20%, 80% {
+    opacity: 1;
+    }
+}
+@keyframes bgMove {
+    100% {
+    background-position: 120% 0;
+    }
+}
