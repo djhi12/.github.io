@@ -36,7 +36,7 @@ That means that if a variable is assigned to a primitive data type,
 then the value can't be changed, and will result in an error if you attempt to:
 */
 const name = 'Alexa';
-name = 'Siri';
+// name = 'Siri';
 console.log(name);
 
 const Name = { value: 'Alexa' }; // an object
@@ -47,3 +47,32 @@ console.log(Name);
 
 
 /*------------------------------------------------------------------------*/
+
+
+/*****************************************/
+let daynames = [
+    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+  ]
+  
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ]
+  
+  let d = new Date();
+  let dayName = daynames[d.getDay()];
+  let monthName = months[d.getMonth()];
+  let year = d.getFullYear();
+  let fulldate = dayName + ", " + d.getDate() + " " + monthName + ", " + year;
+  
+  document.getElementById("Date").innerHTML = fulldate;

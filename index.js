@@ -1,16 +1,29 @@
-const links = [
-  {
-  label: "Week1 notes",
-  url: "front_end_2_html/week_1.html",
-  },
-  {
-  label: "Week2 notes",
-  url: "front_end_2_html/week_2.html"
-  }
 
-  ]
 
-document.getElementById("Links").innerHTML = links[0].label;
-document.getElementById("Links").innerHTML += links[1].label;
+/*****************************************/
+let daynames = [
+  "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+]
 
-  console.log("Links");
+let months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+]
+
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
+let fulldate = dayName + ", " + d.getDate() + " " + monthName + ", " + year;
+
+document.getElementById("Date").innerHTML = fulldate;

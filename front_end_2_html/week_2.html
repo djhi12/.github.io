@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Home</title>
+    <title>Web Frontend 2 | Week 2</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Project for Daniel John Idorot">
@@ -17,88 +17,134 @@
 
 <body>
     <main>
-        <h1>Week 2 Readings Notes</h1>
-        <h2>Programming Basics | Chapter 2</h2>
-        <h3>Comments</h3>
-        <ul>
-            <li>When putting a comments of every codes, the reader understands 
-                what's going on.</li>
-            <li>Writing a well-commented code is the beginning of becoming a ninja 
-                programmer.</li>
-            <li>There are two types of comments the single comment (//) and the 
-                multi-line comments (/**/)</li>
-        </ul>
-        <p>Sources / Examples</p>
-        <a href="https://www.w3schools.com/js/js_comments.asp" target="_blank">
-            JavaScript Comments | wschools</a>
-        
-        <h3>JavaScript Grammar</h3>
-        <ul>
-            <li>JavaScript Program is made up of series of statements.</li>
-            <li>Each statements ends with a new line or semicolon.</li>
-            <li>It is best practice to put semicolon at the end of the statement to
-                create a new line of codes.</li>
-        </ul>
-        <p>Sources / Examples</p>
-        <a href="https://www.w3schools.com/js/js_syntax.asp" target="_blank">
-            JavaScript Syntax | wschools</a>
+        <div class="container_2">
+            <div class="container_2a">
+                <h1>Week 2 Readings Notes</h1>
+                <h2>Programming Basics | Chapter 2</h2>
+                <h3>Comments</h3>
+                <ul>
+                    <li>When putting a comments of every codes, the reader understands
+                        what's going on.</li>
+                    <li>Writing a well-commented code is the beginning of becoming a ninja
+                        programmer.</li>
+                    <li>There are two types of comments the single comment (//) and the
+                        multi-line comments (/**/)</li>
+                </ul>
+                <p>Sources / Examples</p>
+                <a href="https://www.w3schools.com/js/js_comments.asp" target="_blank">
+                    JavaScript Comments | wschools</a>
 
-        <h3>Reserved Words</h3>
-        <ul>
-            <li>I read it and it is updating . . .</li>
-        </ul>
-        <p>Sources / Examples</p>
-        <a href="https://www.w3schools.com/js/js_reserved.asp" target="_blank">
-            JavaScript Reserved Words</a>
+                <h3>JavaScript Grammar</h3>
+                <ul>
+                    <li>JavaScript Program is made up of series of statements.</li>
+                    <li>Each statements ends with a new line or semicolon.</li>
+                    <li>It is best practice to put semicolon at the end of the statement to
+                        create a new line of codes.</li>
+                </ul>
+                <p>Sources / Examples</p>
+                <a href="https://www.w3schools.com/js/js_syntax.asp" target="_blank">
+                    JavaScript Syntax | wschools</a>
 
-        <h3>Primitive Data Types</h3>
-        <ul>
-            <li>I read it and it is updating . . .</li>
-        </ul>
-        <p>Sources / Examples</p>
-        <a href="https://www.w3schools.com/js/js_datatypes.asp" target="_blank">JavaScript Data Types</a>
+                <h3>Reserved Words</h3>
+                <ul>
+                    <li>I read it and it is updating . . .</li>
+                </ul>
+                <p>Sources / Examples</p>
+                <a href="https://www.w3schools.com/js/js_reserved.asp" target="_blank">
+                    JavaScript Reserved Words</a>
 
-        <h3>Variables</h3>
-        <ul>
-            <li>I read it and it is updating . . .</li>
-        </ul>
-        <p>Sources / Examples</p>
-        <a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">JavaScript Variables</a>
-        
-        <h3>Console</h3>
-        <div id="output"></div>
-        <div id="output_1"></div>
+                <h3>Primitive Data Types</h3>
+                <ul>
+                    <li>I read it and it is updating . . .</li>
+                </ul>
+                <p>Sources / Examples</p>
+                <a href="https://www.w3schools.com/js/js_datatypes.asp" target="_blank">JavaScript Data Types</a>
 
-        <!---------------------------------->
-        <hr class="hr_1_reading">
-        <h1>W02 Team Activity</h1>
-        <p>Updating . . .</p>
-        <!---------------------------------->
-        <hr class="hr_1_reading">
-        <h1>W02 Report</h1>
-            <h2>What did I do since the last meeting?</h2>
-            <p>I wasn't able to attend the group meeting due to time adjustment (Time difference). I tried to meet them in a agreed time
-                but I failed because I was fall asleep.</p>
-            <h2>What am I going to do next?</h2>
-            <p>I will sleep early so that I can wake up early and meet my group mates in a agreed time.</p>
-            <h2>What are my blockers?</h2>
-            <p>Time difference, understanding the concept especially in Function, Lot of readings, my second subject
-                which is WDD 331-Advance CSS (lot of readings also.)
-            </p>
-        <!---------------------------------->
-        <hr class="hr_1_reading">
-        <h1>Things that I need to continue to read.</h1>
-        <h2>Programming Basics | Chapter 2</h2>
-        <h2>Arrays, Logic, and Loops | Chapter 3</h2>
-        <h2>Functions | Chpater 4</h2>
+                <h3>Variables</h3>
+                <ul>
+                    <li>I read it and it is updating . . .</li>
+                </ul>
+                <p>Sources / Examples</p>
+                <a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">JavaScript Variables</a>
 
+                <h3>Console</h3>
+                <div id="output"></div>
+                <div id="output_1"></div>
 
+                <!---------------------------------->
+                <hr class="hr_1_reading">
+                <h1>W02 Team Activity</h1>
+                <h2>Instructor's Solution</h2>
+                <h3>Requirement 1</h3>
+                <input id="req1Input" type="text" />
+                <button id="req1Button" onclick="reqOne()">Submit</button>
+                <div id="req1Output"></div>
+            
+                <!-- Requirement 2 -->
+                <h3>Requirement 2</h3>
+                <input id="req2Input" type="text" />
+                <button id="req2Button" onclick="reqTwo()">Sum</button>
+                <div id="req2Output"></div>
+            
+                <!-- Requirement 3 -->
+                <h3>Requirement 3</h3>
+                <input id="req3Number1" placeholder="enter a number" type="number" /><input
+                  id="req3Number2"
+                  placeholder="enter a number"
+                  type="number"
+                />
+                <button id="req3Button" onclick="add()">+</button>
+                <div id="req3Output"></div>
+            
+                <h3>Stretch</h3>
+                <input
+                  id="stretchNumber1"
+                  placeholder="enter a number"
+                  type="number"
+                /><input id="stretchNumber2" placeholder="enter a number" type="number" />
+                <!-- Notice below that all of our buttons are calling the same function...but passing in the name of another function as the argument. Notice also what is missing...when you pass a function as a callback you DO NOT include the ()! If you add the () the function will get executed immediately instead of later like we would like. -->
+                <button id="stretchAdd" onclick="performOperation(add2)">+</button>
+                <button id="stretchSub" onclick="performOperation(sub2)">-</button>
+                <button id="stretchMult" onclick="performOperation(mult2)">*</button>
+                <div id="stretchOutput"></div>
+                <!---------------------------------->
+                <hr class="hr_1_reading">
+                <h1>W02 Report</h1>
+                <h2>What did I do since the last meeting?</h2>
+                <p>I wasn't able to attend the group meeting due to time adjustment (Time difference). I tried to meet
+                    them in a agreed time
+                    but I failed because I was fall asleep.</p>
+                <h2>What am I going to do next?</h2>
+                <p>I will sleep early so that I can wake up early and meet my group mates in a agreed time.</p>
+                <h2>What are my blockers?</h2>
+                <p>Time difference, understanding the concept especially in Function, Lot of readings, my second subject
+                    which is WDD 331-Advance CSS (lot of readings also.)
+                </p>
+                <!---------------------------------->
+                <hr class="hr_1_reading">
+                <h1>Things that I need to continue to read.</h1>
+                <h2>Programming Basics | Chapter 2</h2>
+                <h2>Arrays, Logic, and Loops | Chapter 3</h2>
+                <h2>Functions | Chpater 4</h2>
+            </div>
+        </div>
+        <footer>
+            <div class="footer_1">
+                <!--
+     Contact information
+     Map
+     Copy right information
+     Author's name
+    -->
+                <p>&copy; 2021 | Daniel John Idorot |
+                    <a class="footerLink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> |
+                    Web Frontend 2</p>
+                <div id="Date"></div>
+            </div>
+        </footer>
     </main>
-       
-
-
- 
-<script src="/front_end_2_js/week_2.js"></script>
+    <script src="/front_end_2_js/week_2.js"></script>
+    <script src="/front_end_2_js/instr_sol_2.js"></script>
 </body>
 
 </html>
