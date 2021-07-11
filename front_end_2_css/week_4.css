@@ -1,0 +1,130 @@
+.hr_1_reading {
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+body {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*******************************************************************/
+
+.container_4 {
+      box-shadow: 0 4px 8px 0 rgb(71, 117, 209);
+      max-width: 80%;
+      margin: auto;
+}
+
+.container_4a {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+ /*************************************************************************/
+
+    /*Footer*/
+
+    footer {
+        background-color: #9ab3e5;
+        width:100%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+      }
+  
+      a.footerLink {
+          text-decoration: none;
+          color: blue;
+      }
+      
+      a.footerLink:hover { 
+          text-decoration: underline;
+          color: green;
+      }
+  
+      #Date {
+        font-family: 'Montserrat', sans-serif; 
+      }
+
+
+
+
+
+
+
+
+  
+ /*********************************************************************/ 
+  /* styles for the table based board */
+  .board {
+    width: 320px;
+    height: 320px;
+  }
+  .board td,
+  .board tr {
+    width: 33.3%;
+    height: 33.3%;
+  }
+  .board td {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .board td:last-child {
+    border-right: 0;
+  }
+
+  .board tr:last-child td {
+    border-bottom: 0;
+  }
+
+  /* Styles for the div based board */
+  .divBoard {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+  }
+  .divBoard > div {
+    /* border-right: 1px solid;
+    border-bottom: 1px solid; */
+    border: 1px solid;
+    font-size: 5em;
+    text-align: center;
+  }
+  /* .divBoard > div:nth-child(3n) {
+    border-right: 0;
+  }
+  .divBoard > div:nth-child(n + 7) {
+    border-bottom: 0;
+  } */
+
+
+  /*****************************************************************
