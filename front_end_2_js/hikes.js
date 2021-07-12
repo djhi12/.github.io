@@ -1,4 +1,4 @@
-import Comments from './comments.js';
+import Comments from '/front_end_2_js/comments.js';
 // Example of using Classes and modules to organize the code needed to render our list of hikes. Not using MVC here.
 
 //create an array of hikes
