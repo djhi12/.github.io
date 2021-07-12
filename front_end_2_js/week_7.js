@@ -1,3 +1,34 @@
+/*****************************************/
+let daynames = [
+   "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+ ]
+ 
+ let months = [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
+   "June",
+   "July",
+   "August",
+   "September",
+   "October",
+   "November",
+   "December"
+ ]
+ 
+ let d = new Date();
+ let dayName = daynames[d.getDay()];
+ let monthName = months[d.getMonth()];
+ let year = d.getFullYear();
+ let fulldate = dayName + ", " + d.getDate() + " " + monthName + ", " + year;
+ 
+ document.getElementById("Date").innerHTML = fulldate;
+
+
+
+/************************************************************ */
 const avengers = ['Captain America', 'Iron Man', 'Thor', 'Hulk', 'Spider Man', 'Doctor Strange', 'Thanus', 
 'Black Panther', ' ',];
 const justiceLeague = ['Wonder Woman', 'Aquaman', 'Superman', 'Flash', 'Steppenwolf'];
