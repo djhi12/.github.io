@@ -1,4 +1,4 @@
-import Auth from './auth.js';
+import Auth from '/front_end_2_js/auth11.js/';
 import { Errors, makeRequest } from './authHelpers.js';
 // makeRequest('login', 'POST', {
 //   password: 'user1',
