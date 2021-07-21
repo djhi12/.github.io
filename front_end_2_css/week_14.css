@@ -15,6 +15,10 @@ h1, h2, h3, h4 {
     color: blue;
 }
 
+h1.finish {
+    text-align: center;
+}
+
 p {
     font-family: 'Montserrat', sans-serif; 
 }
@@ -39,7 +43,7 @@ ul li {
 
 .container_14a {
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 250px;
     margin-bottom: 50px;
 }
 
@@ -56,7 +60,7 @@ ul li {
         font-family: 'Montserrat', sans-serif; 
         padding-top: 10px;
         padding-bottom: 10px;
-        margin-top: 20px;
+        margin-top: 226px;
       }
   
       a.footerLink {
