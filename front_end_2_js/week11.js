@@ -1,5 +1,5 @@
 import Auth from '/front_end_2_js/auth11.js/';
-import { Errors, makeRequest } from './authHelpers.js';
+import { Errors, makeRequest } from '/front_end_2_js/authHelpers11.js/';
 // makeRequest('login', 'POST', {
 //   password: 'user1',
 //   email: 'user1@email.com'
