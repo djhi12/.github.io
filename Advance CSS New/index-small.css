@@ -1,5 +1,50 @@
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
+
     body {
-      background-color: lightblue;
+        font-family: Helvetica, Arial, sans-serif;
     }
+    header {
+        font-family: 'Lora', serif;
+        background-color: #6495ED;
+        margin: auto;
+        
+    }
+
+    hr {
+        margin: auto;
+        max-width: 280px;
+    }
+
+    header h1 > a{
+        text-align: center;
+        color: #FAEBD7;
+        text-decoration: none;
+    }
+
+    header h1 a {
+        text-align: right;
+    }
+
+    nav {
+        margin: 0px 20px 20px 10px;
+    }
+
+    ul li {
+        list-style-type: none;
+        text-align: right;
+    }
+
+    ul li a:link {
+        color: #FAEBD7;
+        text-decoration: none;
+    }
+
+    main {
+        background-color: #FAEBD7;
+    }
+
+    section > h2 {
+        font-family: 'Lora', serif;
+    }
+
   }
