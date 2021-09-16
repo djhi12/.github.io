@@ -1,6 +1,5 @@
 @import "/Advance CSS New/index-small-400.css";
 
-@media only screen and (max-width: 1500px) {
 
     body {
         font-family: Helvetica, Arial, sans-serif;
@@ -12,8 +11,10 @@
         background-color: #6495ED;
         padding: 20px;
         text-align: right;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
     }
-
 
      h1 a{
         color: #FAEBD7;
@@ -55,24 +56,30 @@
         text-decoration: underline;
     }
 
-    main {
-        background-color: #FAEBD7;
-    }
-
     section > h2 {
         font-family: 'Lora', serif;
     }
 
-    article {
-        max-width: 300px;
+    main > article {
         background: white;
-        margin: 20px 20px 20px 20px;
-        padding: 10px;
+        margin-left: 340px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        max-width: 1000px;
     }
 
-    figure img {
-        margin: auto;
+    figure {
         max-width: 200px;
+        margin: auto;
+    }
+
+    figure p {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    section.post-content {
+        padding: 10px;
     }
 
     section > h2 a:link {
@@ -114,4 +121,4 @@
     p a:hover {
         text-decoration: underline;
     }
-  }
+  
