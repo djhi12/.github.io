@@ -1,6 +1,6 @@
-@import "/Advance CSS New/index-small-400.css";
 
 
+    
     body {
         font-family: Helvetica, Arial, sans-serif;
         margin: 0px;
@@ -10,11 +10,11 @@
     header {
         font-family: 'Lora', serif;
         background-color: #6495ED;
-        padding: 20px;
+        padding: 10px;
         text-align: right;
-        position: fixed;
-        overflow: auto;
-        height: 100%;
+        position: static;
+        overflow: visible;
+        height: 200px;
     }
 
      h1 a{
@@ -26,7 +26,7 @@
 
     hr {
         margin: auto;
-        max-width: 290px;
+        max-width: 390px;
     }
 
 
@@ -63,16 +63,17 @@
 
     main > article {
         background: white;
-        margin-left: 340px;
-        margin-right: 100px;
-        margin-bottom: 50px;
-        max-width: 1000px;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        max-width: 300px;
         padding: 20px;
+        margin-top: 30px;
     }
 
-    figure {
-        max-width: 200px;
-        margin: auto;
+    figure > img {
+       margin: auto;
+        width: 200px;
     }
 
     figure p {
@@ -123,5 +124,12 @@
     p a:hover {
         text-decoration: underline;
     }
+
+
+
+/**/
+
+
+
 
 
