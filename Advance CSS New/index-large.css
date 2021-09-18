@@ -81,6 +81,11 @@
         margin: auto;
     }
 
+    [alt="Book cover for Magnus Chase 1"] {
+        width: 250px;
+    }
+
+
     section.post-content {
         padding: 10px;
     }
@@ -209,6 +214,10 @@
         figure p {
             max-width: 200px;
             margin: auto;
+        }
+
+        [alt="Book cover for Magnus Chase 1"] {
+            width: 200px;
         }
     
         section.post-content {
