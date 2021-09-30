@@ -31,10 +31,15 @@ fieldset > div {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  background: green;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.mixins-sample mixins-sample__para > p {
+  background: red;
+  font-size: 40px;
+  color: white;
 }
 
 /*# sourceMappingURL=sample-1.css.map */

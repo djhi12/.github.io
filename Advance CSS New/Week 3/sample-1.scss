@@ -42,20 +42,31 @@ body {
 
 
 //Mixins
-@mixin flex-container() {
+@mixin flex-container($axis, $wrap: nowrap) {
     display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+        -webkit-flex-flow: $axis $wrap;
+        -ms-flex-flow: $axis $wrap;
+        flex-flow: $axis $wrap;
 }
 
 fieldset > div {
-    @include flex-container;
+    @include flex-container(column);
 }
 
+//------------------------------------
 
+@mixin mixins-sample() {
+    background: red;
+    font-size: 40px;
+    color: white;
+}
 
+.mixins-sample  mixins-sample__para > p {
+    @include mixins-sample;
+}
+
+//-----------------------------------
 
