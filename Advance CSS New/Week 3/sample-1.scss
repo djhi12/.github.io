@@ -11,7 +11,7 @@ $break-small: 400px;
 $break-large: 600px;
 
 body {
-    background-color: lighten($body-background-color, 50%);
+    background-color: lighten($body-background-color, 80%);
 }
 
 #contactform {
@@ -53,18 +53,19 @@ body {
 }
 
 fieldset > div {
-    @include flex-container(column);
+    @include flex-container( /*column*/ row, wrap);
 }
 
 //------------------------------------
 
 @mixin mixins-sample() {
-    background: red;
-    font-size: 40px;
+    background: blue;
+    font-size: 30px;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.mixins-sample  mixins-sample__para > p {
+.mixins-sample  .mixins-sample__para > p {
     @include mixins-sample;
 }
 
