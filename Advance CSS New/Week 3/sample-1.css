@@ -43,4 +43,46 @@ fieldset > div {
   font-family: "Courier New", Courier, monospace;
 }
 
+.body-mixin-and-media {
+  background: green;
+  font-size: 30px;
+  padding: 20px;
+  /*
+  @else { 
+      @content; background-color: pink; 
+
+  }
+  */
+}
+
+.another-example {
+  background: red;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+@media (max-width: 700px) {
+  .another-example {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .another-example {
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .another-example {
+    background-color: purple;
+    color: white;
+    font-size: 10px;
+  }
+}
+
 /*# sourceMappingURL=sample-1.css.map */

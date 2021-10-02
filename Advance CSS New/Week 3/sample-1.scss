@@ -79,37 +79,112 @@ $break-small: 20em;
 $break-medium: 31em;
 $break-large: 60em;
 
+
 @mixin breakpoint($break) {
 
 @if $break == large {
-@media (max-width: $break-large) { @content; background: red; }
+@media (max-width: $break-large) { @content; }
 }
 
 @else if $break == medium { 
-@media (max-width: $break-medium) { @content; background: blue; }
+@media (max-width: $break-medium) { @content; }
 }
 
 @else if $break == small {
-@media (max-width: $break-small) { @content; background: green;}
+@media (max-width: $break-small) { @content; }
 } 
 
 @else {
-@media  ($break) { @content; background: pink; }
+@media  ($break) { @content; }
 }
 }
 
-@debug main;
 
 //-----------------------------------
 
-@mixin mixin-and-media() {
+@mixin body-mixin-and-media($screen-size:160px) {
+
+    $screen-large: 960px;
+    $screen-medium: 500px;
+    $screen-small: 300px;
+
     background: green;
     font-size: 30px;
     padding: 20px;
+
+
+@if $screen-size == 60px {
+@media (max-width: $screen-large) { 
+    @content; background-color: yellow; 
+}
+}
+
+@else if $screen-size == 510px {
+@media (max-width: $screen-medium) { 
+    @content; background-color: blue; 
+}
+}
+
+@else if $screen-size == 310px {
+@media (max-width: $screen-small) { 
+    @content; background-color: red; 
+}
+}
+
+/*
+@else { 
+    @content; background-color: pink; 
+
+}
+*/
+}
+
+
+.body-mixin-and-media {
+    @include body-mixin-and-media;
+}
+
+//--------------------------------------
+
+@mixin another-example() {
+    $large-screen: 700px;
+    $medium-screen: 500px;
+    $small-screen: 350px;
+
+
+    background: red;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+@media (max-width: $large-screen) {
+    @content;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+@media (max-width: $medium-screen) {
+    @content;
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: $small-screen) {
+    @content;
+    background-color: purple;
+    color: white;
+    font-size: 10px;
+}
+
+}
+
+.another-example {
+    @include another-example;
 }
 
 
 
-
-
-//-----------------------------------
