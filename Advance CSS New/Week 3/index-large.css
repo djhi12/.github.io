@@ -3,8 +3,7 @@ body {
   margin: 0px;
   background-color: #FAEBD7;
 }
-
-header {
+body header {
   font-family: "Lora", serif;
   background-color: #6495ED;
   padding: 20px;
@@ -15,16 +14,34 @@ header {
   margin: 0px;
   margin-top: -20px;
 }
-
-h1 a {
+@media (max-width: 400px) {
+  body header {
+    padding: 10px;
+    text-align: right;
+    position: static;
+    overflow: visible;
+    height: 200px;
+  }
+}
+body header h1 a {
   color: #FAEBD7;
   text-decoration: none;
   font-size: 25px;
+}
+@media (max-width: 400px) {
+  body header h1 a {
+    margin: auto;
+  }
 }
 
 hr {
   margin: auto;
   max-width: 290px;
+}
+@media (max-width: 400px) {
+  hr {
+    max-width: 390px;
+  }
 }
 
 ul li {
@@ -45,7 +62,7 @@ ul li a:visited {
 }
 
 ul li a:active {
-  color: #DEB887;
+  color: #FAEBD7;
   text-decoration: none;
 }
 
@@ -68,14 +85,29 @@ main > article {
   top: 200px;
   margin-top: 20px;
 }
+@media (max-width: 400px) {
+  main > article {
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+}
 
 figure {
   max-width: 200px;
   margin: auto;
 }
-
+@media (max-width: 400px) {
+  figure {
+    margin-right: 400px;
+    margin-left: 20px;
+  }
+}
 figure p {
-  max-width: 200px;
+  max-width: 2000px;
   margin: auto;
 }
 
@@ -101,6 +133,12 @@ section > h2 a:active {
   color: #DEB887;
   text-decoration: none;
 }
+@media (max-width: 400px) {
+  section > h2 a:active {
+    color: #DEB887;
+    text-decoration: none;
+  }
+}
 
 section > h2 a:hover {
   color: #6495ED;
@@ -124,6 +162,12 @@ p a:active {
 
 p a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 400px) {
+  section > h2 {
+    font-family: "Lora", serif;
+  }
 }
 
 /*# sourceMappingURL=index-large.css.map */
