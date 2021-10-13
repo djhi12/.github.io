@@ -1,9 +1,7 @@
 
 style.css
    2:1   ×  Expected empty line before comment                               comment-empty-line-before                    
-   2:3   ×  Expected whitespace after "/*"                                   comment-whitespace-inside                    
    5:1   ×  Expected empty line before comment                               comment-empty-line-before                    
-   5:3   ×  Expected whitespace after "/*"                                   comment-whitespace-inside                    
    6:1   ×  Expected empty line before comment                               comment-empty-line-before                    
   10:1   ×  Expected no more than 1 empty line                               max-empty-lines                              
   13:2   ×  Expected indentation of 2 spaces                                 indentation                                  
