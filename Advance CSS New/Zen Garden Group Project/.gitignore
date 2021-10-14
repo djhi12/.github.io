@@ -14,3 +14,6 @@ _color-partials
 _font-partials
     $primary-font: 'Merriweather', serif;
     $secondary-font: 'Open Sans', sans-serif;
+
+//
+_wireframes-partials
