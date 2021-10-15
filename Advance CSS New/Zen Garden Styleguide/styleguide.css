@@ -8,6 +8,10 @@ main {
   margin: auto;
 }
 
+main > h1 {
+  text-align: center;
+}
+
 /* Nav */
 nav > ul.cd-main-nav {
   background-color: green;
@@ -18,7 +22,7 @@ nav > ul.cd-main-nav {
 nav > ul.cd-main-nav li {
   display: inline-flex;
   margin: 15px;
-  font-size: 30px;
+  font-size: 25px;
 }
 nav > ul.cd-main-nav li a {
   color: white;
