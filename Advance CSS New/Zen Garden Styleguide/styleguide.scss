@@ -4,11 +4,15 @@
 // font-family: 'Source Sans Pro ', sans-serif;
 @import url("https://fonts.google.com/specimen/Source+Sans+Pro?query=source+s#standard-styles");
 
-
+@import url("/Advance CSS New/Zen Garden Styleguide/partials/_fonts.scss");
 /* Variables */
 // fonts
-$font-type-paragraph: 'Montserrat', sans-serif;
-$font-type-header: 'Source Sans Pro', sans-serif;
+$font-type-paragraph: 'Montserrat',
+sans-serif;
+$font-type-header: 'Source Sans Pro',
+sans-serif;
+
+
 
 body {
     margin: 0px;
@@ -19,26 +23,55 @@ main {
     margin: auto;
 }
 
-main > h1 {
+main>h1 {
     text-align: center;
 }
 
 /* Nav */
-nav > ul.cd-main-nav {
-    background-color: green;
+nav>ul.cd-main-nav {
+    background-color: hsla(120, 100%, 25%, 0.9);
     margin: 0;
     padding: 20px;
     text-align: center;
+
     li {
         display: inline-flex;
         margin: 15px;
         font-size: 1.8vw;
         font-family: $font-type-header;
+
         & a {
             color: white;
+            text-decoration: none;
+
+            &:link {
+                color: white;
+            }
+
+            &:visited {
+                color: white;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &:active {
+                text-decoration: underline;
+            }
+
         }
     }
 }
+
+/* Purpose */
+
+
+/* Images */
+ul>li.cd-box {
+    list-style-type: none;
+}
+
 
 /* Icons */
 .fab {

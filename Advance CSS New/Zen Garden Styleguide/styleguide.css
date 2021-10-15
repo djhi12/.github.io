@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 @import url("https://fonts.google.com/specimen/Source+Sans+Pro?query=source+s#standard-styles");
+@import url("/Advance CSS New/Zen Garden Styleguide/partials/_fonts.scss");
 /* Variables */
 body {
   margin: 0px;
@@ -16,7 +17,7 @@ main > h1 {
 
 /* Nav */
 nav > ul.cd-main-nav {
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.9);
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -29,6 +30,25 @@ nav > ul.cd-main-nav li {
 }
 nav > ul.cd-main-nav li a {
   color: white;
+  text-decoration: none;
+}
+nav > ul.cd-main-nav li a:link {
+  color: white;
+}
+nav > ul.cd-main-nav li a:visited {
+  color: white;
+}
+nav > ul.cd-main-nav li a:hover {
+  text-decoration: underline;
+}
+nav > ul.cd-main-nav li a:active {
+  text-decoration: underline;
+}
+
+/* Purpose */
+/* Images */
+ul > li.cd-box {
+  list-style-type: none;
 }
 
 /* Icons */
