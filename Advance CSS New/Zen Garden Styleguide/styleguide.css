@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 body {
   margin: 0px;
 }
@@ -11,9 +12,16 @@ main {
 nav > ul.cd-main-nav {
   background-color: green;
   margin: 0;
+  padding: 20px;
+  text-align: center;
 }
 nav > ul.cd-main-nav li {
   display: inline-flex;
+  margin: 15px;
+  font-size: 30px;
+}
+nav > ul.cd-main-nav li a {
+  color: white;
 }
 
 /* Icons */
