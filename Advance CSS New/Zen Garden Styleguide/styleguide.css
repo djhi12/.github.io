@@ -1,6 +1,19 @@
+body {
+  margin: 0px;
+}
+
 main {
   max-width: 960px;
   margin: auto;
+}
+
+/* Nav */
+nav > ul.cd-main-nav {
+  background-color: green;
+  margin: 0;
+}
+nav > ul.cd-main-nav li {
+  display: inline-flex;
 }
 
 /* Icons */
