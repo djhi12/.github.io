@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.google.com/specimen/Source+Sans+Pro?query=source+s#standard-styles");
 /* Variables */
 body {
   margin: 0px;
@@ -23,7 +24,8 @@ nav > ul.cd-main-nav {
 nav > ul.cd-main-nav li {
   display: inline-flex;
   margin: 15px;
-  font-size: 25px;
+  font-size: 2vw;
+  font-family: "Source Sans Pro ", sans-serif;
 }
 nav > ul.cd-main-nav li a {
   color: white;
@@ -38,6 +40,11 @@ nav > ul.cd-main-nav li a {
 .fas {
   font-size: 200px;
   color: red;
+}
+
+/* Typography */
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=styleguide.css.map */

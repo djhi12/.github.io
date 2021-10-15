@@ -1,11 +1,12 @@
 // font-family: 'Montserrat', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
+// font-family: 'Source Sans Pro ', sans-serif;
+@import url('https://fonts.google.com/specimen/Source+Sans+Pro?query=source+s#standard-styles');
 
 /* Variables */
 // Font type
 $font-type-paragraph: 'Montserrat', sans-serif;
-//$font-type-header: ;
+$font-type-header: 'Source Sans Pro ', sans-serif;
 
 
 body {
@@ -30,8 +31,8 @@ nav > ul.cd-main-nav {
     li {
         display: inline-flex;
         margin: 15px;
-        font-size: 25px;
-
+        font-size: 2vw;
+        font-family: $font-type-header;
         & a {
             color: white;
         }
@@ -47,4 +48,9 @@ nav > ul.cd-main-nav {
 .fas {
     font-size: 200px;
     color: red;
+}
+
+/* Typography */
+p {
+    font-family: $font-type-paragraph;
 }
