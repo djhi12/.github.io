@@ -1,17 +1,50 @@
-/* Error: Undefined variable.
- *    ,
- * 39 |         font-family: $font-type-header;
- *    |                      ^^^^^^^^^^^^^^^^^
- *    '
- *   styleguide.scss 39:22  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 39 \2502          font-family: $font-type-header;\d\a    \2502                       ^^^^^^^^^^^^^^^^^\a    \2575 \a   styleguide.scss 39:22  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.google.com/specimen/Source+Sans+Pro?query=source+s#standard-styles");
+/* Variables */
+body {
+  margin: 0px;
 }
+
+main {
+  max-width: 960px;
+  margin: auto;
+}
+
+main > h1 {
+  text-align: center;
+}
+
+/* Nav */
+nav > ul.cd-main-nav {
+  background-color: green;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+nav > ul.cd-main-nav li {
+  display: inline-flex;
+  margin: 15px;
+  font-size: 1.8vw;
+  font-family: "Source Sans Pro", sans-serif;
+}
+nav > ul.cd-main-nav li a {
+  color: white;
+}
+
+/* Icons */
+.fab {
+  font-size: 200px;
+  color: red;
+}
+
+.fas {
+  font-size: 200px;
+  color: red;
+}
+
+/* Typography */
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=styleguide.css.map */
