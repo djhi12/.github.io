@@ -1,9 +1,24 @@
 // Fonts
 @import url("/Advance CSS New/Zen Garden Styleguide/partials/_fonts.scss");
 
+// Colors
+@import url("");
+
+
+/* Variables */
+// Colors
+$color-primary: hsla(120, 100%, 25%, 0.9);
+$color-secondary: Black;
+$color-third: white;
+$color-fourth: hsla(350, 100%, 88%, 0.9); 
+
+// Fonts
 $font-type-paragraph: 'Montserrat', sans-serif;
 $font-type-header: 'Source Sans Pro', sans-serif;
 
+
+
+//----------------------------
 
 body {
     margin: 0px;
