@@ -26,7 +26,7 @@ body {
 
 /* Main */
 main {
-    max-width: 960px;
+    max-width: 860px;
     margin: auto;
 
     h1 {
@@ -37,6 +37,8 @@ main {
     h2{
         color: $color-primary;
         font-family: $font-type-header;
+        background: $color-fourth;
+        padding: 10px;
     }
 }
 
@@ -98,12 +100,12 @@ p {
 
 /* Icons */
 .fab {
-    font-size: 200px;
+    font-size: 150px;
     color: red;
 }
 
 .fas {
-    font-size: 200px;
+    font-size: 150px;
     color: red;
 }
 
@@ -117,5 +119,5 @@ p {
 
 /* Wireframes */
 .cd-box img {
-    width: 500px;
+    width: 400px;
 }
