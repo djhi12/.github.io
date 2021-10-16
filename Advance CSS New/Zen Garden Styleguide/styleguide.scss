@@ -13,8 +13,11 @@ main {
     margin: auto;
 }
 
-main>h1 {
+main > h1 {
     text-align: center;
+}
+h1 {
+    font-family: $font-type-header;
 }
 
 /* Nav */
@@ -58,9 +61,18 @@ nav>ul.cd-main-nav {
 
 
 /* Images */
-ul>li.cd-box {
-    list-style-type: none;
+
+
+/* Colors */
+
+/* Typography */
+p {
+    font-family: $font-type-paragraph;
 }
+
+
+/* Buttons */
+
 
 
 /* Icons */
@@ -74,7 +86,10 @@ ul>li.cd-box {
     color: red;
 }
 
-/* Typography */
-p {
+/* Navigation */
+
+/* Groups */
+.cd-groups p {
     font-family: $font-type-paragraph;
 }
+/* Wireframes */
