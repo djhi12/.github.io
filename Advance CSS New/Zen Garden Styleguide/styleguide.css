@@ -1,101 +1,17 @@
-@import url("/Advance CSS New/Zen Garden Styleguide/partials/_fonts.scss");
-@import url("");
-/* Variables */
-body {
-  margin: 0px;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 23 |         font-family: $font-type-header;
+ *    |                      ^^^^^^^^^^^^^^^^^
+ *    '
+ *   styleguide.scss 23:22  root stylesheet */
 
-/* Main */
-main {
-  max-width: 860px;
-  margin: auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 23 \2502          font-family: $font-type-header;\d\a    \2502                       ^^^^^^^^^^^^^^^^^\a    \2575 \a   styleguide.scss 23:22  root stylesheet";
 }
-main h1 {
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
-}
-@media only screen and (max-width: 400px) {
-  main h1 {
-    font-size: 15px;
-  }
-}
-main h2 {
-  color: green;
-  font-family: "Source Sans Pro", sans-serif;
-  background: #ffc2cc;
-  padding: 10px;
-}
-@media only screen and (max-width: 400px) {
-  main h2 {
-    font-size: 15px;
-  }
-}
-
-/* Nav */
-nav > ul.cd-main-nav {
-  background-color: rgba(0, 128, 0, 0.9);
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
-nav > ul.cd-main-nav li {
-  display: inline-flex;
-  margin: 15px;
-  font-size: 20px;
-  font-family: "Source Sans Pro", sans-serif;
-}
-@media only screen and (max-width: 400px) {
-  nav > ul.cd-main-nav li {
-    font-size: 10px;
-    margin: 5px;
-  }
-}
-nav > ul.cd-main-nav li a {
-  color: white;
-  text-decoration: none;
-}
-nav > ul.cd-main-nav li a:link {
-  color: white;
-}
-nav > ul.cd-main-nav li a:visited {
-  color: white;
-}
-nav > ul.cd-main-nav li a:hover {
-  text-decoration: underline;
-}
-nav > ul.cd-main-nav li a:active {
-  text-decoration: underline;
-}
-
-/* Purpose */
-/* Images */
-/* Colors */
-/* Typography */
-p {
-  font-family: "Montserrat", sans-serif;
-}
-
-/* Buttons */
-/* Icons */
-.fab {
-  font-size: 150px;
-  color: red;
-}
-
-.fas {
-  font-size: 150px;
-  color: red;
-}
-
-/* Navigation */
-/* Groups */
-.cd-groups p {
-  font-family: "Montserrat", sans-serif;
-}
-
-/* Wireframes */
-.cd-box img {
-  width: 400px;
-}
-
-/*# sourceMappingURL=styleguide.css.map */
