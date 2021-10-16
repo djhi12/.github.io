@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
-@import url("https://fonts.google.com/specimen/Source+Sans+Pro?query=source+s#standard-styles");
 @import url("/Advance CSS New/Zen Garden Styleguide/partials/_fonts.scss");
-/* Variables */
 body {
   margin: 0px;
 }
@@ -13,6 +10,10 @@ main {
 
 main > h1 {
   text-align: center;
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* Nav */
@@ -47,10 +48,13 @@ nav > ul.cd-main-nav li a:active {
 
 /* Purpose */
 /* Images */
-ul > li.cd-box {
-  list-style-type: none;
+/* Colors */
+/* Typography */
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
+/* Buttons */
 /* Icons */
 .fab {
   font-size: 200px;
@@ -62,9 +66,15 @@ ul > li.cd-box {
   color: red;
 }
 
-/* Typography */
-p {
+/* Navigation */
+/* Groups */
+.cd-groups p {
   font-family: "Montserrat", sans-serif;
+}
+
+/* Wireframes */
+.cd-box img {
+  width: 500px;
 }
 
 /*# sourceMappingURL=styleguide.css.map */

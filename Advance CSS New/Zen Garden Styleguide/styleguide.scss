@@ -1,7 +1,8 @@
 // Fonts
 @import url("/Advance CSS New/Zen Garden Styleguide/partials/_fonts.scss");
 
-
+$font-type-paragraph: 'Montserrat', sans-serif;
+$font-type-header: 'Source Sans Pro', sans-serif;
 
 
 body {
@@ -92,4 +93,9 @@ p {
 .cd-groups p {
     font-family: $font-type-paragraph;
 }
+
+
 /* Wireframes */
+.cd-box img {
+    width: 500px;
+}
