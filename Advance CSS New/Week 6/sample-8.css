@@ -40,9 +40,9 @@ main {
   }
 
    /* 
-  // Circle
-  1. Width and height must be equal.
-  2. border must be 50%.
+  // Oval
+  1. Width must be greater than height.
+  2. border must be 50% or greater.
   */
   .oval {
     width: 200px;
