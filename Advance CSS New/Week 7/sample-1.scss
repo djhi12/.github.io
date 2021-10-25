@@ -4,6 +4,12 @@ $card-height: $card-width*1.4;
 $font-size-number: $card-width * 0.1;
 $icon-size: $card-width / 5;
 
+main {
+    max-width: 890px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
 *,
 *:before,
 *:after {
