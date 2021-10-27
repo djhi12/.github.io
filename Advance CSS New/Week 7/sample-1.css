@@ -46,6 +46,9 @@ main {
 .row {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  align-content: space-between;
+  height: 100%;
 }
 
 .cell {
@@ -54,6 +57,7 @@ main {
 }
 
 .col-1 {
+  flex: 0 0 12.5%;
   flex: 0 0 12.5%;
 }
 
