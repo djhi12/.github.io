@@ -43,4 +43,22 @@ main {
   transform: rotate(180deg);
 }
 
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cell {
+  flex: 1;
+  text-align: center;
+}
+
+.col-1 {
+  flex: 0 0 12.5%;
+}
+
+.offset-2 {
+  margin-left: 25%;
+}
+
 /*# sourceMappingURL=sample-1.css.map */
