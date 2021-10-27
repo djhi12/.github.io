@@ -89,6 +89,7 @@ main {
     margin-left: 25%;
 }
 
+
 // make column classes 
 @for $index from 1 to 9 {
     .col-#{ $index } {
