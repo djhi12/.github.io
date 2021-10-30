@@ -1,5 +1,7 @@
 @import 'djhi12.github.io/Advance CSS New/Week 7/_mixins.scss';
 @import 'djhi12.github.io/Advance CSS New/Week 7/_variables.scss';
+@import 'djhi12.github.io/Advance CSS New/Week 7/_classes.scss';
+@import 'djhi12.github.io/Advance CSS New/Week 7/_for-loop.scss';
 
 main {
     max-width: 890px;
@@ -13,20 +15,4 @@ main {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-
-
-// make column classes 
-@for $index from $loop-start to $loop-end {
-    .col-#{ $index } {
-        @include col($index);
-    }
-}
-
-// make offset classes
-@for $index from $loop-start to $loop-end {
-    .offset-#{$index} {
-        @include offset($index);
-    }
 }
