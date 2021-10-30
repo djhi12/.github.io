@@ -37,4 +37,20 @@
   transform: rotate(180deg);
 }
 
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.cell-1 {
+  grid-column: 1;
+}
+
+.cell-2 {
+  grid-row: 2;
+}
+
 /*# sourceMappingURL=card-front-1.css.map */
