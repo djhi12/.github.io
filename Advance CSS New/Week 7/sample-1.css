@@ -1,6 +1,6 @@
-@import url("/Advance CSS New/Week 7/_mixins.scss");
 @import url("/Advance CSS New/Week 7/_variables.scss");
 @import url("/Advance CSS New/Week 7/_classes.scss");
+@import url("/Advance CSS New/Week 7/_mixins.scss");
 @import url("/Advance CSS New/Week 7/_for-loop.scss");
 main {
   max-width: 890px;
