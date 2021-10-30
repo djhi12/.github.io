@@ -1,9 +1,9 @@
-/* Error: Undefined mixin.
+/* Error: Undefined variable.
  *    ,
- * 83 |     @include col(1);
- *    |     ^^^^^^^^^^^^^^^
+ * 21 |     height: $card-height;
+ *    |             ^^^^^^^^^^^^
  *    '
- *   sample-1.scss 83:5  root stylesheet */
+ *   sample-1.scss 21:13  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 83 \2502      @include col(1);\d\a    \2502      ^^^^^^^^^^^^^^^\a    \2575 \a   sample-1.scss 83:5  root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 21 \2502      height: $card-height;\d\a    \2502              ^^^^^^^^^^^^\a    \2575 \a   sample-1.scss 21:13  root stylesheet";
 }
