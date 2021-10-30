@@ -29,13 +29,6 @@ $icon-size: $card-width / 5;
 }
 
 
-
-// Variables
-$num-columns: 8;
-$one-column: 100% / $num_columns;
-$loop-start: 1;
-$loop-end: $num-columns + 1;
-
 @mixin col($span-num) {
     flex: 0 0 $one-column * $span-num;
 }
@@ -105,7 +98,6 @@ $loop-end: $num-columns + 1;
 }
 
 .col-2 {
-   
     border: 2px solid blue;
 }
 
