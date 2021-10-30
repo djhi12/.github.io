@@ -1,17 +1,19 @@
-/* Error: Undefined variable.
- *    ,
- * 35 |     height: $card-height;
- *    |             ^^^^^^^^^^^^
- *    '
- *   sample-1.scss 35:13  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 35 \2502      height: $card-height;\d\a    \2502              ^^^^^^^^^^^^\a    \2575 \a   sample-1.scss 35:13  root stylesheet";
+@import url("/Advance CSS New/Week 7/partials/_variables.scss");
+@import url("/Advance CSS New/Week 7/partials/_mixins.scss");
+@import url("/Advance CSS New/Week 7/partials/_classes.scss");
+@import url("/Advance CSS New/Week 7/partials/_for-loop.scss");
+main {
+  max-width: 890px;
+  margin: auto;
+  margin-top: 20px;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=sample-1.css.map */
