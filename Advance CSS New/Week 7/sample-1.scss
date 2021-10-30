@@ -4,13 +4,13 @@ $card-height: $card-width*1.4;
 $font-size-number: $card-width * 0.1;
 $icon-size: $card-width / 5;
 
-@mixin col($span-num) {
-    flex: 0 0 12.5% * $span-num;
-}
 
-@mixin offset($offset-num) {
-    margin-left: 12.5% * $offset-num;
-}
+// Variables
+$num-columns: 8;
+$one-column: 100% / $num_columns;
+$loop-start: 1;
+$loop-end: $num-columns + 1;
+
 
 main {
     max-width: 890px;
@@ -40,8 +40,6 @@ main {
 .card-front {
     padding: .5em;
 }
-
-
 
 
 //set icon size
@@ -91,17 +89,15 @@ main {
 
 
 // make column classes 
-@for $index from 1 to 9 {
+@for $index from $loop-start to $loop-end {
     .col-#{ $index } {
         @include col($index);
     }
 }
 
 // make offset classes
-@for $index from 1 to 9 {
+@for $index from $loop-start to $loop-end {
     .offset-#{$index} {
         @include offset($index);
     }
 }
-
-
