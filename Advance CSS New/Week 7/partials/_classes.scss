@@ -3,7 +3,7 @@
     border: 1px solid grey;
     height: $card-height;
     width: $card-width;
-    border-radius: 10px;
+    border-radius: 100px;
     margin: 20px;
     box-shadow: 2px 2px 4px grey;
 }
@@ -53,6 +53,15 @@
 .col-1 {
     flex: 0 0 12.5%;
     @include col(1);
+    border: 2px solid green;
+}
+
+.col-2 {
+    border: 2px solid blue;
+}
+
+.col-3 {
+    border: 2px solid red;
 }
 
 .offset-2 {
