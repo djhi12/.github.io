@@ -1,17 +1,19 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'djhi12.github.io/Advance CSS New/Week 7/_mixins.scss';
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   sample-1.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'djhi12.github.io/Advance CSS New/Week 7/_mixins.scss';\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sample-1.scss 1:9  root stylesheet";
+@import url("/Advance CSS New/Week 7/_mixins.scss");
+@import url("/Advance CSS New/Week 7/_variables.scss");
+@import url("/Advance CSS New/Week 7/_classes.scss");
+@import url("/Advance CSS New/Week 7/_for-loop.scss");
+main {
+  max-width: 890px;
+  margin: auto;
+  margin-top: 20px;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=sample-1.css.map */
