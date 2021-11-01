@@ -56,10 +56,10 @@ $icon-size: $card-width / 5;
 
 
 /* Grid */
-@supports not(display: grid) {
+@supports (display: grid) {
     .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
+        display: flex;
+        flex-direction: column;
         padding: 1px;
         grid-gap: 10px;
         background: red;
