@@ -39,10 +39,11 @@
 
 /* Grid */
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  grid-template-columns: auto auto;
   padding: 1px;
   grid-gap: 10px;
+  background: red;
 }
 
 .cell-1 {
@@ -90,4 +91,4 @@
   grid-column: 4;
 }
 
-/*# sourceMappingURL=card-frontend-2.css.map */
+/*# sourceMappingURL=card-front-2.css.map */

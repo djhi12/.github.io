@@ -4,6 +4,7 @@ $card-height: $card-width*1;
 $font-size-number: $card-width * 0.1;
 $icon-size: $card-width / 5;
 
+
 *,
 *:before,
 *:after {
@@ -11,6 +12,7 @@ $icon-size: $card-width / 5;
     margin: 0;
     padding: 0;
 }
+
 
 //styles to draw a basic outline of a card
 .card {
@@ -54,12 +56,15 @@ $icon-size: $card-width / 5;
 
 
 /* Grid */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 1px;
-    grid-gap: 10px;
-}
+    .grid-container {
+        display: flex;
+        grid-template-columns: auto auto;
+        padding: 1px;
+        grid-gap: 10px;
+        background: red;
+    }
+
+
 
 .cell-1 {
     grid-column: 1;
