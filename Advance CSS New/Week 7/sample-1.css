@@ -1,11 +1,12 @@
-@import url("/Advance CSS New/Week 7/partials/_variables.scss");
-@import url("/Advance CSS New/Week 7/partials/_mixins.scss");
-@import url("/Advance CSS New/Week 7/partials/_classes.scss");
-@import url("/Advance CSS New/Week 7/partials/_for-loop.scss");
+@import url("/Advance CSS New/Week 7/partials/_variables.css");
+@import url("/Advance CSS New/Week 7/partials/_for-loop.css");
+@import url("/Advance CSS New/Week 7/partials/_mixins.css");
+@import url("/Advance CSS New/Week 7/partials/_classes.css");
 main {
   max-width: 890px;
   margin: auto;
   margin-top: 20px;
+  background: blue;
 }
 
 *,
