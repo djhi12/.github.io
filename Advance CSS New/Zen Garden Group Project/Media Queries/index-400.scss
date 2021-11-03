@@ -1,6 +1,7 @@
 // Variables
 $color-font-header: rgba(190, 227, 216, 1);
 
+
 @media only screen and (max-width: 360px) {
 
     body {
@@ -33,7 +34,7 @@ $color-font-header: rgba(190, 227, 216, 1);
         margin: 10px;
 
         & > h3 {
-            color: $color-font-header;
+            color: rgb(85,91,110);
         }
     }
 
