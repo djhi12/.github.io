@@ -1,17 +1,55 @@
-/* Error: Undefined variable.
- *    ,
- * 33 |             color: $color-font-header;
- *    |                    ^^^^^^^^^^^^^^^^^^
- *    '
- *   index-400.scss 33:20  root stylesheet */
+@media only screen and (max-width: 360px) {
+  body {
+    margin: 0;
+  }
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 33 \2502              color: $color-font-header;\d\a    \2502                     ^^^^^^^^^^^^^^^^^^\a    \2575 \a   index-400.scss 33:20  root stylesheet";
+  /* Section */
+  .intro {
+    position: relative;
+  }
+
+  img.img-nature {
+    width: 342px;
+    height: 200px;
+  }
+
+  header[role=banner] {
+    background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
+    padding: 20px;
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 302px;
+    height: 160px;
+  }
+
+  .preamble {
+    margin: 10px;
+  }
+  .preamble > h3 {
+    color: #bee3d8;
+  }
+
+  /**/
+  .explanation {
+    margin: 10px;
+  }
+
+  .participation {
+    margin: 10px;
+  }
+
+  .benefits {
+    margin: 10px;
+  }
+
+  .requirements {
+    margin: 10px;
+    background: red;
+  }
+
+  /* Footer */
 }
+
+/*# sourceMappingURL=index-400.css.map */

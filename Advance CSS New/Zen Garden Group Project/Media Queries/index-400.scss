@@ -1,5 +1,5 @@
-//$color-font-header: rgba(190, 227, 216, 1);
-@import url("");
+// Variables
+$color-font-header: rgba(190, 227, 216, 1);
 
 @media only screen and (max-width: 360px) {
 
@@ -13,18 +13,20 @@
     }
 
     img.img-nature {
-        width: 354px;
+        width: 342px;
         height: 200px;
     }
 
     // Header
     header[role=banner]     {
-        background: rgba(190, 227, 216, 0.6);
+        background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
         padding: 20px;
         font-size: 10px;
         position: absolute;
-        top: 40px;
-        left: 60px;
+        top: 0px;
+        left: 0px;
+        width: 302px;
+        height: 160px;
     }
 
     .preamble {
@@ -35,9 +37,6 @@
         }
     }
 
-    h3 {
-        color: $color-font-header;
-    }
     /**/
     // Sp What is This About?
     .explanation {
