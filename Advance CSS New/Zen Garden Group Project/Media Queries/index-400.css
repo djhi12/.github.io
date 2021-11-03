@@ -1,4 +1,4 @@
-@media only screen and (min-width: 200px) and (max-width: 400px) {
+@media only screen and (max-width: 320px){
   body {
     margin: 0;
   }
@@ -9,39 +9,40 @@
   }
 
   img.img-nature {
-    width: 354px;
+    width: 300px;
     height: 200px;
   }
 
   header[role=banner] {
-    background: rgba(190, 227, 216, 0.6);
+    background: rgba(190, 227, 216, 0.7);
     padding: 20px;
     font-size: 10px;
     position: absolute;
-    top: 40px;
-    left: 60px;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 160px;
   }
 
   .preamble {
-    margin: 10px;
+    margin: 15px;
   }
 
   /**/
   .explanation {
-    margin: 10px;
+    margin: 15px;
   }
 
   .participation {
-    margin: 10px;
+    margin: 15px;
   }
 
   .benefits {
-    margin: 10px;
+    margin: 15px;
   }
 
   .requirements {
-    margin: 10px;
-    background: red;
+    margin: 15px;
   }
 
   /* Footer */
