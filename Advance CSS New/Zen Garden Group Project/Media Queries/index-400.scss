@@ -1,6 +1,6 @@
-@media only screen and (min-width: 260px) and (max-width: 400px) {
+$color-font-header: rgba(190, 227, 216, 1);
 
-    $color-header: rgba(190, 227, 216, 0.6);
+@media only screen and (max-width: 360px) {
 
     body {
         margin: 0;
@@ -30,10 +30,13 @@
         margin: 10px;
 
         & > h3 {
-            color: $color-header;
+            color: $color-font-header;
         }
     }
 
+    h3 {
+        color: $color-font-header;
+    }
     /**/
     // Sp What is This About?
     .explanation {
@@ -50,6 +53,7 @@
 
     .requirements {
         margin: 10px;
+        background: red;
     }
 
     /* Footer */
