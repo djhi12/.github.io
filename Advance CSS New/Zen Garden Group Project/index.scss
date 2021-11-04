@@ -6,7 +6,62 @@
 
 
 //@use "/Advance CSS New/Zen Garden Group Project/Media Queries" as * ;
-@import url("/Advance CSS New/Zen Garden Group Project/Variables/_variables.scss");
+@use 'variables';
 
 
+
+    body {
+        margin: 0;
+    }
+
+    /* Section */
+    .intro {
+        position: relative;
+    }
+
+    img.img-nature {
+        width: 342px;
+        height: 200px;
+    }
+
+    // Header
+    header[role=banner]     {
+        background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
+        padding: 20px;
+        font-size: 10px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 302px;
+        height: 160px;
+    }
+
+    .preamble {
+        margin: 10px;
+
+        & > h3 {
+            color: rgb(85,91,110);
+        }
+    }
+
+    /**/
+    // Sp What is This About?
+    .explanation {
+        margin: 10px;
+    }
+
+    .participation {
+        margin: 10px;
+    }
+
+    .benefits {
+        margin: 10px;
+    }
+
+    .requirements {
+        margin: 10px;
+        background: red;
+    }
+
+    /* Footer */
 
