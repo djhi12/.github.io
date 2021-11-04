@@ -5,67 +5,60 @@
 /* Fonts */
 
 
-@use "/Advance CSS New/Zen Garden Group Project/Media Queries/index-400.scss";
+//@use "/Advance CSS New/Zen Garden Group Project/Media Queries" as * ;
 
+body {
+    margin: 0;
+}
 
-    body {
-        margin: auto;
-        max-width: 900px;
-        background: red;
+/* Section */
+.intro {
+    position: relative;
+}
+
+img.img-nature {
+    width: 342px;
+    height: 200px;
+}
+
+// Header
+header[role=banner]     {
+    background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
+    padding: 20px;
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 302px;
+    height: 160px;
+}
+
+.preamble {
+    margin: 10px;
+
+    & > h3 {
+        color: rgb(85,91,110);
     }
+}
 
-    /* Section */
-    .intro {
-        position: relative;
-    }
+/**/
+// Sp What is This About?
+.explanation {
+    margin: 10px;
+}
 
-    img.img-nature {
-        width: 100%;
-        height: 400px;
-    }
+.participation {
+    margin: 10px;
+}
 
-    // Header
-    header[role=banner]     {
-        background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
-        padding: 20px;
-        font-size: 10px;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 860px;
-        height: 360px;
-    }
+.benefits {
+    margin: 10px;
+}
 
-    .preamble {
-        margin: 10px;
+.requirements {
+    margin: 10px;
+    background: red;
+}
 
-        & > h3 {
-            color: rgb(85,91,110);
-        }
-    }
+/* Footer */
 
-    /**/
-    // Sp What is This About?
-    .explanation {
-        margin: 10px;
-    }
-
-    .participation {
-        margin: 10px;
-    }
-
-    .benefits {
-        margin: 10px;
-    }
-
-    .requirements {
-        margin: 10px;
-        
-    }
-
-    .viewall {
-        position: absolute;
-        border: 2px solid black;
-        background-color: none;
-        top: 200px;
-    }
