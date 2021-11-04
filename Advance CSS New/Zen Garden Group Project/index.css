@@ -1,55 +1,5 @@
 /* Colors */
 /* Fonts */
-body {
-  margin: 0;
-}
-
-/* Section */
-.intro {
-  position: relative;
-}
-
-img.img-nature {
-  width: 342px;
-  height: 200px;
-}
-
-header[role=banner] {
-  background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
-  padding: 20px;
-  font-size: 10px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 302px;
-  height: 160px;
-}
-
-.preamble {
-  margin: 10px;
-}
-.preamble > h3 {
-  color: #555b6e;
-}
-
-/**/
-.explanation {
-  margin: 10px;
-}
-
-.participation {
-  margin: 10px;
-}
-
-.benefits {
-  margin: 10px;
-}
-
-.requirements {
-  margin: 10px;
-  background: red;
-}
-
-/* Footer */
+@import url("/Advance CSS New/Zen Garden Group Project/Variables/_variables.scss");
 
 /*# sourceMappingURL=index.css.map */
