@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sum Odds</title>
+
+    <script>
+
+        // Defining Table
+
+        /*
+
+            Input: The user will enter any number
+
+            Processing: The program will add up all the odd numbers between 1 and whatever the user input
+
+            Output: Display the sum of all the odd numbers between 1 and user input
+
+        */
+
+        function sumOdds() {
+
+            // 1. Get User input
+
+            let targetNum = parseInt(document.getElementById("targetNum").value);
+
+            // 2. Get all the odd numbers using REPETITION!
+            let i;
+             let result;
+             if(targetNum < 1) {
+               return 0;
+             }
+             result = 0;
+             for(i = targetNum; i > 0; i--) {
+                  if(i % 2 != 0) {
+                     result = result + i;
+                }
+            // 3. Display the sum of all odds to the user
+                 }
+            document.getElementById('output').innerHTML = result;
+            }
+        
+
+    </script>
+    
+        <style>
+            body{
+                margin: auto;
+                background-color:darkcyan;
+                font-family: cursive;
+            }
+            h1 {
+                text-align: center;
+            }
+            input {
+                padding: 10px;
+                border-radius: 30px;
+                border-bottom-style:groove;
+                align-items : center;
+            }
+            .output { 
+                text-align: center;
+                padding: 100px;
+                font-size: 100px;
+                color: darkred;
+            }
+            button {
+                border-radius: 20px;
+                background-color: rebeccapurple;
+                font-style:italic;
+            }
+
+            </style>
+</head>
+
+<body>
+
+    <h1>Sum up the odd numbers</h1>
+
+    <hr>
+
+    <label for="targetNum"></label>
+
+    <input type="number" id="targetNum"><br>
+
+    <button type="button" onclick="sumOdds()">Sum Odds</button>
+
+    <div id="output" class="output"></div>
+
+    
+
+</body>
+
+</html>
