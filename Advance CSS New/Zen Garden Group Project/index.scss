@@ -5,13 +5,13 @@
 /* Fonts */
 
 
+@use "/Advance CSS New/Zen Garden Group Project/Media Queries/index-400.scss";
 
-@import url("/Advance CSS New/Zen Garden Group Project/Media Queries/index-400.css");
 
-@media only screen {
     body {
         margin: auto;
         max-width: 900px;
+        background: red;
     }
 
     /* Section */
@@ -60,7 +60,7 @@
 
     .requirements {
         margin: 10px;
-        background: red;
+        
     }
 
     .viewall {
@@ -69,4 +69,3 @@
         background-color: none;
         top: 200px;
     }
-}
