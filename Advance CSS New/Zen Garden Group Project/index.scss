@@ -1,11 +1,11 @@
 /* Variables */
 
 // Fonts
-//font-family: 'Source Sans Pro', sans-serif;
-// font-famliy: 'Source Sans Pro Extra-light 200', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;; - Header
+// font-family: 'Montserrat', sans-serif; - Paragraph
 
 $font-header: 'Source Sans Pro', sans-serif;
-
+$font-paragraph: 'Montserrat', sans-serif;
 
 @media only screen and (max-width: 320px) {
 
@@ -42,6 +42,7 @@ $font-header: 'Source Sans Pro', sans-serif;
 
         & > h2 {
             font-style: italic;
+            font-family: $font-paragraph;
         }
     }
 
@@ -55,7 +56,13 @@ $font-header: 'Source Sans Pro', sans-serif;
 
         & > h3 {
             color: blue;
+            font-family: $font-header;
+
+            p {
+                font-family: $font-paragraph;
+            }
         }
+
     }
 
     /**/
