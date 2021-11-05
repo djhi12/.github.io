@@ -1,5 +1,4 @@
-/* Colors */
-/* Fonts */
+/* Variables */
 @media only screen and (max-width: 320px) {
   body {
     margin: 0;
@@ -25,6 +24,13 @@
     width: 260px;
     height: 160px;
     color: blue;
+  }
+  header[role=banner] > h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+  }
+  header[role=banner] > h2 {
+    font-style: italic;
   }
 
   .summary {

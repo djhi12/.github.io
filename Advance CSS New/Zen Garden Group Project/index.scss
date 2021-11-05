@@ -1,13 +1,10 @@
-/* Colors */
-// rgb(85,91,110) - Gray
-// rgba(190, 227, 216, 1) - Blue-green
+/* Variables */
 
-/* Fonts */
+// Fonts
+//font-family: 'Source Sans Pro', sans-serif;
+// font-famliy: 'Source Sans Pro Extra-light 200', sans-serif;
 
-
-//@use "/Advance CSS New/Zen Garden Group Project/Media Queries" as * ;
-//@use 'Variables';
-
+$font-header: 'Source Sans Pro', sans-serif;
 
 
 @media only screen and (max-width: 320px) {
@@ -37,6 +34,15 @@
         width: 260px;
         height: 160px;
         color: blue;
+
+        & > h1 {
+            font-family: $font-header;
+            font-size: 30px;
+        }
+
+        & > h2 {
+            font-style: italic;
+        }
     }
 
     // Summary
