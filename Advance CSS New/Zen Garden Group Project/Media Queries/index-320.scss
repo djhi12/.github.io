@@ -1,62 +1,164 @@
-// Variables
-// $color-font-header: rgba(190, 227, 216, 1);
+/* Variables */
+
+// Fonts
+// font-family: 'Source Sans Pro', sans-serif;; - Header
+// font-family: 'Montserrat', sans-serif; - Paragraph
+
+$font-header: 'Source Sans Pro',
+sans-serif;
+$font-paragraph: 'Montserrat',
+sans-serif;
+
+// Colors
+$color-text-green: rgb(0, 128, 0);
+$color-background-footer: rgb(255, 214, 186);
+$color-gradient: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
+$color-border: rgb(0, 128, 0);
 
 
-@media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 320px) {
 
-    body {
-        margin: 0;
-    }
-
-    /* Section */
-    .intro {
-        position: relative;
-    }
-
-    img.img-nature {
-        width: 342px;
-        height: 200px;
-    }
-
-    // Header
-    header[role=banner]     {
-        background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
-        padding: 20px;
-        font-size: 10px;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 302px;
-        height: 160px;
-    }
-
-    .preamble {
-        margin: 10px;
-
-        & > h3 {
-            color: rgb(85,91,110);
+        body {
+            margin: 0;
         }
+
+        /* Section */
+        .intro {
+            position: relative;
+        }
+
+        img.img-nature {
+            width: 300px;
+            height: 200px;
+        }
+
+        // Header
+        header[role=banner] {
+            background: $color-gradient;
+            padding: 20px;
+            font-size: 10px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 260px;
+            height: 160px;
+            color: $color-text-green;
+            line-height: 1px;
+
+            &>h1 {
+                font-family: $font-header;
+                font-size: 30px;
+                text-align: center;
+                margin-top: 70px;
+            }
+
+            &>h2 {
+                font-style: italic;
+                font-family: $font-paragraph;
+                text-align: center;
+            }
+        }
+
+        // Summary
+        .summary {
+            margin: 10px;
+            font-family: $font-paragraph;
+        }
+
+        .preamble {
+            margin: 10px;
+
+            &>h3 {
+                color: $color-text-green;
+                font-family: $font-header;
+            }
+
+            & p {
+                font-family: $font-paragraph;
+            }
+
+        }
+
+        /**/
+        // Sp What is This About?
+        .explanation {
+            margin: 10px;
+
+            &>h3 {
+                font-family: $font-header;
+                color: $color-text-green;
+            }
+
+            & p {
+                font-family: $font-paragraph;
+            }
+        }
+        
+        // Participation
+        .participation {
+            margin: 10px;
+
+            &>h3 {
+                font-family: $font-header;
+                color: $color-text-green;
+            }
+
+            & p {
+                font-family: $font-paragraph;
+            }
+        }
+
+        // Benefits
+        .benefits {
+            margin: 10px;
+
+            & > h3 {
+                font-family: $font-header;
+                color: $color-text-green;
+            }
+
+            & p {
+                font-family: $font-paragraph;
+            }
+        }
+
+        // Requirements
+        .requirements {
+            margin: 10px;
+
+            & > h3 {
+                font-family: $font-header;
+                color: $color-text-green;
+            }
+
+             & p {
+                 font-family: $font-paragraph;
+             }
+        }
+
+
+        /* Footer */
+        footer {
+            background: $color-background-footer;
+            display: grid;
+            grid-template-columns: auto auto;
+            position: relative;
+            top: 200px;
+
+            & [title] {
+                border: 1px solid $color-border;
+                border-radius: 3px;
+                padding: 10px;
+                margin: 5px;
+                text-align: center;
+            }
+        }
+
+        // Design Selection
+        .design-selection {
+            position: relative;
+            bottom: 180px;
+            background: $color-background-footer;
+        }
+
     }
-
-    /**/
-    // Sp What is This About?
-    .explanation {
-        margin: 10px;
-    }
-
-    .participation {
-        margin: 10px;
-    }
-
-    .benefits {
-        margin: 10px;
-    }
-
-    .requirements {
-        margin: 10px;
-        background: red;
-    }
-
-    /* Footer */
-
-}
