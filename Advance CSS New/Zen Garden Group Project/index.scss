@@ -6,9 +6,11 @@
 
 
 //@use "/Advance CSS New/Zen Garden Group Project/Media Queries" as * ;
-@use 'variables';
+//@use 'Variables';
 
 
+
+@media only screen and (max-width: 320px) {
 
     body {
         margin: 0;
@@ -20,7 +22,7 @@
     }
 
     img.img-nature {
-        width: 342px;
+        width: 300px;
         height: 200px;
     }
 
@@ -32,15 +34,21 @@
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 302px;
+        width: 260px;
         height: 160px;
+        color: blue;
+    }
+
+    // Summary
+    .summary {
+        margin: 10px;
     }
 
     .preamble {
         margin: 10px;
 
         & > h3 {
-            color: rgb(85,91,110);
+            color: blue;
         }
     }
 
@@ -60,8 +68,8 @@
 
     .requirements {
         margin: 10px;
-        background: red;
     }
 
     /* Footer */
 
+}
