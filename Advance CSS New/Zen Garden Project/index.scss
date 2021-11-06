@@ -1,0 +1,31 @@
+@import 'small';
+@import 'media';
+@import 'large';
+
+
+
+
+body{
+    background-color: #89b0ae;
+}
+.img-nature{
+    height: 300px;
+    width: 400px;
+    background-image: url(../imageszn/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:beige;
+
+}
+.text1{
+    margin: 10px;
+    text-align: end;
+    font-size: 30px;
+}
+.preamble{
+    font-size: 1.5rem;
+    margin: 30px;
+    background-color: #ffffff52;
+    padding: 10px;
+}
