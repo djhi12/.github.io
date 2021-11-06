@@ -93,6 +93,10 @@ body {
   grid-row: 1;
 }
 
+.zen-resources > h3 {
+  display: none;
+}
+
 /*
 .text1{
     margin: 10px;
