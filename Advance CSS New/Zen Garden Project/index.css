@@ -119,8 +119,8 @@ footer a {
   margin: 10px;
 }
 
-div.dave-shea p {
-  margin: auto;
+.dave-shea {
+  text-align: center;
 }
 
 .zen-resources > h3 {
