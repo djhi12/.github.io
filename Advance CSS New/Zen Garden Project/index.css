@@ -108,8 +108,8 @@ body {
 }
 
 footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   text-align: center;
 }
 footer a {
@@ -119,14 +119,22 @@ footer a {
   margin: 10px;
 }
 
+div.dave-shea p {
+  margin: auto;
+}
+
 .zen-resources > h3 {
   display: none;
 }
 .zen-resources ul {
+  margin-top: 70px;
   text-align: center;
 }
 .zen-resources ul li {
   display: inline-block;
+}
+.zen-resources ul li a {
+  margin: 20px;
 }
 
 /*

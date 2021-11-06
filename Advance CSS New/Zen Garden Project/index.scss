@@ -97,8 +97,8 @@ body{
 // Zen Resources / Footer
 footer {
 
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     text-align: center;
 
     & a {
@@ -109,17 +109,26 @@ footer {
     }
 }
 
+div.dave-shea p{
+    margin: auto;
+}
+
 .zen-resources {
     & > h3 {
         display: none;
     }
 
     & ul {
+        margin-top: 70px;
         text-align: center;
     }
 
     & ul li {
         display: inline-block;
+
+        & a {
+            margin: 20px;
+        }
     }
 }
 
