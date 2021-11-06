@@ -77,6 +77,9 @@ body {
   border-radius: 10px;
   text-decoration: none;
 }
+.design-archives h3 {
+  display: none;
+}
 
 .grid-container {
   display: grid;
