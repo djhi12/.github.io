@@ -1,17 +1,61 @@
-/* Error: Invalid Sass identifier "index-564 as *"
- *   ,
- * 1 | @use "Media Queries/index-564 as *";
- *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   index.scss 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: Invalid Sass identifier "index-564 as *"\a   \2577 \a 1 \2502  @use "Media Queries/index-564 as *";\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   index.scss 1:1  root stylesheet';
+@media only screen and (max-width: 564px) {
+  .img-nature {
+    height: 300px;
+    width: 400px;
+    background-image: url(../imageszn/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: beige;
+  }
 }
+@media only screen and (max-width: 759px) {
+  .img-nature {
+    height: 300px;
+    width: 500px;
+    background-image: url(../imageszn/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: beige;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .img-nature {
+    height: 500px;
+    width: 1000px;
+    background-image: url(../imageszn/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: beige;
+  }
+}
+body {
+  background-color: #89b0ae;
+}
+
+.img-nature {
+  height: 300px;
+  width: 400px;
+  background-image: url(../imageszn/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: beige;
+}
+
+.text1 {
+  margin: 10px;
+  text-align: end;
+  font-size: 30px;
+}
+
+.preamble {
+  font-size: 1.5rem;
+  margin: 30px;
+  background-color: #ffffff52;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */
