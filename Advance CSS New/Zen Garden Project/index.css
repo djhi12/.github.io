@@ -81,16 +81,15 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   background: red;
 }
 .grid-container .grid-container__content-header-and-paragrapgh {
-  grid-column: 2/span 2;
-  width: 200px;
+  grid-column: 2;
+  width: 900px;
 }
 .grid-container .wrapper {
   grid-column: 1;
-  grid-row: 2;
 }
 
 /*
