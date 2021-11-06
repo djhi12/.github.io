@@ -66,7 +66,13 @@ body{
     background: red;
 
     & .grid-container__content-header-and-paragrapgh {
-        grid-column: 2;
+        grid-column: 2 / span 2;
+        width: 200px;
+    }
+
+    & .wrapper {
+        grid-column: 1;
+        grid-row: 2;
     }
 }
 
