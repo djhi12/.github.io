@@ -32,7 +32,6 @@
   }
 }
 body {
-  background-color: #89b0ae;
   margin: 0px;
 }
 
@@ -68,7 +67,7 @@ body {
   width: 900px;
 }
 
-.viewall {
+.design-archives {
   position: absolute;
   top: 500px;
   list-style-type: none;
@@ -82,17 +81,16 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background: red;
 }
 .grid-container .grid-container__content-header-and-paragrapgh {
   grid-column: 2/span 2;
   width: 900px;
   margin: auto;
+  padding-left: 50px;
 }
 .grid-container .sidebar {
   grid-column: 1;
   grid-row: 1;
-  background: green;
 }
 
 /*
