@@ -93,8 +93,26 @@ body {
   grid-row: 1;
 }
 
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+footer a {
+  border: 1px solid red;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
 .zen-resources > h3 {
   display: none;
+}
+.zen-resources ul {
+  text-align: center;
+}
+.zen-resources ul li {
+  display: inline-block;
 }
 
 /*

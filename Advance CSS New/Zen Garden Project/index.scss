@@ -76,10 +76,32 @@ body{
     }
 }
 
-// Zen Resources
+// Zen Resources / Footer
+footer {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    & a {
+        border: 1px solid red;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+}
+
 .zen-resources {
     & > h3 {
         display: none;
+    }
+
+    & ul {
+        text-align: center;
+    }
+
+    & ul li {
+        display: inline-block;
     }
 }
 
