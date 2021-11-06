@@ -92,6 +92,9 @@ body {
   grid-column: 1;
   grid-row: 1;
 }
+.grid-container .sidebar h3 {
+  display: none;
+}
 
 footer {
   margin-top: 50px;
