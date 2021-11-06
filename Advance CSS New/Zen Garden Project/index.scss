@@ -66,8 +66,8 @@ body{
     & .grid-container__content-header-and-paragrapgh {
         grid-column: 2 / span 2 ;
         width: 900px;
-        margin: auto;
-        padding-left: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     & .sidebar {
@@ -76,6 +76,16 @@ body{
 
         & h3 {
             display: none;
+        }
+
+        & nav ul li {
+            list-style-type: none;
+            margin: 20px;
+            font-size: 20px;
+
+            & a {
+                border: 1px solid blue;
+            }
         }
     }
 }
