@@ -126,6 +126,7 @@
     margin-left: 20px;
     font-size: 35px;
     line-height: 1px;
+    font-family: "Source Sans Pro", sans-serif;
   }
   .img-nature [role] > h2 {
     font-style: italic;
@@ -134,12 +135,26 @@
     line-height: 5px;
   }
 
+  .parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+    background-image: url("img_parallax.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .summary.preamble {
     position: static;
     top: 0px;
-    margin-left: 20px;
+    margin: 10px;
     font-size: 15px;
-    max-width: 900px;
+    max-width: 500px;
+    font-family: "Montserrat", sans-serif;
   }
 
   .design-archives {
@@ -214,5 +229,6 @@
     font-size: 15px;
   }
 }
+/* Variables */
 
 /*# sourceMappingURL=index.css.map */
