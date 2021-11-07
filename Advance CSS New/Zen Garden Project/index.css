@@ -113,7 +113,7 @@
   .img-nature > img {
     max-width: 370px;
     height: 300px;
-    filter: opacity(0.3);
+    filter: opacity(0.5);
   }
   .img-nature [role] {
     position: absolute;
