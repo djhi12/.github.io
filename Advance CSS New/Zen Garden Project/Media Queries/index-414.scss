@@ -1,7 +1,6 @@
 @media only screen and (max-width: 414px) {
     body{
         margin: 0px;
-        background: red;
     }
     .img-nature{
         
@@ -48,7 +47,6 @@
         top: 150px;
         list-style-type: none;
         font-size: 15px;
-        border: 1px solid red;
         padding: 10px;
         border-radius: 10px;
         text-decoration: none;
@@ -98,6 +96,7 @@
             padding: 10px;
             border-radius: 10px;
             margin: 5px;
+            display: inline-block;
         }
     }
     
@@ -118,9 +117,12 @@
     
         & ul li {
             display: inline-block;
+            margin: 5px;
+            margin-left: 0px;
     
             & a {
-                margin: 10px;
+                margin: auto;
+                font-size: 15px;
             }
         }
     }
