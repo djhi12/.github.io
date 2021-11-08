@@ -10,92 +10,77 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sum Odds</title>
+    <title>Wind Chill</title>
 
     <script>
-
-        // Defining Table
-
         /*
+        function doInputOutput() {
+            let tempF = parseInt(document.getElementById('inputTemperature').value);
+            let speed = parseInt(document.getElementById('inputSpeed').value);
+            let result = windChill(tempF, speed);
+            document.getElementById('outputDiv').innerHTML = result;
+        }
 
-            Input: The user will enter any number
-
-            Processing: The program will add up all the odd numbers between 1 and whatever the user input
-
-            Output: Display the sum of all the odd numbers between 1 and user input
-
+        function windChill(tempF, speed) {
+            let result = ((35.74 + 0.6215) * (tempF - 35.75) * (speed ** 0.16 + 0.4275) * (tempF) * (speed ** 0.16));
+            return result;
+            console.log(result);
+        }
         */
 
-        function sumOdds() {
+        /* 
+            The first function (doInputOutput) must be called from the onclick attribute 
+            of the button and must do the following:
+        */
+        function doInputOutput() {
+            // get a temperature from the first text field
+            let tempF = parseInt(document.getElementById('inputTemperature').value);
 
-            // 1. Get User input
+            // get a wind speed from the second text field
+            let windSpeed = parseInt(document.getElementById('inputSpeed').value);
 
-            let targetNum = parseInt(document.getElementById("targetNum").value);
+            // call the second function (windChill)
 
-            // 2. Get all the odd numbers using REPETITION!
-            let i;
-             let result;
-             if(targetNum < 1) {
-               return 0;
-             }
-             result = 0;
-             for(i = targetNum; i > 0; i--) {
-                  if(i % 2 != 0) {
-                     result = result + i;
-                }
-            // 3. Display the sum of all odds to the user
-                 }
-            document.getElementById('output').innerHTML = result;
-            }
-        
+            // store the value returned by windChill in a variable
 
+            // output the value returned by windChill to the div for the user to see
+        }
+
+        function windChill(tempF, windSpeed) {
+
+        }
+
+
+
+        /****************************/
+        // Sample 
+        const message = function () {
+            console.log("This message is shown after 3 seconds");
+        }
+
+        setTimeout(message, 3000);
+
+
+        /***************************/
     </script>
-    
-        <style>
-            body{
-                margin: auto;
-                background-color:darkcyan;
-                font-family: cursive;
-            }
-            h1 {
-                text-align: center;
-            }
-            input {
-                padding: 10px;
-                border-radius: 30px;
-                border-bottom-style:groove;
-                align-items : center;
-            }
-            .output { 
-                text-align: center;
-                padding: 100px;
-                font-size: 100px;
-                color: darkred;
-            }
-            button {
-                border-radius: 20px;
-                background-color: rebeccapurple;
-                font-style:italic;
-            }
-
-            </style>
+    <style>
+        body {
+            font-family: monospace;
+        }
+    </style>
 </head>
 
 <body>
+    Please enter the following:<br>
+    <!-- First text: "Temperature" -->
+    Temperature (ºF): <input type="text" id="inputTemperature"><br>
 
-    <h1>Sum up the odd numbers</h1>
+    <!-- Wind Speed -->
+    Wind Speed (miles per hour): <input type="text" id="inputSpeed"><br>
 
-    <hr>
-
-    <label for="targetNum"></label>
-
-    <input type="number" id="targetNum"><br>
-
-    <button type="button" onclick="sumOdds()">Sum Odds</button>
-
-    <div id="output" class="output"></div>
-
-    
+    <!-- Wind Chill -->
+    <button type="button" onclick="doInputOutput()">Wind Chill</button>
+    <div id="outputDiv"></div>
 
 </body>
 
