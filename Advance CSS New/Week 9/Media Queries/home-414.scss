@@ -1,10 +1,12 @@
-@import '_variables';
+
 
 @media only screen and (max-width: 414px) {
     // @use 'byui-home/_icons' as *;
 
     body {
-        background:  $color-blue;
+        background:  lightblue;
     }
+
+    
 
 }
