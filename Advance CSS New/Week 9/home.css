@@ -1,7 +1,18 @@
-@media only screen and (max-width: 414px) {
-  body {
-    background: white;
-  }
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import '_variables';
+ *   |         ^^^^^^^^^^^^
+ *   '
+ *   Media Queries\home-414.scss 1:9  @use
+ *   home.scss 2:1                    root stylesheet */
 
-/*# sourceMappingURL=home.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import '_variables';\d\a   \2502          ^^^^^^^^^^^^\a   \2575 \a   Media Queries\\home-414.scss 1:9  @use\a   home.scss 2:1                    root stylesheet";
+}
