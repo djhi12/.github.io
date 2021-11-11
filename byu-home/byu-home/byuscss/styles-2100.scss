@@ -14,6 +14,11 @@ $byui-blue: #056cb6;
 $font-gray: #525352;
 $lightest-gray: #f8f9fa;
 
+/* Body */
+body {
+  margin: 0px;
+  // background: lightblue;
+}
 
 // Utility classes
 *,
@@ -23,6 +28,23 @@ $lightest-gray: #f8f9fa;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* Header */
+header{
+  background-color: $byui-blue;
+  padding: 20px;
+}
+
+// Logo
+.icon-byui-logo{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -113,9 +135,7 @@ select{
   width: 100%;
 }
 
-header{
-  background-color: $byui-blue;
-}
+
 
 //classes
 .newsImg{
@@ -126,14 +146,6 @@ header{
   width: 227.98px;
 }
 
-.icon-byui-logo{
-  background-color: black;
-  color: white;
-  font-size: 16px;
-  padding-right: 10px;
-  padding-top:10px;
-  padding-bottom: 10px;
-}
 
 .site-banner__right{
   float: right;
