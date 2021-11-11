@@ -1006,10 +1006,6 @@
   content: "\e9f2";
 }
 
-body {
-  background: red;
-}
-
 *,
 *:before,
 *:after {
@@ -1219,4 +1215,4 @@ header {
   padding: 10px 20px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=home.css.map */
