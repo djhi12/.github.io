@@ -40,9 +40,19 @@
         background-color: black;
         color: white;
         font-size: 16px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 28px;
+        // padding-left: 30px;
+        // margin-left: 0px;
+        align-items: center;
+    }
+
+    .site-banner__right {
+        float: right;
+        margin-bottom: 20px;
+        margin-top: -55px;
+        font-size: 40px;
     }
 
     .sr-only {
@@ -63,22 +73,11 @@
         color: $link-blue;
     }
 
-    article {
-        border-top: 1px solid $med-gray;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        display: flex;
-    }
 
     article h6,
     article a,
     article p {
         padding-left: 20px;
-    }
-
-    aside {
-        display: inline-block;
-        width: 360px;
     }
 
     figcaption {
@@ -128,7 +127,7 @@
         background-color: $dark-gray;
         color: white;
         border: 1px solid $med-gray;
-        margin: 0;
+        // margin: 0;
         padding: 10px 20px;
         font-size: 22px;
     }
@@ -140,20 +139,6 @@
         width: 100%;
     }
 
-
-
-    //classes
-    .newsImg {
-        width: 165px !important;
-    }
-
-
-
-    .site-banner__right {
-        float: right;
-        margin-bottom: 20px;
-        margin-top: -32px;
-    }
 
     [class^=icon-],
     [class*=" icon-"] {
@@ -169,31 +154,28 @@
     }
 
 
-
-    #right {
-        padding: 0px 15px;
-        margin-right: 100px;
-    }
-
     /********** Main *********/
 
-    // Main - 
+    // Top
     #top {
         background-color: $light-gray;
         // height: 86px;
         // vertical-align: middle;
         padding: 20px;
         border-bottom: 1px solid black;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
+        text-align: left;
     }
 
     #top a {
         color: $font-gray;
         // background: lightblue;
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
+
+    // Container
     #container {
         margin: 10px;
     }
@@ -214,6 +196,7 @@
         border: 1px solid $med-gray;
         width: 100%;
         margin-left: 0px;
+        margin-top: 30px;
     }
 
     figure > img {
@@ -225,17 +208,69 @@
         margin: auto;
     }
 
+    /************* Aside ************/
+    // Section > #right
+    #right {
+        //max-width: 100%;
+        margin: auto;
+    }
+
+    // Aside
+
+    //Table
+    table {
+        margin-top: 20px;
+        width: 377px;
+        border-collapse: collapse;
+    }
+
+    //Table > thead
+    thead {
+        width: 100px;
+    }
+
+    // #importantDates
 
 
+    // Article
+    .newsImg {
+        width: 165px !important;
+        display: none;
+    }
 
+    article {
+        // border-top: 1px solid $med-gray;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        max-width: 100%;
+        margin: auto;
+        text-align: left;
+        text-justify: inter-word;
+    }
 
-
-
-
+    // #message
     #message {
-        width: 350px;
+        max-width: 350px;
+        margin: auto;
         border-radius: 5px;
     }
+
+    // News Room
+    #newsroom {
+        float: right;
+        background-color: $link-blue;
+        color: white;
+        padding: 5px 30px;
+        border-radius: 3px;
+        font-weight: bolder;
+        margin: auto;
+    }
+
+
+
+
+
 
     section[alt=Student] {
         width: 100px;
@@ -263,18 +298,6 @@
         border-top-right-radius: 4px;
     }
 
-    #newsroom {
-        float: right;
-        background-color: $link-blue;
-        color: white;
-        padding: 5px 30px;
-        border-radius: 3px;
-        font-weight: bolder;
-    }
-
-    #importantDates p {
-        border-bottom: 1px solid $med-gray;
-    }
 
     #importantDates h3 {
         background-color: $byui-blue;

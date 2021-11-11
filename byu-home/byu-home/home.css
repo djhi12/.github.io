@@ -1031,9 +1031,17 @@
     background-color: black;
     color: white;
     font-size: 16px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 28px;
+    align-items: center;
+  }
+
+  .site-banner__right {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: -55px;
+    font-size: 40px;
   }
 
   .sr-only {
@@ -1053,22 +1061,10 @@ a:visited {
     color: #0076b6;
   }
 
-  article {
-    border-top: 1px solid #b4b3b5;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-  }
-
   article h6,
 article a,
 article p {
     padding-left: 20px;
-  }
-
-  aside {
-    display: inline-block;
-    width: 360px;
   }
 
   figcaption {
@@ -1118,7 +1114,6 @@ figcaption {
     background-color: #727272;
     color: white;
     border: 1px solid #b4b3b5;
-    margin: 0;
     padding: 10px 20px;
     font-size: 22px;
   }
@@ -1128,16 +1123,6 @@ figcaption {
     padding: 10px 18px;
     text-align: left;
     width: 100%;
-  }
-
-  .newsImg {
-    width: 165px !important;
-  }
-
-  .site-banner__right {
-    float: right;
-    margin-bottom: 20px;
-    margin-top: -32px;
   }
 
   [class^=icon-],
@@ -1153,23 +1138,19 @@ figcaption {
     padding-left: 10px;
   }
 
-  #right {
-    padding: 0px 15px;
-    margin-right: 100px;
-  }
-
   /********** Main *********/
   #top {
     background-color: #eaeaea;
     padding: 20px;
     border-bottom: 1px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    text-align: left;
   }
 
   #top a {
     color: #525352;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
   }
 
   #container {
@@ -1189,6 +1170,7 @@ figcaption {
     border: 1px solid #b4b3b5;
     width: 100%;
     margin-left: 0px;
+    margin-top: 30px;
   }
 
   figure > img {
@@ -1196,9 +1178,50 @@ figcaption {
     margin: auto;
   }
 
+  /************* Aside ************/
+  #right {
+    margin: auto;
+  }
+
+  table {
+    margin-top: 20px;
+    width: 377px;
+    border-collapse: collapse;
+  }
+
+  thead {
+    width: 100px;
+  }
+
+  .newsImg {
+    width: 165px !important;
+    display: none;
+  }
+
+  article {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    text-align: left;
+    text-justify: inter-word;
+  }
+
   #message {
-    width: 350px;
+    max-width: 350px;
+    margin: auto;
     border-radius: 5px;
+  }
+
+  #newsroom {
+    float: right;
+    background-color: #0076b6;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-weight: bolder;
+    margin: auto;
   }
 
   section[alt=Student] {
@@ -1225,19 +1248,6 @@ figcaption {
     z-index: -1;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-  }
-
-  #newsroom {
-    float: right;
-    background-color: #0076b6;
-    color: white;
-    padding: 5px 30px;
-    border-radius: 3px;
-    font-weight: bolder;
-  }
-
-  #importantDates p {
-    border-bottom: 1px solid #b4b3b5;
   }
 
   #importantDates h3 {
