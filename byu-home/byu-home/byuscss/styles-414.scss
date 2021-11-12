@@ -27,43 +27,62 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        // font-size: 20px;
+        // margin-top: 0px;
     }
 
     /********** Header **********/
     header {
         background-color: $byui-blue;
-        padding: 20px;
+        padding-top: 0px;
     }
 
     // Logo
     .icon-byui-logo {
         background-color: black;
-        color: white;
-        font-size: 16px;
-        padding-top: 30px;
-        padding-right: 30px;
-        padding-bottom: 28px;
+        // color: white;
+        // font-size: 16px;
+        padding-top: 60px;
+        padding-right: 20px;
+        padding-bottom: 15px;
         // padding-left: 30px;
         // margin-left: 0px;
         align-items: center;
     }
 
+    [class^=icon-],
+    [class*=" icon-"] {
+        font-family: "icomoon" !important;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 2;
+        -webkit-font-smoothing: antialiased;
+        color: white;
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+
     .site-banner__right {
         float: right;
         margin-bottom: 20px;
-        margin-top: -55px;
-        font-size: 40px;
+        margin-top: -60px;
+        font-size: 35px;
+        margin-right: 20px;
     }
 
     .sr-only {
         position: absolute;
         width: 1px;
         height: 1px;
-        padding: 0;
+        padding: 0px;
         margin: -1px;
         overflow: hidden;
         clip: rect(0, 0, 0, 0);
         border: 0;
+        // top: 5px;
     }
 
     //elements
@@ -71,6 +90,8 @@
     a:visited {
         text-decoration: none;
         color: $link-blue;
+        // font-size: 20px;
+        margin-bottom: 100px;
     }
 
 
@@ -140,19 +161,6 @@
     }
 
 
-    [class^=icon-],
-    [class*=" icon-"] {
-        font-family: "icomoon" !important;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 2;
-        -webkit-font-smoothing: antialiased;
-        color: white;
-        padding-left: 10px;
-    }
-
 
     /********** Main *********/
 
@@ -178,6 +186,8 @@
     // Container
     #container {
         margin: 10px;
+        display: block;
+        //grid-template-columns: auto auto auto;
     }
 
     #left {
@@ -220,7 +230,7 @@
     //Table
     table {
         margin-top: 20px;
-        width: 377px;
+        width: 355px;
         border-collapse: collapse;
     }
 
@@ -258,13 +268,13 @@
 
     // News Room
     #newsroom {
-        float: right;
+        // float: right;
         background-color: $link-blue;
         color: white;
         padding: 5px 30px;
         border-radius: 3px;
         font-weight: bolder;
-        margin: auto;
+        margin-left: 210px;
     }
 
 
