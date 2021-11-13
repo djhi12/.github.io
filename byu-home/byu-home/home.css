@@ -1010,7 +1010,6 @@
   /* Body */
   body {
     margin: 0px;
-    background: lightgreen;
   }
 
   *,
@@ -1019,6 +1018,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  }
+
+  /********* Icons *************/
+  .icon-search:before {
+    content: "\e922";
   }
 
   /********** Header **********/
@@ -1055,8 +1059,16 @@
     margin-top: -60px;
     font-size: 35px;
     margin-right: 20px;
+    display: none;
   }
 
+  /*
+  input {
+      display: inline;
+      position: absolute;
+      z-index: 1;
+  }
+  */
   .sr-only {
     position: absolute;
     width: 1px;
@@ -1136,7 +1148,10 @@ figcaption {
     border: 1px solid #b4b3b5;
     padding: 10px 18px;
     text-align: left;
-    width: 100%;
+    width: 28%;
+    position: absolute;
+    top: 177px;
+    left: 850px;
   }
 
   /********** Main *********/
@@ -1164,14 +1179,21 @@ figcaption {
     margin-left: 0px;
   }
 
-  div > img {
+  .girl-dancing {
     max-width: 100%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    max-width: 64%;
   }
 
   figure {
     border: 1px solid #b4b3b5;
     width: 100%;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 30px;
   }
 
@@ -1182,22 +1204,39 @@ figcaption {
 
   /************* Aside ************/
   #right {
-    margin: auto;
+    max-width: 65%;
   }
 
   table {
     margin-top: 20px;
     width: 355px;
     border-collapse: collapse;
+    position: absolute;
+    top: 230px;
+    left: 850px;
   }
 
   thead {
     width: 100px;
   }
 
+  #importantDates {
+    width: 28%;
+    position: absolute;
+    top: 550px;
+    left: 850px;
+  }
+
+  #importantDates h3 {
+    background-color: #056cb6;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+
   .newsImg {
     width: 165px !important;
-    display: none;
+    display: inline-block;
   }
 
   article {
@@ -1214,20 +1253,9 @@ figcaption {
     max-width: 350px;
     margin: auto;
     border-radius: 5px;
-  }
-
-  #newsroom {
-    background-color: #0076b6;
-    color: white;
-    padding: 5px 30px;
-    border-radius: 3px;
-    font-weight: bolder;
-    margin-left: 210px;
-  }
-
-  section[alt=Student] {
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    top: 900px;
+    left: 850px;
   }
 
   #message img {
@@ -1251,11 +1279,21 @@ figcaption {
     border-top-right-radius: 4px;
   }
 
-  #importantDates h3 {
-    background-color: #056cb6;
+  #newsroom {
+    background-color: #0076b6;
     color: white;
-    font-size: 22px;
-    padding: 10px 20px;
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-weight: bolder;
+    margin-left: 210px;
+    position: absolute;
+    top: 1550px;
+    left: 450px;
+  }
+
+  section[alt=Student] {
+    width: 100px;
+    height: 100px;
   }
 }
 @media only screen and (max-width: 414px) {
@@ -2270,7 +2308,6 @@ figcaption {
   /* Body */
   body {
     margin: 0px;
-    background: lightblue;
   }
 
   *,
@@ -2310,11 +2347,15 @@ figcaption {
   }
 
   .site-banner__right {
-    float: right;
     margin-bottom: 20px;
     margin-top: -60px;
     font-size: 35px;
     margin-right: 20px;
+    display: inline-block;
+  }
+
+  input[type=text] {
+    display: none;
   }
 
   .sr-only {
@@ -2397,6 +2438,7 @@ figcaption {
     padding: 10px 18px;
     text-align: left;
     width: 100%;
+    position: static;
   }
 
   /********** Main *********/
@@ -2428,6 +2470,13 @@ figcaption {
     max-width: 100%;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    max-width: 100%;
+  }
+
   figure {
     border: 1px solid #b4b3b5;
     width: 100%;
@@ -2442,6 +2491,7 @@ figcaption {
 
   /************* Aside ************/
   #right {
+    max-width: 100%;
     margin: auto;
   }
 
@@ -2449,10 +2499,23 @@ figcaption {
     margin-top: 20px;
     width: 377px;
     border-collapse: collapse;
+    position: static;
   }
 
   thead {
     width: 100px;
+  }
+
+  #importantDates {
+    width: 100%;
+    position: static;
+  }
+
+  #importantDates h3 {
+    background-color: #056cb6;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
   }
 
   .newsImg {
@@ -2474,28 +2537,15 @@ figcaption {
     max-width: 350px;
     margin: auto;
     border-radius: 5px;
+    position: static;
   }
 
-  #newsroom {
-    background-color: #0076b6;
-    color: white;
-    padding: 5px 30px;
-    border-radius: 3px;
-    font-weight: bolder;
-    margin-left: 222px;
-  }
-
-  section[alt=Student] {
-    width: 100px;
-    height: 100px;
-  }
-
-  #message img {
-    width: 350px;
+  img {
+    width: 100%;
     padding: 7px;
-    border-left: 1px solid #b4b3b5;
-    border-right: 1px solid #b4b3b5;
-    border-bottom: 1px solid #b4b3b5;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
   }
@@ -2511,11 +2561,19 @@ figcaption {
     border-top-right-radius: 4px;
   }
 
-  #importantDates h3 {
-    background-color: #056cb6;
+  #newsroom {
+    background-color: #0076b6;
     color: white;
-    font-size: 22px;
-    padding: 10px 20px;
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-weight: bolder;
+    margin-left: 222px;
+    position: static;
+  }
+
+  section[alt=Student] {
+    width: 100px;
+    height: 100px;
   }
 }
 
