@@ -1,0 +1,10 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+       "indentation":"tab",
+       "selector-list-comma-newline-after": "never-multi-line",
+       "selector-list-comma-newline-before": "never-multi-line",
+       "selector-list-comma-space-before": "never",
+       "selector-list-comma-space-after": "always"
+    }
+}

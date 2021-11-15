@@ -1,0 +1,17 @@
+main {
+    font-family: 'Montserrat';
+    max-width: 960px;
+    margin: auto;
+}
+
+
+div {
+    transition-property: opacity, left, top, width;
+    transition-duration: 2s, 1s;
+    background: lightgreen;
+    max-width: 299px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}

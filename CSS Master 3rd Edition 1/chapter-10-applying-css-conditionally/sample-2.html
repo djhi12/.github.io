@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Master, 3rd Edition | Chapter 10 Applying CSS Conditionally</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project for Daniel John Idorot">
+    <link rel="stylesheet" href="/chapter-10-applying-css-conditionally/sample-2.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        main {
+            font-family: 'Montserrat';
+            max-width: 960px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Applying CSS Conditionally | Chapter 10</h1>
+        <div class="media-query-basics">
+            <h1>Listening for Media Changes</h1>
+
+            <!-- addEventListener -->
+            <div class="wrapper">
+                <div id="message" class="hide">
+                    You won't see this message until after you clicked the button. Click again to hide me!
+                </div>
+                <div id="button">
+                    Click me!
+                </div>
+            </div>
+
+            <script>
+
+                const isLandscape = matchMedia("( orientation: landscape )");
+                const toggleClass = mediaquery => {
+                    if (mediaquery.matches) {
+                        document.body.classList.add('widescreen');
+                    } else {
+                        document.body.classList.remove('widescreen');
+                    }
+                }
+
+                // add this event listener
+                isLandscape.addEventListener( 'change', toggleClass );
+
+                // To remove a listener
+                // isLandscape.removeEventListener( toggleClass );
+
+                if( typeof isLadscape.addEventListener === 'function') {
+                    isLandscape.addEventListener( 'change', toggleClass );
+                } else {
+                    isLandscape.addEventListener(toggleClass);
+                }
+
+                /************************************************/
+                /*
+                let button = document.querySelector('#button');
+                let msg = document.querySelector('#message');
+
+                button.addEventListener('click', () => {
+                    msg.classList.toggle('reveal');
+                })
+                */
+
+                /*************************************************/
+            </script>
+
+    </main>
+</body>
+
+</html>

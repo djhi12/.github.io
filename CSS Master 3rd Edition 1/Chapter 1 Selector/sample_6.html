@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Master, 3rd Edition | Chapter 1 Selector</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project for Daniel John Idorot">
+    <link rel="stylesheet" href="/chapter_1_selectors/sample_3.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        main {
+            font-family: 'Montserrat';
+            max-width: 960px;
+            margin: auto;
+        }
+
+        
+        .item:first-of-type {
+            background: magenta;
+        }
+        
+        /*
+        1. To date, however, Safari is the only browser that supports this syntax.
+        
+        :nth-of-type(1 of .item) {
+            background: magenta;
+        }
+         
+        */
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Selectors | Chapter 1</h1>
+        <h2>Using *-of-type Pseudo-classes with Non-element Selectors</h2>
+        <ul>
+            <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo perspiciatis tempora? </li>
+            <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo perspiciatis tempora? </li>
+            <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo perspiciatis tempora? </li>
+            <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo perspiciatis tempora? </li>
+        </ul>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo perspiciatis tempora?</p>
+    </main>
+    <script src="/chapter_1_selectors/chapter_1.js"></script>
+</body>
+
+</html>

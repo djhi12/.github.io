@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Master, 3rd Edition | Chapter 10 Applying CSS Conditionally</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project for Daniel John Idorot">
+    <link rel="stylesheet" href="/chapter-10-applying-css-conditionally/sample-1.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        main {
+            font-family: 'Montserrat';
+            max-width: 960px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>SVG | Chapter 12</h1>
+        <div class="media-query-basics">
+            <h1>Media Query Syntax: The Basics</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum in optio unde ipsa ad,
+                iste veniam at molestias architecto, et, laborum voluptas. Labore reiciendis,
+                iure blanditiis facere cum nulla vero!</p>
+
+            <nav class="">
+                <li>Naruto</li>
+                <li>Hinata</li>
+                <li>Sasuke</li>
+                <li>Sakura</li>
+                <li>Kakashi</li>
+                <li>Minato</li>
+            </nav>
+        </div>
+
+        <div class="min-max-width">
+            <h1>Range Media Features and min- and max- Prefixes</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                at doloribus minima fuga modi ab illo odio quia sunt veritatis
+                deleniti recusandae earum porro soluta temporibus ullam
+                doloremque, aspernatur quisquam.</p>
+        </div>
+
+        <div class="min-max-width-swith">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                at doloribus minima fuga modi ab illo odio quia sunt veritatis
+                deleniti recusandae earum porro soluta temporibus ullam
+                doloremque, aspernatur quisquam.</p>
+        </div>
+
+        <div class="discrete-media-par-1">
+            <h2>Discrete Media Features</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                at doloribus minima fuga modi ab illo odio quia sunt veritatis
+                deleniti recusandae earum porro soluta temporibus ullam
+                doloremque, aspernatur quisquam.</p>
+        </div>
+
+        <div class="discrete-media-par-2">
+            <h2>orientation: portrait</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                at doloribus minima fuga modi ab illo odio quia sunt veritatis
+                deleniti recusandae earum porro soluta temporibus ullam
+                doloremque, aspernatur quisquam.</p>
+        </div>
+
+        <div class="discrete-media-par-3">
+            <h2>hover:on-demand</h2>
+            <form action="/action_page.php">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div>
+            <h1>Using prefers-reduced-motion to Improve the Experience of People with Vestibular and Seizure Disorders
+            </h1>
+
+            <!---->
+            <h3>Sample</h3>
+            <div class="animation">Animation Box</div>
+            <!---->
+
+            <div class="prefers-reduced-motion">
+                <div class="wiggle">Wiggle</div>
+            </div>
+        </div>
+
+        <div class="prefers-color-scheme">
+            <h1>Respecting Users Color Preferences with prefers-color-scheme</h1>
+        </div>
+
+        <div class="media-rules">
+            <h1>Nesting @media Rules</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                at doloribus minima fuga modi ab illo odio quia sunt veritatis
+                deleniti recusandae earum porro soluta temporibus ullam
+                doloremque, aspernatur quisquam.</p>
+        </div>
+
+        <div class="only">
+            <h1>Working around Legacy Browser Support with only</h1>
+        </div>
+
+        <div class="negating">
+            <h1>Negating Media Queries</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                at doloribus minima fuga modi ab illo odio quia sunt veritatis
+                deleniti recusandae earum porro soluta temporibus ullam
+                doloremque, aspernatur quisquam.</p>
+        </div>
+
+        <div>
+            <h1>Other Ways to Use Media Queries</h1>
+        </div>
+
+        <div>
+            <h1>Using Media Queries with JavaScript</h1>
+            <button onclick="myFunction()">Click it!</button>
+            <div id="demoMediaQueries"></div>
+        </div>
+
+        <div class="error-checking">
+            <h1>Error Checking with not all</h1>
+        </div>
+
+        <div class="listening">
+            <h1>Listening for Media Changes</h1>
+        </div>
+
+        <!--<script src="/chapter-10-applying-css-conditionally/sample-1.js /"></script> -->
+        <script>
+
+            // Window matchMedia() Method
+            function myFunction() {
+                const smallScreen = window.matchMedia('(max-width: 200px)');
+                const windowSize = document.getElementById("demoMediaQueries");
+
+                if (smallScreen.matches) {
+                    windowSize.innerHTML = "The screen is less than, or equal to, 700 pixels wide.";
+                    document.body.style.backgroundColor = 'lightblue';
+                } else {
+                    windowSize.innerHTML = "The screen as at least 700 pixels wide.";
+                    document.body.style.backgroundColor = 'lightgreen';
+                }
+
+                console.log(windowSize);
+            }
+
+            //-----------------------------
+
+            const isWiderScreen = matchMedia("(min-width: 960px)");
+            console.log(isWiderScreen);
+
+        </script>
+    </main>
+</body>
+
+</html>

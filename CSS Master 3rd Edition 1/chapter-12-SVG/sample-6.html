@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Master, 3rd Edition | Chapter 12 SVG</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project for Daniel John Idorot">
+    <!--<link rel="stylesheet" href="/chapter_1_selectors/sample_3.css">-->
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        main {
+            font-family: 'Montserrat';
+            max-width: 960px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>SVG | Chapter 12</h1>
+        <h2>Using SVG Attributes as CSS Properties</h2>
+
+        
+            <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <!--<link href="/chapter-12-SVG/sample-6.css" type="text/css" rel="stylesheet" xmlns="http://-->
+                    www.w3.org/1999/xhtml"/>
+                </defs>
+                <rect x="20" y="20" width="200" height="100" fill="pink" />
+                
+                path {
+                    d: path("M 454.45223, 559.21474 -304.96705, 163.45948 417.4767, -296.33928 Z");
+                }
+
+                <style>
+                    .small {
+                        cx: 20px;
+                        cy: 20px;
+                        fill: blue;
+                        r: 20px;
+                    }
+
+                    .medium {
+                        cx: 30px;
+                        cy: 30px;
+                        fill: red;
+                        r: 30px;
+                    }
+
+                    .large {
+                        cx: 40px;
+                        cy: 40px;
+                        fill: green;
+                        r: 40px;
+                    }
+                </style>
+                <circle class="large" />
+                <circle class="medium" />
+                <circle class="small"/>
+            </svg>
+        
+        <!--
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <style type="text/css">
+                rect {
+                    x: 200px;
+                    y: 50px;
+                    width: 200px;
+                    height: 100px;
+                    fill: red;
+                }
+            </style>
+            <rect/>
+        </svg>
+        -->
+
+    </main>
+
+</body>
+
+</html>

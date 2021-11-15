@@ -1,0 +1,7 @@
+/* Selecting Elements by Their Index */
+ul.fruits1 li:first-child {
+    color: #e91e63;
+}
+ul.fruits1 li:last-child {
+    color: #4caf50;
+}
