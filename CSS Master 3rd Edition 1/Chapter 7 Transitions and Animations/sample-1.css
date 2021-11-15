@@ -4,7 +4,12 @@ main {
   margin: auto;
 }
 
-div {
+hr {
+  margin-top: 30px;
+}
+
+/************* CSS Transitions *************/
+.css-transition {
   transition-property: opacity, left, top, width;
   transition-duration: 2s, 1s;
   background: lightgreen;
@@ -13,6 +18,23 @@ div {
   padding: 20px;
   text-align: center;
   border-radius: 5px;
+  text-align: left;
+}
+
+/******* Creating Your First Transition ********/
+a {
+  transition: 1s;
+  color: white;
+}
+
+a:link {
+  background: red;
+  font-size: 20px;
+}
+
+a:hover {
+  background: green;
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=sample-1.css.map */

@@ -6,30 +6,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Project for Daniel John Idorot">
-    <link rel="stylesheet" href="/chapter_1_selectors/sample_3.css">
+    <link rel="stylesheet" href="/CSS Master 3rd Edition 1/Chapter 7 Transitions and Animations/sample-1.css">
     <!--<link rel="stylesheet" href="index.css"> -->
     <!--font-family: 'Roboto', sans-serif;
         font-family: 'Montserrat', sans-serif;-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
-        
-    <style>
-    </style>
-
+  
 </head>
 
 <body>
     <main>
+        
+        <script>
+            const btn = document.querySelector('button');
+    
+            const clickHandler = () => {
+                document.body.classList.toggle('change');
+            }
+    
+            btn.addEventListener('click', clickHandler);
+        </script>
+
         <h1>CSS Transitions</h1>
-        <div>
+        <div class="css-transition">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore accusamus illo deleniti
                 corporis animi obcaecati aliquam, reprehenderit voluptas cupiditate asperiores rem
                 impedit ipsum nostrum libero esse exercitationem error doloremque similique.</p>
         </div>
 
+        <hr>
+
+        <h1>Creating Your First Transition</h1>
+        <div class="first-transition">
+            <p>Mouse over <a href="https://sitepoint.com/">this link</a> to see the transition effect.</p>
+        </div>
+
+        <button type="button">Click Me!</button>
+
     </main>
-    <script src="/chapter_1_selectors/chapter_1.js"></script>
+
 </body>
 
 </html>
