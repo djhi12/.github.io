@@ -2,7 +2,6 @@ main {
   font-family: "Montserrat";
   max-width: 960px;
   margin: auto;
-  background: lightblue;
 }
 
 hr {
@@ -37,6 +36,23 @@ a:hover {
   background: green;
   font-size: 50px;
   padding: 20px;
+}
+
+/************* Using the transition Property ***************/
+.transition-property {
+  background: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background 0.5ms linear 1s;
+}
+
+/************* Transition Durations and Delays ***************/
+.transition-durations-delay {
+  background: green;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=sample-1.css.map */
