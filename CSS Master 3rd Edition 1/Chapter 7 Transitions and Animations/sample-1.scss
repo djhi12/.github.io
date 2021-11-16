@@ -5,6 +5,7 @@ main {
     // background: lightblue;
 }
 
+
 hr {
     margin-top: 30px;
 }
@@ -13,6 +14,7 @@ hr {
 /************* CSS Transitions *************/
 
 .css-transition {
+    // transition: 1s;
     transition-property: opacity, left, top, width;
     transition-duration: 2s, 1s;
     background: lightgreen;
@@ -28,6 +30,10 @@ hr {
 
 a {
     transition: 1s;
+    // transition-duration: 10s;
+    // transition-property: all;
+    // transition-timing-function: ease;
+    // transition-delay: 1s;
     color: white;
     // padding: 10px;
 }
@@ -38,8 +44,10 @@ a:link {
 }
 
 a:hover {
+    // transition: 10s;
     background: green;
     font-size: 50px;
+    padding: 20px;
 }
 
 
