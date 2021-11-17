@@ -18,8 +18,8 @@ hr {
     transition-property: opacity, left, top, width;
     transition-duration: 2s, 1s;
     background: lightgreen;
-    max-width: 299px;
-    margin: auto;
+    // max-width: 299px;
+    // margin: auto;
     padding: 20px;
     text-align: center;
     border-radius: 5px;
@@ -78,10 +78,11 @@ a:hover {
 .transition-durations-delay:hover {
     background: red;
     padding: 10px;
-    width: 300px;
+    width: 900px;
 
     & p {
         display: grid;
+        // opacity: 0.5;
     }
 }
 
@@ -102,6 +103,7 @@ a:hover {
     color: white;
     padding: 20px;
     border-radius: 10px;
+
 }
 
 
@@ -121,6 +123,31 @@ div.multiple-properties p {
 .multiple-properties {
     left: 30%;
     background: brown;
+}
+
+li {
+    transition: .5ms;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.fade {
+    opacity: 0;
+}
+
+ .red {
+    background: red;
+    padding: 20px;
+}
+
+ .yellow {
+    background: yellow;
+    padding: 20px;
+}
+
+ .blue {
+    background: blue;
+    padding: 20px;
 }
 
 

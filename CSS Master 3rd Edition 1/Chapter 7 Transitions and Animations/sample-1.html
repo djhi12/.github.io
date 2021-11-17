@@ -13,28 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
-
-
-    <script>
-        /*
-        const clickHandler = () => {
-            const btn = document.querySelector('button');  
-            document.body.classList.add('body');
-     
-
-        btn.addEventListener('click', clickHandler);
-        console.log(btn);
-    }
-    */
-    </script>
-
 </head>
 
 <body>
     <main>
-
-        <h1>CSS Transitions</h1>
         <div class="css-transition">
+            <h1>CSS Transitions</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore accusamus illo deleniti
                 corporis animi obcaecati aliquam, reprehenderit voluptas cupiditate asperiores rem
                 impedit ipsum nostrum libero esse exercitationem error doloremque similique.</p>
@@ -94,12 +78,34 @@
                 impedit ipsum nostrum libero esse exercitationem error doloremque similique.</p>
         </div>
 
+        <div>
+            <h2>Please select favorite color of the ones shown below.</h2>
+            <form>
+                <ul>
+                    <li class="red">
+                        <input type="radio" name="favecolor" id="red">
+                        <label for="red">Red</label>
+                    </li>
+                    <li class="yellow">
+                        <input type="radio" name="favecolor" id="yellow">
+                        <label for="yellow">Yellow</label>
+                    </li>
+                    <li class="blue">
+                        <input type="radio" name="favecolor" id="blue">
+                        <label for="blue">Blue</label>
+                    </li>
+                </ul>
+                <div id="thanks" hidden>Thank you for selecting your favorite color.</div>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+
         <hr>
 
         
 
     </main>
-
+    <script src="myscripts.js"></script>
 </body>
 
 </html>
