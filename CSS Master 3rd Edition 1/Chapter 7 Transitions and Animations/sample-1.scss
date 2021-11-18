@@ -111,7 +111,7 @@ a:hover {
 div.multiple-properties p {
     background: pink;
     height: 200px;
-    width: 500px;
+    max-width: 500px;
     margin: 10px 0;
     position: relative;
     left: 0;
@@ -200,8 +200,59 @@ li {
 
 /********** Playing Animations: The animation-direction Property **********/
 
+.animation-directions {
+    background: gray;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+    // animation
+    animation-name: animation-directions;
+    // animation-delay: -1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes animation-directions {
+    from {
+        // background: gray;
+    }
+    to {
+        background: purple;
+    }
+}
 
 
+/********** Using Percentage Keyframes ***********/
+
+.percentage-keyframes {
+    animation-name: rotates;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    animation-duration: 1s;
+}
+
+@keyframes rotates {
+    25% {
+        background: blue;
+        transform: scale(.5) skewX(-5deg) rotate(-5deg);
+    }
+    50% {
+        background: red;
+        transform: skewY(5deg) rotate(5deg);
+    }
+    75% {
+        background: green;
+        transform: skewX(-5deg) rotate(-5deg) scale(1.5);
+    }
+    100% {
+        background: purple;
+        transform: scale(1.5);
+    }
+}
 
 
 
