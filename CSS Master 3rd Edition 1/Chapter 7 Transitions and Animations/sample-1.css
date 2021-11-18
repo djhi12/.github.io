@@ -128,5 +128,39 @@ li {
 }
 
 /*********** CSS Animation ************/
+/**************** Creating Your First Animation ***************/
+.pulse {
+  background: lightblue;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  animation: pulse 5000ms infinite;
+  animation: pulse1 5000ms infinite;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.5);
+    top: 0px;
+  }
+  to {
+    transform: scale(1);
+    top: 100px;
+  }
+}
+@keyframes pulse1 {
+  from {
+    transform: scale(0.5);
+    top: 0px;
+    background: lightblue;
+  }
+  to {
+    transform: scale(1);
+    top: 100px;
+    background: red;
+  }
+}
+/********* To Loop or Not to Loop: The animation-iteration-count Property *********/
+/********** Playing Animations: The animation-direction Property **********/
 
 /*# sourceMappingURL=sample-1.css.map */
