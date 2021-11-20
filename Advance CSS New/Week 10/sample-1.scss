@@ -1,3 +1,85 @@
-body {
-    background: lightblue;
+main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/*
+.colors-curtain {
+    background: yellowgreen;
+    max-width: 500px;
+    margin: auto;
+    height: 500px;
+}
+*/
+
+.red {
+    position: relative;
+    left: 200px;
+
+    z-index: 2;
+    background: red;
+    opacity: .2;
+    max-width: 100px;
+    margin: auto;
+    height: 500px;
+    // animation-name: red;
+    // animation-duration: 4s;
+    // animation-timing-function: ;
+    // animation-delay: ;
+
+    // animation-direction: reverse;
+    // animation-timing-function: ;
+}
+
+/*
+@keyframes red {
+    from {
+        background: yellow;
+        max-width: 300px;
+    }
+    to {
+        max-width: 50px;
+    }
+
+}
+*/
+
+
+.blue {
+    position: relative;
+    left: 0px;
+    top: -90px;
+    z-index: 1;
+    background: blue;
+    // opacity: .2;
+    max-width: 300px;
+    margin: auto;
+    height: 90px;
+    // animation-name: red;
+    // animation-duration: 4s;
+    // animation-timing-function: ;
+    // animation-delay: ;
+    
+    // animation-direction: reverse;
+    // animation-timing-function: ;
+}
+
+.green {
+    position: relative;
+    right: 200px;
+    top: -590px;
+    z-index: 2;
+    background: green;
+    // opacity: .2;
+    max-width: 100px;
+    margin: auto;
+    height: 500px;
+    // animation-name: red;
+    // animation-duration: 4s;
+    // animation-timing-function: ;
+    // animation-delay: ;
+
+    // animation-direction: reverse;
+    // animation-timing-function: ;
+   
 }
