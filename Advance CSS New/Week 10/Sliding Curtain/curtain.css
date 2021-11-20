@@ -57,9 +57,26 @@
   text-align: center;
   z-index: 1;
   width: 100%;
+  animation-name: content;
+  animation-duration: 7s;
+  animation-delay: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 .curtain__content img {
   width: 20%;
+}
+@keyframes content {
+  100% {
+    background: red;
+  }
+  100% {
+    background: green;
+  }
+  100% {
+    background: pink;
+  }
 }
 
 /*# sourceMappingURL=curtain.css.map */

@@ -57,6 +57,7 @@
         // I changed the transform property from translateX to translateY to change the direction of slide.
         transform: translateY(100%);
       }
+      
     }
     
     &__content {
@@ -72,10 +73,36 @@
       text-align: center;
       z-index: 1;
       width: 100%;
+
+      // Animation
+      // I used infinite to make it like christmas lights
+      animation-name: content;
+      animation-duration: 7s;
+      animation-delay: 500ms;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
       
       img {
         width: 20%;
       }
     }
+
+    // These are the colors of animations
+    @keyframes content {
+        100% {
+            background: red;
+        }
+
+        100% {
+            background: green;
+        }
+
+        100% {
+            background: pink;
+        }
+    }
+
+
   
   }
