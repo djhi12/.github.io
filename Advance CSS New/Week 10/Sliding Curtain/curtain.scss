@@ -23,12 +23,12 @@
           
           // Slide the first panel
           &~div.curtain__panel--left {
-            transform: translateX(0);
+            transform: translateY(0);
           }
           
           // Slide the second panel
           &~div.curtain__panel--right {
-            transform: translateX(0);
+            transform: translateY(0);
           }
         }
       }
@@ -47,11 +47,15 @@
       z-index: 2;
       &--left {
         justify-content: flex-end;
-        transform: translateX(-100%);
+        // I changed the transform property from translateX to translateY to change the direction of slide.
+        transform: translateY(-100%);
       }
+
+
       &--right {
         justify-content: flex-start;
-        transform: translateX(100%);
+        // I changed the transform property from translateX to translateY to change the direction of slide.
+        transform: translateY(100%);
       }
     }
     

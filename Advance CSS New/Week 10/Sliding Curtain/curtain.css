@@ -19,10 +19,10 @@
   left: 0;
 }
 .curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--left {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 .curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--right {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 .curtain__panel {
   display: flex;
@@ -38,11 +38,11 @@
 }
 .curtain__panel--left {
   justify-content: flex-end;
-  transform: translateX(-100%);
+  transform: translateY(-100%);
 }
 .curtain__panel--right {
   justify-content: flex-start;
-  transform: translateX(100%);
+  transform: translateY(100%);
 }
 .curtain__content {
   align-items: center;
