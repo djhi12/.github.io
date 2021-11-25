@@ -162,18 +162,53 @@ body {
   width: 25%;
   background-color: darkred;
   border-radius: 50%;
-  animation: beating-circle 1s linear infinite;
+  animation: beating-circle 1s ease infinite;
 }
 
 @keyframes beating-circle {
   0% {
-    height: 25%;
-    width: 25%;
+    transform: scale(1);
   }
-  25% {
-    height: 17%;
-    height: 17%;
+  44% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  47% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  53% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+  56% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
   }
 }
+/*
+    0% {
+        height: 15%;
+        width: 15%;
+        animation-play-state: paused;
+    }
+
+    90% {
+        animation-play-state: paused;
+    }
+
+    100% {
+        width: 30%;
+        height: 30%;
+    }
+}
+*/
 
 /*# sourceMappingURL=trap.css.map */
