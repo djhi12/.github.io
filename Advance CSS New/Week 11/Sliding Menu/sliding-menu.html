@@ -6,16 +6,58 @@
   <title>Brigham Young University - Idaho</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="/Advance CSS New/Week 11/Sliding Menu/sliding-menu.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- Fonts-Paragraph -->
 </head>
 
 <body>
   <main>
-  
+    <ul class="menu">
+      <li><a class="menuItem" href="#">Home</a></li>
+      <li><a class="menuItem" href="#">Profile</a></li>
+      <li><a class="menuItem" href="#">About</a></li>
+      <li><a class="menuItem" href="#">Contacts</a></li>
+    </ul>
+    <button class="hamburger">
+      <!-- material icons https://material.io/resources/icons/ -->
+      <i class="menuIcon fas fa-bars"></i>
+      <i class="closeIcon fas fa-times"></i>
+    </button>
+
   </main>
 
-  <footer>
+  <script>
+    const menu = document.querySelector(".menu");
+    const menuItems = document.querySelectorAll(".menuItem");
+    const hamburger = document.querySelector(".hamburger");
+    const closeIcon = document.querySelector(".closeIcon");
+    const menuIcon = document.querySelector(".menuIcon");
 
-  </footer>
+    function toggleMenu() {
+      if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu");
+        closeIcon.style.display = "none";
+        menuIcon.style.display = "block";
+      } else {
+        menu.classList.add("showMenu");
+        closeIcon.style.display = "block";
+        menuIcon.style.display = "none";
+      }
+    }
+
+    menuItems.forEach(
+      function (menuItem) {
+        menuItem.addEventListener("click", toggleMenu);
+      }
+    )
+
+    hamburger.addEventListener("click", toggleMenu);
+  </script>
 </body>
+
 
 </html>
