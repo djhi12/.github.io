@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+}
+
+main {
+  max-width: 960;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+/*# sourceMappingURL=index.css.map */
