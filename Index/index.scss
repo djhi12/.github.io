@@ -1,13 +1,18 @@
+
+
+@use '@Media-Index/index-1280';
+@use '@Media-Index/index-412';
+
 body {
     margin: 0px;
 }
 
 main {
-    max-width: 960;
+    max-width: 960px;
     margin: auto;
+
+    & > h1 {
+        text-align: center;
+    }
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}

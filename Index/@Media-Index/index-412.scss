@@ -1,0 +1,23 @@
+@media only screen and (max-width: 412px) {
+    /************ Grid Container **************/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 400px;
+    margin: auto;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    padding: 2px 16px;
+}
+}
