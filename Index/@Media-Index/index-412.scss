@@ -1,7 +1,10 @@
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 390px) {
 
     /************ Grid Container **************/
-     /************ Grid Container **************/
+     main {
+         background: red;
+     }
+
      .grid-container {
         display: grid;
         grid-template-columns: auto;
