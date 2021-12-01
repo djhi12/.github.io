@@ -30,12 +30,8 @@
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 412px) {
   /************ Grid Container **************/
-  main {
-    background: red;
-  }
-
   .grid-container {
     display: grid;
     grid-template-columns: auto;
