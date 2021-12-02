@@ -1,5 +1,23 @@
-$background-color-red: red;
+$fa-font-path:"../../node_modules/font-awesome/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 body {
-    background: $background-color-red;
+    background: lightblue;
 }
+
+.interestBoxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    > div {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      > button {
+        display: block;
+        width: 100%;
+        margin-bottom: 1em;
+      }
+    }
+  }
