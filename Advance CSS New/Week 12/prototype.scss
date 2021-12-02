@@ -1,5 +1,5 @@
-@import url("/Advance CSS New/Week 12/Variables/_variables.scss");
+$background-color-red: red;
 
 body {
-    background: red; //$background-color-red;
+    background: $background-color-red;
 }
