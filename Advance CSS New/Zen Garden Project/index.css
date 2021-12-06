@@ -107,6 +107,10 @@
   }
   .design-archives nav .viewall a {
     text-decoration: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
   }
 
   .grid-container {
@@ -131,6 +135,45 @@
     margin: 20px;
     font-size: 20px;
   }
+  .grid-container .preamble p {
+    animation-name: paragraph-preamble-1;
+    max-width: 90%;
+    animation-name: paragraph-preamble-1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+  }
+  @keyframes paragraph-preamble-1 {
+    0% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: yellow;
+      left: 200px;
+      top: 0px;
+    }
+    50% {
+      background-color: blue;
+      left: 200px;
+      top: 200px;
+    }
+    75% {
+      background-color: green;
+      left: 0px;
+      top: 200px;
+    }
+    100% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+  .design-selection ul li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
 
   footer {
     margin-top: 70px;
@@ -140,7 +183,7 @@
   footer a {
     border: 1px solid red;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 10px;
   }
 
@@ -601,6 +644,11 @@
     margin: 20px;
     font-size: 15px;
   }
+  .grid-container .preamble p {
+    animation-name: paragraph-movement;
+    animation-duration: 4s;
+  }
+  @keyframes paragraph-movement {}
 
   footer {
     margin-top: 70px;

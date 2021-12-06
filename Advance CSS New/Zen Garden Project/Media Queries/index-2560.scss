@@ -1,9 +1,9 @@
-
-
 /**** Variables ***/
 // Fonts
-$font-header: 'Source Sans Pro',sans-serif;
-$font-paragraph: 'Montserrat',sans-serif;
+$font-header: 'Source Sans Pro',
+sans-serif;
+$font-paragraph: 'Montserrat',
+sans-serif;
 
 
 // @use '_variables' as *;
@@ -130,9 +130,13 @@ $font-paragraph: 'Montserrat',sans-serif;
             display: none;
         }
 
-        & nav .viewall a{
+        & nav .viewall a {
             text-decoration: none;
-            
+            border: 1px solid red;
+            border-radius: 5px;
+            padding: 10px;
+            font-family: $font-paragraph;
+
         }
     }
 
@@ -161,7 +165,60 @@ $font-paragraph: 'Montserrat',sans-serif;
                 font-size: 20px;
             }
         }
+
+        & .preamble p {
+            animation-name: paragraph-preamble-1;
+            max-width: 90%;
+            // background: red;
+            animation-name: paragraph-preamble-1;
+            animation-duration: 4s;
+            animation-delay: 2s;
+        }
+
+        @keyframes paragraph-preamble-1 {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: yellow;
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: blue;
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: green;
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+
+
+        }
     }
+
+    // Navigation
+    .design-selection ul {
+        & li a {
+            // font-size: 50px;
+            text-decoration: none;
+            font-family: $font-paragraph;
+        }
+    }
+
 
     // Zen Resources / Footer
     footer {
@@ -173,7 +230,7 @@ $font-paragraph: 'Montserrat',sans-serif;
         & a {
             border: 1px solid red;
             padding: 30px;
-            border-radius: 10px;
+            border-radius: 5px;
             margin: 10px;
         }
     }

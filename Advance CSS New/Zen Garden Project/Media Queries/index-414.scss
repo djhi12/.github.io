@@ -149,6 +149,22 @@ $font-paragraph: 'Montserrat', sans-serif;
 
             }
         }
+
+        & .preamble p {
+            animation-name: paragraph-movement;
+            animation-duration: 4s;
+            // background: red;
+        }
+
+        @keyframes paragraph-movement {
+            from {
+                // background: red;
+            }
+
+            to {
+                // background: blue;
+            }
+        }
     }
 
     // Zen Resources / Footer
