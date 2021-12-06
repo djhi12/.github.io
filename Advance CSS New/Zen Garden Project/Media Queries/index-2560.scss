@@ -1,12 +1,17 @@
+
+
+/**** Variables ***/
 // Fonts
-//$font-header: 'Source Sans Pro',sans-serif;
-// $font-paragraph: 'Montserrat',sans-serif;
-@import url('_variables.scss');
+$font-header: 'Source Sans Pro',sans-serif;
+$font-paragraph: 'Montserrat',sans-serif;
+
+
+// @use '_variables' as *;
 
 @media only screen and (max-width: 2560px) {
     body {
         margin: 0px;
-        background: $red;
+        // background: lightgreen;
     }
 
     h3 {
@@ -51,7 +56,7 @@
 
     }
 
-
+    /*
     .parallax-1 {
         // The image used 
         background-image: url("/Advance CSS New/Zen Garden Project/Images/garden-1-700.png");
@@ -85,6 +90,7 @@
         margin: 0px;
         //filter: opacity( 0.5 );
     }
+    */
 
 
     .summary.preamble {
@@ -114,6 +120,19 @@
 
         & h3 {
             display: none;
+        }
+
+        & ul li {
+            list-style-type: none;
+        }
+
+        & .next {
+            display: none;
+        }
+
+        & nav .viewall a{
+            text-decoration: none;
+            
         }
     }
 
