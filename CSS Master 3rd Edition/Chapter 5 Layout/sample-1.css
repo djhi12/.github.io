@@ -1,3 +1,16 @@
+body {
+  background: lightblue;
+}
 
+main {
+  font-family: "Montserrat";
+  max-width: 960px;
+  margin: auto;
+}
+
+li {
+  display: inline;
+  margin: 50px;
+}
 
 /*# sourceMappingURL=sample-1.css.map */
