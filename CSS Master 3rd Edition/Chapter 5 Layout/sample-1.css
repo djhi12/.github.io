@@ -8,6 +8,7 @@ main {
   margin: auto;
 }
 
+/******* Display Types and Normal Flow *******/
 li {
   display: inline;
   margin: 50px;
