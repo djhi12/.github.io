@@ -116,6 +116,22 @@ sans-serif;
         }
     }
 
+    .explanation.preamble {
+        margin-top: 50px;
+    }
+
+    .participation.preamble {
+        margin-top: 50px;
+    }
+
+    .benefits.preamble {
+        margin-top: 50px;
+    }
+    
+    .requirements.preamble {
+        margin-top: 50px;
+    }
+
     /*
     .explanation.preamble>h3 {
         margin-top: 100px;
@@ -124,7 +140,8 @@ sans-serif;
 
     .design-archives {
         position: absolute;
-        top: 500px;
+        top: 400px;
+        left: -40px;
         list-style-type: none;
         font-size: 25px;
         padding: 20px;
@@ -142,6 +159,7 @@ sans-serif;
         & .next {
             display: none;
         }
+
 
         & nav .viewall a {
             text-decoration: none;
@@ -197,9 +215,9 @@ sans-serif;
         // background: red;
 
         & ul {
-            
 
-            & .design-name  {
+
+            & .design-name {
                 font-size: 25px;
                 text-decoration: none;
                 // transition-property: text-decoration;
@@ -208,7 +226,7 @@ sans-serif;
                 transition-timing-function: ease-in-out;
                 transition-delay: .1s;
                 color: #555B6E;
-                
+
             }
 
             & .design-name:hover {
@@ -234,7 +252,7 @@ sans-serif;
         margin-top: 70px;
         margin-bottom: 70px;
         text-align: center;
-        
+
 
         & a {
             // border: 1px solid #555B6E;
@@ -258,7 +276,23 @@ sans-serif;
 
     .dave-shea {
         text-align: center;
+
+        & p {
+            font-style: italic;
+        }
+
+        & p a {
+            text-decoration: none;
+            transition-duration: .1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: .1s;
+        }
+
+        & a:hover {
+            color: #FF9147;
+        }
     }
+
 
     .zen-resources {
         &>h3 {
@@ -268,13 +302,24 @@ sans-serif;
         & ul {
             margin-top: 70px;
             text-align: center;
+            font-family: $font-paragraph;
         }
 
         & ul li {
             display: inline-block;
 
+
             & a {
                 margin: 20px;
+                text-decoration: none;
+                transition-duration: .1s;
+                transition-timing-function: ease-in-out;
+                transition-delay: .1s;
+                font-size: 20px;
+            }
+
+            & a:hover {
+                color: #FF9147;
             }
         }
     }
