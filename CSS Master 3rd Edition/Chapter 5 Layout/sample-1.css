@@ -52,4 +52,21 @@ div {
   background: pink;
 }
 
+/********* Managing Box Dimensions with box-sizing *********/
+article, aside {
+  background: #ffeb3b;
+  border: 10px solid #9c27b0;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+article {
+  width: 600px;
+}
+
+aside {
+  width: 400px;
+}
+
 /*# sourceMappingURL=sample-1.css.map */
