@@ -2,7 +2,6 @@
 @media only screen and (max-width: 2560px) {
   body {
     margin: 0px;
-    background: lightblue;
   }
 
   h3 {
@@ -18,11 +17,11 @@
   .img-nature > img {
     width: 100%;
     height: 700px;
-    filter: opacity(0.3);
   }
   .img-nature [role] {
     position: absolute;
     top: 0px;
+    background: linear-gradient(to right, rgba(190, 227, 216, 0.9), rgba(190, 227, 216, 0.4));
     width: 100%;
     height: 700px;
   }
@@ -136,44 +135,27 @@
     margin: 20px;
     font-size: 20px;
   }
-  .grid-container .preamble p {
-    animation-name: paragraph-preamble-1;
-    max-width: 90%;
-    animation-name: paragraph-preamble-1;
-    animation-duration: 4s;
-    animation-delay: 2s;
-  }
-  @keyframes paragraph-preamble-1 {
-    0% {
-      background-color: red;
-      left: 0px;
-      top: 0px;
-    }
-    25% {
-      background-color: yellow;
-      left: 200px;
-      top: 0px;
-    }
-    50% {
-      background-color: blue;
-      left: 200px;
-      top: 200px;
-    }
-    75% {
-      background-color: green;
-      left: 0px;
-      top: 200px;
-    }
-    100% {
-      background-color: red;
-      left: 0px;
-      top: 0px;
-    }
-  }
 
+  .design-selection ul li {
+    font-weight: 200px;
+  }
   .design-selection ul li a {
+    font-size: 30px;
     text-decoration: none;
+    transition-property: text-decoration;
     font-family: "Montserrat", sans-serif;
+    transition-duration: 20s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    color: #555B6E;
+  }
+  .design-selection ul a:hover {
+    color: red;
+  }
+  .design-selection ul .designer-name {
+    font-size: 15px;
+    display: block;
+    font-style: italic;
   }
 
   footer {
@@ -182,10 +164,19 @@
     text-align: center;
   }
   footer a {
-    border: 1px solid red;
-    padding: 30px;
+    border: 1px solid #555B6E;
+    padding: 20px;
     border-radius: 5px;
     margin: 10px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  footer a:hover {
+    background: #89B0AE;
+    color: white;
   }
 
   .dave-shea {
