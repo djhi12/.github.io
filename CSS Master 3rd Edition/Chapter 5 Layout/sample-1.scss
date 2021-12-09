@@ -5,6 +5,10 @@ main {
     // background: red;
 }
 
+html {
+    box-sizing: c;
+}
+
 hr {
     margin-top: 30px;
 }
@@ -88,6 +92,11 @@ aside {
     width: 400px;
 }
 
+
+/******* Floating Elements and Normal Flow ********/
+.float-normal {
+    margin-top: 250px;
+}
 
 
 
