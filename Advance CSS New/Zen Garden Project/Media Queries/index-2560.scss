@@ -31,6 +31,14 @@ sans-serif;
     a[title] {
         text-decoration: none;
         color: blue;
+        // font-size: 40px;
+        transition-duration: .1s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .1s;
+    }
+
+    a[title]:hover {
+        color: #FF9147;
     }
 
     .img-nature {
@@ -130,6 +138,18 @@ sans-serif;
     
     .requirements.preamble {
         margin-top: 50px;
+
+        & a {
+            text-decoration: none;
+            // font-size: 40px;
+            transition-duration: .1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: .1s;
+        }
+
+        & a:hover {
+            color: #FF9147;
+        }
     }
 
     /*
@@ -187,9 +207,9 @@ sans-serif;
 
         & .grid-container__content-header-and-paragrapgh {
             grid-column: 2 / span 2;
-            max-width: 900px;
+            max-width: 100%;
             padding-right: 10px;
-            padding-left: 10px;
+            padding-left: 100px;
         }
 
         & .sidebar {
