@@ -42,6 +42,9 @@ sans-serif;
     }
 
     .img-nature {
+        // margin: 0px;
+        // background: #E2F3EE;
+        // height: 100%;
 
         &>img {
             width: 100%;
@@ -210,11 +213,17 @@ sans-serif;
             max-width: 100%;
             padding-right: 10px;
             padding-left: 100px;
+            // background: #E2F3EE;
+            height: -10px;
+            margin: 0px;
         }
 
         & .sidebar {
             grid-column: 1;
             grid-row: 1;
+            // background: #E2F3EE;
+            // height: 10px;
+            // position: relative;
 
             & h3 {
                 display: none;
