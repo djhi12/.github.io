@@ -253,6 +253,22 @@ sans-serif;
         margin-bottom: 70px;
         text-align: center;
 
+        & [title^="Check"] {
+            color: white;
+        }
+
+        & [title^="Read"] {
+            color: white;
+        }
+
+        & [title^="View"] {
+            color: white;
+        }
+
+        & [title^="Fork"] {
+            color: white;
+        }
+
 
         & a {
             // border: 1px solid #555B6E;
