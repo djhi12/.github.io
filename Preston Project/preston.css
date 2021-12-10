@@ -1,3 +1,12 @@
-
+@media only screen and (max-width: 2560px) {
+  body {
+    background: red;
+  }
+}
+@media only screen and (max-width: 430px) {
+  body {
+    background: green;
+  }
+}
 
 /*# sourceMappingURL=preston.css.map */
