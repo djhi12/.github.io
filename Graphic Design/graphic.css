@@ -41,7 +41,6 @@ main {
     grid-gap: 20px;
     grid-template-columns: auto;
     max-width: 230px;
-    background: red;
   }
 
   .image-box img {
@@ -68,7 +67,6 @@ main {
     grid-gap: 20px;
     grid-template-columns: auto;
     max-width: 240px;
-    background: blue;
   }
 
   .image-box img {
