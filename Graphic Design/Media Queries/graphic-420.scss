@@ -1,0 +1,31 @@
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/******** Grid Container ********/
+@media only screen and (max-width: 420px) {
+
+
+    .grid-container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        max-width: 240px;
+        // margin: auto;
+        background: blue;
+    }
+
+    .image-box img {
+        margin-top: 15px;
+        max-width: 250px;
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        // width: 40%;
+    }
+
+    .image-box img:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+}
