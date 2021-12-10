@@ -121,7 +121,6 @@
   main {
     max-width: 960px;
     margin: auto;
-    background: green;
   }
   main > h1 {
     text-align: center;
