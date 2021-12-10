@@ -1,11 +1,49 @@
 @media only screen and (max-width: 2560px) {
   body {
-    background: lightblue;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  p, li {
+    font-family: "Montserrat", sans-serif;
   }
 
   main {
     max-width: 960px;
     margin: auto;
+  }
+
+  .my-photo img {
+    max-width: 250px;
+    position: absolute;
+    right: 200px;
+    top: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .my-name {
+    margin-top: 20px;
+    border-radius: 5px;
+    background: orange;
+    padding: 5px;
+    text-align: center;
+  }
+  .my-name .my-name h1 {
+    text-align: center;
+  }
+
+  footer {
+    border-radius: 5px;
+    background: orange;
+    padding: 5px;
+    text-align: center;
+    height: 80px;
+  }
+  footer a {
+    text-decoration: none;
   }
 }
 
