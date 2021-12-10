@@ -152,8 +152,59 @@ document.getElementById("demo8").innerHTML = result3;
 console.log(result3);
 
 
+// endsWith()
+// ----- Sample from developer.mozilla -------
+const str1 = 'Cats are the best!';
+
+console.log(str1.endsWith('best!'));
 
 
+const str2 = 'Is this a question';
+
+console.log(str2.endsWith('?'));
+
+
+// concat()
+const array2 = ['a', 'b', 'c'];
+const array3 = ['d', 'e', 'f'];
+const array4 = array2 + "," + array3;
+console.log(array4);
+
+const arrayNumber1 = [1, 2, 3, 4];
+const arrayNumber2 = [5, 6, 7, 8];
+console.log(arrayNumber1[1] + arrayNumber2[3]);
+
+
+// trim()
+// ---- Sample from developer.mozilla ---------
+const greeting = '   Hello world!   ';
+
+console.log(greeting);
+// expected output: "    Hello world!   ";
+
+console.log(greeting.trim());
+// expected output: "Hello world!";
+
+
+// repeat()
+// ---- Sample from w3schools
+let text6 = "Hello world!" + " ";
+let result5 = text6.repeat(2);
+console.log(result5);
+
+
+/******* Template Literals ********/
+
+const myName  = `"Daniel"`;
+console.log(myName);
+
+
+
+/******** Symbols *********/
+
+const uniqueId = Symbol(`This is a unique ID`);
+console.log( typeof uniqueId);
+console.log(uniqueId);
 
 
 
