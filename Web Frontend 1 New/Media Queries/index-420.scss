@@ -1,7 +1,7 @@
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 420px) {
     body {
         margin: 0;
-        // background: blue;
+        // background: red;
     }
 
     h1 {
@@ -19,16 +19,15 @@
     }
 
     .my-photo img {
-        max-width: 180px;
+        max-width: 200px;
         margin-top: 20px;
         // margin-right: 50px;
         margin-left: 90px;
         position: static;
-        // right: 0px;
-        // top: 0px;
+        right: 0px;
+        top: 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        align-items: center;
-        // border-radius: 50%;
+      align-items: center;
 
     }
 

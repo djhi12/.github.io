@@ -1,13 +1,32 @@
+
+
 /******* Date *******/
 const dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const createDate =  new Date();
-c
+const newDate =  new Date();
 
+/*
+// Get Day
+const showDay = newDate.getDay();
+const showDayArray = dayNames[showDay];
+console.log(showDayArray);
+*/
 
-// const dayName = dayNames.getDay();
-// const fullDate = monthName + dayName;
-// console.log(fullDate);
+// Get Date
+const showDate = newDate.getDate();
+console.log(showDate);
 
+// Get Month
+const showMonth = newDate.getMonth();
+const showMonthArray = monthNames[showMonth];
+console.log(showMonthArray);
 
-console.log("Daniel");
+// Get Year
+const showYear = newDate.getFullYear();
+console.log(showYear);
+
+// Get Full Date
+const showFullDate = showMonthArray + " " + showDate + " " + showYear;
+console.log(showFullDate)
+
+document.getElementById("date").innerHTML = showFullDate;

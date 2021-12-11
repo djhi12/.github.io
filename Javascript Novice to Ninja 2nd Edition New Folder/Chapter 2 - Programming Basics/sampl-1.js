@@ -207,5 +207,130 @@ console.log( typeof uniqueId);
 console.log(uniqueId);
 
 
+// for()
+
+// ------ Sample from developer.mozilla
+
+let str = '';
+
+for (let i = 0; i < 9; i++) {
+  str = str + i;
+}
+document.getElementById("demo9").innerHTML = str ;
+console.log(str);
+// expected output: "012345678"
+
+
+/********** Numbers ************/
+
+// Number.isInteger()
+// ------ Sample from developer.mozilla 
+function fits(x, y) {
+  if (Number.isInteger(y / x)) {
+    return 'Fits!';
+  }
+  return 'Does NOT fit!';
+}
+
+document.getElementById("demo10").innerHTML = fits(5, 10);
+console.log(fits(5, 10));
+// expected output: "Fits!"
+
+document.getElementById("demo11").innerHTML = fits(5, 11);
+console.log(fits(5, 11));
+// expected output: "Does NOT fit!"
+
+
+/********* Octal and Hexadecimal Numbers ************/
+
+
+/********* Exponential Notation *********/
+
+
+/****** Number Methods *******/
+
+// toExponential()
+// ----- Sample from w3schools
+let num = 5.56789;
+let n = num.toExponential();
+
+document.getElementById("demo12").innerHTML = n;
+console.log(n);
+
+
+// toFixed()
+// ----- Sample from w3schools
+let num1 = 5.56789;
+let n1 = num1.toFixed(2);
+
+document.getElementById("demo13").innerHTML = n1; 
+console.log(n1);
+
+// toPrecision() 
+// ----- Sample from w3schools
+let num2 = 13.3714;
+
+document.getElementById("demo14").innerHTML = num2.toPrecision(2);
+console.log(num2.toPrecision(3));
+
+
+/********* Arithmetic Operations ********/
+
+
+/********** Changing The Value of Variables ***********/
+
+let valueOfVariables = 10;
+valueOfVariables += 10;
+valueOfVariables += 10;
+
+console.log(valueOfVariables); // 20
+
+
+/******** Incrementing Values *********/
+// Increment (++)
+// ----- Sample from developer.mozilla
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// expected output: "a:4, b:4"
+
+
+/******* Infinity *******/
+
+// Infinity
+// ----- Sample from developer.mozilla
+const maxNumber = Math.pow(10, 1000); // max positive number
+
+if (maxNumber === Infinity) {
+  console.log('Let\'s call it Infinity!');
+  // expected output: "Let's call it Infinity!"
+}
+
+console.log(1 / maxNumber);
+// expected output: 0
+
+
+
+/******* NaN *******/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

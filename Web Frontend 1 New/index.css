@@ -46,5 +46,208 @@
     text-decoration: none;
   }
 }
+@media only screen and (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  p,
+li {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  main {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .my-photo img {
+    max-width: 180px;
+    margin-top: 20px;
+    margin-left: 90px;
+    position: static;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+  }
+
+  .my-name {
+    margin-top: 15px;
+    border-radius: 5px;
+    background: orange;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .my-name .my-name h1 {
+    text-align: center;
+    font-size: 18px;
+    max-width: 20px;
+  }
+
+  .lesson-list .lesson-list__header {
+    font-size: 18px;
+    text-align: center;
+  }
+  .lesson-list .lesson-list__navigation ul li {
+    max-width: 450px;
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  footer {
+    border-radius: 5px;
+    background: orange;
+    padding: 0px;
+    text-align: center;
+    height: 80px;
+  }
+  footer p {
+    padding: 25px;
+  }
+  footer a {
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 430px) {
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  p,
+li {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  main {
+    max-width: 360px;
+    margin: auto;
+  }
+
+  .my-photo img {
+    max-width: 180px;
+    margin-top: 20px;
+    margin-left: 90px;
+    position: static;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+  }
+
+  .my-name {
+    margin-top: 15px;
+    border-radius: 5px;
+    background: orange;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .my-name .my-name h1 {
+    text-align: center;
+    font-size: 18px;
+    max-width: 20px;
+  }
+
+  .lesson-list .lesson-list__header {
+    font-size: 18px;
+    text-align: center;
+  }
+  .lesson-list .lesson-list__navigation ul li {
+    max-width: 450px;
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  footer {
+    border-radius: 5px;
+    background: orange;
+    padding: 0px;
+    text-align: center;
+    height: 80px;
+  }
+  footer p {
+    padding: 25px;
+  }
+  footer a {
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  p,
+li {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  main {
+    max-width: 360px;
+    margin: auto;
+  }
+
+  .my-photo img {
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 90px;
+    position: static;
+    right: 0px;
+    top: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+  }
+
+  .my-name {
+    margin-top: 15px;
+    border-radius: 5px;
+    background: orange;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .my-name .my-name h1 {
+    text-align: center;
+    font-size: 18px;
+    max-width: 20px;
+  }
+
+  .lesson-list .lesson-list__header {
+    font-size: 18px;
+    text-align: center;
+  }
+  .lesson-list .lesson-list__navigation ul li {
+    max-width: 450px;
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  footer {
+    border-radius: 5px;
+    background: orange;
+    padding: 0px;
+    text-align: center;
+    height: 80px;
+  }
+  footer p {
+    padding: 25px;
+  }
+  footer a {
+    text-decoration: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
