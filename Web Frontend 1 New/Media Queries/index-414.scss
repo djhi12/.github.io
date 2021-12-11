@@ -1,0 +1,86 @@
+@media only screen and (max-width: 414px) {
+    body {
+        margin: 0;
+        // background: red;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    p,
+    li {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    main {
+        max-width: 360px;
+        margin: auto;
+    }
+
+    .my-photo img {
+        max-width: 200px;
+        margin-top: 20px;
+        // margin-right: 50px;
+        margin-left: 90px;
+        position: static;
+        right: 0px;
+        top: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      align-items: center;
+
+    }
+
+    .my-name {
+        margin-top: 15px;
+        border-radius: 5px;
+        background: orange;
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+
+        .my-name h1 {
+            text-align: center;
+            font-size: 18px;
+            max-width: 20px;
+
+        }
+    }
+
+    .lesson-list {
+        // background: red;
+
+        & .lesson-list__header {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        & .lesson-list__navigation ul li {
+            max-width: 450px;
+            margin: auto;
+            text-decoration: none;
+            // font-size: 30px;
+            list-style-type: none;
+            // text-align: center;
+        }
+    }
+
+    footer {
+        // margin-top: 20px;
+        border-radius: 5px;
+        background: orange;
+        padding: 0px;
+        text-align: center;
+        height: 80px;
+        // margin-bottom: 0px;
+
+        & p {
+            padding: 25px;
+        }
+
+        & a {
+            text-decoration: none;
+        }
+    }
+
+}
