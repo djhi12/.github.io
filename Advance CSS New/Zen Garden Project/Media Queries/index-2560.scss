@@ -66,23 +66,59 @@ sans-serif;
                 line-height: 1px;
                 color: #555B6E;
                 // Animation
+                opacity: 1;
                 animation-name: zen-header-1;
                 animation-duration: 2s;
                 animation-timing-function: ease-in-out;
                 animation-delay: .5s;
             }
 
+
             @keyframes zen-header-1 {
-                from {
-                    top: 0px;
+                0% {
                     opacity: 0;
                 }
-                to {
-                    top: 200px;
+
+                10% {
+                    opacity: 0.1;
+                }
+
+                20% {
+                    opacity: 0.2;
+                }
+
+                30% {
+                    opacity: 0.3;
+                }
+
+                40% {
+                    opacity: 0.4;
+                }
+
+                50% {
+                    opacity: 0.5;
+                }
+
+                60% {
+                    opacity: 0.6;
+                }
+
+                70% {
+                    opacity: 0.7;
+                }
+
+                80% {
+                    opacity: 0.8;
+                }
+
+                90% {
+                    opacity: 0.9;
+                }
+
+                100% {
                     opacity: 1;
                 }
             }
-
 
 
             &>h2 {
@@ -92,20 +128,55 @@ sans-serif;
                 line-height: 5px;
                 color: #555B6E;
                 // Animation
-                 // Animation
-                 animation-name: zen-header-2;
-                 animation-duration: 2s;
-                 animation-timing-function: ease-in-out;
-                 animation-delay: .5s;
+                opacity: 1;
+                animation-name: zen-header-2;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: .5s;
             }
 
             @keyframes zen-header-2 {
-                from {
-                    top: 0px;
+                0% {
                     opacity: 0;
                 }
-                to {
-                    top: 200px;
+
+                10% {
+                    opacity: 0.1;
+                }
+
+                20% {
+                    opacity: 0.2;
+                }
+
+                30% {
+                    opacity: 0.3;
+                }
+
+                40% {
+                    opacity: 0.4;
+                }
+
+                50% {
+                    opacity: 0.5;
+                }
+
+                60% {
+                    opacity: 0.6;
+                }
+
+                70% {
+                    opacity: 0.7;
+                }
+
+                80% {
+                    opacity: 0.8;
+                }
+
+                90% {
+                    opacity: 0.9;
+                }
+
+                100% {
                     opacity: 1;
                 }
             }
@@ -113,7 +184,7 @@ sans-serif;
 
     }
 
-    
+
     .parallax-1 {
         // The image used 
         background-image: url("/Advance CSS New/Zen Garden Project/Images/garden-1-700.png");
@@ -147,7 +218,7 @@ sans-serif;
         margin: 0px;
         //filter: opacity( 0.5 );
     }
-    
+
 
 
     .summary.preamble {
@@ -173,7 +244,7 @@ sans-serif;
     .benefits.preamble {
         margin-top: 50px;
     }
-    
+
     .requirements.preamble {
         margin-top: 50px;
 
