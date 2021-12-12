@@ -52,7 +52,6 @@
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
-    animation-delay: 0.5s;
   }
   @keyframes zen-header-1 {
     0% {
@@ -100,7 +99,6 @@
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
-    animation-delay: 0.5s;
   }
   @keyframes zen-header-2 {
     0% {
