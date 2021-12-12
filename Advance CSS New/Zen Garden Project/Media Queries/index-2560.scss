@@ -65,7 +65,21 @@ sans-serif;
                 font-size: 70px;
                 line-height: 1px;
                 color: #555B6E;
+                // Animation
+                animation-name: zen-header;
+                animation-duration: 4s;
             }
+
+            @keyframes zen-header {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+
 
             &>h2 {
                 font-style: italic;
