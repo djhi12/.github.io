@@ -66,15 +66,19 @@ sans-serif;
                 line-height: 1px;
                 color: #555B6E;
                 // Animation
-                animation-name: zen-header;
-                animation-duration: 4s;
+                animation-name: zen-header-1;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: .5s;
             }
 
-            @keyframes zen-header {
+            @keyframes zen-header-1 {
                 from {
+                    top: 0px;
                     opacity: 0;
                 }
                 to {
+                    top: 200px;
                     opacity: 1;
                 }
             }
@@ -87,6 +91,23 @@ sans-serif;
                 font-size: 30px;
                 line-height: 5px;
                 color: #555B6E;
+                // Animation
+                 // Animation
+                 animation-name: zen-header-2;
+                 animation-duration: 2s;
+                 animation-timing-function: ease-in-out;
+                 animation-delay: .5s;
+            }
+
+            @keyframes zen-header-2 {
+                from {
+                    top: 0px;
+                    opacity: 0;
+                }
+                to {
+                    top: 200px;
+                    opacity: 1;
+                }
             }
         }
 
