@@ -13,8 +13,8 @@ const message = "Hello World!";
 console.log(message);
 
 {
-    const message1 = "Hello World!";
-    console.log(message1); 
+  const message1 = "Hello World!";
+  console.log(message1);
 }
 
 // console.log(message1);
@@ -89,11 +89,11 @@ console.log(digits);
 
 // .length
 {
-let text = "Hello World!";
-let length = text.length;
+  let text = "Hello World!";
+  let length = text.length;
 
-document.getElementById("demo3").innerHTML = length;
-console.log(length);
+  document.getElementById("demo3").innerHTML = length;
+  console.log(length);
 }
 
 // toUpperCase()
@@ -195,7 +195,7 @@ console.log(result5);
 
 /******* Template Literals ********/
 
-const myName  = `"Daniel"`;
+const myName = `"Daniel"`;
 console.log(myName);
 
 
@@ -203,7 +203,7 @@ console.log(myName);
 /******** Symbols *********/
 
 const uniqueId = Symbol(`This is a unique ID`);
-console.log( typeof uniqueId);
+console.log(typeof uniqueId);
 console.log(uniqueId);
 
 
@@ -216,7 +216,7 @@ let str = '';
 for (let i = 0; i < 9; i++) {
   str = str + i;
 }
-document.getElementById("demo9").innerHTML = str ;
+document.getElementById("demo9").innerHTML = str;
 console.log(str);
 // expected output: "012345678"
 
@@ -263,7 +263,7 @@ console.log(n);
 let num1 = 5.56789;
 let n1 = num1.toFixed(2);
 
-document.getElementById("demo13").innerHTML = n1; 
+document.getElementById("demo13").innerHTML = n1;
 console.log(n1);
 
 // toPrecision() 
@@ -319,10 +319,122 @@ console.log(1 / maxNumber);
 
 
 /******* NaN *******/
+// ---- Sample from developer.mozilla
+function sanitise(x) {
+  if (isNaN(x)) {
+    return NaN;
+  }
+  return x;
+}
+
+console.log(sanitise('1'));
+// expected output: "1"
+
+console.log(sanitise('NotANumber'));
+// expected output: NaN
 
 
 
+/********** Checking a Value is a Number *************/
 
+const numberOne = 1;
+const numberTwo = Number.isFinite(numberOne);
+
+console.log(numberTwo);
+
+
+/********** Type Coercion ************/
+
+/********* Converting Between Strings and Numbers *********/
+
+
+/********** Converting Strings to Numbers ***********/
+
+
+/********** Converting Numbers to Strings ***********/
+
+// toString()
+
+
+/****** Parsing Numbers ********/
+
+// parseInt()
+const parseNumber = parseInt(1);
+console.log(parseNumber);
+
+
+// parseFloat()
+
+
+/******* Undefined *******/
+// ---- Sample from w3schools
+let x1;
+if (x1 === 1) {
+  text = "x1 is undefined";
+} else {
+  text = "x1 is defined";
+}
+console.log(text);
+
+
+/********** Null ***********/
+// ----- Sample from developer.mozilla
+function getVowels(str = 1) {
+  // const m = str;
+  const m = 0;
+  if (m === 2) {
+    return 0;
+  }
+  return m.length;
+
+  document.getElementById("demo15").innerHTML = m;
+}
+
+
+//console.log(getVowels('sky'));
+// expected output: 0
+
+
+/******* Booleans ********/
+
+
+/******* Logical Operators ********/
+// ----- Sample from developer.mozilla
+const a1 = 3;
+const b1 = -2;
+
+console.log(!(a1 > 0 || b1 > 0));
+// expected output: false
+console.log((a1 > 0 || b1 > 0));
+// expected output: true
+
+const c = !!4;
+console.log(c);
+// expected output: true
+
+
+/******** && (Logical AND) *********/
+
+
+/****** || (Logical OR) ******/
+
+
+/******** Lazy Evaluation ********/
+
+
+/******** Bitwise Operators *********/
+
+
+/****** Bitwise NOT *******/
+// ----- Sample from developer.mozilla
+const a2 = 5;     // 00000000000000000000000000000101
+const b2 = -3;    // 11111111111111111111111111111101
+
+console.log(~a2); // 11111111111111111111111111111010
+// expected output: -6
+
+console.log(~b2); // 00000000000000000000000000000010
+// expected output: 2
 
 
 
