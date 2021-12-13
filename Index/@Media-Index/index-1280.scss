@@ -41,4 +41,10 @@
     img {
         max-width: 100%;
     }
+
+    // Weather Page
+    img[class="weather-image"] {
+        height: 205px;
+        width: 310px;
+    }
 }
