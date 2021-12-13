@@ -48,7 +48,6 @@
   main {
     max-width: 960px;
     margin: auto;
-    background: green;
   }
   main > h1 {
     text-align: center;
@@ -93,7 +92,6 @@
   main {
     max-width: 960px;
     margin: auto;
-    background: lightblue;
   }
   main > h1 {
     text-align: center;
@@ -133,7 +131,6 @@
   main {
     max-width: 960px;
     margin: auto;
-    background: pink;
   }
   main > h1 {
     text-align: center;
@@ -178,7 +175,6 @@
   main {
     max-width: 960px;
     margin: auto;
-    background: gray;
   }
   main > h1 {
     text-align: center;
