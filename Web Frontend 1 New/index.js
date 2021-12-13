@@ -1,16 +1,16 @@
 
 
 /******* Date *******/
-const dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const newDate =  new Date();
 
-/*
+
 // Get Day
 const showDay = newDate.getDay();
 const showDayArray = dayNames[showDay];
 console.log(showDayArray);
-*/
+
 
 // Get Date
 const showDate = newDate.getDate();
@@ -26,7 +26,7 @@ const showYear = newDate.getFullYear();
 console.log(showYear);
 
 // Get Full Date
-const showFullDate = showMonthArray + " " + showDate + " " + showYear;
+const showFullDate = showDayArray + ", " + showMonthArray + " " + showDate + " " + showYear;
 console.log(showFullDate)
 
 document.getElementById("date").innerHTML = showFullDate;
