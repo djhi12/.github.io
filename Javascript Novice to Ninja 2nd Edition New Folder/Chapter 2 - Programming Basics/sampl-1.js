@@ -438,6 +438,85 @@ console.log(~b2); // 00000000000000000000000000000010
 
 
 
+/******* Bitwise AND *******/
+// ----- Sample from developer.mozilla
+const a3 = 5;        // 00000000000000000000000000000101
+const b3 = 3;        // 00000000000000000000000000000011
+
+console.log(a3 & b3); // 00000000000000000000000000000001
+// expected output: 1
+
+
+
+/******** Bitwise OR ********/
+// ----- Sample from developer.mozilla
+const a4 = 5;        // 00000000000000000000000000000101
+const b4 = 3;        // 00000000000000000000000000000011
+
+console.log(a4 | b4); // 00000000000000000000000000000111
+// expected output: 7
+
+
+/****** Bitwise XOR *******/
+// ------ Sample from developer.mozilla
+const a5 = 5;        // 00000000000000000000000000000101
+const b5 = 3;        // 00000000000000000000000000000011
+
+console.log(a5 ^ b5); // 00000000000000000000000000000110
+// expected output: 6
+
+
+// Exponentiation (**)
+
+
+/******* Bitwise Shift Operators *******/
+
+
+/****** Comparison *******/
+
+
+/******** Equality *******/
+
+
+/******** Soft Equality *******/
+
+
+
+/******* Hard Equality********/
+// Number.isNaN()
+// ----- Sample from developer.mozilla
+function typeOfNaN(x) {
+  if (Number.isNaN(x)) {
+    return 'Number NaN';
+  }
+  if (isNaN(x)) {
+    return 'NaN';
+  }
+}
+
+console.log(typeOfNaN('100F'));
+// expected output: "NaN"
+
+console.log(typeOfNaN(NaN));
+// expected output: "Number NaN"
+
+
+
+/******** Inequality ********/
+
+
+/****** Greater Than and Less Than ******/
+
+
+/******** Quiz Ninja Project ********/
+const quesion = `What is Superman's real name?`;
+const answer = prompt(quesion);
+alert(`You answered ${answer}`);
+
+
+
+
+
 
 
 
