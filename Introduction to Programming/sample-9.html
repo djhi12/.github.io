@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <main>
+        <h1>JS Practice</h1>
+        <p id="demo"></p>
+
+        <script>
+            function calendarNumber(week1, week2, week3, week4) {
+                const totalWeeks = week1 + week2 + week3 + week4;
+                const totalMonths = months();
+                document.getElementById("demo"). innerHTML = totalWeeks;
+                console.log(totalWeeks);
+            }
+
+            calendarNumber(1, 2, 3, 4);
+        </script>
+    </main>
+</body>
+</html>
