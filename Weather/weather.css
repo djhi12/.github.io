@@ -2,4 +2,12 @@ body {
   margin: 0;
 }
 
+.notice {
+  color: red;
+}
+
+span {
+  display: block;
+}
+
 /*# sourceMappingURL=weather.css.map */
