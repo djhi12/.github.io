@@ -32,3 +32,20 @@ const showFullDate = showDayArray + ", " + showMonthArray + " " + showDate + " "
 console.log(showFullDate)
 
 document.getElementById("date").innerHTML = showFullDate;
+
+
+
+/******** Hamburger Menu *******/
+function toggleMenu() {
+    var hamburgerMenu = document.getElementById("navigationLinks");
+    if (hamburgerMenu.style.display === "none") {
+        hamburgerMenu.style.display = "block";
+    } else {
+        hamburgerMenu.style.display = "none";
+    }
+  }
+
+const menuIcon = document.getElementById("hambugerMenu");
+if (menuIcon.max-width === 2560) {
+    document.getElementById(hamburgerMenu).style.display = "none";
+}
