@@ -17,7 +17,7 @@ function myFunction() {
 }
 
 /******* Getting Elements ********/
-document.body.style.backgroundColor = "lightblue";
+document.body.style.backgroundColor = "lightgreen";
 
 
 // nodeType
@@ -59,6 +59,34 @@ document.getElementById("samplePar").style.fontSize = "10px";
 /******** Query Selectors ********/
 const HeaderSample = document.querySelector(".header-sample").style.backgroundColor = "red";
 console.log(HeaderSample);
+
+
+/****** JQuery *******/
+
+
+
+/********* Navigating the DOM Tree *********/
+// childNodes
+const narutoCharacters = document.getElementById("naruto-characters").childNodes;
+console.log(narutoCharacters);
+
+// children
+
+// firstChild
+
+// lastChild
+
+// parentNode
+
+// nextSibling
+
+// previousSibling
+
+// 
+
+
+/******* Finding the Value of a Node *******/
+
 
 
 
