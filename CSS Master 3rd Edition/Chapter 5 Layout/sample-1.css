@@ -28,12 +28,13 @@ li {
 
 /******** Block Formatting versus Inline Formatting *********/
 /**** Logical Properties *****/
+/*
 div {
-  background-color: yellow;
-  width: 120px;
-  height: 120px;
+    background-color: yellow;
+    width: 120px;
+    height: 120px;
 }
-
+*/
 .exampleText1 {
   writing-mode: vertical-lr;
   position: relative;
@@ -75,7 +76,39 @@ aside {
 
 /******* Floating Elements and Normal Flow ********/
 .float-normal {
-  margin-top: 250px;
+  margin-top: 400px;
+}
+
+.float-container {
+  max-width: 400px;
+  margin-top: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.container-1 {
+  background: red;
+  float: right;
+}
+
+.container-2 {
+  background: green;
+  float: right;
+}
+
+.container-3 {
+  background: blue;
+  float: right;
+}
+
+.container-4 {
+  background: purple;
+  float: right;
+}
+
+.container-5 {
+  background: brown;
+  float: right;
 }
 
 /*# sourceMappingURL=sample-1.css.map */
