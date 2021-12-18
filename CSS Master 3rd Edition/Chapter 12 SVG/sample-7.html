@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Master, 3rd Edition | Chapter 12 SVG</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project for Daniel John Idorot">
+    <!--<link rel="stylesheet" href="/chapter_1_selectors/sample_3.css">-->
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        main {
+            font-family: 'Montserrat';
+            max-width: 960px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>SVG</h1>
+        <h2>how to add text in svg circle</h2>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+    <title>Red Hot Chilli Peppers Logo</title>
+    <defs>
+    <path d="M243.2, 382.4c-74.8,   
+    0-135.5-60.7-135.5-135.5s60.7-135.5,135.5-135.5s135.5, 60.7, 135.5,
+    135.5 S318, 382.4, 243.2, 382.4z" id="textcircle" />
+    <style>
+        text { 
+            font-size: 60px;
+            font-family: Franklin Gothic, sans-serif;
+            font-weight: 900; 
+            text-transform: uppercase;
+            letter-spacing: 22px;
+        }
+    </style>
+</defs> 
+    <text dy="70" textLength="1200">
+        <textPath xlink:href="#textcircle">
+            Red Hot Chilli Peppers
+        </textPath>
+    </text>
+</svg>
+    </main>
+
+</body>
+
+</html>

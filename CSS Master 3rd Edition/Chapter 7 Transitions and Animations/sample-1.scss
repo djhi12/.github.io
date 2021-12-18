@@ -1,0 +1,271 @@
+main {
+    font-family: 'Montserrat';
+    max-width: 960px;
+    margin: auto;
+    // background: lightblue;
+}
+
+
+hr {
+    margin-top: 30px;
+}
+
+
+/************* CSS Transitions *************/
+
+.css-transition {
+    // transition: 1s;
+    transition-property: opacity, left, top, width;
+    transition-duration: 2s, 1s;
+    background: lightgreen;
+    // max-width: 299px;
+    // margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/******* Creating Your First Transition ********/
+
+a {
+    transition: 1s;
+    // transition-duration: 10s;
+    // transition-property: all;
+    // transition-timing-function: ease;
+    // transition-delay: 1s;
+    color: white;
+    // padding: 10px;
+}
+
+a:link {
+    background: red;
+    font-size: 20px;
+}
+
+a:hover {
+    // transition: 10s;
+    background: green;
+    font-size: 50px;
+    padding: 20px;
+}
+
+
+/************* Using the transition Property ***************/
+.transition-property {
+    background: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background .5ms linear 1s;
+}
+
+
+/************* Transition Durations and Delays ***************/
+.transition-durations-delay {
+    background: green;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition-duration: 2s;
+    transition-delay: -1s;
+
+    & p {
+        display: none;
+    }
+}
+
+.transition-durations-delay:hover {
+    background: red;
+    padding: 10px;
+    width: 900px;
+
+    & p {
+        display: grid;
+        // opacity: 0.5;
+    }
+}
+
+
+/************** Timing Functions *************/
+.timing-functions {
+    background: purple;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 5s steps(1);
+}
+
+
+/************* Smooth Transitions ***************/
+.smooth-transition {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+/********** Transitioning Multiple Properties ***********/
+div.multiple-properties p {
+    background: pink;
+    height: 200px;
+    max-width: 500px;
+    margin: 10px 0;
+    position: relative;
+    left: 0;
+    top: 0em;
+    bottom: 100px;
+    transition: left 4s cubic-bezier(0.175, 0.885, 0.32, 1.275), background 2s 500ms;
+}
+
+.multiple-properties {
+    left: 30%;
+    background: brown;
+}
+
+li {
+    transition: .5ms;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.red {
+    background: red;
+    padding: 20px;
+}
+
+.yellow {
+    background: yellow;
+    padding: 20px;
+}
+
+.blue {
+    background: blue;
+    padding: 20px;
+}
+
+/*********** CSS Animation ************/
+
+/**************** Creating Your First Animation ***************/
+
+.pulse {
+    background: lightblue;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    animation: pulse 5000ms infinite;
+    animation: pulse1 5000ms infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.5);
+        top: 0px;
+        // opacity: 0.1;
+        // background: lightblue;
+    }
+    to {
+        transform: scale(1);
+        top: 100px;
+        // opacity: 1;
+        // background: red;
+    }
+}
+
+@keyframes pulse1 {
+    from {
+        transform: scale(0.5);
+        top: 0px;
+        // opacity: 0.1;
+        background: lightblue;
+    }
+    to {
+        transform: scale(1);
+        top: 100px;
+        // opacity: 1;
+        background: red;
+    }
+}
+
+
+/********* To Loop or Not to Loop: The animation-iteration-count Property *********/
+
+
+
+/********** Playing Animations: The animation-direction Property **********/
+
+.animation-directions {
+    background: gray;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+    // animation
+    animation-name: animation-directions;
+    // animation-delay: -1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes animation-directions {
+    from {
+        // background: gray;
+    }
+    to {
+        background: purple;
+    }
+}
+
+
+/********** Using Percentage Keyframes ***********/
+
+.percentage-keyframes {
+    animation-name: rotates;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    animation-duration: 1s;
+}
+
+@keyframes rotates {
+    25% {
+        background: blue;
+        transform: scale(.5) skewX(-5deg) rotate(-5deg);
+    }
+    50% {
+        background: red;
+        transform: skewY(5deg) rotate(5deg);
+    }
+    75% {
+        background: green;
+        transform: skewX(-5deg) rotate(-5deg) scale(1.5);
+    }
+    100% {
+        background: purple;
+        transform: scale(1.5);
+    }
+}
+
+/*************** Pausing Animations ***************/
+
+/************ Detecting When Animations Start, End, or Repeat | JS *************/
+
+/********* Animation and Accessibility ************/
+
+/*********** A Note about Performance ***********/
+
+// Done...
+
+
+
+
+
+

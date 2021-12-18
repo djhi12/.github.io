@@ -1,0 +1,1 @@
+@keyframes translate_left{0%{transform:translateX(0)}to{transform:translate(1000px)}}main{font-family:'Montserrat';max-width:960px;margin:auto}div{background:#36f;margin-bottom:1em;width:100px;height:100px;animation:alternate 2s ease-in 2 paused;transform:translateX(0);animation-name:translate_left}main.running div{animation-play-state:running}

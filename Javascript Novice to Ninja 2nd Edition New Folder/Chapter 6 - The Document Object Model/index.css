@@ -1,0 +1,24 @@
+main {
+    max-width: 760px;
+    margin: auto;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: green;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+}

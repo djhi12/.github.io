@@ -1,0 +1,19 @@
+@import url("/chapter-9-Architecture/sample-1-import.css");
+
+main {
+    max-width: 900px;
+    margin: auto;
+    background: green;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 400px) {
+    main { 
+        background-color: pink;
+     }
+ }
+
+ 

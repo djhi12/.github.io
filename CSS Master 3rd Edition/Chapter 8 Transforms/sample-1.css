@@ -1,0 +1,79 @@
+main {
+  max-width: 760px;
+  margin: auto;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+/******** transform Creates a Containing Block *********/
+.position-relative {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: blue;
+}
+
+.position-absolute {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: red;
+  top: 10px;
+  color: white;
+}
+
+.skew-x-relative {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  transform: skew(-15deg);
+}
+
+.skew-x-absolute {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: red;
+  top: 10px;
+  left: 20px;
+  color: white;
+}
+
+/************ transform Creates a New Stacking Context ***************/
+.stacking-context {
+  position: relative;
+}
+.stacking-context .a {
+  background: green;
+  width: 80px;
+  height: 80px;
+  opacity: 0.5;
+}
+.stacking-context .b {
+  transform: scale(2);
+  translate: 25%, 15%;
+  background: pink;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+}
+.stacking-context .c {
+  position: relative;
+  z-index: 1;
+  background: brown;
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+}
+.stacking-context .d {
+  position: absolute;
+  z-index: -1;
+  background: purple;
+  width: 180px;
+  height: 180px;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=sample-1.css.map */
