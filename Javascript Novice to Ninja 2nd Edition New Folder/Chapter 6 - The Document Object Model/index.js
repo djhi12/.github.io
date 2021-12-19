@@ -86,6 +86,11 @@ console.log(narutoCharacters);
 
 
 /******* Finding the Value of a Node *******/
+const textNode;
+
+
+/******** Getting and Setting Attributes ********/
+
 
 
 
