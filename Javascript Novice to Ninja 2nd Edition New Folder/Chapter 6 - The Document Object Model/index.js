@@ -92,6 +92,9 @@ const textNode;
 /******** Getting and Setting Attributes ********/
 
 
+/******* Getting An Element’s Attributes ********/
+
+
 
 
 
