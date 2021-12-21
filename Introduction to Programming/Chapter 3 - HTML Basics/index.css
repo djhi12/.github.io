@@ -1,0 +1,45 @@
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: green;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+/*** Example HTML Document ***/
+.my-story {
+    max-width: 760px;
+    margin: auto;
+}
+
+img.my-photo {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Example HTML Document with a Form ***/
+.form {
+    border: 1px solid black;
+    max-width: 450px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
