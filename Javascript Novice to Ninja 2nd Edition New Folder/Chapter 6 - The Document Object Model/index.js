@@ -95,6 +95,15 @@ const textNode;
 /******* Getting An Element’s Attributes ********/
 
 
+/******* Setting An Element’s Attributes ********/
+
+
+/****** The className Property ******/
+
+
+/***** The classList Property ******/
+
+
 
 
 
