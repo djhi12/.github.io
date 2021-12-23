@@ -1,3 +1,5 @@
+
+
 console.log("Hello world!");
 
 /******* What is the DOM? *******/
@@ -17,7 +19,7 @@ function myFunction() {
 }
 
 /******* Getting Elements ********/
-document.body.style.backgroundColor = "lightgreen";
+//document.body.style.backgroundColor = "lightgreen";
 
 
 // nodeType
@@ -86,7 +88,7 @@ console.log(narutoCharacters);
 
 
 /******* Finding the Value of a Node *******/
-const textNode;
+// const textNode;
 
 
 /******** Getting and Setting Attributes ********/
@@ -102,6 +104,50 @@ const textNode;
 
 
 /***** The classList Property ******/
+
+
+/******* Creating Dynamic Markup *******/
+
+const flash = document.createElement("li");
+const flashText = document.createTextNode("Flash");
+const flashAll = `${flash} + ${flashText}`;
+document.getElementById("createDemo").innerHTML = flashAll;
+console.log(flashAll);
+
+
+/******* Creating An Element ******/
+// createElement()
+
+
+/******* Creating a Text Node *******/
+// createTextNode()
+
+
+/****** Appending Nodes *******/
+// appendChild()
+
+
+/******* A Function To Create Elements ********/
+function createElement (tag,text) {
+  const el = document.createElement(tag);
+  el.textContent = text;
+  return el
+}
+
+console.log(createElement("li", "Aquaman"));
+console.log("aquaman");
+
+
+/******* Adding Elements to the Page *******/
+// insertBefore()
+
+
+/******* Replacing Elements on a Page ********/
+// const myName = document.getElementById("myName").innerHTML;
+// console.log(myName);
+
+
+
 
 
 
