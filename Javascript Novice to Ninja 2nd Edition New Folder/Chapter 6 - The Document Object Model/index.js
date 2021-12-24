@@ -111,7 +111,7 @@ console.log(narutoCharacters);
 const flash = document.createElement("li");
 const flashText = document.createTextNode("Flash");
 const flashAll = `${flash} + ${flashText}`;
-document.getElementById("createDemo").innerHTML = flashAll;
+document.getElementById("createDemo").innerHTML = flashAll.value;
 console.log(flashAll);
 
 
@@ -134,7 +134,7 @@ function createElement (tag,text) {
   return el
 }
 
-console.log(createElement("li", "Aquaman"));
+console.log(createElement("li", "Aquaman").value);
 console.log("aquaman");
 
 
@@ -145,6 +145,30 @@ console.log("aquaman");
 /******* Replacing Elements on a Page ********/
 // const myName = document.getElementById("myName").innerHTML;
 // console.log(myName);
+
+
+/******  innerHTML ******/
+
+
+/******* Live Collections ********/
+
+
+/******* Updating CSS *******/
+
+
+/****** Camel Case Properties ******/
+
+
+/********* Disappearing Act *******/
+
+
+/******* Checking Style Properties *******/
+
+/******* Use with Caution *******/
+
+
+
+/********* Quiz Ninja Project *********/
 
 
 
