@@ -20,13 +20,33 @@
         .mystyle {
             background-color: red;
         }
+
+        p {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: #ccc;
+            float: left;
+        }
+
+        .height {
+            background-color: red;
+        }
     </style>
 </head>
 
 <body>
     <main>
         <h1>Inline Event Handlers</h1>
-        <p onclick="console.log('You Click Me!')">Click Me</p>
+        <!--<p onclick="console.log('You Click Me!')">Click Me</p>-->
+
+        <hr>
+
+        <h1>Example Code</h1>
+        <p id='click'>Click on Me</p>
+        <p id='dblclick'>Double Click on Me</p>
+        <p id='mouse'>Hover on Me</p>
+
 
         <script>
 
