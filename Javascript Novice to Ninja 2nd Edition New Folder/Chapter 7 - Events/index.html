@@ -32,9 +32,17 @@
         }
 
         .highlight {
-            background-color: red;
-            color: white;
+            background-color: lightblue;
+            color: black;
             padding: 10p
+        }
+
+        .hide {
+            visibility: hidden;
+        }
+
+        .show {
+            visibility: visible;
         }
     </style>
 </head>
@@ -59,11 +67,27 @@
         <h2>mouseover event</h2>
         <p id='mouse'>Hover on Me</p>
 
+        <hr>
 
+        <h1>Keyboard Events</h1>
 
+        <!-- Trial -->
+        <div id="trial"><span>Click Me!</span>
+            <p class="hide">Daniel John Idorot</p>
+        </div>
+
+        <hr>
+
+        <h1>Modifier Keys</h1>
+
+        <hr>
+
+        <h1>Removing Event Listeners</h1>
+        
 
         <script>
-
+            const myName = document.getElementById("trial");
+            // myName.addEventListener('click', show);
         </script>
     </main>
     <script src="/Javascript Novice to Ninja 2nd Edition New Folder/Chapter 7 - Events/index.js">
