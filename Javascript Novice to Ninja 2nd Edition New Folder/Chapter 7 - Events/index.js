@@ -73,6 +73,40 @@ function highlight(event) {
 const mouseParagraph = document.getElementById('mouse');
 mouseParagraph.addEventListener('mouseover', highlight);
 mouseParagraph.addEventListener('mouseout', highlight);
+mouseParagraph.addEventListener('mousemove', () => (console.log('You moved!')));
+
+
+/******* Keyboard Events ********/
+addEventListener('keydown', highlight);
+addEventListener('keyup', (event) => console.log(`You stopped pressing the key on ${new Date}`));
+
+addEventListener('keydown', (event) => console.log(`You pressed ${event.key}`));
+
+
+/******* Modifier Keys ********/
+addEventListener('keydown', (event) => console.log(`You pressed the ${event.key} character`));
+
+// KeyboardEvent.shiftKey
+
+
+  // KeyboardEvent.ctrlKey
+ addEventListener('keydown', (event) => {
+     if (event.key === 'c' && event.ctrlKey) {
+        console.log('Action Canceled!');
+     }
+ });
+
+ /****** Touch Events *******/
+// console.log('Sample if the code is working');
+
+
+/******* Removing Event Listeners *******/
+
+
+
+
+
+
 
 
 
