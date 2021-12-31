@@ -96,6 +96,7 @@ addEventListener('keydown', (event) => console.log(`You pressed the ${event.key}
      }
  });
 
+ 
  /****** Touch Events *******/
 // console.log('Sample if the code is working');
 
