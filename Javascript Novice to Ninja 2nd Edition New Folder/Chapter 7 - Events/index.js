@@ -96,19 +96,76 @@ addEventListener('keydown', (event) => console.log(`You pressed the ${event.key}
      }
  });
 
- 
+
  /****** Touch Events *******/
 // console.log('Sample if the code is working');
 
 
 /******* Removing Event Listeners *******/
+const onceParagraph = document.getElementById("once");
+onceParagraph.addEventListener('click', remove);
+
+function remove(event) {
+    console.log('Enjoy this while it lasts!');
+    onceParagraph.style.backgroundColor = 'blue';
+    onceParagraph.style.color = 'white';
+    onceParagraph.style.padding = '10px';
+    onceParagraph.removeEventListener('click', remove);
+
+}
 
 
+/******* Stopping Default Behavior *********/
+// preventDefault()
+const brokenLink = document.getElementById('broken');
+brokenLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    console.log('Broken Link!');
+});
+
+// cancellable
+// ----- Sample from Mozilla
+function preventScrollWheel(event) {
+    if (typeof event.cancelable !== 'boolean' || event.cancelable) {
+      // The event can be canceled, so we do so.
+      event.preventDefault();
+    } else {
+      // The event cannot be canceled, so it is not safe
+      // to call preventDefault() on it.
+      console.warn(`The following event couldn't be canceled:`);
+      console.dir(event);
+    }
+  }
+  
+  document.addEventListener('wheel', preventScrollWheel);
 
 
+  /******* Event Propagation *******/
+// Bubbling
+ulElement = document.getElementById('list');
+liElement = document.querySelector('#list li');
+
+ulElement.addEventListener('click', (event) => 
+console.log('Click on ul'));
+
+liElement.addEventListener('click', (event) =>
+console.log('Clicked on li'));
 
 
+/***** Capturing *******/
+ulElement = document.getElementById('list1');
+liElement = document.querySelector('#list li');
+
+ulElement.addEventListener('click', (event) => 
+console.log('Click on ul'), true);
+
+liElement.addEventListener('click', (event) =>
+console.log('Clicked on li'), true);
 
 
+/******** Stopping the Bubbling Phase ********/
+
+
+/***** Event Delegation ******/
 
 
