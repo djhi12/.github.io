@@ -5,7 +5,7 @@ const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Frida
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const newDate =  new Date();
 
-
+ 
 // Get Day
 const showDay = newDate.getDay();
 const showDayArray = dayNames[showDay];
