@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Master, 3rd Edition | Chapter 4 CSS Custom Properties</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project for Daniel John Idorot">
+    <link rel="stylesheet" href="/chapter_1_selectors/sample_3.css">
+    <!--<link rel="stylesheet" href="index.css"> -->
+    <!--font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: black;
+            --footer-link-hover: #0cg; /* Not a valid color value */
+            --text-color: pink; /* pink */
+        }
+
+        main {
+            font-family: 'Montserrat';
+            max-width: 960px;
+            margin: auto;
+        }
+
+        body {
+            --text-color: red; /* red */
+        }
+
+        p {
+            --text-color: green;
+        }
+
+        body {
+            color: var(--text-color);
+        }
+
+        p {
+            color: var(--text-color);
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Custom Properties | Chapter 4</h1>
+        <h2>Custom Properties and the Cascade</h2>
+        <footer>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus temporibus 
+                distinctio accusamus in provident ipsum doloremque tenetur quae aliquid, rem 
+                ullam ex. Expedita aliquid deserunt tenetur dolores eligendi ipsa deleniti?</p>
+        </footer>
+    </main>
+    <script src="/chapter_1_selectors/chapter_1.js"></script>
+</body>
+
+</html>

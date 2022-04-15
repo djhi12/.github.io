@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wind Chill</title>
+
+    <script>
+        /*
+        function doInputOutput() {
+            let tempF = parseInt(document.getElementById('inputTemperature').value);
+            let speed = parseInt(document.getElementById('inputSpeed').value);
+            let result = windChill(tempF, speed);
+            document.getElementById('outputDiv').innerHTML = result;
+        }
+
+        function windChill(tempF, speed) {
+            let result = ((35.74 + 0.6215) * (tempF - 35.75) * (speed ** 0.16 + 0.4275) * (tempF) * (speed ** 0.16));
+            return result;
+            console.log(result);
+        }
+        */
+
+        /* 
+            The first function (doInputOutput) must be called from the onclick attribute 
+            of the button and must do the following:
+        */
+        function doInputOutput() {
+            // get a temperature from the first text field
+            let tempF = parseInt(document.getElementById('inputTemperature').value);
+
+            // get a wind speed from the second text field
+            let windSpeed = parseInt(document.getElementById('inputSpeed').value);
+
+            // call the second function (windChill)
+
+            // store the value returned by windChill in a variable
+
+            // output the value returned by windChill to the div for the user to see
+        }
+
+        function windChill(tempF, windSpeed) {
+
+        }
+
+
+
+        /****************************/
+        // Sample 
+        const message = function () {
+            console.log("This message is shown after 3 seconds");
+        }
+
+        setTimeout(message, 3000);
+
+
+        /***************************/
+    </script>
+    <style>
+        body {
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    Please enter the following:<br>
+    <!-- First text: "Temperature" -->
+    Temperature (ºF): <input type="text" id="inputTemperature"><br>
+
+    <!-- Wind Speed -->
+    Wind Speed (miles per hour): <input type="text" id="inputSpeed"><br>
+
+    <!-- Wind Chill -->
+    <button type="button" onclick="doInputOutput()">Wind Chill</button>
+    <div id="outputDiv"></div>
+
+</body>
+
+</html>
