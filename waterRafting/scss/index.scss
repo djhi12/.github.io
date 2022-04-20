@@ -1,3 +1,27 @@
 body {
-    background: red;
+    margin: 0;
+}
+
+header {
+    /* Logo */
+    .logo-box {
+        float: left;
+
+        img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+    }
+
+    nav {
+        text-align: center;
+        padding-top: 30px;
+        a {
+            align-items: center;
+            margin: 20px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    }
+
 }

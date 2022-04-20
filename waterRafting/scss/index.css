@@ -1,5 +1,26 @@
 body {
-  background: red;
+  margin: 0;
+}
+
+header {
+  /* Logo */
+}
+header .logo-box {
+  float: left;
+}
+header .logo-box img {
+  max-width: 150px;
+  margin-right: 20px;
+}
+header nav {
+  text-align: center;
+  padding-top: 30px;
+}
+header nav a {
+  align-items: center;
+  margin: 20px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */
