@@ -1,0 +1,19 @@
+@media only screen {
+    body {
+        margin: 0;
+      background-color: lightblue;
+    }
+
+    button .fa-solid.fa-bars {
+        color: red;
+        background: green;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 340px) {
+    body {
+      background-color: red;
+    }
+  }
