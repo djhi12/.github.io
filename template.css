@@ -18,9 +18,9 @@
 /* @media 440 */
 @media only screen and (max-width: 440px) {
   
-  /* body {
+  body {
     background: lightblue;
-  } */
+  }
 
   /* Logo */
   div img {
@@ -45,6 +45,10 @@
     float: right;
     margin-top: 10px;
     margin-right: 10px;
+  }
+
+  .menuBar1, .menuBar2, .menuBar3 {
+    transition: 0.4s;
   }
 
   #menuBar div {
@@ -78,6 +82,19 @@
     /* background: red;
     margin-top: 30px; */
   }
+
+  .reveal .menuBar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .reveal .menuBar2 {opacity: 0;}
+  
+  .reveal .menuBar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
 }
 
 
