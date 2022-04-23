@@ -13,10 +13,6 @@
 }
 /* @media 440 */
 @media only screen and (max-width: 440px) {
-  body {
-    background: lightblue;
-  }
-
   /* Logo */
   div img {
     max-width: 50px;
@@ -92,10 +88,6 @@
   }
 }
 @media only screen and (max-width: 340px) {
-  body {
-    background: gray;
-  }
-
   /* Logo */
   div img {
     max-width: 50px;
@@ -172,10 +164,6 @@
   }
 }
 @media only screen and (max-width: 300px) {
-  body {
-    background: lightgreen;
-  }
-
   /* Logo */
   div img {
     max-width: 50px;
