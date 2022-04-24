@@ -6,6 +6,18 @@
   h1, h2 {
     font-family: "Montserrat", sans-serif;
   }
+
+  span {
+    color: #038229;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  ul li {
+    font-family: "Open Sans", sans-serif;
+  }
+  ul li a {
+    color: #038229;
+  }
 }
 /* @media 440 */
 @media only screen and (max-width: 440px) {
@@ -28,7 +40,9 @@
   }
 
   /* Menu Bar */
-  *, *:before, *:after {
+  *,
+*:before,
+*:after {
     box-sizing: border-box;
   }
 
@@ -39,7 +53,7 @@
   label .menu {
     position: absolute;
     right: 0px;
-    top: -100px;
+    top: -110px;
     z-index: 100;
     width: 110px;
     height: 110px;
@@ -65,7 +79,8 @@
     transition: 0.5s ease-in-out;
   }
 
-  label .hamburger:after, label .hamburger:before {
+  label .hamburger:after,
+label .hamburger:before {
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
     content: "";
@@ -117,14 +132,15 @@
   label ul {
     z-index: 200;
     position: absolute;
-    top: 30%;
-    left: 15%;
+    top: 35%;
+    left: 40%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     opacity: 0;
     -webkit-transition: 0.25s 0s ease-in-out;
     transition: 0.25s 0s ease-in-out;
     list-style-type: none;
+    width: 100%;
   }
 
   label a {

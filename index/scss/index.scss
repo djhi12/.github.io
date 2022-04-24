@@ -2,23 +2,35 @@
 $font-header: 'Montserrat', sans-serif;
 $font-paragraph: 'Open Sans', sans-serif;
 
+// Colors
+$color-primary: #038229;
+
+
 @media only screen {
     body {
       margin: 0;
+      // background: red;
     }
 
     h1, h2 {
       font-family: $font-header;
     }
 
+    // Logo
+    span {
+      color: $color-primary;
+      font-family: $font-header;
+    }
 
-  
-    // button div {
-    //   width: 35px;
-    //   height: 5px;
-    //   background-color: black;
-    //   margin: 6px 0;
-    // }
+    // Navigation links
+    ul li {
+      font-family: $font-paragraph;
+      
+
+      a {
+        color: $color-primary;
+      }
+    }
   
   
   }
