@@ -31,6 +31,16 @@ $color-primary: #038229;
         color: $color-primary;
       }
     }
+
+
+
+  // Footer > Date
+  #date {
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    font-family: $font-paragraph;
+  }
   
   
   }
