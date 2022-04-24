@@ -1,10 +1,4 @@
-Font-family:
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-
-font-family: 'Montserrat', sans-serif; -->
-
+/* FONT FAMILY */
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +6,22 @@ font-family: 'Montserrat', sans-serif; -->
 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
+
+
+
+/* COLORS */
+https://coolors.co/038229-8ef9f3-93bedf-8377d1-6d5a72
+
+
+
+/* COLOR PSYCHOLOGY */
+
+Growth - Green is one of the most-seen colors in nature reflecting life, rest, and peace. It is also a sign of growth, whether that's in a physical object like plants or in our income and wealth.
+
+From <https://coschedule.com/blog/color-psychology-marketing> 
+
+
+
 
 
 
