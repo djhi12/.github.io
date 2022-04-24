@@ -35,10 +35,17 @@ $color-primary: #038229;
 
 
   // Footer > Date
-  #date {
+  .copyRight div {
     position: absolute;
     bottom: 0%;
     left: 25%;
+    font-family: $font-paragraph;
+  }
+
+  .copyRight p {
+    position: absolute;
+    bottom: 1%;
+    left: 12%;
     font-family: $font-paragraph;
   }
   
