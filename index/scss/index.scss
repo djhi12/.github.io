@@ -1,7 +1,8 @@
+$backgroun-color: red;
 @media only screen {
     body {
       margin: 0;
-      /* background-color: lightblue; */
+      background-color: $backgroun-color;
     }
   
     button div {
@@ -15,14 +16,3 @@
   }
   
   
-  
-  
-  @media only screen and (max-width: 340px) {
-    
-  
-  }
-  
-  
-  @media only screen and (max-width: 300px) {
-    
-  }
