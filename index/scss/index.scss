@@ -1,9 +1,17 @@
-$backgroun-color: red;
+// Fonts
+$font-header: 'Montserrat', sans-serif;
+$font-paragraph: 'Open Sans', sans-serif;
+
 @media only screen {
     body {
       margin: 0;
-      background-color: $backgroun-color;
     }
+
+    h1, h2 {
+      font-family: $font-header;
+    }
+
+    
   
     button div {
       width: 35px;

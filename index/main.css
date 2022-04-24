@@ -1,7 +1,10 @@
 @media only screen {
   body {
     margin: 0;
-    background-color: red;
+  }
+
+  h1, h2 {
+    font-family: "Montserrat", sans-serif;
   }
 
   button div {
