@@ -51,11 +51,6 @@
     margin-top: 20px;
   }
 
-  /* Business Image */
-  div.businessPhoto img {
-    max-width: 100%;
-  }
-
   /* Menu Bar */
   *,
 *:before,
@@ -167,6 +162,20 @@ label .hamburger:before {
     text-decoration: none;
     /* float: left; */
     list-style-type: none;
+  }
+
+  /* Business Image */
+  div.businessPhoto img {
+    max-width: 100%;
+  }
+
+  div.businessPhoto p {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    top: 150px;
+    left: 60px;
   }
 
   /* Footer */
