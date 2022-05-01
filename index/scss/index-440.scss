@@ -8,6 +8,7 @@ sans-serif;
 // Colors
 $color-primary: #038229;
 $color-background-opacity: hsla(138, 95%, 26%, .7);
+$color-background: #038229;
 
 
 /* @media 440 */
@@ -411,7 +412,7 @@ $color-background-opacity: hsla(138, 95%, 26%, .7);
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background: $color-background-opacity;
+    background: $color-background;
     font-family: $font-paragraph;
     height: 30%;
 
