@@ -258,7 +258,7 @@ $color-background: hsla(138, 95%, 26%, .7);
   // Leads
   .leads {
     position: absolute;
-    top: 300%;
+    top: 295%;
 
     h2 {
       position: absolute;
@@ -331,12 +331,36 @@ $color-background: hsla(138, 95%, 26%, .7);
   // Announcements and Updates
   .announcements-updates {
     position: absolute;
-    top: 580%;
+    top: 575%;
 
     h2 {
       position: absolute;
       top: -15%;
       left: 5%;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: 3 00px;
+    }
+
+    p {
+      font-family: $font-paragraph;
+      margin: 20px;
+    }
+
+  }
+
+  // Digital Marketing
+   .marketing {
+    position: absolute;
+    top: 665%;
+
+    h2 {
+      position: absolute;
+      top: -15%;
+      left: 25%;
       text-align: center;
     }
 

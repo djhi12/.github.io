@@ -228,7 +228,7 @@ label .hamburger:before {
 
   .leads {
     position: absolute;
-    top: 300%;
+    top: 295%;
   }
   .leads h2 {
     position: absolute;
@@ -285,7 +285,7 @@ label .hamburger:before {
 
   .announcements-updates {
     position: absolute;
-    top: 580%;
+    top: 575%;
   }
   .announcements-updates h2 {
     position: absolute;
@@ -298,6 +298,25 @@ label .hamburger:before {
     height: 3 0px;
   }
   .announcements-updates p {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+  }
+
+  .marketing {
+    position: absolute;
+    top: 665%;
+  }
+  .marketing h2 {
+    position: absolute;
+    top: -15%;
+    left: 25%;
+    text-align: center;
+  }
+  .marketing img {
+    max-width: 100%;
+    height: 3 0px;
+  }
+  .marketing p {
     font-family: "Open Sans", sans-serif;
     margin: 20px;
   }
