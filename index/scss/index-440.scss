@@ -194,14 +194,30 @@ $color-primary: #038229;
       font-size: 30px;
       top: 60%;
     }
- 
-   ul {
-    position: absolute;
-    top: 70%;
-    left: 15%;
-    font-family: $font-paragraph;
+
+    ul {
+      position: absolute;
+      top: 70%;
+      left: 15%;
+      font-family: $font-paragraph;
+    }
   }
-}
+
+  // Credibility
+  .credibility {
+    position: absolute;
+    top: 120%;
+
+    h1 {
+      top: -20%;
+    }
+
+    img {
+      max-width: 100%;
+      height: 3 00px;
+    }
+
+  }
 
 
   /* Footer */
@@ -223,6 +239,7 @@ $color-primary: #038229;
       position: absolute;
       top: 200%;
       left: 20%;
+
       p {
         // position: absolute;
         bottom: 1%;
