@@ -322,23 +322,43 @@ label .hamburger:before {
   }
 
   /* Footer */
-  div.footer {
-    padding-top: 900%;
-  }
-  div.footer .copyRight div {
+  div.contacts {
     position: absolute;
+    top: 869%;
+    left: 0%;
+    right: 0%;
     bottom: 0%;
-    left: 30%;
     font-family: "Open Sans", sans-serif;
+    height: 30%;
+    background: lightblue;
   }
-  div.footer .copyRight {
+  div.contacts footer {
+    position: relative;
+    top: 60%;
+  }
+  div.contacts footer .fa-youtube {
+    color: red;
+  }
+
+  div.copyRight {
     position: absolute;
-    top: 800%;
-    left: 20%;
-  }
-  div.footer .copyRight p {
-    bottom: 1%;
+    top: 900%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background: rgba(3, 129, 41, 0.7);
     font-family: "Open Sans", sans-serif;
+    height: 30%;
+  }
+  div.copyRight footer {
+    position: relative;
+    top: 60%;
+  }
+  div.copyRight footer small {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    line-height: 10px;
   }
 }
 
