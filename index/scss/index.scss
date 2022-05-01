@@ -10,6 +10,7 @@ $color-primary: #038229;
     body {
       margin: 0;
       // background: red;
+      height: 100%;
     }
 
     h1, h2 {
@@ -23,15 +24,14 @@ $color-primary: #038229;
     }
 
     // Navigation links
-    ul li {
-      font-family: $font-paragraph;
+    ul.navList li {
+      font-family: $font-header;
       
 
       a {
         color: $color-primary;
       }
     }
-
   
   
   }
