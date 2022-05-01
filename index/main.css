@@ -332,12 +332,11 @@ label .hamburger:before {
     height: 30%;
     background: lightblue;
   }
-  div.contacts footer {
-    position: relative;
-    top: 60%;
+  div.contacts footer .facebook {
+    width: 20px;
   }
-  div.contacts footer .fa-youtube {
-    color: red;
+  div.contacts footer .youtube {
+    width: 20px;
   }
 
   div.copyRight {

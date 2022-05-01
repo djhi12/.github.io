@@ -7,7 +7,7 @@ sans-serif;
 
 // Colors
 $color-primary: #038229;
-$color-background: hsla(138, 95%, 26%, .7);
+$color-background-opacity: hsla(138, 95%, 26%, .7);
 
 
 /* @media 440 */
@@ -183,7 +183,7 @@ $color-background: hsla(138, 95%, 26%, .7);
     font-size: 30px;
     top: 130px;
     left: 37px;
-    background: $color-background;
+    background: $color-background-opacity;
     padding: 20px;
   }
 
@@ -391,11 +391,14 @@ $color-background: hsla(138, 95%, 26%, .7);
     background: lightblue;
 
     footer {
-      position: relative;
-      top: 60%;
 
-      .fa-youtube {
-        color: red;
+      .facebook {
+        width: 20px;
+        
+      }
+
+      .youtube {
+        width: 20px;
       }
     }
  
@@ -408,7 +411,7 @@ $color-background: hsla(138, 95%, 26%, .7);
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background: $color-background;
+    background: $color-background-opacity;
     font-family: $font-paragraph;
     height: 30%;
 
