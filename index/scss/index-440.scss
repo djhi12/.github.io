@@ -191,13 +191,14 @@ $color-primary: #038229;
   div.summary {
 
     h1 {
-      font-size: 20px;
+      font-size: 30px;
+      top: 60%;
     }
  
    ul {
     position: absolute;
-    top: 75%;
-    left: 5%;
+    top: 70%;
+    left: 15%;
     font-family: $font-paragraph;
   }
 }

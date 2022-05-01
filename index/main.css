@@ -175,12 +175,13 @@ label .hamburger:before {
 
   /* MAIN */
   div.summary h1 {
-    font-size: 20px;
+    font-size: 30px;
+    top: 60%;
   }
   div.summary ul {
     position: absolute;
-    top: 75%;
-    left: 5%;
+    top: 70%;
+    left: 15%;
     font-family: "Open Sans", sans-serif;
   }
 
