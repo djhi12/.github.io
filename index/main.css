@@ -169,14 +169,17 @@ label .hamburger:before {
     color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
-    top: 150px;
-    left: 60px;
+    top: 130px;
+    left: 37px;
+    background: rgba(3, 129, 41, 0.7);
+    padding: 20px;
   }
 
   /* MAIN */
   div.summary h1 {
     font-size: 30px;
     top: 60%;
+    text-align: center;
   }
   div.summary ul {
     position: absolute;
@@ -185,35 +188,34 @@ label .hamburger:before {
     font-family: "Open Sans", sans-serif;
   }
 
-  div#bg {
-    background: red;
-  }
-  div#bg .credibility {
+  .credibility {
     position: absolute;
     top: 120%;
   }
-  div#bg .credibility h2 {
+  .credibility h2 {
     position: absolute;
     top: -15%;
     left: 40%;
+    text-align: center;
   }
-  div#bg .credibility img {
+  .credibility img {
     max-width: 100%;
     height: 3 0px;
   }
-  div#bg .credibility p {
+  .credibility p {
     font-family: "Open Sans", sans-serif;
     margin: 20px;
   }
 
   .brand {
     position: absolute;
-    top: 210%;
+    top: 205%;
   }
   .brand h2 {
     position: absolute;
     top: -15%;
-    left: 40%;
+    left: 43%;
+    text-align: center;
   }
   .brand img {
     max-width: 100%;
@@ -224,9 +226,85 @@ label .hamburger:before {
     margin: 20px;
   }
 
+  .leads {
+    position: absolute;
+    top: 300%;
+  }
+  .leads h2 {
+    position: absolute;
+    top: -15%;
+    left: 43%;
+    text-align: center;
+  }
+  .leads img {
+    max-width: 100%;
+    height: 3 0px;
+  }
+  .leads p {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+  }
+
+  .traffic {
+    position: absolute;
+    top: 390%;
+  }
+  .traffic h2 {
+    position: absolute;
+    top: -15%;
+    left: 32%;
+    text-align: center;
+  }
+  .traffic img {
+    max-width: 100%;
+    height: 3 0px;
+  }
+  .traffic p {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+  }
+
+  .customer-service {
+    position: absolute;
+    top: 485%;
+  }
+  .customer-service h2 {
+    position: absolute;
+    top: -20%;
+    left: 5%;
+    text-align: center;
+  }
+  .customer-service img {
+    max-width: 100%;
+    height: 3 0px;
+  }
+  .customer-service p {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+  }
+
+  .announcements-updates {
+    position: absolute;
+    top: 580%;
+  }
+  .announcements-updates h2 {
+    position: absolute;
+    top: -15%;
+    left: 5%;
+    text-align: center;
+  }
+  .announcements-updates img {
+    max-width: 100%;
+    height: 3 0px;
+  }
+  .announcements-updates p {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+  }
+
   /* Footer */
   div.footer {
-    padding-top: 500%;
+    padding-top: 900%;
   }
   div.footer .copyRight div {
     position: absolute;
@@ -236,7 +314,7 @@ label .hamburger:before {
   }
   div.footer .copyRight {
     position: absolute;
-    top: 400%;
+    top: 800%;
     left: 20%;
   }
   div.footer .copyRight p {

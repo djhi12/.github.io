@@ -7,6 +7,7 @@ sans-serif;
 
 // Colors
 $color-primary: #038229;
+$color-background: hsla(138, 95%, 26%, .7);
 
 
 /* @media 440 */
@@ -180,8 +181,10 @@ $color-primary: #038229;
     color: white;
     font-family: $font-paragraph;
     font-size: 30px;
-    top: 150px;
-    left: 60px;
+    top: 130px;
+    left: 37px;
+    background: $color-background;
+    padding: 20px;
   }
 
 
@@ -193,6 +196,7 @@ $color-primary: #038229;
     h1 {
       font-size: 30px;
       top: 60%;
+      text-align: center;
     }
 
     ul {
@@ -204,9 +208,6 @@ $color-primary: #038229;
   }
 
   // Credibility
-  div#bg {
-
-    background: red;
   .credibility {
     position: absolute;
     top: 120%;
@@ -215,6 +216,7 @@ $color-primary: #038229;
       position: absolute;
       top: -15%;
       left: 40%;
+      text-align: center;
     }
 
     img {
@@ -228,17 +230,114 @@ $color-primary: #038229;
     }
 
   }
-}
 
   // Brand
   .brand {
     position: absolute;
-    top: 210%;
+    top: 205%;
 
     h2 {
       position: absolute;
       top: -15%;
-      left: 40%;
+      left: 43%;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: 3 00px;
+    }
+
+    p {
+      font-family: $font-paragraph;
+      margin: 20px;
+    }
+
+  }
+
+  // Leads
+  .leads {
+    position: absolute;
+    top: 300%;
+
+    h2 {
+      position: absolute;
+      top: -15%;
+      left: 43%;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: 3 00px;
+    }
+
+    p {
+      font-family: $font-paragraph;
+      margin: 20px;
+    }
+
+  }
+
+  // Organic Traffic
+  .traffic {
+    position: absolute;
+    top: 390%;
+
+    h2 {
+      position: absolute;
+      top: -15%;
+      left: 32%;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: 3 00px;
+      
+    }
+
+    p {
+      font-family: $font-paragraph;
+      margin: 20px;
+    }
+
+  }
+
+  // Saves Time and Customer Service
+  .customer-service {
+    position: absolute;
+    top: 485%;
+
+    h2 {
+      position: absolute;
+      top: -20%;
+      left: 5%;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: 3 00px;
+    }
+
+    p {
+      font-family: $font-paragraph;
+      margin: 20px;
+    }
+
+  }
+
+  // Announcements and Updates
+  .announcements-updates {
+    position: absolute;
+    top: 580%;
+
+    h2 {
+      position: absolute;
+      top: -15%;
+      left: 5%;
+      text-align: center;
     }
 
     img {
@@ -258,7 +357,7 @@ $color-primary: #038229;
 
   div.footer {
 
-    padding-top: 500%;
+    padding-top: 900%;
 
     // Footer > Date
     .copyRight div {
@@ -271,7 +370,7 @@ $color-primary: #038229;
     .copyRight {
 
       position: absolute;
-      top: 400%;
+      top: 800%;
       left: 20%;
 
       p {
