@@ -204,17 +204,51 @@ $color-primary: #038229;
   }
 
   // Credibility
+  div#bg {
+
+    background: red;
   .credibility {
     position: absolute;
     top: 120%;
-
-    h1 {
-      top: -20%;
+    
+    h2 {
+      position: absolute;
+      top: -15%;
+      left: 40%;
     }
 
     img {
       max-width: 100%;
       height: 3 00px;
+    }
+
+    p {
+      font-family: $font-paragraph;
+      margin: 20px;
+    }
+
+  }
+}
+
+  // Brand
+  .brand {
+    position: absolute;
+    top: 210%;
+
+    h2 {
+      position: absolute;
+      top: -15%;
+      left: 40%;
+    }
+
+    img {
+      max-width: 100%;
+      height: 3 00px;
+    }
+
+    p {
+      font-family: $font-paragraph;
+      margin: 20px;
     }
 
   }
@@ -224,7 +258,7 @@ $color-primary: #038229;
 
   div.footer {
 
-    padding-top: 200%;
+    padding-top: 500%;
 
     // Footer > Date
     .copyRight div {
@@ -237,7 +271,7 @@ $color-primary: #038229;
     .copyRight {
 
       position: absolute;
-      top: 200%;
+      top: 400%;
       left: 20%;
 
       p {

@@ -185,21 +185,48 @@ label .hamburger:before {
     font-family: "Open Sans", sans-serif;
   }
 
-  .credibility {
+  div#bg {
+    background: red;
+  }
+  div#bg .credibility {
     position: absolute;
     top: 120%;
   }
-  .credibility h1 {
-    top: -20%;
+  div#bg .credibility h2 {
+    position: absolute;
+    top: -15%;
+    left: 40%;
   }
-  .credibility img {
+  div#bg .credibility img {
     max-width: 100%;
     height: 3 0px;
+  }
+  div#bg .credibility p {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+  }
+
+  .brand {
+    position: absolute;
+    top: 210%;
+  }
+  .brand h2 {
+    position: absolute;
+    top: -15%;
+    left: 40%;
+  }
+  .brand img {
+    max-width: 100%;
+    height: 3 0px;
+  }
+  .brand p {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
   }
 
   /* Footer */
   div.footer {
-    padding-top: 200%;
+    padding-top: 500%;
   }
   div.footer .copyRight div {
     position: absolute;
@@ -209,7 +236,7 @@ label .hamburger:before {
   }
   div.footer .copyRight {
     position: absolute;
-    top: 200%;
+    top: 400%;
     left: 20%;
   }
   div.footer .copyRight p {
