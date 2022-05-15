@@ -1,4 +1,85 @@
+/* Fonts */
+$font-header: 'Open Sans',
+sans-serif;
+$font-paragraph: 'Montserrat',
+sans-serif;
+
+
+/* Colors */
+$color-primary: #036016; // Dark green
+$color-secondary: #E4572E; // orange
+$color-tertiary: #96E6B3; // Lightgreen
+$color-fourth: #FFFFFF; // White
+
+
+
 body {
     margin: 0;
     // background: red;
+}
+
+main {
+    margin: 100px;
+    margin-bottom: 200px;
+}
+
+/* Image */
+.my-image img {
+    width: 15%;
+    height: 40%;
+    position: absolute;
+    right: 150px;
+    margin-top: 40px;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* My name */
+.my-name h1 {
+    background: $color-primary;
+    font-family: $font-header;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    color: $color-fourth;
+}
+
+/* Portal */
+.portal h1 {
+    color: $color-primary;
+    font-family: $font-header;
+    text-align: center;
+}
+
+// hr
+
+// Navigation
+.portal nav a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: $font-header;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.portal nav a:link {
+    color: $color-primary;
+}
+
+.portal nav a:hover {
+    color: $color-secondary;
+}
+
+/* Footer | Social Media */
+.footer__social-media-contacts {
+    background: $color-primary;
+    max-width: 100%;
+}
+
+/* Footer | Copyright */
+.footer__copyright {
+    font-family: $font-paragraph;
+    text-align: center;
+    color: $color-primary;
 }

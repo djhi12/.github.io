@@ -1,5 +1,70 @@
+/* Fonts */
+/* Colors */
 body {
   margin: 0;
+}
+
+main {
+  margin: 100px;
+  margin-bottom: 200px;
+}
+
+/* Image */
+.my-image img {
+  width: 15%;
+  height: 40%;
+  position: absolute;
+  right: 150px;
+  margin-top: 40px;
+  border-radius: 5%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* My name */
+.my-name h1 {
+  background: #036016;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+/* Portal */
+.portal h1 {
+  color: #036016;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.portal nav a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.portal nav a:link {
+  color: #036016;
+}
+
+.portal nav a:hover {
+  color: #E4572E;
+}
+
+/* Footer | Social Media */
+.footer__social-media-contacts {
+  background: #036016;
+  max-width: 100%;
+}
+
+/* Footer | Copyright */
+.footer__copyright {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #036016;
 }
 
 /* Fonts */
