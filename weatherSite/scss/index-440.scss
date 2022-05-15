@@ -16,6 +16,7 @@ $color-tertiary: #96E6B3; // Lightgreen
 
     main {
         margin: 20px;
+        margin-bottom: 200px;
     }
 
     /* Image */
@@ -38,5 +39,34 @@ $color-tertiary: #96E6B3; // Lightgreen
         border-radius: 5px;
         padding: 10px;
         color: $color-secondary
+    }
+
+    /* Portal */
+    .portal h1 {
+        color: $color-primary;
+        font-family: $font-header;
+        text-align: center;
+    } 
+
+    // Navigation
+    .portal nav a {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: $font-header;
+        text-decoration: none;
+    }
+
+    /* Footer | Social Media */
+    .footer__social-media-contacts {
+        background: $color-primary;
+        max-width: 100%;
+    }
+
+    /* Footer | Copyright */
+    .footer__copyright {
+        font-family: $font-paragraph;
+        text-align: center;
+        color: $color-primary;
     }
 }

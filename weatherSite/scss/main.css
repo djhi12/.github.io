@@ -7,6 +7,7 @@ body {
 @media only screen and (max-width: 440px) {
   main {
     margin: 20px;
+    margin-bottom: 200px;
   }
 
   /* Image */
@@ -29,6 +30,34 @@ body {
     border-radius: 5px;
     padding: 10px;
     color: #FFFFFF;
+  }
+
+  /* Portal */
+  .portal h1 {
+    color: #036016;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+  }
+
+  .portal nav a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+  }
+
+  /* Footer | Social Media */
+  .footer__social-media-contacts {
+    background: #036016;
+    max-width: 100%;
+  }
+
+  /* Footer | Copyright */
+  .footer__copyright {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #036016;
   }
 }
 
