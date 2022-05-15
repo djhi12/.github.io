@@ -5,8 +5,10 @@ body {
 }
 
 main {
-  margin: 100px;
-  margin-bottom: 200px;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 400px;
 }
 
 /* Image */
@@ -14,8 +16,8 @@ main {
   width: 15%;
   height: 40%;
   position: absolute;
-  right: 150px;
-  margin-top: 40px;
+  right: 200px;
+  margin-top: 100px;
   border-radius: 5%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
@@ -37,20 +39,20 @@ main {
   text-align: center;
 }
 
-.portal nav a {
+.portal nav span {
   display: block;
   margin-bottom: 10px;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
-  text-decoration: none;
-  transition: 0.5s;
 }
-
-.portal nav a:link {
+.portal nav span a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+.portal nav span a:link {
   color: #036016;
 }
-
-.portal nav a:hover {
+.portal nav span a:hover {
   color: #E4572E;
 }
 
@@ -65,6 +67,7 @@ main {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #036016;
+  line-height: 10px;
 }
 
 /* Fonts */
@@ -80,9 +83,10 @@ main {
     width: 50%;
     height: 80%;
     display: block;
+    position: static;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 5%;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   }
@@ -104,20 +108,19 @@ main {
     text-align: center;
   }
 
-  .portal nav a {
-    display: block;
+  .portal nav span {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    transition: 0.5s;
   }
-
-  .portal nav a:link {
+  .portal nav span a {
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .portal nav span a:link {
     color: #036016;
   }
-
-  .portal nav a:hover {
+  .portal nav span a:hover {
     color: #E4572E;
   }
 
@@ -132,6 +135,7 @@ main {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     color: #036016;
+    line-height: normal;
   }
 }
 

@@ -25,9 +25,10 @@ $color-fourth: #FFFFFF; // White
         width: 50%;
         height: 80%;
         display: block;
+        position: static;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 40px;
+        margin-top: 20px;
         border-radius: 5%;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
     }
@@ -52,22 +53,25 @@ $color-fourth: #FFFFFF; // White
     // hr
 
     // Navigation
-    .portal nav a {
-        display: block;
+    .portal nav span {
         margin-bottom: 10px;
         font-size: 20px;
         font-family: $font-header;
-        text-decoration: none;
-        transition: 0.5s;
+
+        & a {
+            transition: 0.5s;
+            text-decoration: none;
+        }
+
+        & a:link {
+            color: $color-primary;
+        }
+
+        & a:hover {
+            color: $color-secondary;
+        }
     }
 
-    .portal nav a:link {
-        color: $color-primary;
-    }
-
-    .portal nav a:hover {
-        color: $color-secondary;
-    }
 
     /* Footer | Social Media */
     .footer__social-media-contacts {
@@ -80,5 +84,6 @@ $color-fourth: #FFFFFF; // White
         font-family: $font-paragraph;
         text-align: center;
         color: $color-primary;
+        line-height: normal;
     }
 }
