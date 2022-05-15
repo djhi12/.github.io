@@ -1,0 +1,6 @@
+/* Navigation */
+Home
+Projects
+    Site Projects
+    Photography
+About Me
