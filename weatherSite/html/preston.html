@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Template for my website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Daniel John Idorot">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/index/scss/main.css">
+    <link rel="stylesheet" href="/weatherSite/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo"></div>
+        <div class="site-name"><span></span></div>
+        <!--    Made by Erik Terwan    -->
+        <!--   24th of November 2015   -->
+        <!--        MIT License        -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+                <input type="checkbox" />
+
+                <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+                <ul id="menu">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Info</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="https://erikterwan.com/" target="_blank">
+                        <li>Show me more</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <h1></h1>
+
+        <!-- Weather Summary -->
+        <div class="weather-summary">
+            <div class="weather-summary__hero-image"></div>
+            <div class="weather-summary__details"></div>
+        </div>
+
+        <!-- Five Day Forecast -->
+        <div class="five-day-forecast">
+            <div class="five-day-forecast__day1"></div>
+            <div class="five-day-forecast__day2"></div>
+            <div class="five-day-forecast__day3"></div>
+            <div class="five-day-forecast__day4"></div>
+            <div class="five-day-forecast__day5"></div>
+        </div>
+
+        <!-- Article -->
+        <div class="article">
+            <div class="article__details"></div>
+            <div class="article__image"></div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer class="footer__location-map"></footer>
+        <footer class="footer_contact-info">
+            <footer class="footer__social-media"></footer>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/index/js/menuBar.js"></script>
+    <script src="/index/js/monthYear.js"></script>
+</body>
+
+</html>
