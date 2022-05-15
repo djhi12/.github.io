@@ -1,5 +1,14 @@
+/* Fonts */
+$font-header: 'Open Sans',
+sans-serif;
+$font-paragraph: 'Montserrat',
+sans-serif;
+
 @media only screen and (max-width: 440px) {
 
+    main {
+        margin: 20px;
+    }
 
     /* Image */
     .my-image img {
@@ -10,6 +19,15 @@
         margin-right: auto;
         margin-top: 40px;
         border-radius: 5%;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    /* My name */
+    .my-name h1 {
+        background: red;
+        font-family: $font-header;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
     }
 }

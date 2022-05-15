@@ -1,0 +1,5 @@
+https://coolors.co/ffffff-ccfccb-96e6b3-036016-d30c7b
+
+Primary: #036016 (dark green)
+Secondary: #FFFFFF (White)
+Tertiary: #96E6B3 (lightgreen)
