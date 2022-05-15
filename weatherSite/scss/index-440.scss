@@ -5,8 +5,9 @@ $font-paragraph: 'Montserrat', sans-serif;
 
 /* Colors */
 $color-primary: #036016; // Dark green
-$color-secondary: #FFFFFF; // White
+$color-secondary: #E4572E; // orange
 $color-tertiary: #96E6B3; // Lightgreen
+$color-fourth: #FFFFFF; // White
 
 
 
@@ -38,7 +39,7 @@ $color-tertiary: #96E6B3; // Lightgreen
         text-align: center;
         border-radius: 5px;
         padding: 10px;
-        color: $color-secondary
+        color: $color-fourth;
     }
 
     /* Portal */
@@ -48,6 +49,8 @@ $color-tertiary: #96E6B3; // Lightgreen
         text-align: center;
     } 
 
+    // hr
+
     // Navigation
     .portal nav a {
         display: block;
@@ -55,6 +58,15 @@ $color-tertiary: #96E6B3; // Lightgreen
         font-size: 20px;
         font-family: $font-header;
         text-decoration: none;
+        transition: 0.5s;
+    }
+
+    .portal nav a:link {
+        color: $color-primary;
+    }
+
+    .portal nav a:hover {
+        color: $color-secondary;
     }
 
     /* Footer | Social Media */

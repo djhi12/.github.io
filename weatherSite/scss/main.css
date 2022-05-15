@@ -45,6 +45,15 @@ body {
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .portal nav a:link {
+    color: #036016;
+  }
+
+  .portal nav a:hover {
+    color: #E4572E;
   }
 
   /* Footer | Social Media */
