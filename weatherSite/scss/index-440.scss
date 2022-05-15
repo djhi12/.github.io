@@ -1,8 +1,16 @@
 /* Fonts */
-$font-header: 'Open Sans',
-sans-serif;
-$font-paragraph: 'Montserrat',
-sans-serif;
+$font-header: 'Open Sans', sans-serif;
+$font-paragraph: 'Montserrat', sans-serif;
+
+
+/* Colors */
+$color-primary: #036016; // Dark green
+$color-secondary: #FFFFFF; // White
+$color-tertiary: #96E6B3; // Lightgreen
+
+
+
+
 
 @media only screen and (max-width: 440px) {
 
@@ -24,10 +32,11 @@ sans-serif;
 
     /* My name */
     .my-name h1 {
-        background: red;
+        background: $color-primary;
         font-family: $font-header;
         text-align: center;
         border-radius: 5px;
         padding: 10px;
+        color: $color-secondary
     }
 }

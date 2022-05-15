@@ -3,6 +3,7 @@ body {
 }
 
 /* Fonts */
+/* Colors */
 @media only screen and (max-width: 440px) {
   main {
     margin: 20px;
@@ -22,11 +23,12 @@ body {
 
   /* My name */
   .my-name h1 {
-    background: red;
+    background: #036016;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     border-radius: 5px;
     padding: 10px;
+    color: #FFFFFF;
   }
 }
 
