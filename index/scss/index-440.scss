@@ -1,0 +1,98 @@
+/***** Variables *****/
+
+// Fonts
+$font-header: 'Montserrat',
+sans-serif;
+$font-paragraph: 'Open Sans',
+sans-serif;
+
+// Colors
+$backgroun-color: red;
+
+$color-primary: #038229;
+$color-background-opacity: hsla(138, 95%, 26%, .7);
+$color-background: #038229;
+
+
+
+/*************************/
+
+
+// My image
+.my-image img {
+  max-width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+// My name
+.my-name {
+  background: $color-primary;
+  text-align: center;
+  color: white;
+  font-family: $font-header;
+  padding: 1px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+// Portal name
+.portal-name {
+  text-align: center;
+  color: $color-primary;
+  font-family: $font-header;
+}
+
+// hr
+
+hr {
+  max-width: 300px;
+}
+
+/***** Cards *****/
+// Cards Container
+div.cards-container {
+  margin: 10px;
+
+}
+
+/* Zen Garden */
+
+// Container
+.cards-container__zen-garden {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 20px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards-container__zen-garden:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+// Image
+.cards-container__zen-garden img {
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+// Title
+.cards-container__title p a {
+  // text-align: center;
+  font-family: $font-header;
+  color: $color-primary;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}

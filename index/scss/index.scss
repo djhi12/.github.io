@@ -1,8 +1,11 @@
+// Variables 
 $backgroun-color: red;
 
 // Fonts
-$font-header: 'Montserrat', sans-serif;
-$font-paragraph: 'Open Sans', sans-serif;
+$font-header: 'Montserrat',
+sans-serif;
+$font-paragraph: 'Open Sans',
+sans-serif;
 
 // Colors
 $color-primary: #038229;
@@ -10,34 +13,7 @@ $color-background-opacity: hsla(138, 95%, 26%, .7);
 $color-background: #038229;
 
 
-@media only screen {
-    body {
-      margin: 0;
-      // background: red;
-      height: 100%;
-    }
-
-    h1, h2 {
-      font-family: $font-header;
-    }
-
-    // Logo
-    span {
-      color: $color-primary;
-      font-family: $font-header;
-    }
-
-    // Navigation links
-    ul.navList li {
-      font-family: $font-header;
-      
-
-      a {
-        color: $color-primary;
-      }
-    }
-  
-  
-  }
-  
-  
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
