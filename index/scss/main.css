@@ -1,3 +1,76 @@
+/***** Variables *****/
+/***** Body *****/
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
 
+/***** Main *****/
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.my-image img {
+  max-width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+
+.my-name {
+  text-align: center;
+  color: white;
+  background: #038229;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+.portal-name {
+  color: #038229;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/***** Cards container *****/
+div.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.cards-container__zen-garden {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 30%;
+  border-radius: 5px;
+}
+.cards-container__zen-garden:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cards-container__zen-garden a {
+  text-decoration: none;
+  color: #038229;
+  font-family: "Montserrat", sans-serif;
+}
+.cards-container__zen-garden h2 {
+  text-align: center;
+}
+
+.cards-container__zen-garden img {
+  max-width: 100%;
+}
+
+/***** Footer *****/
+.footer__copyright {
+  text-align: left;
+  color: #038229;
+  font-family: "Open Sans", sans-serif;
+}
 
 /*# sourceMappingURL=main.css.map */
