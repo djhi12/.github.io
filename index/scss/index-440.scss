@@ -1,0 +1,83 @@
+/***** Variables *****/
+$backgroun-color: red;
+
+// Fonts
+$font-header: 'Montserrat',
+sans-serif;
+$font-paragraph: 'Open Sans',
+sans-serif;
+
+// Colors
+$color-primary: #038229;
+$color-background-opacity: hsla(138, 95%, 26%, .7);
+$color-background: #038229;
+
+
+
+/***** Body *****/
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    // background: red;
+}
+
+/***** Main *****/
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+// My image
+.my-image img {
+    max-width: 200px;
+    height: 200px;
+}
+
+// My name
+.my-name {
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 5px;
+    padding: 1px;
+}
+
+// Portal name
+
+
+/***** Cards container *****/
+
+// Cards container
+div.cards-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+
+// Zen Garden
+.cards-container__zen-garden {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-container__zen-garden img {
+    max-width: 100%;
+}
+
+
+// Kids For Fun
+// Zen Garden
+.cards-container__kids-fun {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-container__kids-fun img {
+    max-width: 100%;
+}
+
+
+
+/***** Footer *****/
