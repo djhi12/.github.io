@@ -1,3 +1,67 @@
-// body {
-//     background: red;
-// }
+/* Fonts */
+$font-header: 'Open Sans', sans-serif;
+$font-paragraph: 'Montserrat', sans-serif;
+
+
+/* Colors */
+$color-primary: #036016; // Dark green
+$color-secondary: #E4572E; // orange
+$color-tertiary: #96E6B3; // Lightgreen
+$color-fourth: #FFFFFF; // White
+
+
+/***********************************/
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/***** Header *****/
+// Logo
+picture > img {
+    max-width: 100px;
+    display: block;
+}
+
+// Site name
+h1.logo__title {
+    margin-left: 100px;
+    color: $color-primary;
+    position: absolute;
+    top: 10px;
+    font-family: $font-header;
+
+    & small {
+        display: block;
+        font-style: italic;
+        font-size: 20px;
+    }
+    
+}
+
+// Navigation
+nav {
+    margin-top: 10px;
+    background: $color-primary;
+    padding: 20px;
+    text-align: center;
+    font-family: $font-header;
+    
+    & a {
+        color: white;
+        margin: 20px;
+        font-size: 25px;
+
+    }
+}
+
+
+
+
+/***** Main *****/
+main {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}

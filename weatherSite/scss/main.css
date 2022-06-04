@@ -1,3 +1,48 @@
+/* Fonts */
+/* Colors */
+/***********************************/
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
 
+/***** Header *****/
+picture > img {
+  max-width: 100px;
+  display: block;
+}
+
+h1.logo__title {
+  margin-left: 100px;
+  color: #036016;
+  position: absolute;
+  top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+h1.logo__title small {
+  display: block;
+  font-style: italic;
+  font-size: 20px;
+}
+
+nav {
+  margin-top: 10px;
+  background: #036016;
+  padding: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+nav a {
+  color: white;
+  margin: 20px;
+  font-size: 25px;
+}
+
+/***** Main *****/
+main {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*# sourceMappingURL=main.css.map */
