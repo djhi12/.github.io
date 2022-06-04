@@ -126,7 +126,6 @@ main {
 
 /***** Cards container *****/
 div.cards-container {
-  display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
 }
