@@ -61,10 +61,10 @@ main {
 /***** Cards container *****/
 
 // Cards container
-div.cards-container {
+main > div.cards-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 15px;
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,6 +72,7 @@ div.cards-container {
  // Zen Garden
 .cards-container__zen-garden {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  // order: 1;
   transition: 0.3s;
   max-width: 100%;
   border-radius: 5px;
@@ -97,7 +98,6 @@ div.cards-container {
 
 
 // Kids For Fun
- // Zen Garden
  .cards-container__kids-fun {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -120,6 +120,41 @@ div.cards-container {
 }
 
 .cards-container__kids-fun img {
+  max-width: 100%;
+}
+
+
+// Weather
+.cards-container__weather {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  & a {
+    text-decoration: none;
+    color: $color-primary;
+    font-family: $font-header;
+  }
+
+  & h2 {
+    text-align: center;
+  }
+
+  & small {
+    display: block;
+    color: red;
+    font-size: 12px;
+  }
+}
+
+.cards-container__weather img {
   max-width: 100%;
 }
 

@@ -39,10 +39,10 @@ main {
 }
 
 /***** Cards container *****/
-div.cards-container {
+main > div.cards-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 15px;
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -91,6 +91,35 @@ div.cards-container {
   max-width: 100%;
 }
 
+.cards-container__weather {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards-container__weather:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cards-container__weather a {
+  text-decoration: none;
+  color: #038229;
+  font-family: "Montserrat", sans-serif;
+}
+.cards-container__weather h2 {
+  text-align: center;
+}
+.cards-container__weather small {
+  display: block;
+  color: red;
+  font-size: 12px;
+}
+
+.cards-container__weather img {
+  max-width: 100%;
+}
+
 /***** Footer *****/
 .footer__copyright {
   text-align: left;
@@ -101,55 +130,67 @@ div.cards-container {
 
 /***** Variables *****/
 /***** Body *****/
-body {
-  margin: 0px;
-  box-sizing: border-box;
-}
+@media only screen and (max-width: 440px) {
+  body {
+    margin: 0px;
+    box-sizing: border-box;
+  }
 
-/***** Main *****/
-main {
-  margin-left: 10px;
-  margin-right: 10px;
-}
+  /***** Main *****/
+  main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-.my-image img {
-  max-width: 200px;
-  height: 200px;
-}
+  .my-image img {
+    max-width: 200px;
+    height: 200px;
+  }
 
-.my-name {
-  border-radius: 5px;
-  padding: 0px;
-  margin-top: 5px;
-  padding: 1px;
-}
+  .my-name {
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 5px;
+    padding: 1px;
+  }
 
-/***** Cards container *****/
-div.cards-container {
-  grid-template-columns: auto;
-  grid-gap: 10px;
-}
+  /***** Cards container *****/
+  main > div.cards-container {
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
 
-.cards-container__zen-garden {
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .cards-container__zen-garden {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.cards-container__zen-garden img {
-  max-width: 100%;
-}
+  .cards-container__zen-garden img {
+    max-width: 100%;
+  }
 
-.cards-container__kids-fun {
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .cards-container__kids-fun {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.cards-container__kids-fun img {
-  max-width: 100%;
-}
+  .cards-container__kids-fun img {
+    max-width: 100%;
+  }
 
-/***** Footer *****/
+  .cards-container__weather {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cards-container__weather img {
+    max-width: 100%;
+  }
+
+  /***** Footer *****/
+}
 
 /*# sourceMappingURL=main.css.map */
