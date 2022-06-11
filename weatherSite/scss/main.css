@@ -12,6 +12,13 @@ picture > img {
   display: block;
 }
 
+div.hamburger-menu .bars {
+  width: 35px;
+  height: 5px;
+  background-color: #036016;
+  margin: 6px 0;
+}
+
 h1.logo__title {
   margin-left: 100px;
   color: #036016;
@@ -32,10 +39,15 @@ nav {
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-nav a {
+nav a:link {
   color: white;
   margin: 20px;
   font-size: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #E4572E;
 }
 
 /***** Main *****/
@@ -88,6 +100,12 @@ div.five-day-forecast .five-day-forecast__day5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 40%;
   background: red;
+}
+
+/***** Footer *****/
+div.footer {
+  background: #CCFCCB;
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */

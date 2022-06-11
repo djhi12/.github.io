@@ -13,6 +13,8 @@ $color-fourth: #FFFFFF; // White
 
 $opacity-primary: hsla(132, 94%, 19%, 0.8); // Darkgreen
 
+$color-background: #CCFCCB; // lightergreen
+
 
 /***********************************/
 
@@ -27,6 +29,23 @@ picture>img {
     max-width: 100px;
     display: block;
 }
+
+// Hamburger menu
+div.hamburger-menu {
+   
+    & .bars {
+        width: 35px;
+        height: 5px;
+        background-color: $color-primary;
+        margin: 6px 0;
+    }
+}
+
+// #hide {
+//     visibility: hidden;
+// }
+
+
 
 // Site name
 h1.logo__title {
@@ -52,11 +71,16 @@ nav {
     text-align: center;
     font-family: $font-header;
 
-    & a {
+    & a:link {
         color: white;
         margin: 20px;
         font-size: 25px;
+        text-decoration: none;
+        transition: .3s;
+    }
 
+    & a:hover {
+        color: $color-secondary
     }
 }
 
@@ -126,4 +150,12 @@ div.five-day-forecast {
         max-width: 40%;
         background: red;
     }
+}
+
+
+
+/***** Footer *****/
+div.footer {
+    background: $color-background;
+    width: 200px;
 }
