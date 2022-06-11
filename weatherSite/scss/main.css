@@ -19,6 +19,10 @@ div.hamburger-menu .bars {
   margin: 6px 0;
 }
 
+#hide {
+  visibility: hidden;
+}
+
 h1.logo__title {
   margin-left: 100px;
   color: #036016;
@@ -103,9 +107,16 @@ div.five-day-forecast .five-day-forecast__day5 {
 }
 
 /***** Footer *****/
+footer.footer__location-map #map {
+  height: 200px;
+  width: 300px;
+  margin-left: 10px;
+}
+
 div.footer-copyright {
   color: #036016;
   font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

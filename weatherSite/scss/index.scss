@@ -32,7 +32,7 @@ picture>img {
 
 // Hamburger menu
 div.hamburger-menu {
-   
+
     & .bars {
         width: 35px;
         height: 5px;
@@ -41,9 +41,9 @@ div.hamburger-menu {
     }
 }
 
-// #hide {
-//     visibility: hidden;
-// }
+#hide {
+    visibility: hidden;
+}
 
 
 
@@ -155,7 +155,20 @@ div.five-day-forecast {
 
 
 /***** Footer *****/
+// location map
+footer.footer__location-map {
+
+    & #map {
+        height: 200px;
+        width: 300px;
+        margin-left: 10px;
+    }
+}
+
+
+// Copyright
 div.footer-copyright {
     color: $color-primary;
     font-family: $font-paragraph;
+    margin-left: 10px;
 }
