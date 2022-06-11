@@ -103,9 +103,9 @@ div.five-day-forecast .five-day-forecast__day5 {
 }
 
 /***** Footer *****/
-div.footer {
-  background: #CCFCCB;
-  width: 200px;
+div.footer-copyright {
+  color: #036016;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
