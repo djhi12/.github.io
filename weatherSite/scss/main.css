@@ -107,10 +107,20 @@ div.five-day-forecast .five-day-forecast__day5 {
 }
 
 /***** Footer *****/
+div.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 footer.footer__location-map #map {
   height: 200px;
   width: 300px;
   margin-left: 10px;
+}
+
+svg {
+  max-width: 30px;
+  color: #036016;
 }
 
 div.footer-copyright {
