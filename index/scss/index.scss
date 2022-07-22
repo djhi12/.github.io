@@ -61,7 +61,7 @@ main {
 /***** Cards container *****/
 
 // Cards container
-main > div.cards-container {
+main>div.cards-container {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: auto auto;
@@ -69,7 +69,7 @@ main > div.cards-container {
   margin-right: auto;
 }
 
- // Zen Garden
+// Zen Garden
 .cards-container__zen-garden {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   // order: 1;
@@ -78,9 +78,9 @@ main > div.cards-container {
   border-radius: 5px;
 
   &:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  
+
   & a {
     text-decoration: none;
     color: $color-primary;
@@ -98,16 +98,16 @@ main > div.cards-container {
 
 
 // Kids For Fun
- .cards-container__kids-fun {
+.cards-container__kids-fun {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   max-width: 100%;
   border-radius: 5px;
 
   &:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  
+
   & a {
     text-decoration: none;
     color: $color-primary;
@@ -134,9 +134,9 @@ main > div.cards-container {
   margin-right: auto;
 
   &:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  
+
   & a {
     text-decoration: none;
     color: $color-primary;
@@ -155,6 +155,33 @@ main > div.cards-container {
 }
 
 .cards-container__weather img {
+  max-width: 100%;
+}
+
+
+// BYU Home Page
+.cards-container__byu {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 100%;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  & a {
+    text-decoration: none;
+    color: $color-primary;
+    font-family: $font-header;
+  }
+
+  & h2 {
+    text-align: center;
+  }
+}
+
+.cards-container__byu img {
   max-width: 100%;
 }
 
