@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Color</title>
+    <style>
+        /* body {
+            width: 100%;
+        } */
+        .grid-container {
+            grid-template-columns: 50px 50px 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px 50px;
+            display: grid;
+            grid-gap: 10px;
+
+        }
+
+        div.color{
+            height: 200px;
+            width: 300px;
+        }
+
+        div.red {
+            background: #ff0000;
+            grid-column: 1/4;
+            grid-row: 1/4;
+            
+        }
+
+        .yellow {
+            background: yellow;
+            grid-column: 2/4;
+            grid-row: 2/4;
+            
+        }
+
+        .green {
+            background: green;
+            grid-column: 3/4;
+            grid-row: 3/4;
+            
+        }
+
+        .blue {
+            background: blue;
+            grid-column: 4/4;
+            grid-row: 4/4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="color red"></div>
+        <div class="color yellow"></div>
+        <div class="color green"></div>
+        <div class="color blue"></div>
+    </div>
+    
+</body>
+</html>
