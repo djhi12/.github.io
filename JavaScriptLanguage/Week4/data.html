@@ -13,7 +13,93 @@
     <h2>Check the console.</h2>
 
     <script>
+        let names = ['Lactated Ringers', 'levothyroxine', 'rosuvastatin', 'albuterol', 'esomeprazole']
+        let amounts = ['100L', '2000ct', '1500ct', '1325ct', '23145ct']
+        let codes = ['13ab7', 'at342', 'gr5423', 'iuy6532', 'mnb78932']
+        let expDateDate = ['12/30/2029', '03/18/2021', '09/01/2020', '01/01/2023', '10/01/2021']
 
+        // 
+        let medications = [
+            ['Lactated Ringers', 'levothyroxine', 'rosuvastatin', 'albuterol', 'esomeprazole'],
+            ['100L', '2000ct', '1500ct', '1325ct', '23145ct'],
+            ['13ab7', 'at342', 'gr5423', 'iuy6532', 'mnb78932'],
+            ['12/30/2029', '03/18/2021', '09/01/2020', '01/01/2023', '10/01/2021']
+        ]
+
+        // 
+        let lactatedRingers = {
+            'id': '13ab7',
+            'amount': 100,
+            'amountType': 'L',
+            'expDate': '12/30/2029'
+        }
+
+        // Access
+        console.log(lactatedRingers['id']);
+
+        // Change value
+        console.log(lactatedRingers['amount'] = 200);
+
+        let levothyroxine = {
+            'id': 'at342',
+            'amount': 2000,
+            'amountType': 'ct',
+            'expDate': '03/18/2021'
+        }
+        let rosuvastatin = {
+            'id': 'gr5423',
+            'amount': 1500,
+            'amountType': 'ct',
+            'expDate': '09/01/2020'
+        }
+        let albuterol = {
+            'id': 'iuy6532',
+            'amount': 1325,
+            'amountType': 'ct',
+            'expDate': '01/01/2023'
+        }
+        let esomeprazole = {
+            'id': 'mnb78932',
+            'amount': 23145,
+            'amountType': 'ct',
+            'expDate': '10/01/2021'
+        }
+
+        //
+        let medications2 = {
+            'Lactated Ringers': {
+                'id': '13ab7',
+                'amount': 100,
+                'amountType': 'L',
+                'expDate': '12/30/2029'
+            },
+            'Levothyroxine': {
+                'id': 'at342',
+                'amount': 2000,
+                'amountType': 'ct',
+                'expDate': '03/18/2021'
+            },
+            'Rosuvastatin': {
+                'id': 'gr5423',
+                'amount': 1500,
+                'amountType': 'ct',
+                'expDate': '09/01/2020'
+            },
+            'Albuterol': {
+                'id': 'iuy6532',
+                'amount': 1325,
+                'amountType': 'ct',
+                'expDate': '01/01/2023'
+            },
+            'Esomeprazole': {
+                'id': 'mnb78932',
+                'amount': 23145,
+                'amountType': 'ct',
+                'expDate': '10/01/2021'
+            }
+        }
+
+        // 
     </script>
 </body>
 
