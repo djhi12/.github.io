@@ -42,3 +42,6 @@
 // - Create an HTML <dd> element and put its length property in the <dd> element
 
 // Step 9: Append the HTML <dt> and <dd> elements created above to the HTML <dl> element with an ID of places-lived
+
+// console.log("Test program");
+
