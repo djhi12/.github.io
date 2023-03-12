@@ -45,3 +45,81 @@
 
 // console.log("Test program");
 
+// const myInfo = {
+//     name: "Daniel John idorot",
+//     photo: "../Week2/task/images/myPhoto.jpg",
+//     favoriteFoods: ["Lechon Kawali", "Chopsuey", "Nilaga na Pork", "Adobo"], 
+//     hobbies: ["Chess", "Coding", "Series"],
+//     placesLived: [
+//         {
+//             place: "Philippines",
+//             lengh: "",
+//         },
+//     ],
+
+// };
+
+
+let myInfo = {};
+
+myInfo.name = "Daniel John Idorot";
+
+myInfo.photo = "../Week2/task/images/myPhoto.jpg";
+
+myInfo.favoriteFoods = ["Lechon Kawali", "Chopsuey", "Nilaga na Pork", "Adobo"];
+
+myInfo.hobbies = ["Chess", "Coding", "Series"];
+
+myInfo.placesLived = [];
+
+myInfo.placesLived.push({ place: "Davao City", length: "20 years" });
+
+myInfo.placesLived.push({ place: "Quezon City", length: "2 years" });
+
+myInfo.placesLived.push({ place: "Panabo", length: "3 years" });
+
+// Step 1
+document.getElementById("name").textContent = myInfo.name;
+
+// Step 2
+document.getElementById("photo").setAttribute("src", myInfo.photo);
+
+// Step 3
+document.getElementById("photo").setAttribute("alt", myInfo.name);
+
+// Step 4
+for (let i = 0; i < myInfo.favoriteFoods.length; i++) {
+  let food = myInfo.favoriteFoods[i];
+  let li = document.createElement("li");
+  li.textContent = food;
+  document.getElementById("favorite-foods").appendChild(li);
+}
+
+// Step 5
+
+// Step 6
+for (let i = 0; i < myInfo.hobbies.length; i++) {
+  let hobby = myInfo.hobbies[i];
+  let li = document.createElement("li");
+  li.textContent = hobby;
+  document.getElementById("hobbies").appendChild(li);
+}
+
+// Step 7
+
+// Step 8
+for (let i = 0; i < myInfo.placesLived.length; i++) {
+  let place = myInfo.placesLived[i].place;
+  let length = myInfo.placesLived[i].length;
+  let dt = document.createElement("dt");
+  dt.textContent = place;
+  let dd = document.createElement("dd");
+  dd.textContent = length;
+  document.getElementById("places-lived").appendChild(dt);
+  document.getElementById("places-lived").appendChild(dd);
+}
+
+
+
+
+
