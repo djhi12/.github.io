@@ -64,7 +64,7 @@ let myInfo = {};
 
 myInfo.name = "Daniel John Idorot";
 
-myInfo.photo = "../Week2/task/images/myPhoto.jpg";
+myInfo.photo = "../Week4/images/myPhoto.jpg";
 
 myInfo.favoriteFoods = ["Lechon Kawali", "Chopsuey", "Nilaga na Pork", "Adobo"];
 
