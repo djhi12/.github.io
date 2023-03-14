@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export</title>
+</head>
+
+<body>
+    <script>
+        /*
+            In JavaScript, the export keyword is used to export variables, functions, or classes from a module, making them available for use in other modules.
+
+            There are two main types of exports in JavaScript: named exports and default exports.
+
+            Named exports allow you to export multiple variables, functions, or classes from a module by giving them names. To export a variable, function, or class using named exports, you can use the following syntax:
+         */
+
+        export const myVariable = "some value";
+
+        export function myFunction() {
+            // function code here
+        }
+
+        export class MyClass {
+            // class code here
+        }
+
+        // In the above example, we are exporting a constant variable named myVariable, a function named myFunction, and a class named MyClass.
+
+
+        // To import these named exports into another module, you can use the following syntax:
+        import { myVariable, myFunction, MyClass } from './myModule.js';
+
+        // This will allow you to use the exported variables, functions, or classes in the importing module.
+
+
+        // Default exports allow you to export a single variable, function, or class from a module, which will be the default export for that module. To export a default value, you can use the following syntax:
+        const myVariable2 = "some value";
+
+        export default myVariable2;
+
+        // In the above example, we are exporting the variable myVariable as the default export for the module.
+
+
+        // To import a default export from another module, you can use the following syntax:
+        import myVariable2 from './myModule.js';
+
+        // This will allow you to use the exported variable in the importing module.
+
+
+        /*
+            It's important to note that a module can have both named and default exports, but there can only be one default export per module.
+        */
+
+
+        // Example Code - myModule.js
+        export const greeting = "Hello, world!";
+
+        export function sayHello(name) {
+            console.log(`Hello, ${name}!`);
+        }
+
+        export class Person {
+            constructor(name) {
+                this.name = name;
+            }
+
+            sayName() {
+                console.log(`My name is ${this.name}.`);
+            }
+        }
+
+        export default class Animal {
+            constructor(name) {
+                this.name = name;
+            }
+
+            sayName() {
+                console.log(`My name is ${this.name}.`);
+            }
+        }
+
+        // In this example, we have a module named myModule.js that exports a named constant greeting, a named function sayHello, a named class Person, and a default class Animal.
+
+
+        // app.js
+        import { greeting, sayHello, Person } from './myModule.js';
+        import Animal from './myModule.js';
+
+        console.log(greeting); // outputs "Hello, world!"
+
+        sayHello('Alice'); // outputs "Hello, Alice!"
+
+        const alice = new Person('Alice');
+        alice.sayName(); // outputs "My name is Alice."
+
+        const fluffy = new Animal('Fluffy');
+        fluffy.sayName(); // outputs "My name is Fluffy."
+
+        // In this example, we import the named exports greeting, sayHello, and Person using the curly braces syntax. We also import the default export Animal without curly braces.
+
+
+        /*
+            We then use these imports to log the greeting, call the sayHello function, create a Person object and call its sayName method, and create an Animal object and call its sayName method.
+        */
+
+
+    </script>
+</body>
+
+</html>

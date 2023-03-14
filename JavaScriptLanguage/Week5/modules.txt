@@ -1,0 +1,17 @@
+JavaScript modules are a way of organizing and structuring code in JavaScript. They allow developers to break their code into smaller, reusable components, which can be imported and used in other parts of their application.
+
+JavaScript modules are supported natively in modern web browsers, as well as in Node.js, which is a popular server-side JavaScript runtime environment. There are several different syntaxes for defining and importing modules, including:
+
+	1. CommonJS: This is the module system used by Node.js, and it uses the require() function to import modules and the module.exports or exports objects to define the exports of a module.
+	
+	2. ES6 modules: This is the module system introduced in ECMAScript 6, and it uses the import and export keywords to define and import modules.
+
+JavaScript modules provide a number of benefits, including:
+
+	1. Better organization and structure of code
+	2. Improved maintainability and reusability of code
+	3. Encapsulation of functionality within modules
+	4. Reduced risk of naming collisions and other issues related to global scope
+
+Overall, JavaScript modules are an important tool for building large, complex applications, and they are widely used in modern web development.
+

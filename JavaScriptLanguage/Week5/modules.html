@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules</title>
+</head>
+
+<body>
+    <!-- When you use ESModules you need to let the browser know by adding type="module" to your script tag i.e.. -->
+    <script scr="main.js" type="module">
+
+        // filename: utility.js
+        // wrapper function for querySelector
+        export function qs(selector) {
+            return document.querySelector(selector);
+        }
+
+        // create an alert at the top of the page for 3 seconds
+        // requires the message to be displayed and the time in milliseconds.
+        export function alertMessage(message, duration = 3000) {
+            const alert = document.createElement("p");
+            alert.innerHTML = message;
+            alert.setAttribute(
+                "style",
+                "background-color:lightpink; border: 1px solid red; position:absolute; top:0; left:0; right:0; padding: 1em;"
+            );
+            document.body.prepend(alert);
+            setTimeout(function () {
+                document.body.removeChild(alert);
+            }, duration);
+        }
+
+
+        // main.js...this is the file that you added to the html through a script tag
+        import { qs, alertMessage } from "./utilities.js";
+        // now you can use those functions just like if they were declared locally.
+        alertMessage("I'm from the module!");
+    </script>
+
+</body>
+
+</html>
