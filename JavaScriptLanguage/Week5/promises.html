@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises</title>
+</head>
+
+<body>
+    <script>
+        /*
+            JavaScript Promises are a way to handle asynchronous operations in JavaScript. They represent a value that may not be available yet, but will be at some point in the future. Promises allow you to write asynchronous code that looks more like synchronous code, which can make it easier to understand and reason about.
+
+            A Promise has three states:
+
+                Pending: The initial state. The Promise is neither fulfilled nor rejected.
+
+                Fulfilled: The operation completed successfully, and the Promise has a result.
+
+                Rejected: The operation failed, and the Promise has a reason for the failure.
+
+            Promises are created using the Promise constructor, which takes a function as its argument. This function takes two parameters, resolve and reject, which are functions that are called when the Promise is fulfilled or rejected, respectively.
+        */
+
+        // Here's an example of creating a Promise:
+        const promise = new Promise((resolve, reject) => {
+            // Do some asynchronous operation here
+            // If the operation is successful, call the `resolve` function with the result
+            // If the operation fails, call the `reject` function with the reason for the failure
+        });
+
+        // Once a Promise is created, you can use the then method to handle the fulfillment of the Promise, and the catch method to handle any rejections:
+
+        promise
+            .then(result => {
+                // Handle the fulfillment of the Promise here
+            })
+            .catch(error => {
+                // Handle any errors that occurred during the operation
+            });
+
+        // Promises also have a finally method that allows you to run some code after either the then or catch method has been called:
+
+        promise
+            .then(result => {
+                // Handle the fulfillment of the Promise here
+            })
+            .catch(error => {
+                // Handle any errors that occurred during the operation
+            })
+            .finally(() => {
+                // This code will always run, regardless of whether the Promise was fulfilled or rejected
+            });
+
+        // Promises can also be chained together, which allows you to perform a series of asynchronous operations in a specific order:
+
+        const promise1 = new Promise((resolve, reject) => {
+            // Do some asynchronous operation here
+            // If the operation is successful, call the `resolve` function with the result
+            // If the operation fails, call the `reject` function with the reason for the failure
+        });
+
+        const promise2 = promise1.then(result => {
+            // Do some other asynchronous operation here
+            // If the operation is successful, return the result
+            // If the operation fails, throw an error
+        });
+
+        const promise3 = promise2.catch(error => {
+            // Handle any errors that occurred during the operation
+        });
+
+        // In summary, JavaScript Promises provide a way to handle asynchronous operations in a more synchronous-looking way. They allow you to write code that is easier to understand and reason about, and they can be chained together to perform a series of operations in a specific order.
+
+
+        // Example Code
+        // Define a function that returns a Promise to fetch data from an API
+        function fetchData(url) {
+            return new Promise((resolve, reject) => {
+                // Use the fetch() function to make a request to the API
+                fetch(url)
+                    .then(response => {
+                        // If the response is not okay, reject the Promise with an error message
+                        if (!response.ok) {
+                            throw new Error(`Network response was not ok (${response.status})`);
+                        }
+                        // If the response is okay, parse the JSON data and resolve the Promise with it
+                        response.json().then(data => {
+                            resolve(data);
+                        });
+                    })
+                    .catch(error => {
+                        // If there is an error with the request, reject the Promise with the error message
+                        reject(error);
+                    });
+            });
+        }
+
+        // Call the fetchData() function to get data from the API
+        fetchData('https://jsonplaceholder.typicode.com/todos/1')
+            .then(data => {
+                // Display the data on the webpage
+                const output = document.getElementById('output');
+                output.innerText = JSON.stringify(data);
+            })
+            .catch(error => {
+                // Handle any errors that occurred during the request
+                console.error(error);
+            });
+
+        /*
+            In this example, the fetchData() function returns a Promise that uses the fetch() function to make a request to an API. If the response is okay, the JSON data is parsed and the Promise is resolved with it. If there is an error with the request, the Promise is rejected with an error message.
+
+            The fetchData() function is called with a URL to fetch data from the API. The returned Promise is then used to display the data on a webpage by setting the inner text of an element with the data stringified using JSON.stringify(). If there is an error with the request, the error is logged to the console using console.error().
+        */
+    </script>
+</body>
+
+</html>

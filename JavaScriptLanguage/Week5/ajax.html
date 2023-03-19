@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+</head>
+
+<body>
+    <script>
+        /*
+            JavaScript Ajax refers to the use of the JavaScript programming language and the XMLHttpRequest object to create asynchronous web applications. Ajax stands for "Asynchronous JavaScript and XML," but it's worth noting that these days, JSON is often used instead of XML.
+
+            Ajax allows web developers to create dynamic web pages that can update and change content without the need for a full page refresh. Instead of reloading the entire page, Ajax requests and receives data from the server in the background and updates only the necessary parts of the page.
+
+            JavaScript is used to manipulate the Document Object Model (DOM) of the web page, allowing developers to dynamically update the content of the page based on the data returned from the server.
+
+            The XMLHttpRequest object is a built-in browser object that allows JavaScript to make HTTP requests to a web server without requiring a page refresh. Ajax requests can be made to retrieve data from the server, to send data to the server, or to update data on the server.
+
+            Overall, Ajax is a powerful technique that allows web developers to create highly responsive and dynamic web applications that can provide a better user experience.
+        */
+
+        // Example Code
+        // create a new XMLHttpRequest object
+        var xhr = new XMLHttpRequest();
+
+        // configure the request
+        xhr.open('GET', 'https://jsonplaceholder.typicode.com/todos/1', true);
+
+        // handle the response
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                // parse the response data as JSON
+                var responseData = JSON.parse(xhr.responseText);
+
+                // update the page with the response data
+                var titleElement = document.getElementById('title');
+                titleElement.innerHTML = responseData.title;
+
+                var completedElement = document.getElementById('completed');
+                completedElement.innerHTML = responseData.completed;
+            } else {
+                console.log('Request failed. Returned status of ' + xhr.status);
+            }
+        };
+
+        // send the request
+        xhr.send();
+
+        /*
+            In this example, we're making a GET request to the JSONPlaceholder API to retrieve information about a todo item with an ID of 1. We're using the onload event handler to handle the response and update the web page with the returned data.
+
+            The JSON.parse method is used to convert the response text into a JavaScript object, and then we're updating the innerHTML property of two HTML elements on the page with the title and completed values from the response data. If the request fails, we log an error message to the console.
+        */
+    </script>
+</body>
+
+</html>

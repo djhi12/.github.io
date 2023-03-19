@@ -10,11 +10,51 @@
 
 <body>
     <script>
-        const url = 'https://pokeapi.co/api/v2/pokemon/ditto';
-        const results = fetch(url);
-        console.log(results);
+        // const url = 'https://pokeapi.co/api/v2/pokemon/ditto';
+        // const results = fetch(url);
+        // console.log(results);
+
+        /*
+            JavaScript Fetch is a modern API for making network requests (HTTP requests) in the browser or in a Node.js environment. It provides an interface for fetching resources across the network and returning them as Promises. Fetch provides a simpler and more flexible alternative to XMLHttpRequest (XHR).
+
+            The fetch() method takes in one mandatory parameter, the URL of the resource to be fetched, and optionally, it can also take in an optional parameter which is an options object that can contain several properties that specify how the request should be handled.
+        */
+
+        // Here is an example of using fetch to make a GET request to retrieve data from an API endpoint:
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+
+        /*
+            In the above example, we make a GET request to the endpoint 'https://jsonplaceholder.typicode.com/todos/1'. The response is returned as a Promise, which we can chain with .then() method to extract the response data in JSON format. Finally, we log the data to the console. If there is an error, we catch it and log it to the console as well.
+
+            Fetch also supports sending POST, PUT, DELETE, and other HTTP requests, and it can handle request headers, request bodies, and response objects in various formats such as JSON, FormData, and Blob.
+
+            Note that fetch() does not handle network errors, such as CORS or DNS failures, as it only rejects a promise when a network error is encountered. To handle network errors, we can use the catch() method on the promise to handle exceptions.
+        */
 
 
+        // Example Code
+        const url = 'https://example.com/api/user';
+        const data = { name: 'John Doe', email: 'john.doe@example.com' };
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+
+        /*
+            In the example above, we are sending a POST request to the URL 'https://example.com/api/user', and including some data in the request body as a JSON object. The fetch() method takes in the URL and an options object as arguments. In this case, we set the method to 'POST', and specify the headers we want to include with our request, which in this case is the Content-Type header set to 'application/json'. We then use JSON.stringify() to convert our data object to a JSON string, and include it in the request body.
+
+            We then chain the promise returned by fetch() with the .then() method to handle the response. In this case, we assume that the server returns a JSON response, so we use the .json() method to parse the response as JSON. We then log the data to the console. If there is an error, we catch it and log it to the console as well.
+        */
     </script>
 </body>
 
