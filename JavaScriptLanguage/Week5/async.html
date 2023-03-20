@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+
+<body>
+    <script>
+        /*
+            JavaScript Async refers to the ability of JavaScript code to execute asynchronous operations. Asynchronous programming is a programming paradigm that allows code to continue running while waiting for an operation to complete.
+
+            In JavaScript, asynchronous operations can be achieved using callbacks, promises, and async/await functions.
+
+            Callbacks are functions that are passed as arguments to another function and are called once that function completes its operation. Promises provide a cleaner and more structured way of handling asynchronous operations, where a promise is an object that represents the eventual completion or failure of an asynchronous operation and provides methods to attach callbacks to it. Async/await is a newer syntax that allows developers to write asynchronous code in a synchronous-looking way, making it easier to understand and debug.
+
+            Asynchronous programming is essential in JavaScript when dealing with time-consuming tasks like network requests, file operations, and other operations that may block the main thread. By executing these operations asynchronously, JavaScript applications can continue running and remain responsive to user input.
+        */
+
+        function fetchData() {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    const data = { id: 1, name: "John" };
+                    resolve(data);
+                }, 2000); // Wait for 2 seconds
+            });
+        }
+
+        fetchData()
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+
+        /*
+            In this code, fetchData() returns a new Promise that will resolve after 2 seconds with a data object. The then() method is used to attach a callback that will be executed when the Promise resolves with the data object. If the Promise is rejected, the catch() method is used to handle the error.
+
+            This code simulates fetching data from a server, which is often an asynchronous operation that can take some time to complete. By returning a Promise, we can execute other code while waiting for the data to arrive, and the then() method allows us to handle the data once it's available.
+        */
+    </script>
+</body>
+
+</html>
