@@ -56,3 +56,141 @@
 
 // Consider adding a "Filter by" feature that allows users to filter the list of temples
 // This will require changes to both the HTML and the JavaScript files
+
+// Step 1
+const currentDate2 = new Date();
+
+// Step 2
+const dayOfWeek = currentDate2.getDay();
+
+// Step 3
+// Note: Sunday is considered the first day of the week (0)
+// and Saturday is considered the last day (6)
+// Therefore, we check if the day is between Monday (1) and Friday (5)
+if (dayOfWeek >= 1 && dayOfWeek <= 5) {
+    // Step 4a
+    const message = 'Hang in there!';
+    console.log(message);
+} else {
+    // Step 4b
+    const message = 'Woohoo! It is the weekend!';
+    console.log(message);
+}
+
+// ----- SWITCH, CASE, BREAK
+// Step 1: Declare a new variable to hold the message.
+let message;
+
+// Step 2: Get the day of the week as a number (0 = Sunday, 1 = Monday, etc.).
+// let dayOfWeek2 = new Date().getDay();
+
+// Step 3: Use a switch statement to set the message variable to the day of the week as a string.
+switch (dayOfWeek) {
+    case 0:
+        message = "Sunday";
+        break;
+    case 1:
+        message = "Monday";
+        break;
+    case 2:
+        message = "Tuesday";
+        break;
+    case 3:
+        message = "Wednesday";
+        break;
+    case 4:
+        message = "Thursday";
+        break;
+    case 5:
+        message = "Friday";
+        break;
+    case 6:
+        message = "Saturday";
+        break;
+}
+
+// Step 4: Print the message to the console.
+console.log("Today is " + message + ".");
+
+
+// ----- OUTPUT CHANGES ---------
+
+// Get the HTML elements by their ID
+const message1Element = document.getElementById("message1");
+const message2Element = document.getElementById("message2");
+
+// Define the messages
+const message1 = "Hello world!";
+const message2 = "How are you today?";
+
+// Assign the messages to the HTML elements
+message1Element.textContent = message1;
+message2Element.textContent = message2;
+
+
+// ------- FETCH --------
+// Task 1: Declare a global empty array variable to store a list of temples
+let templeList = [];
+
+// Task 2: Declare the output function
+function output(temples) {
+    const templesEl = document.getElementById('temples');
+    templesEl.innerHTML = ''; // clear existing content
+
+    for (let i = 0; i < temples.length; i++) {
+        const temple = temples[i];
+
+        // create HTML elements
+        const articleEl = document.createElement('article');
+        const h3El = document.createElement('h3');
+        const h4El1 = document.createElement('h4');
+        const h4El2 = document.createElement('h4');
+        const imgEl = document.createElement('img');
+
+        // set properties of HTML elements
+        h3El.textContent = temple.templeName;
+        h4El1.textContent = temple.location;
+        h4El2.textContent = temple.dedicated;
+        imgEl.src = temple.imageUrl;
+        imgEl.alt = temple.templeName;
+
+        // append child elements to article
+        articleEl.appendChild(h3El);
+        articleEl.appendChild(h4El1);
+        articleEl.appendChild(h4El2);
+        articleEl.appendChild(imgEl);
+
+        // append article to temples element
+        templesEl.appendChild(articleEl);
+    }
+}
+
+// Task 3: Declare the getTemples function as an async function
+async function getTemples() {
+    // Task 4: Call the fetch method to get data from the API
+    const response = await fetch('https://byui-cse.github.io/cse121b-course/week05/temples.json');
+    // Task 5: Convert the response to a JavaScript object and store it in the templeList variable
+    templeList = await response.json();
+    // Task 6: Call the output function and pass it the templeList
+    output(templeList);
+}
+
+// Task 7: Declare the reset function
+function reset() {
+    const templesEl = document.getElementById('temples');
+    templesEl.innerHTML = '';
+}
+
+// Task 8: Declare the sortBy function
+function sortBy() {
+    reset();
+    const sortByEl = document.getElementById('sortBy');
+    const sortByValue = sortByEl.value;
+    templeList.sort((a, b) => a[sortByValue].localeCompare(b[sortByValue]));
+    output(templeList);
+}
+
+// Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function
+const sortByEl = document.getElementById('sortBy');
+sortByEl.addEventListener('change', sortBy);
+
