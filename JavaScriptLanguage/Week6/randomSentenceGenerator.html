@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Sentence Generator</title>
+</head>
+
+<body>
+    <h1>Random Word Generator</h1>
+    <div id="word-container">
+        <p id="word"></p>
+    </div>
+    <button id="generate-btn">Generate</button>
+
+    <script>
+        // Define the API URL
+        const apiUrl = 'https://api.wordnik.com/v4/words.json/randomWord?' +
+            'minLength=5&maxLength=-1&api_key=YOUR_API_KEY';
+
+        // Define the DOM elements
+        const wordEl = document.getElementById('word');
+        const generateBtn = document.getElementById('generate-btn');
+
+        // Fetch a random word from the API and display it
+        async function getWord() {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                const word = data.word;
+
+                // Update the DOM with the new word
+                wordEl.textContent = word;
+            } catch (error) {
+                console.log('Error:', error);
+            }
+        }
+
+        // Event listener for the Generate button
+        generateBtn.addEventListener('click', getWord);
+
+        // Initial call to generate a word on page load
+        getWord();
+
+    </script>
+</body>
+
+</html>
