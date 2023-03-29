@@ -27,9 +27,12 @@ function updateLogList() {
         const deleteButton = document.createElement("button");
         deleteButton.appendChild(document.createTextNode("Delete"));
         deleteButton.addEventListener("click", function () {
-            deleteLog(index);
+            if (confirm("Are you sure you want to delete this log?")) {
+                deleteLog(index);
+            }
             deleteButton.setAttribute("class", "deleteButton");
         });
+
 
         li.appendChild(deleteButton);
         logList.appendChild(li);
