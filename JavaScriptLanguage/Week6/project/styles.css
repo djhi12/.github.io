@@ -32,15 +32,15 @@ button {
 button:hover {
     background-color: #4CAF50;
     color: white;
- 
+    transition: .5s;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    padding: 2px;
+    /* padding: 2px; */
 }
 
-
+/* Delete */
 button.delete-button {
    color: #FF0000;
    margin-left: 10px;
@@ -50,7 +50,21 @@ button.delete-button {
 button.delete-button:hover {
     background-color: #FF0000;
     color: white;
+    transition: .5s;
 }
+
+/* Edit */
+button.edit-button {
+    color: blue;
+    margin-left: 10px;
+    font-size: 10px;
+ }
+ 
+ button.edit-button:hover {
+    background-color: blue;
+    color: white;
+    transition: .5s;
+ }
 
 li {
     margin-bottom: 10px;
