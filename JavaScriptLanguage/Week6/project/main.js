@@ -28,9 +28,12 @@ function updateLogList() {
         deleteButton.appendChild(document.createTextNode("Delete"));
         deleteButton.addEventListener("click", function () {
             deleteLog(index);
+            deleteButton.setAttribute("class", "deleteButton");
         });
 
         li.appendChild(deleteButton);
         logList.appendChild(li);
+        deleteButton.classList.add("delete-button");
     });
+
 }
