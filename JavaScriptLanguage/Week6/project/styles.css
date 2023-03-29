@@ -58,6 +58,7 @@ button.edit-button {
     color: blue;
     margin-left: 10px;
     font-size: 10px;
+    /* margin-right: 100px; */
  }
  
  button.edit-button:hover {
