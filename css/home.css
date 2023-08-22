@@ -25,6 +25,11 @@ body {
     text-decoration: underline;
 }
 
+/* Active Link */
+/* Add this CSS to your stylesheet */
+.navbar-nav .nav-item.active .nav-link {
+    text-decoration: underline;
+}
   
   
 
