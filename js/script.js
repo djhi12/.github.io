@@ -1,15 +1,29 @@
-const mediaQuery = window.matchMedia("(max-width: 767px)"); // Adjust the breakpoint if needed
-
-function handleMediaChange(mediaQuery) {
-    if (mediaQuery.matches) {
-        // If screen size is small, add the 'white-icon' class
-        document.querySelector(".navbar-toggler").classList.add("white-icon");
+// JavaScript to apply white color to the icon on small screens
+function setIconColor() {
+    const icon = document.querySelector('.navbar-toggler-icon');
+    if (window.innerWidth <= 768) { // Adjust the breakpoint as needed
+        icon.classList.add('white');
     } else {
-        // If screen size is not small, remove the 'white-icon' class
-        document.querySelector(".navbar-toggler").classList.remove("white-icon");
+        icon.classList.remove('white');
     }
 }
 
-// Call the function initially and add a listener for future changes
-handleMediaChange(mediaQuery);
-mediaQuery.addListener(handleMediaChange);
+// Initial setup and event listener
+setIconColor(); // Set the initial color
+window.addEventListener('resize', setIconColor); // Update color on window resize
+
+
+// Search Icon
+const searchToggle = document.getElementById('searchToggle');
+const searchInput = document.getElementById('searchInput');
+const searchSubmit = document.getElementById('searchSubmit');
+
+searchToggle.addEventListener('click', () => {
+    searchInput.classList.toggle('d-none');
+    searchSubmit.classList.toggle('d-none');
+});
+
+
+
+
+

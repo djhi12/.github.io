@@ -5,11 +5,10 @@ body {
         height: 100vh;  
 }
 
-/* Add this to your existing CSS styles */
-.white-icon .navbar-toggler-icon {
+/* Custom CSS to change color to white */
+.navbar-toggler-icon.white {
     border-color: white;
-    /* Add any additional styles you need */
-}
+  }
 
   
 
