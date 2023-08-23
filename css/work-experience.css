@@ -3,7 +3,6 @@ body {
         height: 100vh; 
         background-repeat: repeat-y;
         max-height: 400px; 
-        overflow-y: auto; 
 }
 
 /* Custom CSS to change color to white */
@@ -33,10 +32,35 @@ body {
 }
 
 #accordion {
+    margin-top: 5%;
     margin-bottom: 29%;
 }
 
 /* Footer */
 footer {
-    margin-top: 8%;
+    margin-top: -15%;
 }
+
+@media only screen and (min-width: 300px) {
+    footer {
+        margin-top: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+    footer {
+        margin-top: 34%;
+    }
+  }
+
+@media only screen and (min-width: 500px) {
+    footer {
+        margin-top: 1%;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    footer {
+        margin-top: 8%;
+    }
+  } 

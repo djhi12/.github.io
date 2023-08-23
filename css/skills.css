@@ -4,7 +4,6 @@ body {
         height: 100vh;
         background-repeat: repeat-y;
         max-height: 400px; 
-        overflow-y: auto;
         
 }
 
