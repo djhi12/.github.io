@@ -1,0 +1,20 @@
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Active Link */
+/* Add this CSS to your stylesheet */
+.navbar-nav .nav-item.active .nav-link {
+    text-decoration: underline;
+}
+
+#images {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+footer {
+    margin-bottom: -10%;
+}
