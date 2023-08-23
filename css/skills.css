@@ -32,9 +32,13 @@ body {
 /* Body */
 .bd-example {
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
+#pills-home {
+    margin-bottom: 7%;
+}
 
 footer {
-    margin-top: 25%;
+    margin-top: 2%;
 }
