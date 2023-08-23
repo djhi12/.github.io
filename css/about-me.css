@@ -3,6 +3,9 @@ body {
     background-image: url("https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
         height: 100vh;
         background-repeat: repeat-y;
+        max-height: 400px; 
+        overflow-y: auto;
+        
 }
 
 /* Custom CSS to change color to white */
@@ -23,6 +26,10 @@ body {
 
 .navbar-nav .nav-link:hover {
     text-decoration: underline;
+}
+
+footer {
+    margin-top: 10px;
 }
 
   

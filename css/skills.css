@@ -1,3 +1,9 @@
+
+body {
+    max-height: 400px; 
+    overflow-y: auto;
+}
+
 /* Custom CSS to change color to white */
 .navbar-toggler-icon.white {
     border-color: white;
@@ -22,4 +28,13 @@
 /* Add this CSS to your stylesheet */
 .navbar-nav .nav-item.active .nav-link {
     text-decoration: underline;
+}
+
+/* Card */
+.card {
+    width: 18rem;
+}
+
+footer {
+    margin-top: 20px;
 }
