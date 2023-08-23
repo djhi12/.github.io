@@ -8,13 +8,14 @@
         <meta name="author" content="Daniel John Idorot">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Skills</title>
+        <title>About Me</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/skills.css">
     </head>
 
     <body>
+        <!-- Navigation -->
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand mr-3 fw-bolder link-light" href="index.html">DJ Idorot</a>
@@ -25,14 +26,14 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="certificates.html">Certificates</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link text-white active" href="skills.html">Skills</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="skills.html">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="work-experience.html">Work Experience</a>
@@ -54,69 +55,90 @@
 
         <!-- Main -->
         <div class="container">
-            <div class="row mt-5">
-                <div class="col-sm">
-                    <div class="card mt-3">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <ol>
-                                <li>Semantic HTML5 structure</li>
-                                <li>Creating forms and input validation</li>
-                                <li>Using HTML5 multimedia elements (audio, video)</li>
-                                <li>Implementing responsive design with media queries</li>
-                                <li>Understanding and utilizing HTML5 APIs (localStorage, geolocation)</li>
-                                <li>Accessibility (ARIA roles, alt attributes)</li>
-                                <li>Integrating third-party libraries and frameworks</li>
-                                <li>Cross-browser compatibility and troubleshooting</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
+            <div class="bd-example bd-example-tabs">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="false">HTML</a>
+                    </li>
 
-                <div class="col-sm">
-                    <div class="card mt-3">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <ol>
-                                <li>Semantic HTML5 structure</li>
-                                <li>Creating forms and input validation</li>
-                                <li>Using HTML5 multimedia elements (audio, video)</li>
-                                <li>Implementing responsive design with media queries</li>
-                                <li>Understanding and utilizing HTML5 APIs (localStorage, geolocation)</li>
-                                <li>Accessibility (ARIA roles, alt attributes)</li>
-                                <li>Integrating third-party libraries and frameworks</li>
-                                <li>Cross-browser compatibility and troubleshooting</li>
-                            </ol>
-                        </div>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">CSS</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                            role="tab" aria-controls="pills-contact" aria-selected="true">Bootstrap</a>
+                    </li>
+                </ul>
+
+                <!-- HTML -->
+                <div class="tab-content text-white" id="pills-tabContent">
+                    <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <p>HTML stands for Hypertext Markup Language. It is the standard markup language used to create
+                            and structure content on the World Wide Web (the internet). HTML uses a system of tags and
+                            attributes to define the structure and elements of a web page, such as headings, paragraphs,
+                            images, links, forms, and more.</p>
+                        <ul>
+                            <li>Semantic HTML5 structure</li>
+                            <li>Creating forms and input validation</li>
+                            <li>Using HTML5 multimedia elements (audio, video)</li>
+                            <li>Implementing responsive design with media queries</li>
+                            <li>Understanding and utilizing HTML5 APIs (localStorage, geolocation)</li>
+                            <li>Accessibility (ARIA roles, alt attributes)</li>
+                            <li>Integrating third-party libraries and frameworks</li>
+                            <li>Cross-browser compatibility and troubleshooting</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card mt-3">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <ol>
-                                <li>Semantic HTML5 structure</li>
-                                <li>Creating forms and input validation</li>
-                                <li>Using HTML5 multimedia elements (audio, video)</li>
-                                <li>Implementing responsive design with media queries</li>
-                                <li>Understanding and utilizing HTML5 APIs (localStorage, geolocation)</li>
-                                <li>Accessibility (ARIA roles, alt attributes)</li>
-                                <li>Integrating third-party libraries and frameworks</li>
-                                <li>Cross-browser compatibility and troubleshooting</li>
-                            </ol>
-                        </div>
+
+                    <!-- CSS -->
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <p>CSS stands for "Cascading Style Sheets." It is a stylesheet language used in web development
+                            to describe the presentation and formatting of a document written in HTML (Hypertext Markup
+                            Language).</p>
+                        <ul>
+                            <li>CSS3 properties and selectors</li>
+                            <li>Box model and layout (flexbox, grid)</li>
+                            <li>Responsive and mobile-first design</li>
+                            <li>CSS pre-processors (e.g., Sass, LESS)</li>
+                            <li>CSS animations and transitions</li>
+                            <li>Styling forms and UI components</li>
+                            <li>Cross-browser compatibility and vendor prefixes</li>
+                            <li>Using CSS frameworks (e.g., Bootstrap, Foundation)</li>
+                            <li>CSS methodologies (e.g., BEM, OOCSS)</li>
+                            <li>Debugging and browser developer tools</li>
+                        </ul>
+                    </div>
+
+                    <!-- Bootstrap -->
+                    <div class="tab-pane fade show active" id="pills-contact" role="tabpanel"
+                        aria-labelledby="pills-contact-tab">
+                        <p>Bootstrap is a popular open-source front-end framework that is used for designing and
+                            developing responsive and user-friendly websites and web applications. It was originally
+                            created by Twitter and is now maintained by the Bootstrap community. The primary goal of
+                            Bootstrap is to simplify and streamline the process of building consistent and visually
+                            appealing web interfaces.</p>
+                        <ul>
+                            <li>Creating responsive layouts using Bootstrap grid system</li>
+                            <li>Customizing Bootstrap themes and styling</li>
+                            <li>Implementing navigation bars, modals, and carousels</li>
+                            <li>Utilizing Bootstrap components (buttons, forms, cards)</li>
+                            <li>Integrating third-party libraries and plugins with Bootstrap</li>
+                            <li>Extending Bootstrap with custom CSS and JavaScript</li>
+                            <li>Understanding Bootstrap's utility classes for rapid development</li>
+                            <li>Building mobile-first and cross-browser compatible designs</li>
+                            <li>Adhering to best practices in maintaining Bootstrap-based projects</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
         </div>
 
         <!-- Footer -->
+        <br>
+        <br>
         <footer class="bg-dark">
             <ul class="nav justify-content-center pb-1 mb-1">
                 <li class="nav-item"><a href="https://www.facebook.com/djidorot" class="nav-link px-2 text-muted"
