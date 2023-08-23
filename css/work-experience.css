@@ -33,12 +33,12 @@ body {
 
 #accordion {
     margin-top: 5%;
-    margin-bottom: 29%;
+    margin-bottom: 1%;
 }
 
 /* Footer */
 footer {
-    margin-top: -15%;
+    margin-top: -100%;
 }
 
 @media only screen and (min-width: 300px) {
@@ -49,13 +49,19 @@ footer {
 
   @media only screen and (min-width: 400px) {
     footer {
-        margin-top: 34%;
+        margin-top: 35%;
+    }
+  }
+
+  @media only screen and (min-width: 450px) {
+    footer {
+        margin-top: 30%;
     }
   }
 
 @media only screen and (min-width: 500px) {
     footer {
-        margin-top: 1%;
+        margin-top: 25%;
     }
   }
 
