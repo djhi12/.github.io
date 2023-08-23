@@ -32,6 +32,10 @@ body {
     text-decoration: underline;
 }
 
+#accordion {
+    margin-bottom: 29%;
+}
+
 /* Footer */
 footer {
     margin-top: 8%;
