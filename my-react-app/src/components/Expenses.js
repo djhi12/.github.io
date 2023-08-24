@@ -1,21 +1,26 @@
 import ExpenseItem from "./ExpenseItem";
-function Expenses(props) {
+
+function Expenses() {
+    const expenses = [
+        { title: 'Car Insurance', amount: 295.45, date: new Date() },
+        { title: 'Medical', amount: 495.45, date: new Date() },
+    ];
 
     return (
         <div>
             <ExpenseItem
-                title={props.expenses[0].title}
-                amount={props.expenses[0].amount}
-                date={props.expenses[0].date}
+                title={expenses[0].title}
+                amount={expenses[0].amount}
+                date={expenses[0].date}
             />
 
             <ExpenseItem
-                title={props.expenses[1].title}
-                amount={props.expenses[1].amount}
-                date={props.expenses[1].date}
+                title={expenses[1].title}
+                amount={expenses[1].amount}
+                date={expenses[1].date}
             />
         </div>
-    )
+    );
 }
 
 export default Expenses;
