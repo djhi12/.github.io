@@ -30,12 +30,15 @@ body {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 20%;
 }
 
-footer {
-    margin-top: 16%;
-}
+@media screen and (min-width: 400px) {
+    footer {
+        margin-top: 30%;
+    }
+  }
+
   
   
 
