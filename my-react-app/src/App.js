@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './App.css';
 import ExpenseItem from './components/ExpenseItem';
+import Expenses from './components/Expenses';
 
 function App() {
   const expenses = [
@@ -10,19 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-        <ExpenseItem
-          title={expenses[0].title}
-          amount={expenses[0].amount}
-          date={expenses[0].date}
-        />
-
-        <ExpenseItem
-          title={expenses[1].title}
-          amount={expenses[1].amount}
-          date={expenses[1].date}
-        />
-
+        <Expenses />
       </header>
     </div>
 
