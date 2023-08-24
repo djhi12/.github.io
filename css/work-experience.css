@@ -36,6 +36,24 @@ body {
     margin-bottom: 1%;
 }
 
+@media only screen and (min-width: 300px) {
+    #accordion {
+        margin-top: 30%;
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+    #accordion {
+        margin-top: 20%;
+    }
+  }
+
+  @media only screen and (min-width: 550px) {
+    #accordion {
+        margin-top: 15%;
+    }
+  }
+
 /* Footer */
 footer {
     margin-top: -100%;
@@ -79,6 +97,6 @@ footer {
 
   @media only screen and (min-width: 700px) {
     footer {
-        margin-top: 20%;
+        margin-top: 30%;
     }
   } 
