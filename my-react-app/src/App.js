@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <ExpenseItem></ExpenseItem>
         </a>
       </header>
     </div>
+
   );
 }
 
