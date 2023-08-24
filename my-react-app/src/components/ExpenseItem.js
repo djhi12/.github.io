@@ -1,18 +1,15 @@
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
+import ExpenseTitle from './ExpenseTitle';
+import ExpensePrice from './ExpensePrice';
 
 function ExpenseItem(props) {
     return (
         <div className="expense-item container">
-            <div className='row'>
+            <div className='row bg-success text-white text-center align-middle p-2 rounded'>
                 <ExpenseDate date={props.date} />
-                <div className='expense-item_description col-sm'>
-                    <h2>{props.title}</h2>
-                </div>
-
-                <div className='expense-item_price col-sm'>
-                    <div>{props.amount}</div>
-                </div>
+                <ExpenseTitle title={props.title} />
+                <ExpensePrice price={props.price} />
             </div>
         </div>
     );
