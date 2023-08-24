@@ -1,6 +1,6 @@
-import './ExpensePrice.css';
+import './ExpenseAmount.css';
 
-function ExpensePrice(props) {
+function ExpenseAmount(props) {
 
     return (
         <div className='expense-item_price col-sm align-bottom bg-primary rounded'>
@@ -10,4 +10,4 @@ function ExpensePrice(props) {
 }
 
 
-export default ExpensePrice;
+export default ExpenseAmount;

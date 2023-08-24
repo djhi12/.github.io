@@ -1,7 +1,7 @@
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
 import ExpenseTitle from './ExpenseTitle';
-import ExpensePrice from './ExpensePrice';
+import ExpenseAmount from './ExpenseAmount';
 
 function ExpenseItem(props) {
     return (
@@ -9,7 +9,7 @@ function ExpenseItem(props) {
             <div className='row bg-success text-white text-center align-middle p-2 rounded'>
                 <ExpenseDate date={props.date} />
                 <ExpenseTitle title={props.title} />
-                <ExpensePrice price={props.price} />
+                <ExpenseAmount amount={props.amount} />
             </div>
         </div>
     );
