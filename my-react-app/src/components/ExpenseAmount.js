@@ -1,11 +1,12 @@
 import './ExpenseAmount.css';
+import Card from './Card';
 
 function ExpenseAmount(props) {
 
     return (
-        <div className='expense-item_price col-sm align-bottom bg-primary rounded'>
+        <Card className='expense-item_price col-sm align-bottom rounded'>
             <div>{props.amount}</div>
-        </div>
+        </Card>
     )
 }
 
