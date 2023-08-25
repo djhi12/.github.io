@@ -38,6 +38,51 @@ body {
     margin-bottom: 7%;
 }
 
+/*****/
+.container {
+    margin-top: 6% !important;
+}
+
+@media screen and (min-width: 350px) {
+    .container {
+        margin-top: 20% !important;
+    }
+  }
+
+@media screen and (min-width: 400px) {
+    .container {
+        margin-top: 20% !important;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .container {
+        margin-top: 20% !important;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+
+
+/***/
+
 footer {
-    margin-top: 2%;
+    margin-top: 4%;
 }
