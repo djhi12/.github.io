@@ -7,6 +7,63 @@ body {
 
 }
 
+/*******/
+
+.container {
+    margin-top: 10% !important;
+}
+
+@media only screen and (min-width: 350px) {
+    .container {
+        margin-top: 20% !important;
+    }
+  }
+
+  @media only screen and (min-width: 550px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 850px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 950px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+
+/********/
+
 /* Custom CSS to change color to white */
 .navbar-toggler-icon.white {
     border-color: white;
