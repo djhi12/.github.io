@@ -9,12 +9,54 @@
     text-decoration: underline;
 }
 
+/********/
+
+.container {
+    margin-top: 5% !important;
+}
+
+@media only screen and (min-width: 300px) {
+    .container {
+        margin-top: 15% !important;
+    }
+  }
+
+@media only screen and (min-width: 350px) {
+    .container {
+        margin-top: 15% !important;
+    }
+  }
+
+@media only screen and (min-width: 400px) {
+    .container {
+        margin-top: 15% !important;
+    }
+  }
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+
+/*********/
+
 #images {
     margin-bottom: 5%;
     margin-top: 5%;
 }
 
 
+/***********/
+
 footer {
     margin-bottom: -10%;
 }
+
+
+@media only screen and (min-width: 1000px) {
+    footer {
+        margin-top: 12% !important;
+    }
+  }
