@@ -23,6 +23,33 @@ body {
     text-decoration: underline;
 }
 
+/********/
+
+.container {
+    margin-top: 8% !important;
+}
+
+@media only screen and (min-width: 300px) {
+    .container {
+        margin-top: 20% !important;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .container {
+        margin-top: 15% !important;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .container {
+        margin-top: 10% !important;
+    }
+  }
+
+
+/**********/
+
 footer {
     margin-top: 0%;
 }
