@@ -38,6 +38,10 @@ body {
     margin-bottom: 7%;
 }
 
+.nav-item__link {
+    color: white !important;
+}
+
 /*****/
 .container {
     margin-top: 6% !important;
