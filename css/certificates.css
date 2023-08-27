@@ -1,4 +1,13 @@
 
+body {
+    background-image: url("https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2274&q=80");
+        height: 100vh;
+        background-repeat: repeat-y;
+        max-height: 400px; 
+        overflow-y: auto;
+        
+}
+
 .navbar-nav .nav-link:hover {
     text-decoration: underline;
 }
