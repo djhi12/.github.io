@@ -92,6 +92,22 @@ body {
   color: white !important;
 }
 
+
+/** Animation **/
+div.container__animation {
+  opacity: 1;
+  animation-name: text-reappear;
+  animation-duration: 2s !important;
+  /* animation-delay: 1s !important; */
+}
+
+@keyframes text-reappear {
+  0% {opacity: 0.1 ;}
+  10% {opacity: 0.2 ;}
+  75% {opacity: 0.9 ;}
+  100% {opacity: 1 ;}
+}
+
 /** Footer **/
 
 footer {
