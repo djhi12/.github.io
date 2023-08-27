@@ -87,9 +87,9 @@ body {
 }
 
 /** Dropdown Menu **/
-.dropdown-menu__link:hover {
-  background: grey !important;
-  color: white !important;
+a.dropdown-menu__link:hover {
+  background: darkgray !important;
+  color: black !important;
 }
 
 
