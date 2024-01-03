@@ -40,6 +40,26 @@ body {
 
 .nav-item__link {
     color: white !important;
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+}
+
+.nav-item__link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #007bff; /* Adjust the color of the underline */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0); /* Initially set the underline to be invisible */
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.nav-item__link:hover::after {
+    transform: scaleX(1); /* Expand the underline on hover */
+    transform-origin: bottom left;
 }
 
 /*****/
