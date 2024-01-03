@@ -26,13 +26,13 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="certificates.html">Certificates</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link text-white" href="skills.html">Skills</a>
                     </li>
                     <li class="nav-item">
@@ -59,394 +59,487 @@
 
         <!-- Main -->
         <div class="container">
-            <div class="bd-example bd-example-tabs">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <!-- List group -->
+            <div class="bd-example" role="tabpanel">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <!-- HTML -->
+                            <a class="list-group-item list-group-item-action active show" id="list-html-list"
+                                data-toggle="tab" href="#list-html" role="tab" aria-controls="list-html"
+                                aria-selected="false">HTML</a>
 
-                    <!-- HTML -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active nav-item__link" id="pills-html-tab" data-toggle="pill"
-                            href="#pills-html" role="tab" aria-controls="pills-html" aria-selected="false">HTML</a>
-                    </li>
+                            <!-- CSS -->
+                            <a class="list-group-item list-group-item-action" id="list-css-list" data-toggle="tab"
+                                href="#list-css" role="tab" aria-controls="list-css" aria-selected="false">CSS</a>
 
-                    <!-- css -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-css-tab" data-toggle="pill" href="#pills-css"
-                            role="tab" aria-controls="pills-css" aria-selected="false">CSS</a>
-                    </li>
+                            <!-- JS -->
+                            <a class="list-group-item list-group-item-action" id="list-js-list" data-toggle="tab"
+                                href="#list-js" role="tab" aria-controls="list-js" aria-selected="true">JavaScript</a>
 
-                    <!-- JS -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-js-tab" data-toggle="pill" href="#pills-js"
-                            role="tab" aria-controls="pills-js" aria-selected="false">JavaScript</a>
-                    </li>
+                            <!-- Bootstrap -->
+                            <a class="list-group-item list-group-item-action" id="list-bootstrap-list" data-toggle="tab"
+                                href="#list-bootstrap" role="tab" aria-controls="list-bootstrap"
+                                aria-selected="false">Bootstrap</a>
 
-                    <!-- Bootsrap -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-bootstrap-tab" data-toggle="pill"
-                            href="#pills-bootstrap" role="tab" aria-controls="pills-bootstrap"
-                            aria-selected="true">Bootstrap</a>
-                    </li>
+                            <!-- Sass -->
+                            <a class="list-group-item list-group-item-action" id="list-sass-list" data-toggle="tab"
+                                href="#list-sass" role="tab" aria-controls="list-sass" aria-selected="false">Sass</a>
 
-                    <!-- Sass -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-sass-tab" data-toggle="pill" href="#pills-sass"
-                            role="tab" aria-controls="pills-python" aria-selected="true">Sass</a>
-                    </li>
+                            <!-- ReactJS -->
+                            <a class="list-group-item list-group-item-action" id="list-react-list" data-toggle="tab"
+                                href="#list-react" role="tab" aria-controls="list-react"
+                                aria-selected="false">ReactJS</a>
 
-                    <!-- ReactJS -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-react-tab" data-toggle="pill" href="#pills-react"
-                            role="tab" aria-controls="pills-python" aria-selected="true">ReactJS</a>
-                    </li>
+                            <!-- Python -->
+                            <a class="list-group-item list-group-item-action" id="list-python-list" data-toggle="tab"
+                                href="#list-python" role="tab" aria-controls="list-python"
+                                aria-selected="false">Python</a>
 
-                    <!-- Python -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-python-tab" data-toggle="pill" href="#pills-python"
-                            role="tab" aria-controls="pills-python" aria-selected="true">Python</a>
-                    </li>
+                            <!-- Graphic Design -->
+                            <a class="list-group-item list-group-item-action" id="list-design-list" data-toggle="tab"
+                                href="#list-design" role="tab" aria-controls="list-design" aria-selected="false">Graphic
+                                Design</a>
 
-                    <!-- Graphic Design -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-graphic-tab" data-toggle="pill"
-                            href="#pills-graphic" role="tab" aria-controls="pills-graphic" aria-selected="true">Graphic
-                            Design</a>
-                    </li>
+                            <!-- Soft Skills -->
+                            <a class="list-group-item list-group-item-action" id="list-soft-skills-list"
+                                data-toggle="tab" href="#list-soft-skills" role="tab" aria-controls="list-soft-skills"
+                                aria-selected="false">Soft Skills</a>
 
-                    <!-- Soft Skills -->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-soft-skills-tab" data-toggle="pill"
-                            href="#pills-soft-skills" role="tab" aria-controls="pills-soft-skills"
-                            aria-selected="true">Soft Skills</a>
-                    </li>
-
-                    <!-- Teaching Skills-->
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link nav-item__link" id="pills-teaching-tab" data-toggle="pill"
-                            href="#pills-teaching" role="tab" aria-controls="pills-teaching"
-                            aria-selected="true">Teaching Skills</a>
-                    </li>
-                </ul>
-
-                <!-- HTML -->
-                <div class="tab-content text-white" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-html" role="tabpanel" aria-labelledby="pills-html">
-                        <p>HTML stands for Hypertext Markup Language. It is the standard markup language used to create
-                            and structure content on the World Wide Web (the internet). HTML uses a system of tags and
-                            attributes to define the structure and elements of a web page, such as headings, paragraphs,
-                            images, links, forms, and more.</p>
-                        <ul>
-                            <li>Semantic HTML5 structure</li>
-                            <li>Creating forms and input validation</li>
-                            <li>Using HTML5 multimedia elements (audio, video)</li>
-                            <li>Implementing responsive design with media queries</li>
-                            <li>Understanding and utilizing HTML5 APIs (localStorage, geolocation)</li>
-                            <li>Accessibility (ARIA roles, alt attributes)</li>
-                            <li>Integrating third-party libraries and frameworks</li>
-                            <li>Cross-browser compatibility and troubleshooting</li>
-                        </ul>
+                            <!-- Teaching Skills -->
+                            <a class="list-group-item list-group-item-action" id="list-teaching-list" data-toggle="tab"
+                                href="#list-teaching" role="tab" aria-controls="list-teaching"
+                                aria-selected="false">Teaching Skills</a>
+                        </div>
                     </div>
 
-                    <!-- CSS -->
-                    <div class="tab-pane fade" id="pills-css" role="tabpanel" aria-labelledby="pills-css">
-                        <p>CSS stands for "Cascading Style Sheets." It is a stylesheet language used in web development
-                            to describe the presentation and formatting of a document written in HTML (Hypertext Markup
-                            Language).</p>
-                        <ul>
-                            <li>CSS3 properties and selectors</li>
-                            <li>Box model and layout (flexbox, grid)</li>
-                            <li>Responsive and mobile-first design</li>
-                            <li>CSS pre-processors (e.g., Sass, LESS)</li>
-                            <li>CSS animations and transitions</li>
-                            <li>Styling forms and UI components</li>
-                            <li>Cross-browser compatibility and vendor prefixes</li>
-                            <li>Using CSS frameworks (e.g., Bootstrap, Foundation)</li>
-                            <li>CSS methodologies (e.g., BEM, OOCSS)</li>
-                            <li>Debugging and browser developer tools</li>
-                        </ul>
-                    </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="nav-tabContent">
+                            <!-- HTML -->
+                            <div class="tab-pane fade active show" id="list-html" role="tabpanel"
+                                aria-labelledby="list-html-list">
+                                <p>HTML stands for Hypertext Markup Language. It is the standard markup language used to
+                                    create
+                                    and structure content on the World Wide Web (the internet). HTML uses a system of
+                                    tags and
+                                    attributes to define the structure and elements of a web page, such as headings,
+                                    paragraphs,
+                                    images, links, forms, and more.</p>
+                                <ul>
+                                    <li>Semantic HTML5 structure</li>
+                                    <li>Creating forms and input validation</li>
+                                    <li>Using HTML5 multimedia elements (audio, video)</li>
+                                    <li>Implementing responsive design with media queries</li>
+                                    <li>Understanding and utilizing HTML5 APIs (localStorage, geolocation)</li>
+                                    <li>Accessibility (ARIA roles, alt attributes)</li>
+                                    <li>Integrating third-party libraries and frameworks</li>
+                                    <li>Cross-browser compatibility and troubleshooting</li>
+                                </ul>
+                            </div>
 
-                    <!-- JS -->
-                    <div class="tab-pane fade" id="pills-js" role="tabpanel" aria-labelledby="pills-js">
-                        <p>JavaScript is a versatile and widely-used programming language primarily known for its role
-                            in web development. It's a scripting language that allows developers to create dynamic and
-                            interactive content on websites. JavaScript enables you to add functionality, manipulate the
-                            Document Object Model (DOM), interact with web APIs, and create a more engaging user
-                            experience.</p>
-                        <ul>
-                            <li>Variables, Data Types, and Operators</li>
-                            <li>Control Structures (if statements, loops)</li>
-                            <li>Functions and Scope</li>
-                            <li>Arrays and Objects</li>
-                            <li>DOM Manipulation (selecting and modifying HTML elements)</li>
-                            <li>Attaching event listeners</li>
-                            <li>Responding to user interactions (clicks, inputs, etc.)</li>
-                            <li>Arrow functions</li>
-                            <li>Template literals</li>
-                            <li>Using browser developer tools for debugging code</li>
-                            <li>Console methods (e.g., console.log, console.error)</li>
-                            <li>Changing CSS styles dynamically</li>
-                            <li>Creating and appending HTML elements</li>
-                            <li>Responsive design principles</li>
-                        </ul>
-                    </div>
+                            <!-- CSS -->
+                            <div class="tab-pane fade" id="list-css" role="tabpanel" aria-labelledby="list-css-list">
+                                <p>CSS stands for "Cascading Style Sheets." It is a stylesheet language used in web
+                                    development
+                                    to describe the presentation and formatting of a document written in HTML (Hypertext
+                                    Markup
+                                    Language).</p>
+                                <ul>
+                                    <li>CSS3 properties and selectors</li>
+                                    <li>Box model and layout (flexbox, grid)</li>
+                                    <li>Responsive and mobile-first design</li>
+                                    <li>CSS pre-processors (e.g., Sass, LESS)</li>
+                                    <li>CSS animations and transitions</li>
+                                    <li>Styling forms and UI components</li>
+                                    <li>Cross-browser compatibility and vendor prefixes</li>
+                                    <li>Using CSS frameworks (e.g., Bootstrap, Foundation)</li>
+                                    <li>CSS methodologies (e.g., BEM, OOCSS)</li>
+                                    <li>Debugging and browser developer tools</li>
+                                </ul>
+                            </div>
 
-                    <!-- Bootstrap -->
-                    <div class="tab-pane fade" id="pills-bootstrap" role="tabpanel" aria-labelledby="pills-bootstrap">
-                        <p>Bootstrap is a popular open-source front-end framework that is used for designing and
-                            developing responsive and user-friendly websites and web applications. It was originally
-                            created by Twitter and is now maintained by the Bootstrap community. The primary goal of
-                            Bootstrap is to simplify and streamline the process of building consistent and visually
-                            appealing web interfaces.</p>
-                        <ul>
-                            <li>Creating responsive layouts using Bootstrap grid system</li>
-                            <li>Customizing Bootstrap themes and styling</li>
-                            <li>Implementing navigation bars, modals, and carousels</li>
-                            <li>Utilizing Bootstrap components (buttons, forms, cards)</li>
-                            <li>Integrating third-party libraries and plugins with Bootstrap</li>
-                            <li>Extending Bootstrap with custom CSS and JavaScript</li>
-                            <li>Understanding Bootstrap's utility classes for rapid development</li>
-                            <li>Building mobile-first and cross-browser compatible designs</li>
-                            <li>Adhering to best practices in maintaining Bootstrap-based projects</li>
-                        </ul>
-                    </div>
+                            <!-- JS -->
+                            <div class="tab-pane fade" id="list-js" role="tabpanel" aria-labelledby="list-js-list">
+                                <p>JavaScript is a versatile and widely-used programming language primarily known for
+                                    its role
+                                    in web development. It's a scripting language that allows developers to create
+                                    dynamic and
+                                    interactive content on websites. JavaScript enables you to add functionality,
+                                    manipulate the
+                                    Document Object Model (DOM), interact with web APIs, and create a more engaging user
+                                    experience.</p>
+                                <ul>
+                                    <li>Variables, Data Types, and Operators</li>
+                                    <li>Control Structures (if statements, loops)</li>
+                                    <li>Functions and Scope</li>
+                                    <li>Arrays and Objects</li>
+                                    <li>DOM Manipulation (selecting and modifying HTML elements)</li>
+                                    <li>Attaching event listeners</li>
+                                    <li>Responding to user interactions (clicks, inputs, etc.)</li>
+                                    <li>Arrow functions</li>
+                                    <li>Template literals</li>
+                                    <li>Using browser developer tools for debugging code</li>
+                                    <li>Console methods (e.g., console.log, console.error)</li>
+                                    <li>Changing CSS styles dynamically</li>
+                                    <li>Creating and appending HTML elements</li>
+                                    <li>Responsive design principles</li>
+                                </ul>
+                            </div>
 
-                    <!-- Sass -->
-                    <div class="tab-pane fade content__sass" id="pills-sass" role="tabpanel"
-                        aria-labelledby="pills-sass">
-                        <p>
-                            Sass, which stands for "Syntactically Awesome Style Sheets," is a preprocessor scripting
-                            language that is used to enhance the capabilities of regular CSS (Cascading Style Sheets).
-                            It provides a more efficient and powerful way to write and manage styles for web development
-                            projects.
+                            <!-- Bootstrap -->
+                            <div class="tab-pane fade" id="list-bootstrap" role="tabpanel"
+                                aria-labelledby="list-bootstrap-list">
+                                <p>Bootstrap is a popular open-source front-end framework that is used for designing and
+                                    developing responsive and user-friendly websites and web applications. It was
+                                    originally
+                                    created by Twitter and is now maintained by the Bootstrap community. The primary
+                                    goal of
+                                    Bootstrap is to simplify and streamline the process of building consistent and
+                                    visually
+                                    appealing web interfaces.</p>
+                                <ul>
+                                    <li>Creating responsive layouts using Bootstrap grid system</li>
+                                    <li>Customizing Bootstrap themes and styling</li>
+                                    <li>Implementing navigation bars, modals, and carousels</li>
+                                    <li>Utilizing Bootstrap components (buttons, forms, cards)</li>
+                                    <li>Integrating third-party libraries and plugins with Bootstrap</li>
+                                    <li>Extending Bootstrap with custom CSS and JavaScript</li>
+                                    <li>Understanding Bootstrap's utility classes for rapid development</li>
+                                    <li>Building mobile-first and cross-browser compatible designs</li>
+                                    <li>Adhering to best practices in maintaining Bootstrap-based projects</li>
+                                </ul>
+                            </div>
 
-                            The primary goal of Sass is to make CSS coding more maintainable, modular, and easier to
-                            work with, especially for larger and more complex projects. </p>
-                        <ul>
-                            <li>Familiarity in utilizing Sass variables and mixins to enhance code reusability and
-                                maintainability.</li>
-                            <li>Basic knowledge in optimizing code readability by employing proper nesting techniques
-                                for nested CSS rules.</li>
-                            <li>Familiar at optimizing stylesheets for performance and reducing redundant code using
-                                Sass features.</li>
-                        </ul>
-                    </div>
+                            <!-- Sass -->
+                            <div class="tab-pane fade" id="list-sass" role="tabpanel" aria-labelledby="list-sass-list">
+                                <p>
+                                    Sass, which stands for "Syntactically Awesome Style Sheets," is a preprocessor
+                                    scripting
+                                    language that is used to enhance the capabilities of regular CSS (Cascading Style
+                                    Sheets).
+                                    It provides a more efficient and powerful way to write and manage styles for web
+                                    development
+                                    projects.
 
-                    <!-- ReactJS -->
-                    <div class="tab-pane fade" id="pills-react" role="tabpanel" aria-labelledby="pills-reactC">
-                        <p>ReactJS, commonly referred to as React, is an open-source JavaScript library for building
-                            user interfaces (UIs) or user interface components. It was developed by Facebook and is
-                            widely used for creating dynamic and responsive web applications. React allows developers to
-                            build reusable UI components that can efficiently update and render data as it changes.</p>
-                        <ul>
-                            <li>Understanding of React component lifecycle.</li>
-                            <li>Skill in passing data between parent and child components using props.</li>
-                            <li>Understanding of when to use state and when to use props.</li>
-                            <li>Good in building reusable UI components.</li>
-                            <li>Knowledge of best practices for composing components and designing a component-based
-                                architecture.</li>
-                            <li>Familiarity with embedding JavaScript expressions in JSX.</li>
-                            <li>Experience with CSS-in-JS libraries (e.g., styled-components, emotion) or traditional
-                                CSS for styling components.</li>
-                            <li>Familiarity with useState hook for managing state in functional components.</li>
-                            <li>Familiarity in using React DevTools for debugging and inspecting component hierarchy.
-                            </li>
-                            <li>Familiarity with deploying React applications to hosting platforms like Netlify, Vercel,
-                                or GitHub Pages.</li>
-                        </ul>
-                    </div>
+                                    The primary goal of Sass is to make CSS coding more maintainable, modular, and
+                                    easier to
+                                    work with, especially for larger and more complex projects. </p>
+                                <ul>
+                                    <li>Familiarity in utilizing Sass variables and mixins to enhance code reusability
+                                        and
+                                        maintainability.</li>
+                                    <li>Basic knowledge in optimizing code readability by employing proper nesting
+                                        techniques
+                                        for nested CSS rules.</li>
+                                    <li>Familiar at optimizing stylesheets for performance and reducing redundant code
+                                        using
+                                        Sass features.</li>
+                                </ul>
+                            </div>
 
-                    <!-- Python -->
-                    <div class="tab-pane fade show" id="pills-python" role="tabpanel" aria-labelledby="pills-python">
-                        <p>Python is a high-level, versatile, and general-purpose programming language. It was created
-                            by Guido van Rossum and first released in 1991. Python is known for its readability and
-                            clean syntax, which makes it relatively easy to learn and use. It has gained popularity
-                            across a wide range of domains, including web development, scientific computing, data
-                            analysis, artificial intelligence, machine learning, automation, and more.</p>
-                        <ul>
-                            <li>Variables, Data Types, and Operators</li>
-                            <li>Control Structures (if statements, loops)</li>
-                            <li>Functions and Parameters</li>
-                            <li>Lists, Tuples, and Dictionaries</li>
-                            <li>Input/Output (print, input)</li>
-                            <li>String Manipulation</li>
-                            <li>List Comprehensions</li>
-                            <li>Basic File Handling (reading/writing files)</li>
-                            <li>Understanding Error Messages</li>
-                            <li>Using print Statements for Debugging</li>
-                            <li>Basic Exception Handling (try-except)</li>
-                            <li>math module for basic mathematical operations</li>
-                            <li>random module for random number generation</li>
-                            <li>datetime module for working with dates and times</li>
-                            <li>Writing and Running Python Scripts</li>
-                            <li>Writing clear and concise code comments</li>
-                        </ul>
-                    </div>
+                            <!-- ReactJS -->
+                            <div class="tab-pane fade" id="list-react" role="tabpanel"
+                                aria-labelledby="list-react-list">
+                                <p>ReactJS, commonly referred to as React, is an open-source JavaScript library for
+                                    building
+                                    user interfaces (UIs) or user interface components. It was developed by Facebook and
+                                    is
+                                    widely used for creating dynamic and responsive web applications. React allows
+                                    developers to
+                                    build reusable UI components that can efficiently update and render data as it
+                                    changes.</p>
+                                <ul>
+                                    <li>Understanding of React component lifecycle.</li>
+                                    <li>Skill in passing data between parent and child components using props.</li>
+                                    <li>Understanding of when to use state and when to use props.</li>
+                                    <li>Good in building reusable UI components.</li>
+                                    <li>Knowledge of best practices for composing components and designing a
+                                        component-based
+                                        architecture.</li>
+                                    <li>Familiarity with embedding JavaScript expressions in JSX.</li>
+                                    <li>Experience with CSS-in-JS libraries (e.g., styled-components, emotion) or
+                                        traditional
+                                        CSS for styling components.</li>
+                                    <li>Familiarity with useState hook for managing state in functional components.</li>
+                                    <li>Familiarity in using React DevTools for debugging and inspecting component
+                                        hierarchy.
+                                    </li>
+                                    <li>Familiarity with deploying React applications to hosting platforms like Netlify,
+                                        Vercel,
+                                        or GitHub Pages.</li>
+                                </ul>
+                            </div>
 
-                    <!-- Graphic Design -->
-                    <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-graphic">
-                        <p>Graphic design is a creative and visual communication discipline that involves using various
-                            elements such as typography, imagery, color, and layout to convey a message, tell a story,
-                            or communicate information visually. It's the process of visually organizing and presenting
-                            information to engage and captivate the audience. Graphic design plays a crucial role in
-                            shaping how we perceive and interact with a wide range of visual content in our daily lives.
+                            <!-- Python -->
+                            <div class="tab-pane fade" id="list-python" role="tabpanel"
+                                aria-labelledby="list-python-list">
+                                <p>Python is a high-level, versatile, and general-purpose programming language. It was
+                                    created
+                                    by Guido van Rossum and first released in 1991. Python is known for its readability
+                                    and
+                                    clean syntax, which makes it relatively easy to learn and use. It has gained
+                                    popularity
+                                    across a wide range of domains, including web development, scientific computing,
+                                    data
+                                    analysis, artificial intelligence, machine learning, automation, and more.</p>
+                                <ul>
+                                    <li>Variables, Data Types, and Operators</li>
+                                    <li>Control Structures (if statements, loops)</li>
+                                    <li>Functions and Parameters</li>
+                                    <li>Lists, Tuples, and Dictionaries</li>
+                                    <li>Input/Output (print, input)</li>
+                                    <li>String Manipulation</li>
+                                    <li>List Comprehensions</li>
+                                    <li>Basic File Handling (reading/writing files)</li>
+                                    <li>Understanding Error Messages</li>
+                                    <li>Using print Statements for Debugging</li>
+                                    <li>Basic Exception Handling (try-except)</li>
+                                    <li>math module for basic mathematical operations</li>
+                                    <li>random module for random number generation</li>
+                                    <li>datetime module for working with dates and times</li>
+                                    <li>Writing and Running Python Scripts</li>
+                                    <li>Writing clear and concise code comments</li>
+                                </ul>
+                            </div>
 
-                        </p>
-                        <ul>
-                            <li>Ability to choose and manipulate fonts effectively to enhance visual communication.</li>
-                            <li>Skill in arranging elements on a page, considering hierarchy, balance, and readability.
-                            </li>
-                            <li>Understanding of how colors interact, and the ability to create visually appealing color
-                                schemes.</li>
-                            <li>Experience in creating consistent visual identities for brands, including logos, color
-                                palettes, and style guides.</li>
-                            <li>Familiarity with designing user-friendly and visually appealing websites, including
-                                knowledge of responsive design principles.</li>
-                            <li>Understanding of user interface and user experience design principles to create
-                                intuitive and engaging digital experiences.</li>
-                            <li>Knowledge of creating simple animations or GIFs to add dynamic elements to designs.</li>
-                            <li>Ability to create digital art using tools like Canva.</li>
-                            <li>Skill in conveying complex ideas through visual elements in a clear and concise manner.
-                            </li>
-                            <li>A keen eye for small design details that can make a big difference in the final product.
-                            </li>
-                            <li>Capacity to find creative solutions to design challenges.</li>
-                            <li>Experience working within a team, understanding feedback, and incorporating changes.
-                            </li>
-                            <li>Skill in creating engaging and visually appealing presentation materials.</li>
-                        </ul>
-                    </div>
+                            <!-- Graphic Design -->
+                            <div class="tab-pane fade" id="list-design" role="tabpanel"
+                                aria-labelledby="list-design-list">
+                                <p>Graphic design is a creative and visual communication discipline that involves using
+                                    various
+                                    elements such as typography, imagery, color, and layout to convey a message, tell a
+                                    story,
+                                    or communicate information visually. It's the process of visually organizing and
+                                    presenting
+                                    information to engage and captivate the audience. Graphic design plays a crucial
+                                    role in
+                                    shaping how we perceive and interact with a wide range of visual content in our
+                                    daily lives.
 
-                    <!-- Soft Skills -->
-                    <div class="tab-pane fade" id="pills-soft-skills" role="tabpanel"
-                        aria-labelledby="pills-soft-skills">
-                        <p>Soft skills refer to a set of interpersonal, social, and communication abilities that are
-                            non-technical in nature and contribute to how effectively an individual can work with
-                            others, navigate their environment, and achieve their goals. These skills are often related
-                            to personal qualities, emotional intelligence, and social interactions. Unlike hard skills,
-                            which are specific and teachable abilities like programming, accounting, or operating
-                            machinery, soft skills are more about how individuals interact with others and manage
-                            themselves in various situations.</p>
-                        <ul>
-                            <li>Clearly conveying ideas, actively listening, and presenting information effectively.
-                            </li>
-                            <li>Collaborating well with colleagues, contributing positively to group efforts, and
-                                valuing diverse perspectives.</li>
-                            <li>Analyzing challenges, identifying solutions, and making informed decisions.</li>
-                            <li>Being open to change, quickly learning new skills, and adjusting to evolving situations.
-                            </li>
-                            <li>Efficiently organizing tasks, setting priorities, and meeting deadlines.</li>
-                            <li>Evaluating information, considering multiple viewpoints, and making well-reasoned
-                                judgments.</li>
-                            <li>Thinking innovatively, generating unique ideas, and finding novel solutions.</li>
-                            <li>Guiding and motivating others, taking initiative, and facilitating team success.</li>
-                            <li>Navigating disagreements or conflicts in a constructive and respectful manner.</li>
-                            <li>Recognizing and understanding emotions, managing interpersonal relationships, and
-                                practicing empathy.</li>
-                            <li>Handling pressure and stressful situations in a composed and effective manner.</li>
-                            <li>Reaching mutually beneficial agreements while maintaining positive relationships.</li>
-                            <li>Building and maintaining relationships with colleagues, clients, and industry
-                                professionals.</li>
-                            <li>Making well-informed choices based on analysis, intuition, and critical thinking.</li>
-                            <li>Delivering engaging and impactful presentations to various audiences.</li>
-                            <li>Building rapport, relating to others, and establishing strong connections.</li>
-                            <li>Understanding and respecting cultural differences in communication and interactions.
-                            </li>
-                            <li>Working with others to identify solutions and achieve shared goals.</li>
-                        </ul>
-                    </div>
+                                </p>
+                                <ul>
+                                    <li>Ability to choose and manipulate fonts effectively to enhance visual
+                                        communication.</li>
+                                    <li>Skill in arranging elements on a page, considering hierarchy, balance, and
+                                        readability.
+                                    </li>
+                                    <li>Understanding of how colors interact, and the ability to create visually
+                                        appealing color
+                                        schemes.</li>
+                                    <li>Experience in creating consistent visual identities for brands, including logos,
+                                        color
+                                        palettes, and style guides.</li>
+                                    <li>Familiarity with designing user-friendly and visually appealing websites,
+                                        including
+                                        knowledge of responsive design principles.</li>
+                                    <li>Understanding of user interface and user experience design principles to create
+                                        intuitive and engaging digital experiences.</li>
+                                    <li>Knowledge of creating simple animations or GIFs to add dynamic elements to
+                                        designs.</li>
+                                    <li>Ability to create digital art using tools like Canva.</li>
+                                    <li>Skill in conveying complex ideas through visual elements in a clear and concise
+                                        manner.
+                                    </li>
+                                    <li>A keen eye for small design details that can make a big difference in the final
+                                        product.
+                                    </li>
+                                    <li>Capacity to find creative solutions to design challenges.</li>
+                                    <li>Experience working within a team, understanding feedback, and incorporating
+                                        changes.
+                                    </li>
+                                    <li>Skill in creating engaging and visually appealing presentation materials.</li>
+                                </ul>
+                            </div>
 
-                    <!-- Teaching Skills -->
-                    <div class="tab-pane fade" id="pills-teaching" role="tabpanel" aria-labelledby="pills-teaching">
-                        <p>
-                            Teaching is a process of imparting knowledge, skills, values, and information from one
-                            person, known as the teacher or educator, to another person, typically referred to as the
-                            student or learner. The primary goal of teaching is to facilitate learning, which involves
-                            helping students acquire new knowledge, understand concepts, develop critical thinking
-                            abilities, and master various skills. </p>
-                        <ul>
-                            <li>Designing and planning educational content that aligns with learning objectives and
-                                standards.</li>
-                            <li>Effectively managing classroom dynamics, behavior, and maintaining a conducive learning
-                                environment.</li>
-                            <li>Creating engaging lesson plans and educational materials that cater to diverse learning
-                                styles.</li>
-                            <li> Clearly conveying information, ideas, and instructions to students, parents, and
-                                colleagues.</li>
-                            <li>Developing and implementing various assessment methods to evaluate students'
-                                understanding and progress.</li>
-                            <li>Adapting teaching methods to address the unique needs and learning styles of individual
-                                students.</li>
-                            <li>Incorporating educational technology tools and platforms to enhance learning
-                                experiences.</li>
-                            <li>Guiding students in critical thinking, logical reasoning, and problem-solving skills.
-                            </li>
-                            <li>Working collaboratively with other teachers, staff, and parents to support students'
-                                overall development.</li>
-                            <li>Being flexible and responsive to changes in curriculum, student needs, and educational
-                                trends.</li>
-                            <li>Inspiring students to be enthusiastic about learning and helping them set and achieve
-                                goals.</li>
-                            <li>Providing constructive feedback to students and utilizing assessment data to inform
-                                instructional improvements.</li>
-                            <li>Recognizing and respecting cultural differences in the classroom and promoting
-                                inclusivity.</li>
-                            <li>Efficiently organizing lessons, activities, and tasks within the available class time.
-                            </li>
-                            <li>Attentively listening to students' questions, concerns, and contributions to foster
-                                meaningful interactions.</li>
-                            <li>Addressing conflicts and challenges among students and facilitating positive
-                                resolutions.</li>
-                            <li>Managing lesson materials, student records, and administrative tasks effectively.</li>
-                            <li>Establishing open and regular communication with parents to keep them informed about
-                                students' progress.</li>
-                            <li>Demonstrating in-depth knowledge of the subject you're teaching.</li>
-                            <li>Taking initiative in educational initiatives, clubs, extracurricular activities, or
-                                professional development.</li>
-                            <li>Proficiency in delivering engaging and effective lessons through online platforms and
-                                virtual classrooms.</li>
-                            <li>Familiarity with various e-learning tools, Learning Management Systems (LMS), and video
-                                conferencing software.</li>
-                            <li>Creating multimedia educational materials, videos, presentations, and interactive
-                                resources for online learning.</li>
-                            <li>Experience in both real-time, interactive online teaching and self-paced, asynchronous
-                                instruction.</li>
-                            <li>Ability to troubleshoot technical issues and provide guidance to students encountering
-                                online learning challenges.</li>
-                            <li>Designing and administering assessments, quizzes, and assignments suitable for online
-                                learning environments.</li>
-                            <li>Skill in managing online classroom dynamics, promoting engagement, and maintaining a
-                                positive online learning atmosphere.</li>
-                            <li>Clear and effective communication with students, parents, and colleagues through email,
-                                discussion boards, and messaging.</li>
-                            <li>Knowledge of maintaining students' data privacy and complying with online security
-                                protocols.</li>
-                            <li>Tailoring teaching techniques for online learners, considering diverse needs and
-                                learning preferences.</li>
-                            <li>Incorporating multimedia elements like images, videos, and interactive content to
-                                enhance online lessons.</li>
-                            <li>Providing timely and constructive feedback to students on assignments, discussions, and
-                                assessments.</li>
-                            <li>Guiding students in managing their time effectively in a remote learning environment.
-                            </li>
-                            <li>Teaching students responsible and ethical behavior in online interactions and digital
-                                spaces.</li>
-                            <li>Facilitating virtual group projects and collaborative activities among online learners.
-                            </li>
-                            <li>Utilizing interactive polls, breakout rooms, and discussion boards to encourage active
-                                participation.</li>
-                            <li>Promoting students' skills in navigating digital resources, evaluating online
-                                information, and using technology effectively.</li>
-                            <li>Being open to adjusting teaching strategies based on student feedback and changing
-                                online learning needs.</li>
-                            <li>Creating a sense of community and belonging among online learners through virtual social
-                                interactions.</li>
-                            <li>Demonstrating a commitment to staying updated on the latest trends and best practices in
-                                online education.</li>
-                        </ul>
+                            <!-- Soft Skills -->
+                            <div class="tab-pane fade" id="list-soft-skills" role="tabpanel"
+                                aria-labelledby="list-soft-skills-list">
+                                <p>Soft skills refer to a set of interpersonal, social, and communication abilities that
+                                    are
+                                    non-technical in nature and contribute to how effectively an individual can work
+                                    with
+                                    others, navigate their environment, and achieve their goals. These skills are often
+                                    related
+                                    to personal qualities, emotional intelligence, and social interactions. Unlike hard
+                                    skills,
+                                    which are specific and teachable abilities like programming, accounting, or
+                                    operating
+                                    machinery, soft skills are more about how individuals interact with others and
+                                    manage
+                                    themselves in various situations.</p>
+                                <ul>
+                                    <li>Clearly conveying ideas, actively listening, and presenting information
+                                        effectively.
+                                    </li>
+                                    <li>Collaborating well with colleagues, contributing positively to group efforts,
+                                        and
+                                        valuing diverse perspectives.</li>
+                                    <li>Analyzing challenges, identifying solutions, and making informed decisions.</li>
+                                    <li>Being open to change, quickly learning new skills, and adjusting to evolving
+                                        situations.
+                                    </li>
+                                    <li>Efficiently organizing tasks, setting priorities, and meeting deadlines.</li>
+                                    <li>Evaluating information, considering multiple viewpoints, and making
+                                        well-reasoned
+                                        judgments.</li>
+                                    <li>Thinking innovatively, generating unique ideas, and finding novel solutions.
+                                    </li>
+                                    <li>Guiding and motivating others, taking initiative, and facilitating team success.
+                                    </li>
+                                    <li>Navigating disagreements or conflicts in a constructive and respectful manner.
+                                    </li>
+                                    <li>Recognizing and understanding emotions, managing interpersonal relationships,
+                                        and
+                                        practicing empathy.</li>
+                                    <li>Handling pressure and stressful situations in a composed and effective manner.
+                                    </li>
+                                    <li>Reaching mutually beneficial agreements while maintaining positive
+                                        relationships.</li>
+                                    <li>Building and maintaining relationships with colleagues, clients, and industry
+                                        professionals.</li>
+                                    <li>Making well-informed choices based on analysis, intuition, and critical
+                                        thinking.</li>
+                                    <li>Delivering engaging and impactful presentations to various audiences.</li>
+                                    <li>Building rapport, relating to others, and establishing strong connections.</li>
+                                    <li>Understanding and respecting cultural differences in communication and
+                                        interactions.
+                                    </li>
+                                    <li>Working with others to identify solutions and achieve shared goals.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Teaching -->
+                            <div class="tab-pane fade" id="list-teaching" role="tabpanel"
+                                aria-labelledby="list-teaching-list">
+                                <p>
+                                    Teaching is a process of imparting knowledge, skills, values, and information from
+                                    one
+                                    person, known as the teacher or educator, to another person, typically referred to
+                                    as the
+                                    student or learner. The primary goal of teaching is to facilitate learning, which
+                                    involves
+                                    helping students acquire new knowledge, understand concepts, develop critical
+                                    thinking
+                                    abilities, and master various skills. </p>
+                                <ul>
+                                    <li>Designing and planning educational content that aligns with learning objectives
+                                        and
+                                        standards.</li>
+                                    <li>Effectively managing classroom dynamics, behavior, and maintaining a conducive
+                                        learning
+                                        environment.</li>
+                                    <li>Creating engaging lesson plans and educational materials that cater to diverse
+                                        learning
+                                        styles.</li>
+                                    <li> Clearly conveying information, ideas, and instructions to students, parents,
+                                        and
+                                        colleagues.</li>
+                                    <li>Developing and implementing various assessment methods to evaluate students'
+                                        understanding and progress.</li>
+                                    <li>Adapting teaching methods to address the unique needs and learning styles of
+                                        individual
+                                        students.</li>
+                                    <li>Incorporating educational technology tools and platforms to enhance learning
+                                        experiences.</li>
+                                    <li>Guiding students in critical thinking, logical reasoning, and problem-solving
+                                        skills.
+                                    </li>
+                                    <li>Working collaboratively with other teachers, staff, and parents to support
+                                        students'
+                                        overall development.</li>
+                                    <li>Being flexible and responsive to changes in curriculum, student needs, and
+                                        educational
+                                        trends.</li>
+                                    <li>Inspiring students to be enthusiastic about learning and helping them set and
+                                        achieve
+                                        goals.</li>
+                                    <li>Providing constructive feedback to students and utilizing assessment data to
+                                        inform
+                                        instructional improvements.</li>
+                                    <li>Recognizing and respecting cultural differences in the classroom and promoting
+                                        inclusivity.</li>
+                                    <li>Efficiently organizing lessons, activities, and tasks within the available class
+                                        time.
+                                    </li>
+                                    <li>Attentively listening to students' questions, concerns, and contributions to
+                                        foster
+                                        meaningful interactions.</li>
+                                    <li>Addressing conflicts and challenges among students and facilitating positive
+                                        resolutions.</li>
+                                    <li>Managing lesson materials, student records, and administrative tasks
+                                        effectively.</li>
+                                    <li>Establishing open and regular communication with parents to keep them informed
+                                        about
+                                        students' progress.</li>
+                                    <li>Demonstrating in-depth knowledge of the subject you're teaching.</li>
+                                    <li>Taking initiative in educational initiatives, clubs, extracurricular activities,
+                                        or
+                                        professional development.</li>
+                                    <li>Proficiency in delivering engaging and effective lessons through online
+                                        platforms and
+                                        virtual classrooms.</li>
+                                    <li>Familiarity with various e-learning tools, Learning Management Systems (LMS),
+                                        and video
+                                        conferencing software.</li>
+                                    <li>Creating multimedia educational materials, videos, presentations, and
+                                        interactive
+                                        resources for online learning.</li>
+                                    <li>Experience in both real-time, interactive online teaching and self-paced,
+                                        asynchronous
+                                        instruction.</li>
+                                    <li>Ability to troubleshoot technical issues and provide guidance to students
+                                        encountering
+                                        online learning challenges.</li>
+                                    <li>Designing and administering assessments, quizzes, and assignments suitable for
+                                        online
+                                        learning environments.</li>
+                                    <li>Skill in managing online classroom dynamics, promoting engagement, and
+                                        maintaining a
+                                        positive online learning atmosphere.</li>
+                                    <li>Clear and effective communication with students, parents, and colleagues through
+                                        email,
+                                        discussion boards, and messaging.</li>
+                                    <li>Knowledge of maintaining students' data privacy and complying with online
+                                        security
+                                        protocols.</li>
+                                    <li>Tailoring teaching techniques for online learners, considering diverse needs and
+                                        learning preferences.</li>
+                                    <li>Incorporating multimedia elements like images, videos, and interactive content
+                                        to
+                                        enhance online lessons.</li>
+                                    <li>Providing timely and constructive feedback to students on assignments,
+                                        discussions, and
+                                        assessments.</li>
+                                    <li>Guiding students in managing their time effectively in a remote learning
+                                        environment.
+                                    </li>
+                                    <li>Teaching students responsible and ethical behavior in online interactions and
+                                        digital
+                                        spaces.</li>
+                                    <li>Facilitating virtual group projects and collaborative activities among online
+                                        learners.
+                                    </li>
+                                    <li>Utilizing interactive polls, breakout rooms, and discussion boards to encourage
+                                        active
+                                        participation.</li>
+                                    <li>Promoting students' skills in navigating digital resources, evaluating online
+                                        information, and using technology effectively.</li>
+                                    <li>Being open to adjusting teaching strategies based on student feedback and
+                                        changing
+                                        online learning needs.</li>
+                                    <li>Creating a sense of community and belonging among online learners through
+                                        virtual social
+                                        interactions.</li>
+                                    <li>Demonstrating a commitment to staying updated on the latest trends and best
+                                        practices in
+                                        online education.</li>
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!-- Footer -->
